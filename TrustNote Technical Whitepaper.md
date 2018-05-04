@@ -1,5 +1,5 @@
 <html>
-<div align="justify">
+<div align="center">
 <p><font face="cambria" size="12"><b>TrustNote Technical White Paper</b></font></p>
 
 <p><a target="_blank" href="Docs/ICO.png"><img align="center" src="Docs/ICO.png"></a></p>
