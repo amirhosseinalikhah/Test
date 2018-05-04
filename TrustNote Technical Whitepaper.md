@@ -2,7 +2,7 @@
 <div align="justify">
 <p><font face="cambria" size="12"><b>TrustNote Technical White Paper</b></font></p>
 
-<p><a target="_blank" href="Docs/ICO.png"><img src="Docs/ICO.png"></a></p>
+<p><a target="_blank" href="Docs/ICO.png"><img align="center" src="Docs/ICO.png"></a></p>
 
 <p><font face="cambria" size="5"><b>TrustNote Institute of Technology</b></font></p>
 
