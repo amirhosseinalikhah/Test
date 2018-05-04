@@ -57,12 +57,12 @@
 <font face="cambria" size="3">
 
 <b>Contents</b>
-
-1.	BACKGROUND
-2.	WHAT IS TRUSTNOTE
-2.1	KEY FEATURES
-2.2	DIRECTED ACYCLIC GRAPH
-2.3	COMPARISON
+<ul>
+  <li>1.	BACKGROUND</li>
+  <li>2.	WHAT IS TRUSTNOTE</li>
+    <li><li>2.1	KEY FEATURES</li></li>
+    <li><li>2.2	DIRECTED ACYCLIC GRAPH</li></li>
+    <li><li>2.3	COMPARISON</li></li>
 3.	DATA STRUCTURES
 3.1	UNIT
 3.2	MESSAGE TYPES
@@ -82,7 +82,7 @@
 6.	TRUSTNOTE PLATFORM AND APPLICATIONS	23
 7.	ISSUANCE AND DISTRIBUTION	26
 8.	REFERENCES	28
-
+<ul>
 </font>
 </div>
 
