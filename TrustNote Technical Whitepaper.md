@@ -232,7 +232,40 @@
 
 </div>
 
+<div align="justify">
+<font face="cambria" size="3"> 
 
+<h2><a id="MESSAGE-TYPES"></a>Message Types</h2>
+<p>TrustNote supports various message types which can be further extended if needed, different types of messages are used to store different data formats interpretable by different parsing rules.  Different types of TrustNote message are recognizable by the message’s app field.</p>
+
+
+<h3>Attestor (app = TrustME)</h3>
+<p>No Nodes other than the Attestor Nodes can generate “Attestor” messages, Attestation messages are used to store the attesting results the Node has.  If the first message of a Unit is an Attestation message, then this Unit is an Attestation Unit.  The contents of Attestor’s message include: Consensus Round, Attestation Unit Index, Latest Stable Consensus Round, Attestation Reward of Latest Stable Consensus Round, Seeds, Difficulty, Attesting Priority, etc.  For more information about the Attestation Unit and how to get attested, please refer to chapter 4: Consensus Mechanisms.</p>
+
+```JavaScript
+messages:[{
+  app:'TrustME',
+  payload_location:'inline',
+  payload_hash:'hash of payload',
+  payload:{
+    round: 'round number',
+    sequence: 'sequence number in current round',
+    last stable round：'number of the last stable round',
+    coinbase of the last stable round：[
+      {address:'...',amount:218 MN},
+      {address:'...',amount:195 MN},
+      ...
+    ],
+    seed: 'string of seed',
+    difficulty: 'difficulty number',
+    proof_of_work: 'equihash result unit',
+    priority: 'priority of notary'
+  }
+}]
+```
+
+</font>
+</div>
 
 
 
