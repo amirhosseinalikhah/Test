@@ -155,7 +155,7 @@
 
 <div align="center">
 <p><b>Table 2-1 DAG-Ledger Comparison</b></p>
-  
+<center>  
 |  |	IOTA |	Byteball	| TrustNote |
 | :---: | :---: | :---: | :---: |
 |Token	| IOTA	| Byte |	TTT |
@@ -166,7 +166,7 @@
 |Transaction Fee |	No |	Yes |	Yes|
 |Double Spending | 	PoW Weight Comparison |	Main Chain Sequencing |	Main Chain Indexing|
 |Low-frequency Trading |	Centralized Coordinator |	Weak Centralized Attestor	| TrustME Attestor|
- 
+  </center> 
 </div>
 
 <div align="justify">
@@ -189,7 +189,7 @@
 <div align="center">
   
 <p><b>Table 3-1 Field Definition of Unit</b></p>
-
+<center>
  | Field Name |	Definition |	Remarks |
  | :---: | :---: | :--- |
  | version |	TrustNote protocol version number |	e.g. ‘1.0’ |
@@ -197,7 +197,7 @@
  | messages |	Message array |	for more information please see 2.2 |
  | authors |	Author array |	Address array of the Unit’s author/authors |
  | parent_units |	Parent Unit’s hash array |	Hash values of the Unit’s parent/parents |
-
+</center>
 </div>
 
 
