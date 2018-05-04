@@ -24,7 +24,6 @@
 <li><p>Business Enquiries:  <a href="foundation@trustnote.org" target="_blank" rel="external">foundation@trustnote.org</a></p></li>
 <li><p>Technical Support:  <a href="community@trustnote.org" target="_blank" rel="external">community@trustnote.org</a></p></li>
 </ul>
-<p>© 2018 TrustNote Institute of Technology. All rights reserved.</p>
 
 **Disclaimer**
 <p><!--justify-->TrustNote Institute of Technology hereby declare that: The current package is experimental and a work-in-progress, and you are using TrustNote at your own risk.  TrustNote also declares that we might change (add/remove packages) without informing the users.  In addition, because of the existence of “private equity” scams targeting crypto-currency investors, TrustNote hereby declare that participation in crypto-currency investment through unauthorized trading channels should always take precautionary measures against such risks.  Neither TrustNote Institute of Technology nor the TrustNote Development Team take responsibility for any consequences of investments via unauthorized trading channels.  Finally, we declare that, TrustNote White paper can be only accessed from:</P>
@@ -32,6 +31,7 @@
 <p>Technical Support:  <a href="https://trustnote.org/" target="_blank" rel="external">https://trustnote.org/</a></p>
 <p>We do not guarantee the faulty or misleading data available in documents downloaded from any other website rather than two official websites introduced above.</P>
 
+<p>© 2018 TrustNote Institute of Technology. All rights reserved.</p>
 
 </font>
 </div>
