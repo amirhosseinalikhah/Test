@@ -58,30 +58,30 @@
 
 <b>Contents</b>
 <ul>
-  <li>1.	BACKGROUND</li>
-  <li>2.	WHAT IS TRUSTNOTE</li>
-    <ul><li>2.1	KEY FEATURES</li>
-    <li><li>2.2	DIRECTED ACYCLIC GRAPH</li>
-    <li><li>2.3	COMPARISON</li></ul>
-3.	DATA STRUCTURES
-3.1	UNIT
-3.2	MESSAGE TYPES
-4.	CONSENSUS
-4.1	NODES
-4.2	UNIT INTER-REFERENCE
-4.3	MAIN CHAIN	13
-4.4	TRANSACTION CONFIRMATION	13
-4.5	TRANSACTION FEES AND MINING REWARD	14
-4.6	TRUSTME-POW	15
-4.7	TRUSTME-BA	16
-4.7.1	Design Goals	16
-4.7.2	Final Consensus and Tentative Consensus	17
-4.7.3	Lottery Algorithm	18
-4.7.4	Byzantine Agreement	18
-5.	SMART CONTRACT	19
-6.	TRUSTNOTE PLATFORM AND APPLICATIONS	23
-7.	ISSUANCE AND DISTRIBUTION	26
-8.	REFERENCES	28
+  <li><a href="#BACKGROUND">BACKGROUND</a></li>
+  <li><a href="#WHAT-IS-TRUSTNOTE">WHAT IS TRUSTNOTE</li>
+    <ul><li>KEY FEATURES</li>
+    <li>DIRECTED ACYCLIC GRAPH</li>
+    <li>COMPARISON</li></ul>
+  <li><a href="#">3.	DATA STRUCTURES</a></li>
+    <ul><li><a href="#">3.1	UNIT</a></li>
+    <li><a href="#">3.2	MESSAGE TYPES</a></li></ul>
+  <li><a href="#">4.	CONSENSUS</a></li>
+    <ul><li><a href="#">4.1	NODES</a></li>
+    <li><a href="#">4.2	UNIT INTER-REFERENCE</a></li>
+    <li><a href="#">4.3	MAIN CHAIN</a></li>
+    <li><a href="#">4.4	TRANSACTION CONFIRMATION</a></li>
+    <li><a href="#">4.5	TRANSACTION FEES AND MINING REWARD</a></li>
+    <li><a href="#">4.6	TRUSTME-POW</a></li>
+    <li><a href="#">4.7	TRUSTME-BA</a></li>
+      <ul><li><a href="#">4.7.1	Design Goals</a></li>
+      <li><a href="#">4.7.2	Final Consensus and Tentative Consensus</a></li>
+      <li><a href="#">4.7.3	Lottery Algorithm</a></li>
+       <li><a href="#">4.7.4	Byzantine Agreement</a></li></ul></ul>
+  <li><a href="#">5.	SMART CONTRACT</a></li>
+  <li><a href="#">6.	TRUSTNOTE PLATFORM AND APPLICATIONS</a></li>
+  <li><a href="#">7.	ISSUANCE AND DISTRIBUTION</a></li>
+  <li><a href="#">8.	REFERENCES</a></li>
 <ul>
 </font>
 </div>
