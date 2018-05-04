@@ -128,5 +128,31 @@
   <p><b>Figure 2-1 DAG</b></p>
 </div>
 
+<div align="justify">
 
+<font face="cambria" size="3">
+
+<p>TrustNote uses the following technique to solve the double-spending problem .  First, try to find a Main Chain (MC) starting from Genesis Unit on the DAG and assign indexes to the Units that located on the MC, the Genesis Unit’s index is 0, and so on.  Second, for those Units that do not located on the MC, define their indexes equal to the first MC Unit references this Unit.  Eventually, every transaction on the DAG has an index.  If two transactions try to use the same output, we just need to compare the value of their indexes named Main Chain Index (MCI). The Unit with a smaller index is valid, the Unit with a larger index is invalid, and thus it solves the double-spending problem.  For example, when double-spending occurs (as shown in figure 2-2), after the MCIs are assigned to each transaction, we can determine the transaction whose MCI is 8 is valid, the other transaction whose MCI is 10 is rejected.</p>
+</font>
+</div>
+
+<div align="center">
+<p><a target="_blank" href="Docs/MC.png"><img align="center" src="Docs/MC.png"></a></p>
+  <p><b>Figure 2-2 Main Chain (MC)</b></p>
+</div>
+
+<div align="justify">
+
+<font face="cambria" size="3">  
+  
+<p>For security concerns, unlike Bitcoin’s blockchain which is guaranteed by the massive computing power of the network, DAG based TrustNote relies on the fast advance of transactions and the uncertainty of the relationship between the transactions as the "firewall", which leaves the entire system looks too lawless to be attacked.  TrustNote benefits from a two-tier consensus mechanism and an innovative TrustME Consensus Algorithm. Those Super Nodes that participate in the TrustME consensus and contribute to the healthy expansion of DAG-ledger will get the mining reward.</p>
+
+
+  
+  
+  
+  
+  
+</font>
+</div>
 </html>
