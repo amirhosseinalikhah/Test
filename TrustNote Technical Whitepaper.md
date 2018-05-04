@@ -27,8 +27,10 @@
 
 <b>Disclaimer</b>
 <p><!--justify-->TrustNote Institute of Technology hereby declare that: The current package is experimental and a work-in-progress, and you are using TrustNote at your own risk.  TrustNote also declares that we might change (add/remove packages) without informing the users.  In addition, because of the existence of “private equity” scams targeting crypto-currency investors, TrustNote hereby declare that participation in crypto-currency investment through unauthorized trading channels should always take precautionary measures against such risks.  Neither TrustNote Institute of Technology nor the TrustNote Development Team take responsibility for any consequences of investments via unauthorized trading channels.  Finally, we declare that, TrustNote White paper can be only accessed from:</P>
-<p>Technical Support:  <a href="https://github.com/trustnote/document" target="_blank" rel="external">https://github.com/trustnote/document</a></p>
-<p>Technical Support:  <a href="https://trustnote.org/" target="_blank" rel="external">https://trustnote.org/</a></p>
+<ul>
+<li><p>Technical Support:  <a href="https://github.com/trustnote/document" target="_blank" rel="external">https://github.com/trustnote/document</a></p></li>
+<li><p>Technical Support:  <a href="https://trustnote.org/" target="_blank" rel="external">https://trustnote.org/</a></p></li>
+</ul>
 <p>We do not guarantee the faulty or misleading data available in documents downloaded from any other website rather than two official websites introduced above.</P>
 
 <p><b>© 2018 TrustNote Institute of Technology. All rights reserved.</b></p>
@@ -48,6 +50,38 @@
 </font>
 </div>
 
+------
+
+<div align="right">
+
+<font face="cambria" size="3">
+
+<b>Contents</b>
+
+1.	BACKGROUND
+2.	WHAT IS TRUSTNOTE
+2.1	KEY FEATURES
+2.2	DIRECTED ACYCLIC GRAPH
+2.3	COMPARISON
+3.	DATA STRUCTURES
+3.1	UNIT
+3.2	MESSAGE TYPES
+4.	CONSENSUS
+4.1	NODES
+4.2	UNIT INTER-REFERENCE
+4.3	MAIN CHAIN	13
+4.4	TRANSACTION CONFIRMATION	13
+4.5	TRANSACTION FEES AND MINING REWARD	14
+4.6	TRUSTME-POW	15
+4.7	TRUSTME-BA	16
+4.7.1	Design Goals	16
+4.7.2	Final Consensus and Tentative Consensus	17
+4.7.3	Lottery Algorithm	18
+4.7.4	Byzantine Agreement	18
+5.	SMART CONTRACT	19
+6.	TRUSTNOTE PLATFORM AND APPLICATIONS	23
+7.	ISSUANCE AND DISTRIBUTION	26
+8.	REFERENCES	28
 
 
 
