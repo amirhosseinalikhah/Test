@@ -441,11 +441,11 @@ messages:[{
 |  | Super Node	| Full Node |	Light Node |	Micro Node |
 | :---: | :---: | :---: | :---: |
 | ledger	| full ledger	 | full ledger	| light ledger |	N/A |
-|transaction	√	√	√	commissioned
-|DAG consensus	√	√	indirect	×
-|TrustME-PoW	√	×	×	×
-|TrustME-BA	√	×	×	×
-|Hosting Micro Node	√	×	×	×
+|transaction |	√ |	√	 | √ |	commissioned |
+|DAG consensus |	√ |	√ |	indirect |	× |
+|TrustME-PoW |	√ |	× |	×	| × |
+|TrustME-BA	| √	| × |	× |	× |
+|Hosting Micro Node |	√ |	× |	× |	× |
 |deployment |	Mining systems, Cloud Host Server/Workstation, PC	| Cloud Host Server/Workstation, PC |	Smartphone, Tablet PC |	MCU, Smart Card |
 
 
