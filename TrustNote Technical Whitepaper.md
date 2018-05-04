@@ -167,15 +167,35 @@
 |Double Spending | 	PoW Weight Comparison |	Main Chain Sequencing |	Main Chain Indexing|
 |Low-frequency Trading |	Centralized Coordinator |	Weak Centralized Attestor	| TrustME Attestor|
  
-  
-
 </div>
 
+<div align="justify">
+<font face="cambria" size="3">  
 
+<h1><a id="DATA-STRUCTURES"></a>DATA STRUCTURES</h1>
 
+<h2><a id="UNIT"></a>Unit</h2>
+<p>When a Node initiates a transaction or sends a message, it creates a new data block called a "Unit" and broadcasts the Unit to its peers.  A Unit may contain multiple messages of various types, each Unit contains the following information:</p>
+<ul>
+  <li>Header: The hash value of the previous Unit (parent).</li>
+<li>Messages: A Unit contains one or more messages, there are various types of message, and each message type has its own unique data structure.</li>
+<li>Signatures: A Unit contains one or more users’ signatures.</li>  
+<li>Address: A user can have multiple addresses; the addresses are generated with BIP-0044 algorithm.</li>
+  </lu>
+<p>Definition of each Unit’s field is shown in table 3-1.</p>
+</font>
+</div>
 
-
-
+<div align="center">
+<p><b>Table 3-1 Field Definition of Unit</b></p>
+|Field Name|	Definition|	Remarks|
+| :---: | :---: | :--- |
+|version |	TrustNote protocol version number |	e.g. ‘1.0’|
+|alt|	Token identification|	e.g. ‘1’|
+|messages|	Message array|	for more information please see 2.2|
+|authors|	Author array|	Address array of the Unit’s author/authors|
+|parent_units|	Parent Unit’s hash array|	Hash values of the Unit’s parent/parents|
+</div>
 
 
 
