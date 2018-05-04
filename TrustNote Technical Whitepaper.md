@@ -155,7 +155,27 @@
 
 <div align="center">
 <p><b>Table 2-1 DAG-Ledger Comparison</b></p>
-<p><a target="_blank" href="Docs/TONE.png"><img align="center" src="Docs/TONE.png"></a></p>
+  
+| 	IOTA |	Byteball	| TrustNote |
+| :---: | :---: | :---: |
+Token	IOTA	Byte	TTT
+Consensus Mechanism	PoW Cumulative Weight	12 Witnesses	Decentralized TrustME
+Consensus Mechanism
+Smart Contract	N/A	Declarative Contract	Advanced 
+Declarative Contract
+Reward	N/A	Transaction Reference and Attestation	Transaction Reference and Mining
+Nodes	Full Node
+Light Node	Full Node
+Light Node	Super Node
+Full Node
+Light Node
+Micro Node
+Transaction Fee	No	Yes	Yes
+Double Spending 	PoW Weight Comparison	Main Chain Sequencing	Main Chain Indexing
+Low-frequency Trading	Centralized Coordinator	Weak Centralized Attestor	TrustME Attestor
+ 
+  
+
 </div>
 
 
