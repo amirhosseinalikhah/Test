@@ -1,12 +1,16 @@
 <html>
 <div align="center">
-<p><font face="cambria" size="20"><b>TrustNote Technical White Paper</b></font></p>
+<font face="cambria">
+  
+<p><font size="20"><b>TrustNote Technical White Paper</b></font></p>
 
 <p><a target="_blank" href="Docs/ICO.png"><img align="center" src="Docs/ICO.png"></a></p>
 
-<p><font face="cambria" size="15"><b>TrustNote Institute of Technology</b></font></p>
+<p><font size="15"><b>TrustNote Institute of Technology</b></font></p>
 
-<p><font face="cambria" size="8"><b>April 2018</b></font></p>
+<p><font size="8"><b>April 2018</b></font></p>
+
+</font>
 </div>
 
 ------
