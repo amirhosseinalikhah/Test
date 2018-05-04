@@ -64,7 +64,7 @@
 <h1><b>Contents</b></h1>
 <ul class="toc_list">
   <li><a href="#BACKGROUND">BACKGROUND</a></li>
-  <li><a href="#WHAT-IS-TRUSTNOTE"?>WHAT IS TRUSTNOTE?</a></li>
+  <li><a href="#WHAT-IS-TRUSTNOTE?">WHAT IS TRUSTNOTE?</a></li>
     <ul><li><a href="#KEY-FEATURES">KEY FEATURES</a></li>
     <li><a href="#DIRECTED-ACYCLIC-GRAPH">DIRECTED ACYCLIC GRAPH</a></li>
     <li><a href="#COMPARISON">COMPARISON</a></li></ul>
