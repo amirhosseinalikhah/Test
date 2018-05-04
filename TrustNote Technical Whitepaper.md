@@ -763,10 +763,49 @@ For example, the following definition requires two signatures:</P>
 <div align="justify">
 <font face="cambria" size="3">
 
+<ul>
+	<li>Typical Application Scenario:</li>
+ 	<ul><li>Virtual Assets:  Game equipment, live-streaming reward;</li>
+ 	<li>Conditional Payment: Knowledge payment, API calls, decentralized insurance;</li>
+ 	<li>Cryptographic Matching:  Predictive market, Charity, etc.;</li>
+ 	<li>Off-Exchange Trading (Over-the-Counter):  Token Exchange;</li>
+ 	<li>Social Trading:  Group red envelopes, group collection;</li>
+		<li>Resource Sharing:  Make full use of idle resources.</li></ul>
+	</ul>
+
+<h1><a id="ISSUANCE-AND-DISTRIBUTION"></a>ISSUANCE AND DISTRIBUTION</h1>
+<ul>
+ 	<li>TrustNote’s crypto-currency is called “TTT”, and “Note” is the unit of TTT, often specified in Mega Notes (MN);</li>
+	<li>Total Issuance: 1,000,000,000 (10<sup>9</sup>) MN, fixed supply;</li>
+	<li>Initial Offering: 500,000,000 (5×10<sup>8</sup>, 50% ratio) MN, distributed by means of “coin to coin” exchange; </li>
+ 	<li>Total Attestation Rewards: 500,000,000 (5×10<sup>8</sup>, 50% ratio) MN, Attestation Rewards are available for miners who participate in the TrustME consensus;</li>
+ 	<li>The Main Chain (MC) supporting PoW mining is expected to launch on Q4 2018, while users can download the mining client and apply to become a Super Node, Super Nodes can get attestation authority by participating in the MC consensus and then get Attestation Rewards by issuing valid Attestation Units;</li>
+ 	<li>The Attestation Reward Policy allocates 6.79% of Total Attestation Rewards for the first year, after which the yearly allocated Attestation Rewards decays year by year according to Figure 7-1.  Of these, 90% of Attestation Rewards are allocated to the Super Nodes who provide valid Attestation Units, 10% of Attestation Rewards are allocated to TrustNote Foundation to support community operations, project incubation, and rewards to contributors etc.</li>
+</ul>
+</font>
+</div>
+
+<div align="center">
+<font face="cambria">
+  
+<p><a target="_blank" href="Docs/ACAR.png"><img align="center" src="Docs/ACAR.png"></a></p>
+
+<p><b>Figure 7-1 Attenuation Chart of Attestation Rewards </b></p>
+</font>
+</div>
+
+<div align="justify">
+<font face="cambria" size="3">
+<ul>
+ 	<li>TrustME-PoW reaches consensus at about every 5 minutes per round, with about 100,000 rounds each year, the total amount of Attestation Rewards allocated for each round equals Attestation Rewards * 90% + Attestation Fees.</li>
+	<ul><li>In 1<sup>st</sup> year, Attestation Reward for each round is about 323.04 MN;</li>
+		<li>In 2<sup>nd</sup> year, Attestation Reward for each round is about 262.39 MN;</li>
+ 	<li>In 3<sup>rd</sup> year, Attestation Reward for each round is about 232.34 MN.</li></ul>
+	</ul>
 
 
-
-
+</font>
+</div>
 
 <div align="justify">
 <font face="cambria" size="3">
