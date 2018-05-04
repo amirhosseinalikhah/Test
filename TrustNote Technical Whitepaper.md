@@ -531,22 +531,17 @@ When traveling back, all MCs will come to some point, this point and any previou
 <p>When a Super Node reaches final consensus, it means that any other Super Nodes also reached final consensus.  In other words, Super Nodes in the same round must agree on the same consensus result (tentative consensus), regardless of the strong synchronization assumption.  Tentative consensus means that some Super Nodes may have reached a tentative consensus on other Attestation Units, and no Super Node has reached the final consensus.  All Attestation Units must directly or indirectly reference the Attestation Units that were generated before, which ensures the security of TrustME-BA.</p>
 <p>There are 2 cases where TrustME-BA may reach tentative consensus.  In the first case scenario (with low probability), if the network is strongly synchronized, an attacker may, let TrustME-BA reaches tentative consensus.  In this case, TrustME-BA will not reach final consensus, and will not confirm that the network has strong synchronization.  But after a few rounds, it is highly probable that the final consensus will be reached.  In the second case, if the network is weakly synchronized and the entire network is compromised by the attacker, in such case TrustME-BA can reach tentative consensus and selects different sets of Attestor Nodes, multiple consensus forks are formed.  This will prevent TrustME-BA from reaching final consensus, because the Super Nodes are divided into different groups, and the groups do not agree with each other.  In order to start the activity again, TrustME-BA will be executed periodically until the disagreement is resolved.  Once the network returns to strong synchronization status, final consensus will be reached in a short period of time.</p>
 
-
-
-
-
-
-
-
-
-
-
+<h3><a id="Lottery-Algorithm"></a>Lottery Algorithm</h3>
+<p>The lottery algorithm is constructed on the basis of a Verifiable Random Function (VRF) that selects a random subset of Super Nodes based on the weightings of each Super Node participating in the TrustME-BA consensus.  The probability of a Super Node being selected is approximately the same as the ratio of its own weighting to total weighting.  The randomness of the lottery comes from the VRF and a publicly verifiable random seed.  Each Super Node can verify whether it is selected using the random seed.</p>
+<p>Definition of VRF:  Given an arbitrary string, the VRF outputs the hash value and the result of the proof.</p>
 </font>
 </div>
 
-
-
-
+<div align="center">
+<font face="cambria" size="3">
+  <MATH> <hash, &piv;> &larr;	VRF<sub>sk</sub>(seed||role)  </MATH>
+</font>
+</div>
 
 
 
