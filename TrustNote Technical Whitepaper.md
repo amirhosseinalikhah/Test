@@ -1,12 +1,12 @@
 <html>
 <div align="center">
-<p><font face="cambria" size="12"><b>TrustNote Technical White Paper</b></font></p>
+<p><font face="cambria" size="20"><b>TrustNote Technical White Paper</b></font></p>
 
 <p><a target="_blank" href="Docs/ICO.png"><img align="center" src="Docs/ICO.png"></a></p>
 
-<p><font face="cambria" size="5"><b>TrustNote Institute of Technology</b></font></p>
+<p><font face="cambria" size="15"><b>TrustNote Institute of Technology</b></font></p>
 
-<p><font face="cambria" size="3"><b>April 2018</b></font></p>
+<p><font face="cambria" size="8"><b>April 2018</b></font></p>
 </div>
 
 ------
@@ -92,7 +92,7 @@
 
 <font face="cambria" size="3">
   
-<h1><a href="#BACKGROUND"></a>BACKGROUND</h1>
+<h1><a id="user-content-background" class="anchor" href="#BACKGROUND"></a>BACKGROUND</h1>
 <p>For nearly 10 years, since January 3, 2009, Bitcoin has been operating safely, a miracle in the history of computer network technology.  The success of Bitcoin unlocked the doors to the future of the world’s economy for digital crypto-currencies; a new world full of imagination. Satoshi Nakamato creatively proposed the Blockchain - a chained data structure based on hash functions - and succeeded in building a well-operated, decentralized peer to peer network which opened the new era of digital crypto-currencies.  Blockchain technologies are developing fast, driving change across many industries, sparking innovation and creativity.</p>
 <p>Blockchain has provided a decentralized trust mechanism and has become a brand-new paradigm and key methodology in data protection and data value exchange.  Now in its booming period, blockchain is constantly being integrated with various technologies, various scenarios are also being explored in terms of how to utilize the technical characteristics of blockchain, blockchain applications have been expanded from data tamper resistance and data value exchange to digital tokens and social-networking arenas.  The growing number of blockchain user scenarios pose many challenges for blockchain technology, demanding stronger security, higher transaction concurrency, and shorter transaction acknowledgment delay.</p>
 <p>In Bitcoin's blockchain, all the data blocks are aligned in one continuous chain, but due to the limitations on block size and consensus mechanism, the amount of concurrent transactions is limited and transaction confirmations are slow, which resulting in the rise of transaction fees and frequent trading congestions.  To address these issues, the Bitcoin developer community has come up with solutions such as block size increases, segregated witness, and lightning networks, but none of them is perfect.  Those solutions either just ease the problem, or sacrifice security or consistency, and none of them have reached full agreement within the community.  The recent emergence of multiple bitcoin forks, has heated up the debate even further.</p>
