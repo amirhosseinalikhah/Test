@@ -59,29 +59,29 @@
 <b>Contents</b>
 <ul>
   <li><a href="#BACKGROUND">BACKGROUND</a></li>
-  <li><a href="#WHAT-IS-TRUSTNOTE">WHAT IS TRUSTNOTE</li>
-    <ul><li>KEY FEATURES</li>
-    <li>DIRECTED ACYCLIC GRAPH</li>
-    <li>COMPARISON</li></ul>
-  <li><a href="#">3.	DATA STRUCTURES</a></li>
-    <ul><li><a href="#">3.1	UNIT</a></li>
-    <li><a href="#">3.2	MESSAGE TYPES</a></li></ul>
-  <li><a href="#">4.	CONSENSUS</a></li>
-    <ul><li><a href="#">4.1	NODES</a></li>
-    <li><a href="#">4.2	UNIT INTER-REFERENCE</a></li>
-    <li><a href="#">4.3	MAIN CHAIN</a></li>
-    <li><a href="#">4.4	TRANSACTION CONFIRMATION</a></li>
-    <li><a href="#">4.5	TRANSACTION FEES AND MINING REWARD</a></li>
-    <li><a href="#">4.6	TRUSTME-POW</a></li>
-    <li><a href="#">4.7	TRUSTME-BA</a></li>
-      <ul><li><a href="#">4.7.1	Design Goals</a></li>
-      <li><a href="#">4.7.2	Final Consensus and Tentative Consensus</a></li>
-      <li><a href="#">4.7.3	Lottery Algorithm</a></li>
-       <li><a href="#">4.7.4	Byzantine Agreement</a></li></ul></ul>
-  <li><a href="#">5.	SMART CONTRACT</a></li>
-  <li><a href="#">6.	TRUSTNOTE PLATFORM AND APPLICATIONS</a></li>
-  <li><a href="#">7.	ISSUANCE AND DISTRIBUTION</a></li>
-  <li><a href="#">8.	REFERENCES</a></li>
+  <li><a href="#WHAT-IS-TRUSTNOTE">WHAT IS TRUSTNOTE</a></li>
+    <ul><li><a href="#KEY-FEATURES">KEY FEATURES</a></li>
+    <li><a href="#DIRECTED-ACYCLIC-GRAPH">DIRECTED ACYCLIC GRAPH</a></li>
+    <li><a href="#COMPARISON">COMPARISON</a></li></ul>
+  <li><a href="#DATA-STRUCTURES">DATA STRUCTURES</a></li>
+    <ul><li><a href="#UNIT">UNIT</a></li>
+    <li><a href="#MESSAGE-TYPES">MESSAGE TYPES</a></li></ul>
+  <li><a href="#CONSENSUS">CONSENSUS</a></li>
+    <ul><li><a href="#NODES">NODES</a></li>
+    <li><a href="#UNIT-INTER-REFERENCE">UNIT INTER-REFERENCE</a></li>
+    <li><a href="#MAIN-CHAIN">MAIN CHAIN</a></li>
+    <li><a href="#TRANSACTION-CONFIRMATION">TRANSACTION CONFIRMATION</a></li>
+    <li><a href="#TRANSACTION-FEES-AND-MINING-REWARD">TRANSACTION FEES AND MINING REWARD</a></li>
+    <li><a href="#TRUSTME-POW">TRUSTME-POW</a></li>
+    <li><a href="#TRUSTME-BA">TRUSTME-BA</a></li>
+      <ul><li><a href="#Design-Goals">Design Goals</a></li>
+      <li><a href="#Final-Consensus-and-Tentative-Consensus">Final Consensus and Tentative Consensus</a></li>
+      <li><a href="#Lottery-Algorithm">Lottery Algorithm</a></li>
+       <li><a href="#Byzantine-Agreement">Byzantine Agreement</a></li></ul></ul>
+  <li><a href="#SMART-CONTRACT">SMART CONTRACT</a></li>
+  <li><a href="#TRUSTNOTE-PLATFORM-AND-APPLICATIONS">TRUSTNOTE PLATFORM AND APPLICATIONS</a></li>
+  <li><a href="#ISSUANCE-AND-DISTRIBUTION">ISSUANCE AND DISTRIBUTION</a></li>
+  <li><a href="#REFERENCES">REFERENCES</a></li>
 <ul>
 </font>
 </div>
