@@ -157,7 +157,7 @@
 <p><b>Table 2-1 DAG-Ledger Comparison</b></p>
   </div>
   
-<center> 
+<div align="center"> 
   
 |  |	IOTA |	Byteball	| TrustNote |
 | :---: | :---: | :---: | :---: |
@@ -170,7 +170,7 @@
 |Double Spending | 	PoW Weight Comparison |	Main Chain Sequencing |	Main Chain Indexing|
 |Low-frequency Trading |	Centralized Coordinator |	Weak Centralized Attestor	| TrustME Attestor|
 
-  </center> 
+   </div>
 
 
 <div align="justify">
@@ -195,23 +195,42 @@
 <p><b>Table 3-1 Field Definition of Unit</b></p>
 </div>
 
-<center>
+<div align="center">
   
-| | Field Name |	Definition |	Remarks |
-| | :---: | :---: | :--- |
-| | version |	TrustNote protocol version number |	e.g. ‘1.0’ |
- || alt |	Token identification |	e.g. ‘1’ |
-| | messages |	Message array |	for more information please see 2.2 |
-| | authors |	Author array |	Address array of the Unit’s author/authors |
- || parent_units |	Parent Unit’s hash array |	Hash values of the Unit’s parent/parents |
- 
-</center>
+| Field Name |	Definition |	Remarks |
+| :---: | :---: | :--- |
+| version |	TrustNote protocol version number |	e.g. ‘1.0’ |
+| alt |	Token identification |	e.g. ‘1’ |
+| messages |	Message array |	for more information please see 2.2 |
+| authors |	Author array |	Address array of the Unit’s author/authors |
+| parent_units |	Parent Unit’s hash array |	Hash values of the Unit’s parent/parents |
 
+</div>
 
+<div align="justify">
+<font face="cambria" size="3"> 
 
+<p>The message’s field stores the actual data of the Unit, it is an array of one or more messages. TrustNote supports various types of messages which are distinguished by the app field.</p>
+</font>
+</div>
 
+<div align="center">
+  
+<p><b>Table 3-2  Field Definition of messages</b></p>
+</div>
 
+<div align="center">
 
+| Field Name | Definition | Remarks |
+| :---: | :---: | :---: |
+| app | Message type |	e.g. “payment” or “text”, for more information please see 2.2 |
+| payload_location |	Location of the message body |	“inline” indicates the message body is stored in the current message; “uri” indicates | the message body is retrievable from a URL address; “none” indicates there is no message body
+| payload_hash |	Hash value of the message body	|   |
+| Payload	| Message body	| Various message types are used to kept different data format, e.g. a transaction message includes various number of input and output |
+| payload_input	| Message input array	| Includes the hash value of the Unit who generated the message, message index, output index etc. |
+| payload_output |	Message output array | Includes addresses of recipients, amount of transaction and etc.|
+
+</div>
 
 
 
