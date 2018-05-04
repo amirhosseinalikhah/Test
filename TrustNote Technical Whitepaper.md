@@ -60,9 +60,9 @@
 <ul>
   <li>1.	BACKGROUND</li>
   <li>2.	WHAT IS TRUSTNOTE</li>
-    <li><li>2.1	KEY FEATURES</li></li>
-    <li><li>2.2	DIRECTED ACYCLIC GRAPH</li></li>
-    <li><li>2.3	COMPARISON</li></li>
+    <ul><li>2.1	KEY FEATURES</li>
+    <li><li>2.2	DIRECTED ACYCLIC GRAPH</li>
+    <li><li>2.3	COMPARISON</li></ul>
 3.	DATA STRUCTURES
 3.1	UNIT
 3.2	MESSAGE TYPES
