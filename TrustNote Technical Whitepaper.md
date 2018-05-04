@@ -362,9 +362,28 @@ messages:[{
 </font>
 </div>
 
+<div align="center">
+  
+<p><b>Table 3-3 Field Definition of Asset Definition message</b></p>
+</div>
 
+<div align="center">
+  
+| Field Name |	Definition |	Remarks |
+| cap	Maximum amount of assets which can be defined	|  |
+| is_private	Indicates whether the exchange of assets is private or public	|  |
+| is_transferrable	Indicates if the asset can be transferred between third parties while bypassing the asset definer |	If set as “false”, the asset definer must be either the sole sender or the sole receiver of each transfer |
+| auto_destroy	Indicates if the asset should be destroyed when it is sent to the definer	|   |
+| fixed_denominations	Indicates if the asset can be sent in arbitrary integer amount, or in fixed denominations like traditional currency or coins, e.g. 1, 2, 5, 10, 20, etc.	|   |
+| issued_by_definer_only	Indicates if the asset can only be defined by the definer himself	|   |
+cosigned_by_definer	Indicates if every transfer must be cosigned by all asset definers |	Useful for regulated assets |
+| spender_attested	Indicates if the spender of the asset must get attested before he spends. If he happens to receive the asset but it is not yet been attested, he must get attested by one of the listed attesters before spending the asset	| Useful for regulated assets |
+| attesters	The list of attesters’ addresses recognized by the asset definer (only when spender attested is set as “true”) |	The list can be later-on updated by the definer, by sending an “asset_attestors” message |
+| denominations	Lists every supported denominations and total amount of each denomination |	Used for fixed_denominations assets only, not shown in the example |
+| transfer_condition	Defines the condition when assets are allowed to be transferred. The syntax of this definition is the same as address, except that it cannot reference any attestation data, such as “sig” |	Usually there are no restrictions except those already defined by other fields |
+| issue_condition	Same as transfer_condition but for issue transactions only	|
 
-
+</div>
 
 
 
