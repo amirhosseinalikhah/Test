@@ -713,22 +713,22 @@ For example, the following definition requires two signatures:</P>
 
 <h1><a id="REFERENCES"></a>References</h1>
 <uL>
-1. Bitcoin Computation Waste, http://gizmodo.com/the-worlds-most-powerful-computer -network-is-being-was-50403276. 2013.
-2. Bitcoin wiki. Proof of Stake. http://www.blockchaintechnologies.com/blockchain-applications. As of 11 Aug 2017.
-3. Coindesk.com. Bitcoin: A Peer-to-Peer Electronic Cash System.
-4. http://www.coindesk.com/ibm-reveals-proof-concept-blockchain-powered-internet -things/ As of 11 Nov 2017.
-5. Ethereum. Ethereum. https://github.com/ethereum/. As of 12 Nov 2017.
-6. IOTA. IOTA. https://github.com/iotaledger/. As of 10 Nov 2017.
-7. Byteball. Byteball. https://github.com/byteball/. As of 10 Sep 2017.
-8. Bernstein, Daniel J, et al. High-speed high-security signatures. Journal of Cryptographic Engineering 2.2(2012), 77-89.
-9. M. Castro and B. Liskov. Practical Byzantine Fault Tolerance. Proceedings of the Third Symposium on Operating Systems Design and Implementation, New Orleans, Louisiana, USA,1999, pp. 173–186.
-10. Biryukov, Alex, and D. Khovratovich. Equihash: Asymmetric Proof-of-Work Based on the Generalized Birthday Problem. Network and Distributed System Security Symposium 2016.
-11. Gilad Y, Hemo R, Micali S, et al. Algorand: Scaling Byzantine Agreements for Cryptocurrencies. The Symposium 2017, 51-68.
-12. C. Decker and R. Wattenhofer. Information Propagation in the Bitcoin Network. 13-th IEEE Conference on Peer-to-Peer Computing, 2013.
-13. D. Dolev and H.R. Strong. Authenticated algorithms for Byzantine agreement. SIAM Journal on Computing 12 (4), 656-666.
-14. A. Kiayias, A. Russel, B. David, and R. Oliynycov.. Ouroburos: A provably secure proof-of-stake protocol. Cryptology ePrint Archive, Report 2016/889, 2016. http://eprint.iacr.org /2016/889.
-15. S. King and S. Nadal. PPCoin: Peer-to-Peer Crypto-Currency with Proof-of-Stake, 2012.
-16. S. Micali, M. Rabin and S. Vadhan. Verifiable Random Functions. 40th Foundations of Computer Science (FOCS), New York, Oct 1999.
+<p>1. Bitcoin Computation Waste, http://gizmodo.com/the-worlds-most-powerful-computer -network-is-being-was-50403276. 2013.</p>
+<p>2. Bitcoin wiki. Proof of Stake. http://www.blockchaintechnologies.com/blockchain-applications. As of 11 Aug 2017.</p>
+<p>3. Coindesk.com. Bitcoin: A Peer-to-Peer Electronic Cash System.</p>
+<p>4. http://www.coindesk.com/ibm-reveals-proof-concept-blockchain-powered-internet -things/ As of 11 Nov 2017.</p>
+<p>5. Ethereum. Ethereum. https://github.com/ethereum/. As of 12 Nov 2017.</p>
+<p>6. IOTA. IOTA. https://github.com/iotaledger/. As of 10 Nov 2017.</p>
+<p>7. Byteball. Byteball. https://github.com/byteball/. As of 10 Sep 2017.</p>
+<p>8. Bernstein, Daniel J, et al. High-speed high-security signatures. Journal of Cryptographic Engineering 2.2(2012), 77-89.</p>
+<p>9. M. Castro and B. Liskov. Practical Byzantine Fault Tolerance. Proceedings of the Third Symposium on Operating Systems Design and Implementation, New Orleans, Louisiana, USA,1999, pp. 173–186.</p>
+<p>10. Biryukov, Alex, and D. Khovratovich. Equihash: Asymmetric Proof-of-Work Based on the Generalized Birthday Problem. Network and Distributed System Security Symposium 2016.</p>
+<p>11. Gilad Y, Hemo R, Micali S, et al. Algorand: Scaling Byzantine Agreements for Cryptocurrencies. The Symposium 2017, 51-68.</p>
+<p>12. C. Decker and R. Wattenhofer. Information Propagation in the Bitcoin Network. 13-th IEEE Conference on Peer-to-Peer Computing, 2013.</p>
+<p>13. D. Dolev and H.R. Strong. Authenticated algorithms for Byzantine agreement. SIAM Journal on Computing 12 (4), 656-666.</p>
+<p>14. A. Kiayias, A. Russel, B. David, and R. Oliynycov.. Ouroburos: A provably secure proof-of-stake protocol. Cryptology ePrint Archive, Report 2016/889, 2016. http://eprint.iacr.org /2016/889.</p>
+<p>15. S. King and S. Nadal. PPCoin: Peer-to-Peer Crypto-Currency with Proof-of-Stake, 2012.</p>
+<p>16. S. Micali, M. Rabin and S. Vadhan. Verifiable Random Functions. 40th Foundations of Computer Science (FOCS), New York, Oct 1999.</p>
 	</ul>
 </font>
 </div>
