@@ -370,6 +370,7 @@ messages:[{
 <div align="center">
   
 | Field Name |	Definition |	Remarks |
+| :---: | :---: | :---: |
 | cap	Maximum amount of assets which can be defined	|  |
 | is_private	Indicates whether the exchange of assets is private or public	|  |
 | is_transferrable	Indicates if the asset can be transferred between third parties while bypassing the asset definer |	If set as “false”, the asset definer must be either the sole sender or the sole receiver of each transfer |
