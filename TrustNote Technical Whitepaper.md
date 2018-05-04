@@ -266,6 +266,7 @@ messages:[{
 
 <h3>Transaction (app = payment)</h3>
 <p>“<b>Transaction</b>” messages are used to hold tokens’ transactional information.  More than one input and output can be included in a transaction message.  For user defined assets, it is necessary to specify the hash value of the Unit which defines the asset.  A standard transaction message is as follows:</p>
+
 ```JavaScript
 messages:[{
   app:'payment',
@@ -286,6 +287,7 @@ messages:[{
 ```
 <h3>Text (app = text)<h3>
 <p>“<b>Text</b>” messages are used to hold arbitrary string data.</p>
+
 ```JavaScript
 messages:[{
   app:'text',
@@ -297,6 +299,7 @@ messages:[{
 
 <h3>Structured Data (app = data)<h3>
 <p>“<b>Structured Data</b>” messages are used to store arbitrary structured data</p>
+
 ```JavaScript
 messages:[{
   app:'data',
@@ -310,6 +313,7 @@ messages:[{
 
 <h3>Data Feed (app = data_feed)<h3>
 <p>“<b>Data Feed</b>” messages are sent by trusted third parties to trigger Smart Contract.</p>
+
 ```JavaScript
 messages:[{
   app:'data_feed',
@@ -324,6 +328,7 @@ messages:[{
 
 <h3>Address Definition Change (app = address_definition_change)<h3>
 <p>“<b>Address Definition Change</b>” messages are used to update the address definition while retain the old address.</p>
+
 ```JavaScript
 messages:[{
   app:'address_definition_change',
@@ -333,6 +338,7 @@ messages:[{
 
 <h3>Asset Definition (app = asset)<h3>
 <p>“<b>Asset Definition</b>” messages are used to define new digital assets.</p>
+
 ```JavaScript
 messages:[{
   app:'asset',
