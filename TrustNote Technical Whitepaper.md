@@ -240,7 +240,7 @@
 
 
 <h3>Attestor (app = TrustME)</h3>
-<p>No Nodes other than the Attestor Nodes can generate “Attestor” messages, Attestation messages are used to store the attesting results the Node has.  If the first message of a Unit is an Attestation message, then this Unit is an Attestation Unit.  The contents of Attestor’s message include: Consensus Round, Attestation Unit Index, Latest Stable Consensus Round, Attestation Reward of Latest Stable Consensus Round, Seeds, Difficulty, Attesting Priority, etc.  For more information about the Attestation Unit and how to get attested, please refer to chapter 4: Consensus Mechanisms.</p>
+<p>No Nodes other than the Attestor Nodes can generate “<b>Attestor</b>” messages, Attestation messages are used to store the attesting results the Node has.  If the first message of a Unit is an Attestation message, then this Unit is an Attestation Unit.  The contents of Attestor’s message include: Consensus Round, Attestation Unit Index, Latest Stable Consensus Round, Attestation Reward of Latest Stable Consensus Round, Seeds, Difficulty, Attesting Priority, etc.  For more information about the Attestation Unit and how to get attested, please refer to chapter 4: Consensus Mechanisms.</p>
 
 ```JavaScript
 messages:[{
@@ -264,8 +264,98 @@ messages:[{
 }]
 ```
 
+<h3>Transaction (app = payment)</h3>
+<p>“<b>Transaction</b>” messages are used to hold tokens’ transactional information.  More than one input and output can be included in a transaction message.  For user defined assets, it is necessary to specify the hash value of the Unit which defines the asset.  A standard transaction message is as follows:</p>
+```JavaScript
+messages:[{
+  app:'payment',
+  payload_location:'inline',
+  payload_hash:'hash of payload',
+  payload:{
+    inputs:[{
+      unit:'...',
+      message_index:0,
+      output_index:0
+    }],
+    outputs:[
+      {address:'...',amount:1200},
+      {address:'...',amount:2800}
+    ]
+  }
+}]
+```
+<h3>Text (app = text)<h3>
+<p>“<b>Text</b>” messages are used to hold arbitrary string data.</p>
+```JavaScript
+messages:[{
+  app:'text',
+  payload_location:'inline',
+  payload_hash:'hash of payload',
+  payload:'any text'
+}]
+```
+
+<h3>Structured Data (app = data)<h3>
+<p>“<b>Structured Data</b>” messages are used to store arbitrary structured data</p>
+```JavaScript
+messages:[{
+  app:'data',
+  payload_location:'inline',
+  payload_hash:'hash of payload',
+  payload:{
+    any structured data
+  }
+}]
+```
+
+<h3>Data Feed (app = data_feed)<h3>
+<p>“<b>Data Feed</b>” messages are sent by trusted third parties to trigger Smart Contract.</p>
+```JavaScript
+messages:[{
+  app:'data_feed',
+  payload_location:'inline',
+  payload_hash:'hash of payload',
+  payload:{
+    'data feed name':'...',
+    'another data feed name':'...'
+  }
+}]
+```
+
+<h3>Address Definition Change (app = address_definition_change)<h3>
+<p>“<b>Address Definition Change</b>” messages are used to update the address definition while retain the old address.</p>
+```JavaScript
+messages:[{
+  app:'address_definition_change',
+  definition_chash:'...'
+}]
+```
+
+<h3>Asset Definition (app = asset)<h3>
+<p>“<b>Asset Definition</b>” messages are used to define new digital assets.</p>
+```JavaScript
+messages:[{
+  app:'asset',
+  payload_location:'inline',
+  payload_hash:'hash of payload',
+  payload:{
+    cap:1000000000,
+    is_private: true,
+        is_transferrable: true,
+        auto_destroy: false,
+        fixed_denominations: false,
+        issued_by_definer_only: true,
+        cosigned_by_definer: false,
+        spender_attested: false,
+    attestors:[...]
+  }
+}]
+```
+<p>Definition of each field is shown in table 3-3.</p>
+
 </font>
 </div>
+
 
 
 
