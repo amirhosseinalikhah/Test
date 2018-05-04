@@ -367,7 +367,7 @@ messages:[{
 <p><b>Table 3-3 Field Definition of Asset Definition message</b></p>
 </div>
 
-<div align="justified">
+<div align="center">
   
 | Field Name |	Definition |	Remarks |
 | :---: | :---: | :---: |
@@ -385,6 +385,54 @@ messages:[{
 | issue_condition |	Same as transfer_condition but for issue transactions only	|
 
 </div>
+
+<div align="justify">
+<font face="cambria" size="3">
+
+<h3>Asset Attestors (app = asset_attestors)</h3>
+<p>“<b>Asset Attestors</b>” messages are used by asset definers to update the Attestors of the asset.</p>
+
+<h3>Poll (app = poll)</h3>
+<p>“<b>Poll</b>” messages are used to initiate a poll.</p>
+
+```JavaScript
+messages:[{
+  app:'poll',
+  payload_location:'inline',
+  payload_hash:'hash of payload',
+  payload:{
+    question:'...',
+    choices:['A','B']
+  }
+}]
+```
+
+<h3>Vote (app = vote)</h3>
+<p>“<b>Vote</b>” messages are used for initiating a vote.</p>
+
+```JavaScript
+messages:[{
+  app:'vote',
+  payload_location:'inline',
+  payload_hash:'hash of payload',
+  payload:{
+    unit:'hash of the unit where the poll was defined',
+    choice:'A'
+  }
+}]
+```
+
+<h1><a id="CONSENSUS"></a>CONSENSUS</h1>
+<p>TrustNote adopts a two-tier consensus mechanism comprising “base consensus” and “attested consensus”.  The base consensus, also known as “DAG consensus”, requires new transaction Units to be sent out by Nodes to verify and reference previous transaction Units.  The attested consensus, or “TrustME Consensus”, requires that the sequences of Non-Attestation Units be rigorously determined by Attestation Units generated from the Attestor Nodes.  Such two-tier consensus mechanisms can improve transaction throughput and reduce transaction confirmation delay, thus effectively solving the problem of Excessive Bifurcation and double-spending.</p>
+<p>For a more robust TrustNote ecosystem, two TrustME consensus schemes are developed.  Initially, TrustNote uses a Proof of Work (PoW) based scheme called TrustME-PoW; in the future, TrustNote will adopt a Byzantine Agreement (BA) based scheme called TrustME-BA.  No matter which scheme is used, any Super Node participating in the consensus will receive a reward in the form of TTT if they are selected as Attestor Node.</p>
+<p>Under the TrustME-PoW scheme, Super Nodes getting the attestation authority by proving their superior computing power; under the TrustME-BA scheme, a pseudo-random algorithm is used to select Attestor Nodes among Super Nodes.  In both scenarios, Attestation Units issued by Attestor Nodes always comply with the unit inter-reference rules, and do not affect the existing references between other Units.  Only after an Attestation Unit becomes a stable Unit in the Main Chain, it could finally justify that an Attestor Node has contributed to TrustNote positively, and thus receive the Attestation reward.  In addition, both schemes encourage fair participation of all Nodes, TrustME consensus mechanisms are fairer, more trustworthy, and safer than the centralized and weak centralized schemes.</p>
+
+<h2><a id="NODES"></a>Nodes</h2>
+<p>TrustNote supports four types of Nodes : Super Node, Full Node, Light Node and Micro Node.  The comparison of these Nodes is shown in table 4-1.</p>
+
+</font>
+</div>
+
 
 
 
