@@ -65,7 +65,7 @@
 <ul class="toc_list">
   <p><a href="#BACKGROUND">1. BACKGROUND</a></p>
   <p><a href="#WHAT-IS-TRUSTNOTE?">2. WHAT IS TRUSTNOTE?</a></p>
-    <p><li><a href="#KEY-FEATURES">2.1. KEY FEATURES</a></p>
+    <ul><p><a href="#KEY-FEATURES">2.1. KEY FEATURES</a></p>
     <p><a href="#DIRECTED-ACYCLIC-GRAPH">2.2. DIRECTED ACYCLIC GRAPH</a></p>
     <p><a href="#COMPARISON">2.3. COMPARISON</a></p></ul>
   <p><a href="#DATA-STRUCTURES">3. DATA STRUCTURES</a></p>
