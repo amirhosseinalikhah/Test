@@ -438,15 +438,15 @@ messages:[{
   
 <p><b>Table 4-1 Comparison of Nodes</b></p>
 
-|  | Super Node	| Full Node |	Light Node |	Micro Node |
-| :---: | :---: | :---: | :---: |
-| ledger	| full ledger	 | full ledger	| light ledger |	N/A |
-|transaction |	√ |	√	 | √ |	commissioned |
-|DAG consensus |	√ |	√ |	indirect |	× |
-|TrustME-PoW |	√ |	× |	×	| × |
-|TrustME-BA	| √	| × |	× |	× |
-|Hosting Micro Node |	√ |	× |	× |	× |
-|deployment |	Mining systems, Cloud Host Server/Workstation, PC	| Cloud Host Server/Workstation, PC |	Smartphone, Tablet PC |	MCU, Smart Card |
+ |   | Super Node	| Full Node |	Light Node |	Micro Node |
+ | :---: | :---: | :---: | :---: |
+ | ledger	| full ledger	 | full ledger	| light ledger |	N/A |
+ | transaction |	√ |	√	 | √ |	commissioned |
+ | DAG consensus |	√ |	√ |	indirect |	× |
+ | TrustME-PoW |	√ |	× |	×	| × |
+ | TrustME-BA	| √	| × |	× |	× |
+ | Hosting Micro Node |	√ |	× |	× |	× |
+ | deployment |	Mining systems, Cloud Host Server/Workstation, PC	| Cloud Host Server/Workstation, PC |	Smartphone, Tablet PC |	MCU, Smart Card |
 
 
 </div>
