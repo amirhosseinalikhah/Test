@@ -124,7 +124,7 @@
 </div>
 
 <div align="center">
-<p><a target="_blank" href="Docs/DAG.png"><img align="center" src="Docs/DAG.png" width="400px" height="300px" style="max-width:100%;"></a></p>
+<p><a target="_blank" href="Docs/DAG.png"><img align="center" src="Docs/DAG.png" width="200px" height="100px" style="max-width:100%;"></a></p>
 </div>
 
 
