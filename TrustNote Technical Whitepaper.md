@@ -456,6 +456,68 @@ messages:[{
 
 </div>
 
+<div align="justify">
+
+<font face="cambria" size="3">
+
+<p>TrustNote has a peer to peer network similar to bitcoin, each Node can select a random set of peer Nodes to propagate messages.  To ensure the messages cannot be changed, each message is signed by the private key of its original sender, other Nodes must validate the signature before forwarding the message.  To avoid message forwarding loop, one Node does not forward the same message twice.</p>
+<p>To qualify as a TrustNote Super Node, the following requirements must be met:</p>
+<ul>
+ 	<li>Resource: Has good internet bandwidth, large storage space and enough computing power, ideally with public IP address;</li>
+ 	<li>TTT:  Hold a certain amount of TTT in multiple consensus rounds;</li>
+ 	<li>Credibility:  Has a reputable history of always submitting valid Units.</li>
+</ul>
+<p>A Super Node can participate in the TrustME consensus and become an Attestor Node.  Attestor Nodes will get an Attestation Reward by sending Attestation Units and earn attestation fees from attesting ordinary Units.</p>
+  
+<h2><a id="UNIT-INTER-REFERENCE"></a>Unit Inter-Reference</h2>
+<p>Each Unit in TrustNote can reference multiple Units that have no Parent-Child relationship with each other, the new Unit will preferentially reference the Units with more Parents.  When following a Parent Unit in its Child Unit’s direction, we would see many forks if a Unit is referenced by many Child Units. A certain number of Parent Units will merge into one if these Parents are referenced by one Child.</p>
+<p>The purpose of referencing a Parent Unit is to establish an approximated order among the Units.  Before referencing a Parent Unit, a Node needs to validate the Parent Unit. This validation process involves checking whether the signature is valid or not, whether the reference is legal or not, etc.  TrustNote does not require strong synchronization between Nodes, different Nodes may see temporarily inconsistent DAGs.  But this does not undermine the Parent-Child relations that has already been established among the Units, and it may only because the Parent Node has many Childs.  TrustNote supports high transaction throughput with low network latency simply because TrustNote does not enforce strong data synchronization among Nodes.</p>
+<p>To minimize the number of garbage Units generated in the DAG, a transaction fee must be paid when any Node submits a new Unit.  The transaction fee is divided and paid to:</p>
+<ul>
+  <li>The Node(s) who generate newer Unit and reference this Unit as Parent.</li>
+  <li>The Attestor Node who attested the Unit.</li>
+</ul>
+
+<p>If a Unit is referenced by multiple Child Units, the Node who sends the Child Unit with the smallest hash value will get the referencing fee.  In addition, to qualifying the rewards, the Main Chain Index (MCI) of the Child Unit must equal or be slightly greater than its Parent’s MCI, this restriction encourages Nodes to reference the most recent Parent Unit as quickly as possible and as much as possible so they can get more referencing fees, thus helping the DAG to get fast convergence and reduce the number of forks.</p>
+
+<h2><a id="MAIN-CHAIN"></a>Main Chain</h2>
+<p>To choose a single chain along Child-Parent links within the DAG, and then relate all Units to this chain. All the Units will either lie directly on this chain or be reachable from it by a relatively small number of hops along the edges of the graph, this single chain is called Main Chain (MC).  If we build two MCs from two different Childless Units follow the same rule, the two MCs will completely overlap with each other when and after the two MCs intersect at some point.  The worst-case scenario is that two MCs intersect at the Genesis Unit.  Although Nodes are independent from each other when generating new Units, and there is no existence of any possible coordination, we still expect the intersection of the MCs to be as close to the Childless Unit as possible.</p>
+<p>Once a Unit has selected an MC, it can establish an index for two conflicting Units that haven’t been indexed.  First, indexing the Units that located on the MC, the index for the Genesis Unit is 0, the index for the Genesis Unit’s Child on the MC is 1, and so on, until all Units lying on the MC are indexed.  For those Units not located on the MC, we can always find the first Unit located on the MC and reference the Unit directly or indirectly, thus assigning a MCI to each Unit.  Consequently, given two Units, the Unit with a smaller MCI must be generated earlier.  If the MCIs of two Units happen to be the same and these two Units are in conflict, the Unit with the smaller hash value is considered the valid one.  TrustNote will keep all double-spending Units including those deemed to be invalid.</p>
+<p>The process of building the MC applies the Parent Selection Algorithm recursively. By participating in the TrustME consensus, Super Nodes gain the opportunity to become Attestor Nodes that can send Attestation Units.  By comparing the number of Attestation Units among the available paths, the Parent Selection Algorithm will pick-up one of the Parent Units as the "Best Parent Unit".  For different Nodes, the MC building processes are completely independent and only rely on the DAGs that each Node sees.  Starting from a DAG’s Childless Unit, following the path of the Best Parent Unit, a Node can build an MC through to the Genesis Unit.</p>
+
+<h2><a id="TRANSACTION-CONFIRMATION"></a>Transaction Confirmation<h2>
+<p>As new Units are created, each Node keeps track of its current MC as if they are going to create a new Unit for every live Childless Unit or not.  Current MCs may be different for different Nodes because they may see different sets of unstable Units.  The current MC will constantly change itself as new Units arrive.  However, certain parts of the MC that are old enough, will remain unchanged.
+When traveling back, all MCs will come to some point, this point and any previous Units are stable and won’t be changed by the arrival of new Units.  In fact, the Genesis Unit is a natural initial stable point.  Assuming we have built a current MC based on the current set of unstable Units, and there are some Units that located on this MC that were previously believed to be stable, this means that all future MCs believe they will meet the same stable Units and travel back along the same path.  If we can find a way of advancing this stable point forward in the opposite direction of the Genesis Unit, then we should be able to prove the existence of such stable point by Mathematical Induction.  Those Units referenced by this stable point will get a definite MCI, and all messages contained in these Units will also get confirmed.</p>
+
+<h2><a id="TRANSACTION-FEES-AND-MINING-REWARD"></a>Transaction Fees and Mining Reward</h2>
+<p>The transaction fee must be paid for confirmation and storing the transaction on the network. The node, proposed the transaction, calculates the transaction fee based on the number of bytes generated and pay it instantaneously. The transaction fee is divided into two parts:</p>
+<ul>
+  <li>60% Referencing Fee</li>
+  <li>40% Attestation Fee</li>
+</ul>
+<p>The Referencing fee will be obtained by the child of the Unit (This indicates that users can earn TTT as they are generating new Units, by referencing a Child Unit).</p>
+<p>In TrustNote, the growth of DAG-ledger and the TrustME consensus are asynchronous. At the end of each consensus round, top twenty Super Nodes will be selected and they will be given the authority to submit the Attestation Units. Before the MC becomes stable, there is no way to decide which Attestation Units located on the MC, or to evaluate the effectiveness of the Attestation Units’ references. After each consensus round, and when every Attestation Unit issued by all Attestor Nodes becomes stable, the amount of Attestation Reward for each Attestor Node can be determined. The Attestation Fee will be added to the attestation bonus pool of the current consensus round. The Attestors (on the current consensus round) who their corresponding Attestation Units are located on the MC will receive the Attestation Fee (The share of each of them will be determined by the number of the Attestation Units they generated on the MC in the current round).</p>
+<p>The sending Attestation Unit also needs to pay the transaction fee, the calculation of transaction fee is the same as sending ordinary Units.  Since Attestation Units usually containing more information and taking up more storage space than ordinary Units, so its transaction fees are a bit higher, thus this encouraging other Units to reference the Attestation Units.</p>
+<p>TrustME consensus is carried out periodically with a certain number of Attestor Nodes always selected for each round. Each time when the TrustME consensus is achieved, the first Attestation Unit generated by the current round’s Attestor Node must contain the list of Attestation Rewards for the previous consensus round. In the same consensus round, Attestation Units generated by other Attestor Nodes no longer contain the Attestation Reward, instead they validate and reference the first Attestation Unit to confirm the Attestation Reward of previous consensus round.  By doing so, the capabilities of Attestor Nodes are weakened, thus preventing malicious Super Nodes from disturbing the Attestation Reward income of Attestor Nodes of previous consensus round, by obtaining the attestation authority multiple times.</p>
+
+<h2><a id="TRUSTME-POW"></a>TrustME-PoW</h2>
+<p>TrustME-PoW is a consensus mechanism which selects a small number of Nodes as Attestor Nodes using proof of work at each round and determines the priority of Attestor Nodes accordingly.  The TrustME-PoW consensus algorithm is executed every 5 minutes, each time when a consensus is reached, no more than 20 Super Nodes will be selected as Attestor Nodes. These Attestor Nodes have the authority to send Attestation Units and are rewarded accordingly.</p>
+<p>TrustME-PoW is based on the Equihash algorithm, using BLAKE2 as the underlying hash function, to reduce the unfair advantages of ASIC mining, and to encourage equitable participation from more Super Nodes, thus making the probability distribution of Super Nodes becoming Attestor Nodes more reasonable.  The input of the Equihash algorithm include Current Round’s Number, Seeds, the Difficulty Factor and etc.  The Current Round Number begins at 0, incrementing by 1 after each round.  The Seeds of each round of consensus are calculated from the Seeds of the last round of consensus and the consensus results, which can be retrieved publicly and verified.  The Difficulty Factor is calculated from the average computing power of the whole network, and the average time interval of consensus is controllable by adjusting the Difficulty Factor.</P>
+<p>Attestation Units must comply with the previously mentioned Unit inter-reference rules.  The Attestation Unit can only reference unstable Unit and must validate the Units it references, and the correctness of the "Child-Parent" relationship, until the stable MC unit is verified.  Attestation Units are encouraged to reference multiple Best Parent Units that are not stable yet, thus to accelerate the stabilization of the Units and promote DAG-ledger’s forward advancement and convergence.</p>
+<p>Only when the Attestation Unit becomes the Unit on the MC, the corresponding attestation reward can be obtained.  In a consensus round, the Attestation Units on the MC calculate their proportion of current consensus round’s attestation reward according to the number of effective references.  When each Attestation Unit becomes the MC Unit and stabilizes, the Attestation Unit’s effective references are calculated.</p>  
+
+
+
+
+
+
+
+
+</font>
+</div>
+
+
+
 
 
 
