@@ -147,12 +147,36 @@
   
 <p>For security concerns, unlike Bitcoin’s blockchain which is guaranteed by the massive computing power of the network, DAG based TrustNote relies on the fast advance of transactions and the uncertainty of the relationship between the transactions as the "firewall", which leaves the entire system looks too lawless to be attacked.  TrustNote benefits from a two-tier consensus mechanism and an innovative TrustME Consensus Algorithm. Those Super Nodes that participate in the TrustME consensus and contribute to the healthy expansion of DAG-ledger will get the mining reward.</p>
 
-
-  
-  
-  
-  
+<h2><a id="COMPARISON"></a>Comparison</h2>
+<p>Standing on the shoulders of giants, absorbs the advantages of existing blockchain projects and addresses their major issues, a more prosperous TrustNote platform becomes possible.  A comparison of current well-known DAG-ledgers (IOTA and Byteball) with TrustNote is shown in Table 2-1.</p>  
   
 </font>
 </div>
+
+<div align="center">
+<p><b>Table 2-1 DAG-Ledger Comparison</b></p>
+<p><a target="_blank" href="Docs/Tone.png"><img align="center" src="Docs/Tone.png"></a></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
