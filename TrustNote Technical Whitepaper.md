@@ -539,7 +539,7 @@ When traveling back, all MCs will come to some point, this point and any previou
 
 <div align="center">
 <font face="cambria" size="3">
-  <MATH> < hash, &piv; > &larr;	VRF<sub>sk</sub>(seed||role)  </MATH>
+  <MATH> < hash, &pi; > &larr;	VRF<sub>sk</sub>(seed||role)  </MATH>
 </font>
 </div>
 
