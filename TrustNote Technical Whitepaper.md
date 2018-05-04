@@ -155,8 +155,6 @@
 
 <div align="center">
 <p><b>Table 2-1 DAG-Ledger Comparison</b></p>
-  </div>
-<div align="center">
 <p><a target="_blank" href="Docs/TONE.png"><img align="center" src="Docs/TONE.png"></a></p>
 </div>
 
