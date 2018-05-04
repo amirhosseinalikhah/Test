@@ -367,7 +367,7 @@ messages:[{
 <p><b>Table 3-3 Field Definition of Asset Definition message</b></p>
 </div>
 
-<div align="center">
+<div align="justified">
   
 | Field Name |	Definition |	Remarks |
 | :---: | :---: | :---: |
