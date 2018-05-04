@@ -156,8 +156,8 @@
 <div align="center">
 <p><b>Table 2-1 DAG-Ledger Comparison</b></p>
   
-| 	IOTA |	Byteball	| TrustNote |
-| :---: | :---: | :---: |
+|  |	IOTA |	Byteball	| TrustNote |
+| :---: | :---: | :---: | :---: |
 |Token	| IOTA	| Byte |	TTT |
 |Consensus Mechanism |	PoW Cumulative Weight |	12 Witnesses |	Decentralized TrustME Consensus Mechanism |
 |Smart Contract	| N/A |	Declarative Contract |	Advanced Declarative Contract |
