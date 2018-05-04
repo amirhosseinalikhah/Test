@@ -33,6 +33,8 @@
 
 <p><b>© 2018 TrustNote Institute of Technology. All rights reserved.</b></p>
 
+------
+
 <h1><b>Contact Us</b></h1>
 <ul>
 <li><p>Business Enquiries:  <a href="foundation@trustnote.org" target="_blank" rel="external">foundation@trustnote.org</a></p></li>
@@ -62,7 +64,7 @@
 <h1><b>Contents</b></h1>
 <ul class="toc_list">
   <li><a href="#BACKGROUND">BACKGROUND</a></li>
-  <li><a href="#WHAT-IS-TRUSTNOTE">WHAT IS TRUSTNOTE</a></li>
+  <li><a href="#WHAT-IS-TRUSTNOTE"?>WHAT IS TRUSTNOTE?</a></li>
     <ul><li><a href="#KEY-FEATURES">KEY FEATURES</a></li>
     <li><a href="#DIRECTED-ACYCLIC-GRAPH">DIRECTED ACYCLIC GRAPH</a></li>
     <li><a href="#COMPARISON">COMPARISON</a></li></ul>
@@ -102,8 +104,8 @@
 <p>The structure of the ‘traditional’ blockchain is the bottleneck that hinders the technology from improving its concurrency. More efficient forms of distributed ledger technology are being sought and a solution which combines Directed Acyclic Graph (DAG) and blockchain (hereinafter referred to as "DAG-ledger") was proposed.  The DAG-ledger has no concept of blocks, so there is no limit to the size of the blocks.  In addition, DAG-ledger uses a new form of transaction verification which referencing the old transaction for transaction confirmation. This allows minor temporary differences between the users’ ledgers, to achieve the goal of preventing transaction obstruction by weakening the consistency of the entire network in a short period. The larger the network is and the greater the transaction volumes are, the shorter the transaction confirmation delay is.</p>
 <p>IOTA and Byteball both developed their own public DAG-ledgers in 2016 to accommodate high-frequency trading scenarios.  However, the downside is that although DAG-ledger supports high-frequency trading, in the case of low-frequency trading, the old transaction cannot get enough new transactions to verify and reference, resulting in the old transaction not being confirmed in time, in extreme cases the transaction may never get confirmed.  To address this problem, IOTA proposes a temporary centralized actor called coordinator, which is used to protect the network when the volume of transactions is low, however IOTA does not disclose the design details of such coordinator; Byteball introduces 12 witnesses, implementing transaction confirmation via witness attestation, although Byteball claims its users have the right to choose their own witness, but the transaction quoting rules make it very difficult for users to change witnesses if they choose to do so. TrustNote resolved all these issues by proposing a robust and innovative design. </p>
 
-2.	WHAT IS TRUSTNOTE
-TrustNote is a minable public DAG-ledger with an innovative, two-tier consensus mechanism designed for new applications such as digital tokens issuance, blockchain games and social networks, its digital token is called “TTT”.  TrustNote's goal is to be Light, Fast, and Trust.  "Light" means TrustNote has a light architecture and intelligent contracting system that supports lightweight application extensions and micro wallets; "Fast" means TrustNote supports high concurrency transactions, enjoys fast transaction confirmation, and makes distributed application (DApp) development and deployment much easier; "Trust" means creating a platform that allows new innovative ideas to run smoothly on the ledger, and making user-friendly DApps  accessible to everyone.
+<h1><a id="WHAT-IS-TRUSTNOTE?"></a>WHAT IS TRUSTNOTE?</h1>
+<p>TrustNote is a minable public DAG-ledger with an innovative, two-tier consensus mechanism designed for new applications such as digital tokens issuance, blockchain games and social networks, its digital token is called “TTT”.  TrustNote's goal is to be Light, Fast, and Trust.  "Light" means TrustNote has a light architecture and intelligent contracting system that supports lightweight application extensions and micro wallets; "Fast" means TrustNote supports high concurrency transactions, enjoys fast transaction confirmation, and makes distributed application (DApp) development and deployment much easier; "Trust" means creating a platform that allows new innovative ideas to run smoothly on the ledger, and making user-friendly DApps  accessible to everyone.</p>
 
 
 
