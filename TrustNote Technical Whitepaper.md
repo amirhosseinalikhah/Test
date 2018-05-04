@@ -125,7 +125,13 @@
 
 <div align="center">
 <p><a target="_blank" href="Docs/DAG.png"><img align="center" src="Docs/DAG.png"></a></p>
-  <p><b>Figure 2-1 DAG</b></p>
+  <p><b>
+	  
+	  
+	  
+	  
+	  
+	  2-1 DAG</b></p>
 </div>
 
 <div align="justify">
@@ -711,7 +717,7 @@ For example, the following definition requires two signatures:</P>
   
 <p><a target="_blank" href="Docs/RM.png"><img align="center" src="Docs/RM.png"></a></p>
 
-<p><b>Figure 6 1 Roadmap </b></p>
+<p><b>Figure 6-1 Roadmap </b></p>
 </font>
 </div>
 
@@ -740,13 +746,22 @@ For example, the following definition requires two signatures:</P>
  	<li>Support third-party application extensions, asset-based application scenarios can be created using Smart Contracts and data provided by trusted third-party.  App extensions can be downloaded from the wallet application market.</li></ul>
 	</ul>
 
-
+<p>The crypto-token platform focuses on creating a decentralized platform for creating, issuing and operating crypto-tokens.  Users can easily customize their personal crypto-token and launch crowd funding or ICOs without the need to write sophisticated Smart Contracts, thus democratizing the access to the crypto-token issuance world.  Users can also securely manage Bitcoin, Ethereum, Litecoin and other mainstream crypto-token wallets through the corresponding crypto-token gateways.  A unified entrance for crypto-token wallet software across operating systems and platforms are provided, and there is no need to switch between wallet software anymore.</p>
 
 </font>
 </div>
 
+<div align="center">
+<font face="cambria">
+  
+<p><a target="_blank" href="Docs/ATP.png"><img align="center" src="Docs/ATP.png"></a></p>
 
+<p><b>Figure 6-2 Architecture of Crypto-Token Platform</b></p>
+</font>
+</div>
 
+<div align="justify">
+<font face="cambria" size="3">
 
 
 
