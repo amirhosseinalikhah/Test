@@ -517,7 +517,7 @@ When traveling back, all MCs will come to some point, this point and any previou
 <ul>
   <li>Honest Super Nodes hold more than two thirds of total TTT in circulation.</li>
   <li>Attackers can participate in consensus and receive the appropriate rewards.</li>
-<ul>
+</ul>
 <p>The rationale for this assumption is that in order to attack TrustME-BA successfully, attackers must invest enough TTT tokens.  TrustME-BA assumes an attacker can control a certain amount of target Super Nodes, but he cannot control a large quantity of Super Nodes to hold more than two thirds of total TTT in circulation.</p>
 <h4>Robustness</h4>
 <p>Beyond Security goals, TrustME-BA assumes network reachability to rigorously determine the priorities among Attestor Nodes.  This goal is that all Super Nodes can reach a consensus on a new set of Attestor Nodes selected within one minute.  To establish a robust platform, TrustME-BA makes a strong synchronization assumption that all honest Super Nodes send messages to most of other honest Nodes within a known time frame.  This assumption acknowledges that an attacker may control some of the honest Super Nodes, but he cannot control the entire network in a large scale nor divide the network.</p>  
