@@ -442,30 +442,17 @@ messages:[{
 
 <div align="center"> 
   
-|  |	IOTA |	Byteball	| TrustNote |
-| :---: | :---: | :---: | :---: |
-|Token	| IOTA	| Byte |	TTT |
-|Consensus Mechanism |	PoW Cumulative Weight |	12 Witnesses |	Decentralized TrustME Consensus Mechanism |
-|Smart Contract	| N/A |	Declarative Contract |	Advanced Declarative Contract |
-|Reward	| N/A	| Transaction Reference and Attestation	| Transaction Reference and Mining |
-|Nodes	| Full Node, Light Node	| Full Node, Light Node |	Super Node, Full Node, Light Node, Micro Node |
-|Transaction Fee |	No |	Yes |	Yes|
-|Double Spending | 	PoW Weight Comparison |	Main Chain Sequencing |	Main Chain Indexing|
-|Low-frequency Trading |	Centralized Coordinator |	Weak Centralized Attestor	| TrustME Attestor|
-
-   </div>
-
 <div align="center"> 
  
- |   | Super Node	| Full Node |	Light Node |	Micro Node |
-  | :---: | :---: | :---: | :---: |
-   | ledger	| full ledger	 | full ledger	| light ledger |	N/A |
-   | transaction |	√ |	√	 | √ |	commissioned |
-   | DAG consensus |	√ |	√ |	indirect |	× |
-   | TrustME-PoW |	√ |	× |	×	| × |
-   | TrustME-BA	| √	| × |	× |	× |
-   | Hosting Micro Node |	√ |	× |	× |	× |
-   | deployment |	Mining systems, Cloud Host Server/Workstation, PC	| Cloud Host Server/Workstation, PC |	Smartphone, Tablet PC |	MCU, Smart Card |
+| | Super Node	| Full Node |	Light Node |	Micro Node |
+| :---: | :---: | :---: | :---: | :---: |
+| ledger	| full ledger	 | full ledger	| light ledger |	N/A |
+| transaction |	√ |	√	 | √ |	commissioned |
+| DAG consensus |	√ |	√ |	indirect |	× |
+| TrustME-PoW |	√ |	× |	×	| × |
+| TrustME-BA	| √	| × |	× |	× |
+| Hosting Micro Node |	√ |	× |	× |	× |
+| deployment |	Mining systems, Cloud Host Server/Workstation, PC	| Cloud Host Server/Workstation, PC |	Smartphone, Tablet PC |	MCU, Smart Card |
 
 </div>
 
