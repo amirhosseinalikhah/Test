@@ -63,30 +63,30 @@
 
 <h1><b>Contents</b></h1>
 <ul class="toc_list">
-  <li><a href="#BACKGROUND">BACKGROUND</a></li>
-  <li><a href="#WHAT-IS-TRUSTNOTE?">WHAT IS TRUSTNOTE?</a></li>
-    <ul><li><a href="#KEY-FEATURES">KEY FEATURES</a></li>
-    <li><a href="#DIRECTED-ACYCLIC-GRAPH">DIRECTED ACYCLIC GRAPH</a></li>
-    <li><a href="#COMPARISON">COMPARISON</a></li></ul>
-  <li><a href="#DATA-STRUCTURES">DATA STRUCTURES</a></li>
-    <ul><li><a href="#UNIT">UNIT</a></li>
-    <li><a href="#MESSAGE-TYPES">MESSAGE TYPES</a></li></ul>
-  <li><a href="#CONSENSUS">CONSENSUS</a></li>
-    <ul><li><a href="#NODES">NODES</a></li>
-    <li><a href="#UNIT-INTER-REFERENCE">UNIT INTER-REFERENCE</a></li>
-    <li><a href="#MAIN-CHAIN">MAIN CHAIN</a></li>
-    <li><a href="#TRANSACTION-CONFIRMATION">TRANSACTION CONFIRMATION</a></li>
-    <li><a href="#TRANSACTION-FEES-AND-MINING-REWARD">TRANSACTION FEES AND MINING REWARD</a></li>
-    <li><a href="#TRUSTME-POW">TRUSTME-POW</a></li>
-    <li><a href="#TRUSTME-BA">TRUSTME-BA</a></li>
-      <ul><li><a href="#Design-Goals">Design Goals</a></li>
-      <li><a href="#Final-Consensus-and-Tentative-Consensus">Final Consensus and Tentative Consensus</a></li>
-      <li><a href="#Lottery-Algorithm">Lottery Algorithm</a></li>
-       <li><a href="#Byzantine-Agreement">Byzantine Agreement</a></li></ul></ul>
-  <li><a href="#SMART-CONTRACT">SMART CONTRACT</a></li>
-  <li><a href="#TRUSTNOTE-PLATFORM-AND-APPLICATIONS">TRUSTNOTE PLATFORM AND APPLICATIONS</a></li>
-  <li><a href="#ISSUANCE-AND-DISTRIBUTION">ISSUANCE AND DISTRIBUTION</a></li>
-  <li><a href="#REFERENCES">REFERENCES</a></li>
+  <p><a href="#BACKGROUND">1. BACKGROUND</a></p>
+  <p><a href="#WHAT-IS-TRUSTNOTE?">2. WHAT IS TRUSTNOTE?</a></p>
+    <p><li><a href="#KEY-FEATURES">2.1. KEY FEATURES</a></p>
+    <p><a href="#DIRECTED-ACYCLIC-GRAPH">2.2. DIRECTED ACYCLIC GRAPH</a></p>
+    <p><a href="#COMPARISON">2.3. COMPARISON</a></p></ul>
+  <p><a href="#DATA-STRUCTURES">3. DATA STRUCTURES</a></p>
+    <ul><p><a href="#UNIT">3.1. UNIT</a></p>
+    <p><a href="#MESSAGE-TYPES">3.2. MESSAGE TYPES</a></p></ul>
+  <p><a href="#CONSENSUS">4. CONSENSUS</a></p>
+    <ul><p><a href="#NODES">4.1. NODES</a></p>
+    <p><a href="#UNIT-INTER-REFERENCE">4.2. UNIT INTER-REFERENCE</a></p>
+    <p><a href="#MAIN-CHAIN">4.3. MAIN CHAIN</a></p>
+    <p><a href="#TRANSACTION-CONFIRMATION">4.4. TRANSACTION CONFIRMATION</a></p>
+    <p><a href="#TRANSACTION-FEES-AND-MINING-REWARD">4.5. TRANSACTION FEES AND MINING REWARD</a></p>
+    <p><a href="#TRUSTME-POW">4.6. TRUSTME-POW</a></p>
+    <p><a href="#TRUSTME-BA">4.7. TRUSTME-BA</a></p>
+      <ul><p><a href="#Design-Goals">4.7.1. Design Goals</a></p>
+      <p><a href="#Final-Consensus-and-Tentative-Consensus">4.7.2. Final Consensus and Tentative Consensus</a></p>
+      <p><a href="#Lottery-Algorithm">4.7.3. Lottery Algorithm</a></li>
+       <p><a href="#Byzantine-Agreement">4.7.4. Byzantine Agreement</a></p></ul></ul>
+  <p><a href="#SMART-CONTRACT">5. SMART CONTRACT</a></li>
+  <p><a href="#TRUSTNOTE-PLATFORM-AND-APPLICATIONS">6. TRUSTNOTE PLATFORM AND APPLICATIONS</a></p>
+  <p><a href="#ISSUANCE-AND-DISTRIBUTION">7. ISSUANCE AND DISTRIBUTION</a></p>
+  <p><a href="#REFERENCES">8. REFERENCES</a></p>
 <ul>
 </font>
 </div>
@@ -97,17 +97,17 @@
 
 <font face="cambria" size="3">
   
-<h1><a id="BACKGROUND"></a>BACKGROUND</h1>
+<h1><a id="BACKGROUND"></a>1. BACKGROUND</h1>
 <p>For nearly 10 years, since January 3, 2009, Bitcoin has been operating safely, a miracle in the history of computer network technology.  The success of Bitcoin unlocked the doors to the future of the world’s economy for digital crypto-currencies; a new world full of imagination. Satoshi Nakamato creatively proposed the Blockchain - a chained data structure based on hash functions - and succeeded in building a well-operated, decentralized peer to peer network which opened the new era of digital crypto-currencies.  Blockchain technologies are developing fast, driving change across many industries, sparking innovation and creativity.</p>
 <p>Blockchain has provided a decentralized trust mechanism and has become a brand-new paradigm and key methodology in data protection and data value exchange.  Now in its booming period, blockchain is constantly being integrated with various technologies, various scenarios are also being explored in terms of how to utilize the technical characteristics of blockchain, blockchain applications have been expanded from data tamper resistance and data value exchange to digital tokens and social-networking arenas.  The growing number of blockchain user scenarios pose many challenges for blockchain technology, demanding stronger security, higher transaction concurrency, and shorter transaction acknowledgment delay.</p>
 <p>In Bitcoin's blockchain, all the data blocks are aligned in one continuous chain, but due to the limitations on block size and consensus mechanism, the amount of concurrent transactions is limited and transaction confirmations are slow, which resulting in the rise of transaction fees and frequent trading congestions.  To address these issues, the Bitcoin developer community has come up with solutions such as block size increases, segregated witness, and lightning networks, but none of them is perfect.  Those solutions either just ease the problem, or sacrifice security or consistency, and none of them have reached full agreement within the community.  The recent emergence of multiple bitcoin forks, has heated up the debate even further.</p>
 <p>The structure of the ‘traditional’ blockchain is the bottleneck that hinders the technology from improving its concurrency. More efficient forms of distributed ledger technology are being sought and a solution which combines Directed Acyclic Graph (DAG) and blockchain (hereinafter referred to as "DAG-ledger") was proposed.  The DAG-ledger has no concept of blocks, so there is no limit to the size of the blocks.  In addition, DAG-ledger uses a new form of transaction verification which referencing the old transaction for transaction confirmation. This allows minor temporary differences between the users’ ledgers, to achieve the goal of preventing transaction obstruction by weakening the consistency of the entire network in a short period. The larger the network is and the greater the transaction volumes are, the shorter the transaction confirmation delay is.</p>
 <p>IOTA and Byteball both developed their own public DAG-ledgers in 2016 to accommodate high-frequency trading scenarios.  However, the downside is that although DAG-ledger supports high-frequency trading, in the case of low-frequency trading, the old transaction cannot get enough new transactions to verify and reference, resulting in the old transaction not being confirmed in time, in extreme cases the transaction may never get confirmed.  To address this problem, IOTA proposes a temporary centralized actor called coordinator, which is used to protect the network when the volume of transactions is low, however IOTA does not disclose the design details of such coordinator; Byteball introduces 12 witnesses, implementing transaction confirmation via witness attestation, although Byteball claims its users have the right to choose their own witness, but the transaction quoting rules make it very difficult for users to change witnesses if they choose to do so. TrustNote resolved all these issues by proposing a robust and innovative design. </p>
 
-<h1><a id="WHAT-IS-TRUSTNOTE?"></a>WHAT IS TRUSTNOTE?</h1>
+<h1><a id="WHAT-IS-TRUSTNOTE?"></a>2. WHAT IS TRUSTNOTE?</h1>
 <p>TrustNote is a minable public DAG-ledger with an innovative, two-tier consensus mechanism designed for new applications such as digital tokens issuance, blockchain games and social networks, its digital token is called “TTT”.  TrustNote's goal is to be Light, Fast, and Trust.  "Light" means TrustNote has a light architecture and intelligent contracting system that supports lightweight application extensions and micro wallets; "Fast" means TrustNote supports high concurrency transactions, enjoys fast transaction confirmation, and makes distributed application (DApp) development and deployment much easier; "Trust" means creating a platform that allows new innovative ideas to run smoothly on the ledger, and making user-friendly DApps  accessible to everyone.</p>
 
-<h2><a id="KEY-FEATURES"></a>Key Features</h2>
+<h2><a id="KEY-FEATURES"></a>2.1. Key Features</h2>
 <ul>
  	<li>Two-tier consensus mechanism, a minable public DAG-ledger </li>
  	<li>Supports high concurrency transactions, benefits from fast transaction confirmation</li>
@@ -117,7 +117,7 @@
  	<li>Multi-platform wallet, light wallet, micro wallet, support third-party extensions</li>
 </ul>
 
-<h2><a id="DIRECTED-ACYCLIC-GRAPH"></a>Directed Acyclic Graph</h2>
+<h2><a id="DIRECTED-ACYCLIC-GRAPH"></a>2.2. Directed Acyclic Graph</h2>
 <p>A Directed Acyclic Graph (DAG), is a finite directed graph with no directed cycles. It consists of finitely many vertices and edges, with each edge directed from one vertex to another, such that there is no way to start at any vertex V and follow a consistently-directed sequence of edges that eventually loops back to V again.  The use of the DAG data structure to store ledger data is gradually getting more developers’ attention.  Projects like IOTA and Byteball have successfully established stable public-ledgers using DAG, the feasibility of a DAG-ledger is proven.</p>
 <p>In TrustNote terms, transactions are viewed as messages. Various types of messages are supported, multiple messages can be combined into a data block which is called a “Unit”, and a DAG is formed by inter-referenced Units.  Since each Unit can reference any previous Unit or multiple previous Units, there is no need to spend more computing power and time for solving the consensus problem, nor need to wait for the completion of strong inter-node data synchronization, and because there is no need to assemble multiple Units into blocks, the performance of concurrent transactions is considerably improved and the confirmation delay are reduced to minimum.</p>
 </font>
@@ -147,7 +147,7 @@
   
 <p>For security concerns, unlike Bitcoin’s blockchain which is guaranteed by the massive computing power of the network, DAG based TrustNote relies on the fast advance of transactions and the uncertainty of the relationship between the transactions as the "firewall", which leaves the entire system looks too lawless to be attacked.  TrustNote benefits from a two-tier consensus mechanism and an innovative TrustME Consensus Algorithm. Those Super Nodes that participate in the TrustME consensus and contribute to the healthy expansion of DAG-ledger will get the mining reward.</p>
 
-<h2><a id="COMPARISON"></a>Comparison</h2>
+<h2><a id="COMPARISON"></a>2.3. Comparison</h2>
 <p>Standing on the shoulders of giants, absorbs the advantages of existing blockchain projects and addresses their major issues, a more prosperous TrustNote platform becomes possible.  A comparison of current well-known DAG-ledgers (IOTA and Byteball) with TrustNote is shown in Table 2-1.</p>  
   
 </font>
@@ -176,9 +176,9 @@
 <div align="justify">
 <font face="cambria" size="3">  
 
-<h1><a id="DATA-STRUCTURES"></a>DATA STRUCTURES</h1>
+<h1><a id="DATA-STRUCTURES"></a>3. DATA STRUCTURES</h1>
 
-<h2><a id="UNIT"></a>Unit</h2>
+<h2><a id="UNIT"></a>3.1. Unit</h2>
 <p>When a Node initiates a transaction or sends a message, it creates a new data block called a "Unit" and broadcasts the Unit to its peers.  A Unit may contain multiple messages of various types, each Unit contains the following information:</p>
 <ul>
   <li>Header: The hash value of the previous Unit (parent).</li>
@@ -235,7 +235,7 @@
 <div align="justify">
 <font face="cambria" size="3"> 
 
-<h2><a id="MESSAGE-TYPES"></a>Message Types</h2>
+<h2><a id="MESSAGE-TYPES"></a>3.2. Message Types</h2>
 <p>TrustNote supports various message types which can be further extended if needed, different types of messages are used to store different data formats interpretable by different parsing rules.  Different types of TrustNote message are recognizable by the message’s app field.</p>
 
 
@@ -422,12 +422,12 @@ messages:[{
 }]
 ```
 
-<h1><a id="CONSENSUS"></a>CONSENSUS</h1>
+<h1><a id="CONSENSUS"></a>4. CONSENSUS</h1>
 <p>TrustNote adopts a two-tier consensus mechanism comprising “base consensus” and “attested consensus”.  The base consensus, also known as “DAG consensus”, requires new transaction Units to be sent out by Nodes to verify and reference previous transaction Units.  The attested consensus, or “TrustME Consensus”, requires that the sequences of Non-Attestation Units be rigorously determined by Attestation Units generated from the Attestor Nodes.  Such two-tier consensus mechanisms can improve transaction throughput and reduce transaction confirmation delay, thus effectively solving the problem of Excessive Bifurcation and double-spending.</p>
 <p>For a more robust TrustNote ecosystem, two TrustME consensus schemes are developed.  Initially, TrustNote uses a Proof of Work (PoW) based scheme called TrustME-PoW; in the future, TrustNote will adopt a Byzantine Agreement (BA) based scheme called TrustME-BA.  No matter which scheme is used, any Super Node participating in the consensus will receive a reward in the form of TTT if they are selected as Attestor Node.</p>
 <p>Under the TrustME-PoW scheme, Super Nodes getting the attestation authority by proving their superior computing power; under the TrustME-BA scheme, a pseudo-random algorithm is used to select Attestor Nodes among Super Nodes.  In both scenarios, Attestation Units issued by Attestor Nodes always comply with the unit inter-reference rules, and do not affect the existing references between other Units.  Only after an Attestation Unit becomes a stable Unit in the Main Chain, it could finally justify that an Attestor Node has contributed to TrustNote positively, and thus receive the Attestation reward.  In addition, both schemes encourage fair participation of all Nodes, TrustME consensus mechanisms are fairer, more trustworthy, and safer than the centralized and weak centralized schemes.</p>
 
-<h2><a id="NODES"></a>Nodes</h2>
+<h2><a id="NODES"></a>4.1. Nodes</h2>
 <p>TrustNote supports four types of Nodes : Super Node, Full Node, Light Node and Micro Node.  The comparison of these Nodes is shown in table 4-1.</p>
 
 </font>
@@ -469,7 +469,7 @@ messages:[{
 </ul>
 <p>A Super Node can participate in the TrustME consensus and become an Attestor Node.  Attestor Nodes will get an Attestation Reward by sending Attestation Units and earn attestation fees from attesting ordinary Units.</p>
   
-<h2><a id="UNIT-INTER-REFERENCE"></a>Unit Inter-Reference</h2>
+<h2><a id="UNIT-INTER-REFERENCE"></a>4.2. Unit Inter-Reference</h2>
 <p>Each Unit in TrustNote can reference multiple Units that have no Parent-Child relationship with each other, the new Unit will preferentially reference the Units with more Parents.  When following a Parent Unit in its Child Unit’s direction, we would see many forks if a Unit is referenced by many Child Units. A certain number of Parent Units will merge into one if these Parents are referenced by one Child.</p>
 <p>The purpose of referencing a Parent Unit is to establish an approximated order among the Units.  Before referencing a Parent Unit, a Node needs to validate the Parent Unit. This validation process involves checking whether the signature is valid or not, whether the reference is legal or not, etc.  TrustNote does not require strong synchronization between Nodes, different Nodes may see temporarily inconsistent DAGs.  But this does not undermine the Parent-Child relations that has already been established among the Units, and it may only because the Parent Node has many Childs.  TrustNote supports high transaction throughput with low network latency simply because TrustNote does not enforce strong data synchronization among Nodes.</p>
 <p>To minimize the number of garbage Units generated in the DAG, a transaction fee must be paid when any Node submits a new Unit.  The transaction fee is divided and paid to:</p>
@@ -480,16 +480,16 @@ messages:[{
 
 <p>If a Unit is referenced by multiple Child Units, the Node who sends the Child Unit with the smallest hash value will get the referencing fee.  In addition, to qualifying the rewards, the Main Chain Index (MCI) of the Child Unit must equal or be slightly greater than its Parent’s MCI, this restriction encourages Nodes to reference the most recent Parent Unit as quickly as possible and as much as possible so they can get more referencing fees, thus helping the DAG to get fast convergence and reduce the number of forks.</p>
 
-<h2><a id="MAIN-CHAIN"></a>Main Chain</h2>
+<h2><a id="MAIN-CHAIN"></a>4.3. Main Chain</h2>
 <p>To choose a single chain along Child-Parent links within the DAG, and then relate all Units to this chain. All the Units will either lie directly on this chain or be reachable from it by a relatively small number of hops along the edges of the graph, this single chain is called Main Chain (MC).  If we build two MCs from two different Childless Units follow the same rule, the two MCs will completely overlap with each other when and after the two MCs intersect at some point.  The worst-case scenario is that two MCs intersect at the Genesis Unit.  Although Nodes are independent from each other when generating new Units, and there is no existence of any possible coordination, we still expect the intersection of the MCs to be as close to the Childless Unit as possible.</p>
 <p>Once a Unit has selected an MC, it can establish an index for two conflicting Units that haven’t been indexed.  First, indexing the Units that located on the MC, the index for the Genesis Unit is 0, the index for the Genesis Unit’s Child on the MC is 1, and so on, until all Units lying on the MC are indexed.  For those Units not located on the MC, we can always find the first Unit located on the MC and reference the Unit directly or indirectly, thus assigning a MCI to each Unit.  Consequently, given two Units, the Unit with a smaller MCI must be generated earlier.  If the MCIs of two Units happen to be the same and these two Units are in conflict, the Unit with the smaller hash value is considered the valid one.  TrustNote will keep all double-spending Units including those deemed to be invalid.</p>
 <p>The process of building the MC applies the Parent Selection Algorithm recursively. By participating in the TrustME consensus, Super Nodes gain the opportunity to become Attestor Nodes that can send Attestation Units.  By comparing the number of Attestation Units among the available paths, the Parent Selection Algorithm will pick-up one of the Parent Units as the "Best Parent Unit".  For different Nodes, the MC building processes are completely independent and only rely on the DAGs that each Node sees.  Starting from a DAG’s Childless Unit, following the path of the Best Parent Unit, a Node can build an MC through to the Genesis Unit.</p>
 
-<h2><a id="TRANSACTION-CONFIRMATION"></a>Transaction Confirmation</h2>
+<h2><a id="TRANSACTION-CONFIRMATION"></a>4.4. Transaction Confirmation</h2>
 <p>As new Units are created, each Node keeps track of its current MC as if they are going to create a new Unit for every live Childless Unit or not.  Current MCs may be different for different Nodes because they may see different sets of unstable Units.  The current MC will constantly change itself as new Units arrive.  However, certain parts of the MC that are old enough, will remain unchanged.
 When traveling back, all MCs will come to some point, this point and any previous Units are stable and won’t be changed by the arrival of new Units.  In fact, the Genesis Unit is a natural initial stable point.  Assuming we have built a current MC based on the current set of unstable Units, and there are some Units that located on this MC that were previously believed to be stable, this means that all future MCs believe they will meet the same stable Units and travel back along the same path.  If we can find a way of advancing this stable point forward in the opposite direction of the Genesis Unit, then we should be able to prove the existence of such stable point by Mathematical Induction.  Those Units referenced by this stable point will get a definite MCI, and all messages contained in these Units will also get confirmed.</p>
 
-<h2><a id="TRANSACTION-FEES-AND-MINING-REWARD"></a>Transaction Fees and Mining Reward</h2>
+<h2><a id="TRANSACTION-FEES-AND-MINING-REWARD"></a>4.5. Transaction Fees and Mining Reward</h2>
 <p>The transaction fee must be paid for confirmation and storing the transaction on the network. The node, proposed the transaction, calculates the transaction fee based on the number of bytes generated and pay it instantaneously. The transaction fee is divided into two parts:</p>
 <ul>
   <li>60% Referencing Fee</li>
@@ -500,17 +500,17 @@ When traveling back, all MCs will come to some point, this point and any previou
 <p>The sending Attestation Unit also needs to pay the transaction fee, the calculation of transaction fee is the same as sending ordinary Units.  Since Attestation Units usually containing more information and taking up more storage space than ordinary Units, so its transaction fees are a bit higher, thus this encouraging other Units to reference the Attestation Units.</p>
 <p>TrustME consensus is carried out periodically with a certain number of Attestor Nodes always selected for each round. Each time when the TrustME consensus is achieved, the first Attestation Unit generated by the current round’s Attestor Node must contain the list of Attestation Rewards for the previous consensus round. In the same consensus round, Attestation Units generated by other Attestor Nodes no longer contain the Attestation Reward, instead they validate and reference the first Attestation Unit to confirm the Attestation Reward of previous consensus round.  By doing so, the capabilities of Attestor Nodes are weakened, thus preventing malicious Super Nodes from disturbing the Attestation Reward income of Attestor Nodes of previous consensus round, by obtaining the attestation authority multiple times.</p>
 
-<h2><a id="TRUSTME-POW"></a>TrustME-PoW</h2>
+<h2><a id="TRUSTME-POW"></a>4.6. TrustME-PoW</h2>
 <p>TrustME-PoW is a consensus mechanism which selects a small number of Nodes as Attestor Nodes using proof of work at each round and determines the priority of Attestor Nodes accordingly.  The TrustME-PoW consensus algorithm is executed every 5 minutes, each time when a consensus is reached, no more than 20 Super Nodes will be selected as Attestor Nodes. These Attestor Nodes have the authority to send Attestation Units and are rewarded accordingly.</p>
 <p>TrustME-PoW is based on the Equihash algorithm, using BLAKE2 as the underlying hash function, to reduce the unfair advantages of ASIC mining, and to encourage equitable participation from more Super Nodes, thus making the probability distribution of Super Nodes becoming Attestor Nodes more reasonable.  The input of the Equihash algorithm include Current Round’s Number, Seeds, the Difficulty Factor and etc.  The Current Round Number begins at 0, incrementing by 1 after each round.  The Seeds of each round of consensus are calculated from the Seeds of the last round of consensus and the consensus results, which can be retrieved publicly and verified.  The Difficulty Factor is calculated from the average computing power of the whole network, and the average time interval of consensus is controllable by adjusting the Difficulty Factor.</P>
 <p>Attestation Units must comply with the previously mentioned Unit inter-reference rules.  The Attestation Unit can only reference unstable Unit and must validate the Units it references, and the correctness of the "Child-Parent" relationship, until the stable MC unit is verified.  Attestation Units are encouraged to reference multiple Best Parent Units that are not stable yet, thus to accelerate the stabilization of the Units and promote DAG-ledger’s forward advancement and convergence.</p>
 <p>Only when the Attestation Unit becomes the Unit on the MC, the corresponding attestation reward can be obtained.  In a consensus round, the Attestation Units on the MC calculate their proportion of current consensus round’s attestation reward according to the number of effective references.  When each Attestation Unit becomes the MC Unit and stabilizes, the Attestation Unit’s effective references are calculated.</p>  
 
-<h2><a id="TRUSTME-BA"></a>TrustME-BA</h2>
+<h2><a id="TRUSTME-BA"></a>4.7. TrustME-BA</h2>
 <p>TrustME-BA is a consensus mechanism based on Verifiable Random Function (VRF) and Byzantine Agreement (BA) algorithm, it randomly selects a small number of Super Nodes as Attestor Nodes and determines the priority of the Attestor Nodes.</P>
 <p>TrustME-BA is executed once every minute, and every time when a consensus is reached, a number of Super Nodes will be selected as Attestor Nodes in random.  Attestor Nodes have the authority to send Attestation Units which must comply with DAG consensus’ Parent-Child inter-reference rule.  Once the Attestation Unit sent by the Attestor Node stabilizes on the MC, the Attestor Node will get the attestation reward.  When transactions are active and new Units continued to be generated, Attestor Nodes will receive their Attestation rewards in a short time.  When the transactions are less active or even in the worst cases when there is no new Units been generated in the current BA round, Attestor Node will receive its attestation reward after their Attestation Units become stable MC units.</p>
 
-<h3><a id="Design-Goals"></a>Design Goals</h3>
+<h3><a id="Design-Goals"></a>4.7.1. Design Goals</h3>
 <p>TrustME-BA consensus mechanism is designed to achieve the following two goals:</p>
 <h4>Security</h4>
 <p>With significant probability, all Super Nodes will agree on the set of selected Attestor Nodes, which means when most of the honest Super Nodes accept a consensus result, then any consensus processes in the future can be traced back to this consensus result.  TrustME-BA assumes: </p>
@@ -522,7 +522,7 @@ When traveling back, all MCs will come to some point, this point and any previou
 <h4>Robustness</h4>
 <p>Beyond Security goals, TrustME-BA assumes network reachability to rigorously determine the priorities among Attestor Nodes.  This goal is that all Super Nodes can reach a consensus on a new set of Attestor Nodes selected within one minute.  To establish a robust platform, TrustME-BA makes a strong synchronization assumption that all honest Super Nodes send messages to most of other honest Nodes within a known time frame.  This assumption acknowledges that an attacker may control some of the honest Super Nodes, but he cannot control the entire network in a large scale nor divide the network.</p>  
 
-<h3><a id="Final-Consensus-and-Tentative-Consensus"></a>Final Consensus and Tentative Consensus</h3>
+<h3><a id="Final-Consensus-and-Tentative-Consensus"></a>4.7.2. Final Consensus and Tentative Consensus</h3>
 <p>TrustME-BA has two types of consensus status:  </p>
 <ul>
   <li>Final consensus</li>
@@ -531,7 +531,7 @@ When traveling back, all MCs will come to some point, this point and any previou
 <p>When a Super Node reaches final consensus, it means that any other Super Nodes also reached final consensus.  In other words, Super Nodes in the same round must agree on the same consensus result (tentative consensus), regardless of the strong synchronization assumption.  Tentative consensus means that some Super Nodes may have reached a tentative consensus on other Attestation Units, and no Super Node has reached the final consensus.  All Attestation Units must directly or indirectly reference the Attestation Units that were generated before, which ensures the security of TrustME-BA.</p>
 <p>There are 2 cases where TrustME-BA may reach tentative consensus.  In the first case scenario (with low probability), if the network is strongly synchronized, an attacker may, let TrustME-BA reaches tentative consensus.  In this case, TrustME-BA will not reach final consensus, and will not confirm that the network has strong synchronization.  But after a few rounds, it is highly probable that the final consensus will be reached.  In the second case, if the network is weakly synchronized and the entire network is compromised by the attacker, in such case TrustME-BA can reach tentative consensus and selects different sets of Attestor Nodes, multiple consensus forks are formed.  This will prevent TrustME-BA from reaching final consensus, because the Super Nodes are divided into different groups, and the groups do not agree with each other.  In order to start the activity again, TrustME-BA will be executed periodically until the disagreement is resolved.  Once the network returns to strong synchronization status, final consensus will be reached in a short period of time.</p>
 
-<h3><a id="Lottery-Algorithm"></a>Lottery Algorithm</h3>
+<h3><a id="Lottery-Algorithm"></a>4.7.3. Lottery Algorithm</h3>
 <p>The lottery algorithm is constructed on the basis of a Verifiable Random Function (VRF) that selects a random subset of Super Nodes based on the weightings of each Super Node participating in the TrustME-BA consensus.  The probability of a Super Node being selected is approximately the same as the ratio of its own weighting to total weighting.  The randomness of the lottery comes from the VRF and a publicly verifiable random seed.  Each Super Node can verify whether it is selected using the random seed.</p>
 <p>Definition of VRF:  Given an arbitrary string, the VRF outputs the hash value and the result of the proof.</p>
 </font>
@@ -549,11 +549,11 @@ When traveling back, all MCs will come to some point, this point and any previou
 <p>The hash value (hash) is uniquely determined by the private key (sk) and the given string (seed||role), hash is not distinguishable from a random number without knowing the sk. The result of the proof π enables those Nodes who know the public key corresponding to the sk can verify whether hash is associated with seed or not.  seed is randomly selected and publicly available, the seed of each round is generated from the seed of previous round.  The lottery algorithm supports role assignment, such as selecting participants at a certain point during the consensus process.</p>
 <p>All Super Nodes execute the lottery algorithm to determine whether they are authorized Attestors.  The selected Super Nodes broadcast their lottery results to other Super Nodes through the P2P network.  Note in order to defend against a Sybil attack, the probability of selecting a Super Node by lottery is directly proportional to the Super Node's own weighting.  A Super Node with a high weighting may be selected multiple times, for which the lottery algorithm will report the number of the Super Node been selected.  If a Super Node is selected multiple times, it will be treated as multiple different Super Nodes.</p>
 
-<h3><a id="Byzantine-Agreement"></a>Byzantine Agreement</h3>
+<h3><a id="Byzantine-Agreement"></a>4.7.4. Byzantine Agreement</h3>
 <p>The Byzantine Agreement (BA) negotiates and decides the attesting priority for each selected Super Node and provides such proof.  There are several steps that need to be taken to reach an agreement and the BA algorithm will be executed multiple times.  Each negotiation starts with a lottery and all Super Nodes check if they are selected to participate in the current BA; the participants broadcast a message containing the choice of attesting priority; then each Super Node initializes the BA algorithm with the set of Attestor Nodes they collected.  These steps are repeated until there are enough participants to reach consensus at a given step.  The above steps are not synchronized among the Super Nodes, and each Super Node immediately checks the result of the new participant’s selection after the previous steps end.</p>
 <p>An important feature of the BA algorithm is that participants do not maintain its private state except saving the private keys, therefore, the participants can be replaced after each step to reduce the attack to the participants.  When the network is strongly synchronized, the BA algorithm ensures that if all the honest Super Nodes are initialized with the same content, final consensus can be reached with very few steps.  In the case of a strongly synchronized network, if there is a small number of attackers, all honest users can still reach final consensus within limited steps.</p>
 
-<h1><a id="SMART-CONTRACT"></a>SMART CONTRACT</h1>
+<h1><a id="SMART-CONTRACT"></a>5. SMART CONTRACT</h1>
 
 <p>TrustNote has non-Turing-complete declarative Smart Contracts designed to interpret the expectations of the contracts, to support Boolean operations while increasing the support for variable operations, contract data access and it does not support stacks and jump instructions. Therefore, it does not only retain the benefits of a declarative contracting language such as being easy to understand, and having strong security, furthermore enhances the expression of the contracting language.  TrustNote also improves the storage capabilities for Smart Contracts’ internal data, hence greatly improving the support to complex application scenarios. Comparing with Turing-complete Smart Contracts (e.g. Solidity), TrustNote enjoys the advantages of low complexity, light weight and high performance smart contracts, while making it easier to write the contracts with less probability of making errors.</p>
 <p>There is no “account” in TrustNote, TTT is stored in the form of Unspent Transaction Output (UTXO) at the address of a tamper-resistant distributed ledger.  In TrustNote Smart Contracts, an address is defined as a Boolean expression that its value can be “true” or “false”.  If the signature provided by the transaction is valid and generated by the private key corresponding to this public key, the result of this expression is equal to “true”, otherwise it will be evaluated as “false”.  All expressions in a Smart Contract eventually result in a Boolean value, and multiple Boolean expressions can be combined using Boolean operations. 
@@ -698,7 +698,7 @@ For example, the following definition requires two signatures:</P>
 
 <p>The first “or” alternative allows the user to get back his Note and cancel his order whenever he wants.  The second alternative commissions the market and authorizes it to spend money, provides another output on the same transaction to pay least money for 1,200 units’ alternative asset to the user's address.  The market will publish the list of orders, allowing sellers to discover the list of orders, make a transaction that can exchange the assets, and co-sign with the market.</p>
 
-<h1><a id="TRUSTNOTE-PLATFORM-AND-APPLICATIONS"></a>TRUSTNOTE PLATFORM AND APPLICATIONS</h1>
+<h1><a id="TRUSTNOTE-PLATFORM-AND-APPLICATIONS"></a>6. TRUSTNOTE PLATFORM AND APPLICATIONS</h1>
 
 <p>Issuing and trading tokens are one of the key applications in blockchain technology, but from a practical point of view, trading any tokens must be supported by low-level wallet software, and the wallet software must be upgraded when a new type of token is issued, or new transaction types are added, because the old wallet may not support new tokens or new features.  Ethereum is a very good platform which supports issuing new tokens, defining transaction types, etc., however writing Smart Contracts for Ethereum requires specialized expertise which is not easy, Turing-complete Smart Contracts appear to be too heavy and error-prone for many simple asset-based applications such as issuing and trading tokens.  "The DAO Attack" incident is not by accident, the security of Smart Contracts and the ease of writing applications need more attention, the recent “CryptoKitties congestion” incident also echo the evidence that Ethereum's transaction performance needs to be further improved.</p>
 <p>The TrustNote Development Team is committed to moving forward along the roadmap established in the early stages of the project.  Driven by technological innovation and supported by the open-source community, TrustNote will keep focus on creating an easy-to-use, decentralized, low-level blockchain allowing new innovative ideas to run smoothly on the blockchain network, making user friendly blockchain applications accessible to everyone.</p>
@@ -767,7 +767,7 @@ For example, the following definition requires two signatures:</P>
 		<li>Resource Sharing:  Make full use of idle resources.</li></ul>
 	</ul>
 
-<h1><a id="ISSUANCE-AND-DISTRIBUTION"></a>ISSUANCE AND DISTRIBUTION</h1>
+<h1><a id="ISSUANCE-AND-DISTRIBUTION"></a>7. ISSUANCE AND DISTRIBUTION</h1>
 <ul>
  	<li>TrustNote’s crypto-currency is called “TTT”, and “Note” is the unit of TTT, often specified in Mega Notes (MN);</li>
 	<li>Total Issuance: 1,000,000,000 (10<sup>9</sup>) MN, fixed supply;</li>
@@ -804,7 +804,7 @@ For example, the following definition requires two signatures:</P>
 <div align="justify">
 <font face="cambria" size="3">
 
-<h1><a id="REFERENCES"></a>References</h1>
+<h1><a id="REFERENCES"></a>8. References</h1>
 <uL>
 <p>1. Bitcoin Computation Waste, http://gizmodo.com/the-worlds-most-powerful-computer -network-is-being-was-50403276. 2013.</p>
 <p>2. Bitcoin wiki. Proof of Stake. http://www.blockchaintechnologies.com/blockchain-applications. As of 11 Aug 2017.</p>
