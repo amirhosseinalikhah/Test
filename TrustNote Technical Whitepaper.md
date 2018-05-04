@@ -107,9 +107,25 @@
 <h1><a id="WHAT-IS-TRUSTNOTE?"></a>WHAT IS TRUSTNOTE?</h1>
 <p>TrustNote is a minable public DAG-ledger with an innovative, two-tier consensus mechanism designed for new applications such as digital tokens issuance, blockchain games and social networks, its digital token is called “TTT”.  TrustNote's goal is to be Light, Fast, and Trust.  "Light" means TrustNote has a light architecture and intelligent contracting system that supports lightweight application extensions and micro wallets; "Fast" means TrustNote supports high concurrency transactions, enjoys fast transaction confirmation, and makes distributed application (DApp) development and deployment much easier; "Trust" means creating a platform that allows new innovative ideas to run smoothly on the ledger, and making user-friendly DApps  accessible to everyone.</p>
 
+<h2><a id="KEY-FEATURES"></a>Key Features</h2>
+<ul>
+ 	<li>Two-tier consensus mechanism, a minable public DAG-ledger </li>
+ 	<li>Supports high concurrency transactions, benefits from fast transaction confirmation</li>
+ 	<li>Supports advanced declarative Smart Contracts</li>
+ 	<li>Token issuance system</li>
+ 	<li>Cryptographic Algorithm: BLAKE2, EdDSA</li>
+ 	<li>Multi-platform wallet, light wallet, micro wallet, support third-party extensions</li>
+</ul>
 
-
-
+<h2><a id="DIRECTED-ACYCLIC-GRAPH"></a>Directed Acyclic Graph</h2>
+<p>A Directed Acyclic Graph (DAG), is a finite directed graph with no directed cycles. It consists of finitely many vertices and edges, with each edge directed from one vertex to another, such that there is no way to start at any vertex V and follow a consistently-directed sequence of edges that eventually loops back to V again.  The use of the DAG data structure to store ledger data is gradually getting more developers’ attention.  Projects like IOTA and Byteball have successfully established stable public-ledgers using DAG, the feasibility of a DAG-ledger is proven.</p>
+<p>In TrustNote terms, transactions are viewed as messages. Various types of messages are supported, multiple messages can be combined into a data block which is called a “Unit”, and a DAG is formed by inter-referenced Units.  Since each Unit can reference any previous Unit or multiple previous Units, there is no need to spend more computing power and time for solving the consensus problem, nor need to wait for the completion of strong inter-node data synchronization, and because there is no need to assemble multiple Units into blocks, the performance of concurrent transactions is considerably improved and the confirmation delay are reduced to minimum.</p>
 </font>
 </div>
+
+<div align="center">
+<p><a target="_blank" href="Docs/DAG.png"><img align="center" src="Docs/DAG.png"></a></p>
+</div>
+
+
 </html>
