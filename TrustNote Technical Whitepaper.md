@@ -698,7 +698,7 @@ For example, the following definition requires two signatures:</P>
 
 <p>The first “or” alternative allows the user to get back his Note and cancel his order whenever he wants.  The second alternative commissions the market and authorizes it to spend money, provides another output on the same transaction to pay least money for 1,200 units’ alternative asset to the user's address.  The market will publish the list of orders, allowing sellers to discover the list of orders, make a transaction that can exchange the assets, and co-sign with the market.</p>
 
-<h1><a id="TRUSTNOTE-PLATFORM-AND-APPLICATIONSt"></a>TRUSTNOTE PLATFORM AND APPLICATIONS<h1><a id="Byzantine-Agreement"></a>
+<h1><a id="TRUSTNOTE-PLATFORM-AND-APPLICATIONSt"></a>TRUSTNOTE PLATFORM AND APPLICATIONS</h1>
 
 <p>Issuing and trading tokens are one of the key applications in blockchain technology, but from a practical point of view, trading any tokens must be supported by low-level wallet software, and the wallet software must be upgraded when a new type of token is issued, or new transaction types are added, because the old wallet may not support new tokens or new features.  Ethereum is a very good platform which supports issuing new tokens, defining transaction types, etc., however writing Smart Contracts for Ethereum requires specialized expertise which is not easy, Turing-complete Smart Contracts appear to be too heavy and error-prone for many simple asset-based applications such as issuing and trading tokens.  "The DAO Attack" incident is not by accident, the security of Smart Contracts and the ease of writing applications need more attention, the recent “CryptoKitties congestion” incident also echo the evidence that Ethereum's transaction performance needs to be further improved.</p>
 <p>The TrustNote Development Team is committed to moving forward along the roadmap established in the early stages of the project.  Driven by technological innovation and supported by the open-source community, TrustNote will keep focus on creating an easy-to-use, decentralized, low-level blockchain allowing new innovative ideas to run smoothly on the blockchain network, making user friendly blockchain applications accessible to everyone.</p>
@@ -715,9 +715,35 @@ For example, the following definition requires two signatures:</P>
 </font>
 </div>
 
+<div align="justify">
+<font face="cambria" size="3">
+	
+<ul>
+<li>Main Chain and the Multi-Platform Wallet:  Build the Main Chain, develop basic version of wallet and release it to the public, and token issuance;</li>
+<li>Open Source:  TrustNote is an open-source project and will be hosted on Github.  The first Github release is scheduled on Q1 2018.  A development team will be set up including TrustNote employees and community developers.  Every developer can contribute to the project and the changes will be submitted by the development team upon code review;</li>
+<li>Developer Community: Communicate with developers, receive questions and bug reports, publish software releases, technical articles and roadmaps, integrate the most advanced blockchain technologies by interacting with the world blockchain development community;</li>
+	</ul>
+	
+ <ul>
+	<li>Wallet Evolution:</li>
+ 	<ul><lu>Multi-platform: Use cross-platform language Node.js for development, support multiple platforms such as Windows, Mac OS, Linux, Android, iOS, Chrome, Firefox, ensure safety usage of wallet inside web browser;</li>
+ 	<li>Micro-wallet: TrustNote team is committed to develop the wallet for Internet-of-Things (IoT) including micro-wallet protocols and micro-wallet application clients for IoT devices.  Rust, a concurrent and efficient system programming language is selected to develop micro-wallet protocols and micro-wallet clients. It could fundamentally resolve the problems exists on IoT devices, such as lack of computing and storage resources, and inability to complete autonomous value exchange between devices etc., to ultimately empower IoT devices with blockchain technology.</li></ul>
+	</ul>
+
+<ul>
+	<li>Crypto-Token Platform:</li>
+ 	<ul><li>Customized token issue, distribute, trade, destroy, manages the entire life cycle of crypto-token;</li>
+ 	<li>Decentralized Token exchange, registration free, supports anonymous transactions;</li>
+ 	<li>Support Bitcoin, Ethereum, Litecoin, Dash and many other mainstream crypto-currency wallets;</li>
+ 	<li>Unify Token Wallet (TrustNote wallet) manages user issued assets, the transaction consumes TTT, the actual transaction costs equal to the bytes the transaction consumed;</li>
+ 	<li>Two-layer consensus mechanism ensures security while supports fast transaction confirmation. The higher the concurrency is, the shorter the time of transaction confirmation is;</li>
+ 	<li>Support third-party application extensions, asset-based application scenarios can be created using Smart Contracts and data provided by trusted third-party.  App extensions can be downloaded from the wallet application market.</li></ul>
+	</ul>
 
 
 
+</font>
+</div>
 
 
 
