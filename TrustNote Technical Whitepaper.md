@@ -87,7 +87,7 @@
   <p><a href="#TRUSTNOTE-PLATFORM-AND-APPLICATIONS">6. TRUSTNOTE PLATFORM AND APPLICATIONS</a></p>
   <p><a href="#ISSUANCE-AND-DISTRIBUTION">7. ISSUANCE AND DISTRIBUTION</a></p>
   <p><a href="#REFERENCES">8. REFERENCES</a></p>
-<ul>
+</ul>
 </font>
 </div>
 
