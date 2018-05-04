@@ -285,7 +285,7 @@ messages:[{
   }
 }]
 ```
-<h3>Text (app = text)<h3>
+<h3>Text (app = text)</h3>
 <p>“<b>Text</b>” messages are used to hold arbitrary string data.</p>
 
 ```JavaScript
@@ -297,7 +297,7 @@ messages:[{
 }]
 ```
 
-<h3>Structured Data (app = data)<h3>
+<h3>Structured Data (app = data)</h3>
 <p>“<b>Structured Data</b>” messages are used to store arbitrary structured data</p>
 
 ```JavaScript
@@ -311,7 +311,7 @@ messages:[{
 }]
 ```
 
-<h3>Data Feed (app = data_feed)<h3>
+<h3>Data Feed (app = data_feed)</h3>
 <p>“<b>Data Feed</b>” messages are sent by trusted third parties to trigger Smart Contract.</p>
 
 ```JavaScript
@@ -326,7 +326,7 @@ messages:[{
 }]
 ```
 
-<h3>Address Definition Change (app = address_definition_change)<h3>
+<h3>Address Definition Change (app = address_definition_change)</h3>
 <p>“<b>Address Definition Change</b>” messages are used to update the address definition while retain the old address.</p>
 
 ```JavaScript
@@ -336,7 +336,7 @@ messages:[{
 }]
 ```
 
-<h3>Asset Definition (app = asset)<h3>
+<h3>Asset Definition (app = asset)</h3>
 <p>“<b>Asset Definition</b>” messages are used to define new digital assets.</p>
 
 ```JavaScript
