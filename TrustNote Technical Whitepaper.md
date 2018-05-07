@@ -265,7 +265,7 @@ messages:[{
   payload_hash: 'Hash of Payload',
   payload: {
     round: 'Round Number',
-    PoW_solution: 'The PoW Unit Hash,
+    PoW_solution: 'The PoW Unit Hash',
     priority: 'Priority of Attestor',
     coinbase of  (i - 2)th round：[
       {address: ‘...’, amount: 21 MN},
