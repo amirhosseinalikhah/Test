@@ -4,7 +4,7 @@
   
 <h1><p><b>TrustNote Technical White Paper</b></p></h1>
 
-<p><a target="_blank" href="Docs/1000.png"><img align="center" src="Docs/1000.png" max-width:25% max-height:25%></a></p>
+<p><a target="_blank" href="Docs/1000.png"><img align="center" src="Docs/1000.png" max-width:100 max-height:100></a></p>
 
 <p><b>FAST ∙ SCALABLE ∙ DEVELOPER FRIENDLY</b></p>
 
