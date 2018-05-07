@@ -223,7 +223,7 @@
 | Field Name | Definition | Remarks |
 | --- | :---: | :---: |
 | <b>app</b> | Message type |	e.g. “payment” or “text”, for more information please see 2.2 |
-| <b>payload_location</B> | Location of the message body |	“inline” indicates the message body is stored in the current message; “uri” indicates | the message body is retrievable from a URL address; “none” indicates there is no message body
+| <b>payload_location</B> | Location of the message body | “inline” indicates the message body is stored in the current message; “uri” indicates the message body is retrievable from a URL address; “none” indicates there is no message body |
 | <b>payload_hash</b> |	Hash value of the message body	|   |
 | <b>Payload</b> | Message body	| Various message types are used to kept different data format, e.g. a transaction message includes various number of input and output |
 | <b>payload_input</b> | Message input array	| Includes the hash value of the Unit who generated the message, message index, output index etc. |
