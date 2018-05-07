@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-<font face="cambria" size=45pt">	
+<font face="cambria" size=45px">	
 <p><b>Technical White Paper</b></p>
 </font>
 </div>
