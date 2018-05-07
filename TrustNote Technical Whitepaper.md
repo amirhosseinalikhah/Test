@@ -193,6 +193,7 @@
 <p><b>Table 3-1 Field Definition of Unit</b></p>
 </div>
 
+<div>
 <center>
   
  | Field Name |	Definition |	Remarks |
@@ -204,7 +205,7 @@
  | <b>parent_units</b> |	Parent Unit’s hash array |	Hash values of the Unit’s parent/parents |
 
 </center>
-
+</div>
 <div align="justify">
 <font face="cambria" size="3"> 
 
