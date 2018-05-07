@@ -4,9 +4,9 @@
   
 <h1><p><b>TrustNote Technical White Paper</b></p></h1>
 
-<p><b>FAST ∙ SCALABLE ∙ DEVELOPER FRIENDLY</b></p>
-
 <p><a target="_blank" href="Docs/ICO.png"><img align="center" src="Docs/ICO.png"></a></p>
+
+<p><b>FAST ∙ SCALABLE ∙ DEVELOPER FRIENDLY</b></p>
 
 <h2><p><b>TrustNote Institute of Technology</b></p></h2>
 
