@@ -197,7 +197,7 @@
 <center>
   
  | Field Name |	Definition |	Remarks |
- | :---: | :---: | :---: |
+ | :---: | :---: | :------------------------------: |
  | <b>version</b> |	TrustNote protocol version number |	e.g. ‘1.0’ |
  | <b>alt</b> |	Token identification |	e.g. ‘1’ |
  | <b>messages</b> |	Message array |	for more information please see 2.2 |
