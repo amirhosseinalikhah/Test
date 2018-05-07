@@ -196,12 +196,12 @@
 <div align="center">
   
  | Field Name |	Definition |	Remarks |
- | :---: | :---: | :--- |
- | version |	TrustNote protocol version number |	e.g. ‘1.0’ |
- | alt |	Token identification |	e.g. ‘1’ |
- | messages |	Message array |	for more information please see 2.2 |
- | authors |	Author array |	Address array of the Unit’s author/authors |
- | parent_units |	Parent Unit’s hash array |	Hash values of the Unit’s parent/parents |
+ | :---: | :---: | :---: |
+ | <b>version</b> |	TrustNote protocol version number |	e.g. ‘1.0’ |
+ | <b>alt</b> |	Token identification |	e.g. ‘1’ |
+ | <b>messages</b> |	Message array |	for more information please see 2.2 |
+ | <b>authors</b> |	Author array |	Address array of the Unit’s author/authors |
+ | <b>parent_units</b> |	Parent Unit’s hash array |	Hash values of the Unit’s parent/parents |
 
 </div>
 
