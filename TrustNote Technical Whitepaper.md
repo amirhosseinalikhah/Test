@@ -159,7 +159,7 @@
 <div align="center"> 
   
 |  |	<b>IOTA</b> |	<b>Byteball</b>	| <b>TrustNote</b> |
-| :---: | :---: | :---: | :---: |
+| --- | :---: | :---: | :---: |
 | <b>Token</b>	| IOTA	| Byte |	TTT |
 | <b>Consensus Mechanism</b> |	PoW Cumulative Weight |	12 Witnesses |	Decentralized TrustME Consensus Mechanism |
 | <b>Smart Contract</b>	| No |	Declarative Contract |	Advanced Declarative Contract |
