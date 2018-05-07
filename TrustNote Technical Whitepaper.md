@@ -117,7 +117,7 @@
 </div>
 
 <div align="center">
-<p><a target="_blank" href="Docs/MCS.png"><img align="center" src="Docs/MCS.png"></a></p>
+<p><a target="_blank" href="Docs/MSCM.png"><img align="center" src="Docs/MSCM.png"></a></p>
   <p><b>Figure 2-2 Main Chain (MC)</b></p>
 </div>
 
