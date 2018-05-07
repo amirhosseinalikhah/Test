@@ -1,18 +1,8 @@
 <html>
 <div align="center">
-<font face="cambria">
-  
-<h1><p><b>Technical White Paper</b></p></h1>
 
-<p><a target="_blank" href="img/LOGO.png"><img align="center" src="img/LOGO.png"></a></p>
+<p><a target="_blank" href="img/CVR01.png"><img align="center" src="img/CVR01.png"></a></p>
 
-<p><b>FAST ∙ SCALABLE ∙ DEVELOPER FRIENDLY</b></p>
-
-<h2><p><b>TrustNote Institute of Technology</b></p></h2>
-
-<h4><p><b>May 2018</b></p></h4>
-
-</font>
 </div>
 
 ------
@@ -114,7 +104,7 @@
 </div>
 
 <div align="center">
-<p><a target="_blank" href="img/DAG.png"><img align="center" src="img/DAG.png"></a></p>
+<p><a target="_blank" href="img/DAGM.png"><img align="center" src="img/DAGM.png"></a></p>
   <p><b>Figure 2-1 DAG Graph</b></p>
 </div>
 
@@ -127,7 +117,7 @@
 </div>
 
 <div align="center">
-<p><a target="_blank" href="img/MCS.png"><img align="center" src="img/MCS.png"></a></p>
+<p><a target="_blank" href="img/MSCM.png"><img align="center" src="img/MSCM.png"></a></p>
   <p><b>Figure 2-2 Main Chain (MC)</b></p>
 </div>
 
