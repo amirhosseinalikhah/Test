@@ -1,19 +1,12 @@
 <html>
 <div align="center">
-
+<font face="cambria">	
   
 <p><a target="_blank" href="Docs/LOGO.png"><img align="center" src="Docs/LOGO.png"></a></p>
 
-</div>
 
-<div align="center">
-<font face="cambria" size=45px">	
-<p><b>Technical White Paper</b></p>
-</font>
-</div>
-	      
-<div align="center">
-<font face="cambria">
+<h1><p><b>Technical White Paper</b></p></h1>
+
 
 <p><b>FAST ∙ SCALABLE ∙ DEVELOPER FRIENDLY</b></p>
 
