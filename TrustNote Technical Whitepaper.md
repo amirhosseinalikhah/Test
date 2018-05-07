@@ -4,7 +4,7 @@
   
 <p><a target="_blank" href="Docs/LOGO.png"><img align="center" src="Docs/LOGO.png"></a></p>
 
-<p><font face="cambria" size="15"><b>Technical White Paper</b></font></p>
+<p><font face="cambria" size="70"><b>Technical White Paper</b></font></p>
 
 <p><b>FAST ∙ SCALABLE ∙ DEVELOPER FRIENDLY</b></p>
 
