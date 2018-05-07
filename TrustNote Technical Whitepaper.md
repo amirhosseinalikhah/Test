@@ -101,7 +101,7 @@
  	<li>Supports high concurrency transactions, benefits from fast transaction confirmation.</li>
  	<li>Supports advanced declarative Smart Contracts.</li>
  	<li>Token issuance system.</li>
- 	<li>Cryptographic Algorithm: BLAKE2, BIP32-Ed25519.</li>
+ 	<li>Cryptographic Algorithm: BLAKE2, BIP32-Ed25519 (For more in depth information about TrustNote Cryptographic Algorithms please, visit <a href="https://github.com/trustnote/document/blob/master/TrustNote-TR-2018-01.pdf" target="_blank" rel="external">TrustNote-TR-01 Report</a>).</li>
  	<li>Multi-platform wallet, light wallet, micro wallet, support third-party extensions.</li>
 </ul>
 
