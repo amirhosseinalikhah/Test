@@ -178,7 +178,7 @@
 <h1><a id="DATA-STRUCTURES"></a>3. DATA STRUCTURES</h1>
 
 <h2><a id="UNIT"></a>3.1. Unit</h2>
-<p>When a Node initiates a transaction or sends a message, it creates a new data block called a "Unit" and broadcasts the Unit to its peers.  A Unit may contain multiple messages of various types, each Unit contains the following information:</p>
+<p>When a Node initiates a transaction or sends a message, it creates a new data block called a "<b>Unit</b>" and broadcasts the Unit to its peers. A Unit may contain multiple messages of various types, each Unit contains the following information:</p>
 <ul>
   <li>Header: The hash value of the previous Unit (parent).</li>
 <li>Messages: A Unit contains one or more messages, there are various types of message, and each message type has its own unique data structure.</li>
