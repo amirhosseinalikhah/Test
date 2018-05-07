@@ -485,7 +485,7 @@ messages:[{
  	<li>TTT: Holds certain amount of tokens to pay the unit fee for PoW units and TrustME units it generates.</li>
  	<li>Credibility: Has a good reputation on the network in submitting valid Units.</li>
 </ul>
-<p>A Super Node can generate the PoW unit and receive Attestation power and become an Attestor by fitting in certain conditions (Please, see <a href="https://github.com/trustnote/document/blob/master/TrustNote-TR-2018-02.pdf" target="_blank" rel="external">TrustNote-TR-2018-02</a>). Attestors will get an Attestation Reward by sending TrustME Units and earn Attestation fees as well.</p>
+<p>A super node must generate the deposit contract and pay it to start its activity on the network, the deposit will be returned to the super node defined address as soon as the silent-locking time would ends. Super Node can generate the PoW unit and receive Attestation power and become an Attestor by fitting in certain conditions. Attestors will get an Attestation Reward by sending TrustME Units and earn Attestation fees as well. For more information about the network topology, nodes taxonomy and so on, please, see <a href="https://github.com/trustnote/document/blob/master/TrustNote-TR-2018-02.pdf" target="_blank" rel="external">TrustNote-TR-2018-02</a>).</p>
   
 <h2><a id="UNIT-INTER-REFERENCE"></a>4.2. Unit Inter-Reference</h2>
 
