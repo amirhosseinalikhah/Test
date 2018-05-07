@@ -2,9 +2,9 @@
 <div align="center">
 <font face="cambria">
   
-<h1><p><b>Technical White Paper</b></p></h1>
-
 <p><a target="_blank" href="Docs/LOGO.png"><img align="center" src="Docs/LOGO.png"></a></p>
+
+<<p><b><font size="15">Technical White Paper</font></b></p>
 
 <p><b>FAST ∙ SCALABLE ∙ DEVELOPER FRIENDLY</b></p>
 
