@@ -104,34 +104,34 @@
 <p>IOTA and Byteball both developed their own public DAG-ledgers in 2016 to accommodate high-frequency trading scenarios.  However, the downside is that although DAG-ledger supports high-frequency trading, in the case of low-frequency trading, the old transaction cannot get enough new transactions to verify and reference, resulting in the old transaction not being confirmed in time, in extreme cases the transaction may never get confirmed.  To address this problem, IOTA proposes a temporary centralized actor called coordinator, which is used to protect the network when the volume of transactions is low, however IOTA does not disclose the design details of such coordinator; Byteball introduces 12 witnesses, implementing transaction confirmation via witness attestation, although Byteball claims its users have the right to choose their own witness, but the transaction quoting rules make it very difficult for users to change witnesses if they choose to do so. TrustNote resolved all these issues by proposing a robust and innovative design. </p>
 
 <h1><a id="WHAT-IS-TRUSTNOTE?"></a>2. WHAT IS TRUSTNOTE?</h1>
-<p>TrustNote is a minable public DAG-ledger with an innovative, two-tier consensus mechanism designed for new applications such as digital tokens issuance, blockchain games and social networks, its digital token is called “TTT”.  TrustNote's goal is to be Light, Fast, and Trust.  "Light" means TrustNote has a light architecture and intelligent contracting system that supports lightweight application extensions and micro wallets; "Fast" means TrustNote supports high concurrency transactions, enjoys fast transaction confirmation, and makes distributed application (DApp) development and deployment much easier; "Trust" means creating a platform that allows new innovative ideas to run smoothly on the ledger, and making user-friendly DApps  accessible to everyone.</p>
+<p>TrustNote is a minable public DAG-ledger with an innovative, two-tier consensus mechanism designed for new applications such as digital tokens issuance, blockchain games and social networks, its digital token is called “<b>TTT</b>”.  TrustNote's goal is to be Fast, Scalable, and Developer Friendly. TrustNote has a light architecture and intelligent contracting system that supports lightweight application extensions and micro wallets. Even more, TrustNote supports high concurrency transactions, which results in fast transaction confirmation, and makes development and deployment of distributed application (DApp) much easier. Last but the best, TrustNote platform allows new innovative ideas to run smoothly on the ledger, and making user-friendly DApps accessible to everyone.</p>
 
 <h2><a id="KEY-FEATURES"></a>2.1. Key Features</h2>
 <ul>
- 	<li>Two-tier consensus mechanism, a minable public DAG-ledger </li>
- 	<li>Supports high concurrency transactions, benefits from fast transaction confirmation</li>
- 	<li>Supports advanced declarative Smart Contracts</li>
- 	<li>Token issuance system</li>
- 	<li>Cryptographic Algorithm: BLAKE2, EdDSA</li>
- 	<li>Multi-platform wallet, light wallet, micro wallet, support third-party extensions</li>
+ 	<li>Two-tier consensus mechanism, a minable public DAG-ledger. </li>
+ 	<li>Supports high concurrency transactions, benefits from fast transaction confirmation.</li>
+ 	<li>Supports advanced declarative Smart Contracts.</li>
+ 	<li>Token issuance system.</li>
+ 	<li>Cryptographic Algorithm: BLAKE2, BIP32-Ed25519.</li>
+ 	<li>Multi-platform wallet, light wallet, micro wallet, support third-party extensions.</li>
 </ul>
 
 <h2><a id="DIRECTED-ACYCLIC-GRAPH"></a>2.2. Directed Acyclic Graph</h2>
-<p>A Directed Acyclic Graph (DAG), is a finite directed graph with no directed cycles. It consists of finitely many vertices and edges, with each edge directed from one vertex to another, such that there is no way to start at any vertex V and follow a consistently-directed sequence of edges that eventually loops back to V again.  The use of the DAG data structure to store ledger data is gradually getting more developers’ attention.  Projects like IOTA and Byteball have successfully established stable public-ledgers using DAG, the feasibility of a DAG-ledger is proven.</p>
-<p>In TrustNote terms, transactions are viewed as messages. Various types of messages are supported, multiple messages can be combined into a data block which is called a “Unit”, and a DAG is formed by inter-referenced Units.  Since each Unit can reference any previous Unit or multiple previous Units, there is no need to spend more computing power and time for solving the consensus problem, nor need to wait for the completion of strong inter-node data synchronization, and because there is no need to assemble multiple Units into blocks, the performance of concurrent transactions is considerably improved and the confirmation delay are reduced to minimum.</p>
+<p>A Directed Acyclic Graph (DAG), is a finite directed graph with no directed cycles. It consists of finitely many vertices and edges, with each edge directed from one vertex to another, such that there is no way to start at any vertex V and follow a consistently-directed sequence of edges that eventually loops back to V again. The use of the DAG data structure to store ledger data is gradually getting more developers’ attention.  Projects like IOTA and Byteball have successfully established stable public-ledgers using DAG, the feasibility of a DAG-ledger is proven.</p>
+<p>In TrustNote terms, transactions are viewed as messages. Various types of messages are supported, multiple messages can be combined into a data block which is called a “<b>Unit</b>”, and a DAG is formed by inter-referenced Units.  Since each Unit can reference any previous Unit or multiple previous Units, there is no need to spend more computing power and time for solving the consensus problem, nor need to wait for the completion of strong inter-node data synchronization, and because there is no need to assemble multiple Units into blocks, the performance of concurrent transactions is considerably improved and the confirmation delay are reduced to minimum.</p>
 </font>
 </div>
 
 <div align="center">
 <p><a target="_blank" href="Docs/DAG.png"><img align="center" src="Docs/DAG.png"></a></p>
-  <p><b>2-1 DAG Graph</b></p>
+  <p><b>Figure 2-1 DAG Graph</b></p>
 </div>
 
 <div align="justify">
 
 <font face="cambria" size="3">
 
-<p>TrustNote uses the following technique to solve the double-spending problem .  First, try to find a Main Chain (MC) starting from Genesis Unit on the DAG and assign indexes to the Units that located on the MC, the Genesis Unit’s index is 0, and so on.  Second, for those Units that do not located on the MC, define their indexes equal to the first MC Unit references this Unit.  Eventually, every transaction on the DAG has an index.  If two transactions try to use the same output, we just need to compare the value of their indexes named Main Chain Index (MCI). The Unit with a smaller index is valid, the Unit with a larger index is invalid, and thus it solves the double-spending problem.  For example, when double-spending occurs (as shown in figure 2-2), after the MCIs are assigned to each transaction, we can determine the transaction whose MCI is 8 is valid, the other transaction whose MCI is 10 is rejected.</p>
+<p>TrustNote uses the following technique to solve the double-spending problem (double-spending is a problem unique to digital currency in which the same single digital token can be spent more than once). First, try to find a Main Chain (MC) starting from Genesis Unit on the DAG and assign indexes to the Units that located on the MC, the Genesis Unit’s index is 0, and so on.  Second, for those Units that do not located on the MC, define their indexes equal to the first MC Unit references this Unit. Eventually, every transaction on the DAG has an index.  If two transactions try to use the same output, we just need to compare the value of their indexes named Main Chain Index (MCI). The Unit with a smaller index is valid, the Unit with a larger index is invalid, and thus it solves the double-spending problem.  For example, when double-spending occurs (as shown in figure 2-2), after the MCIs are assigned to each transaction, we can determine the transaction whose MCI is 8 is valid, the other transaction whose MCI is 10 is rejected.</p>
 </font>
 </div>
 
@@ -144,10 +144,10 @@
 
 <font face="cambria" size="3">  
   
-<p>For security concerns, unlike Bitcoin’s blockchain which is guaranteed by the massive computing power of the network, DAG based TrustNote relies on the fast advance of transactions and the uncertainty of the relationship between the transactions as the "firewall", which leaves the entire system looks too lawless to be attacked.  TrustNote benefits from a two-tier consensus mechanism and an innovative TrustME Consensus Algorithm. Those Super Nodes that participate in the TrustME consensus and contribute to the healthy expansion of DAG-ledger will get the mining reward.</p>
+<p>For security concerns, unlike Bitcoin’s blockchain which is guaranteed by the massive computing power of the network, DAG based TrustNote relies on the fast advance of transactions and the uncertainty of the relationship between the transactions as the "<b>firewall</b>", which leaves the entire system looks too lawless to be attacked.  TrustNote benefits from a two-tier consensus mechanism and an innovative TrustME Consensus Algorithm. Those Super Nodes that participate in the TrustME consensus and contribute to the healthy expansion of DAG-ledger will get the mining reward.</p>
 
 <h2><a id="COMPARISON"></a>2.3. Comparison</h2>
-<p>Standing on the shoulders of giants, absorbs the advantages of existing blockchain projects and addresses their major issues, a more prosperous TrustNote platform becomes possible.  A comparison of current well-known DAG-ledgers (IOTA and Byteball) with TrustNote is shown in Table 2-1.</p>  
+<p>Standing on the shoulders of giants, absorbs the advantages of existing blockchain projects and addresses their major issues, a more prosperous TrustNote platform becomes possible. A comparison of current well-known DAG-ledgers (IOTA and Byteball) with TrustNote is shown in Table 2-1.</p>  
   
 </font>
 </div>
@@ -162,8 +162,8 @@
 | :---: | :---: | :---: | :---: |
 |Token	| IOTA	| Byte |	TTT |
 |Consensus Mechanism |	PoW Cumulative Weight |	12 Witnesses |	Decentralized TrustME Consensus Mechanism |
-|Smart Contract	| N/A |	Declarative Contract |	Advanced Declarative Contract |
-|Reward	| N/A	| Transaction Reference and Attestation	| Transaction Reference and Mining |
+|Smart Contract	| No |	Declarative Contract |	Advanced Declarative Contract |
+|Reward	| No	| Transaction Reference and Attestation	| Transaction Reference and Mining |
 |Nodes	| Full Node, Light Node	| Full Node, Light Node |	Super Node, Full Node, Light Node, Micro Node |
 |Transaction Fee |	No |	Yes |	Yes|
 |Double Spending | 	PoW Weight Comparison |	Main Chain Sequencing |	Main Chain Indexing|
@@ -190,19 +190,18 @@
 </div>
 
 <div align="center">
-  
 <p><b>Table 3-1 Field Definition of Unit</b></p>
 </div>
 
 <div align="center">
   
-| Field Name |	Definition |	Remarks |
-| :---: | :---: | :--- |
-| version |	TrustNote protocol version number |	e.g. ‘1.0’ |
-| alt |	Token identification |	e.g. ‘1’ |
-| messages |	Message array |	for more information please see 2.2 |
-| authors |	Author array |	Address array of the Unit’s author/authors |
-| parent_units |	Parent Unit’s hash array |	Hash values of the Unit’s parent/parents |
+ | Field Name |	Definition |	Remarks |
+ | :---: | :---: | :--- |
+ | version |	TrustNote protocol version number |	e.g. ‘1.0’ |
+ | alt |	Token identification |	e.g. ‘1’ |
+ | messages |	Message array |	for more information please see 2.2 |
+ | authors |	Author array |	Address array of the Unit’s author/authors |
+ | parent_units |	Parent Unit’s hash array |	Hash values of the Unit’s parent/parents |
 
 </div>
 
