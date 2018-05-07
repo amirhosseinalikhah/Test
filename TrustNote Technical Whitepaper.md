@@ -104,7 +104,7 @@
 </div>
 
 <div align="center">
-<p><a target="_blank" href="Docs/DAG.png"><img align="center" src="Docs/DAG.png"></a></p>
+<p><a target="_blank" href="Docs/DAGM.png"><img align="center" src="Docs/DAGM.png"></a></p>
   <p><b>Figure 2-1 DAG Graph</b></p>
 </div>
 
