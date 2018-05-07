@@ -37,7 +37,6 @@
 <li><p>Technical Support:  <a href="community@trustnote.org" target="_blank" rel="external">community@trustnote.org</a></p></li>
 </ul>
 
-<h1><b>Copyright</b></h1>
 <p><b>© 2018 TrustNote Institute of Technology. All rights reserved.</b></p>
 
 </font>
