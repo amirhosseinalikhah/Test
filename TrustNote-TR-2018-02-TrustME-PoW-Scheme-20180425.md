@@ -3,7 +3,7 @@
 <font face="cambria">
   
 <h1><p><b>The TrustME-PoW Consensus Scheme:</b></p></h1>
-<h1><p>Decentralized, Network Partition Tolerance, Minable</p></h1>
+<p><b><font size="12">Decentralized, Network Partition Tolerance, Minable</font></b></p>
 
 <p><a target="_blank" href="Docs/ICO.png"><img align="center" src="Docs/ICO.png"></a></p>
 
