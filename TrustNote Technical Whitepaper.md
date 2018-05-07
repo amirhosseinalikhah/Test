@@ -10,7 +10,7 @@
 
 <h2><p><b>TrustNote Institute of Technology</b></p></h2>
 
-<h4><p><b>April 2018</b></p></h4>
+<h4><p><b>May 2018</b></p></h4>
 
 </font>
 </div>
