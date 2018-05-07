@@ -5,11 +5,13 @@
 <p><a target="_blank" href="Docs/LOGO.png"><img align="center" src="Docs/LOGO.png"></a></p>
 
 </div>
+
 <div align="center">
-<font size=45">	
+<font face="cambria" size=45pt">	
 <p><b>Technical White Paper</b></p>
 </font>
 </div>
+	      
 <div align="center">
 <font face="cambria">
 
