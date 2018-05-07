@@ -239,27 +239,23 @@
 
 
 <h3>Attestor (app = TrustME)</h3>
-<p>No Nodes other than the Attestor Nodes can generate “<b>Attestor</b>” messages, Attestation messages are used to store the attesting results the Node has.  If the first message of a Unit is an Attestation message, then this Unit is an Attestation Unit.  The contents of Attestor’s message include: Consensus Round, Attestation Unit Index, Latest Stable Consensus Round, Attestation Reward of Latest Stable Consensus Round, Seeds, Difficulty, Attesting Priority, etc.  For more information about the Attestation Unit and how to get attested, please refer to chapter 4: Consensus Mechanisms.</p>
+<p>No Nodes other than the Attestors can generate “<b>TrustME</b>” messages, TrustME messages are used to store the Attestation results which super Nodes have. If the first message of a Unit is a TrustME message, then this Unit is a TrustME Unit. The contents of TrustME message includes: consensus round’s number, PoW unit hash, priority of the Attestor and Attestation reward (Coinbase) of (i-2)<sup>th</sup> Stable Consensus Round. For more information about the Attestation Unit and how to get attested, please refer to chapter 4: Consensus Mechanisms.</p>
 
 ```javascript
 messages:[{
-  app:'TrustME',
-  payload_location:'inline',
-  payload_hash:'hash of payload',
-  payload:{
-    round: 'round number',
-    sequence: 'sequence number in current round',
-    last stable round：'number of the last stable round',
-    coinbase of the last stable round：[
-      {address:'...',amount:218 MN},
-      {address:'...',amount:195 MN},
-      ...
-    ],
-    seed: 'string of seed',
-    difficulty: 'difficulty number',
-    proof_of_work: 'equihash result unit',
-    priority: 'priority of notary'
-  }
+  app: 'TrustME',
+  payload_location: 'Inline',
+  payload_hash: 'Hash of Payload',
+  payload: {
+    round: 'Round Number',
+    PoW_solution: 'The PoW Unit Hash,
+    priority: 'Priority of Attestor',
+    coinbase of  (i - 2)th round：[
+      {address: ‘...’, amount: 21 MN},
+      {address: '...', amount: 19 MN},
+                     ...
+      ]
+    }
 }]
 ```
 
