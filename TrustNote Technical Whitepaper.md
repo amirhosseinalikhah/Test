@@ -6,7 +6,7 @@
 
 </div>
 
-<font size=45"><p><b>Technical White Paper</b></p></font>
+<p><font size=45"><b>Technical White Paper</b></font></p>
 
 <div align="center">
 <font face="cambria">
