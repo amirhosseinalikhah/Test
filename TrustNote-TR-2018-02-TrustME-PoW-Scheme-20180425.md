@@ -2,13 +2,14 @@
 <div align="center">
 <font face="cambria">
   
-<h1><p><b>TrustNote Technical White Paper</b></p></h1>
+<h1><p><b>The TrustME-PoW Consensus Scheme:</b></p></h1>
+<h1><p>Decentralized, Network Partition Tolerance, Minable</p></h1>
 
 <p><a target="_blank" href="Docs/ICO.png"><img align="center" src="Docs/ICO.png"></a></p>
 
 <h2><p><b>TrustNote Institute of Technology</b></p></h2>
 
-<h4><p><b>April 2018</b></p></h4>
+<h4><p><b>May 2018</b></p></h4>
 
 </font>
 </div>
@@ -19,12 +20,8 @@
 
 <font face="cambria" size="3">
 
-<h1><b>Overview</b></h1>
-
-<p>The TrustNote Development Team commissioned by the TrustNote Foundation is pleased to release V1.2 of the TrustNote Technical White Paper.  This document introduces TrustNote’s background, technical characteristics, and user scenarios, it will be updated by the TrustNote Development Team from time to time to reflect evolving the advancements in design and implementation process.  For the latest information about technical white papers, software releases and technical support for developer community, please visit our official website at <a href="www.trustnote.org" target="_blank" rel="external">www.trustnote.org</a>.</p>
-
 <h1><b>Disclaimer</b></h1>
-<p><!--justify-->TrustNote Institute of Technology hereby declare that: The current package is experimental and a work-in-progress, and you are using TrustNote at your own risk.  TrustNote also declares that we might change (add/remove packages) without informing the users.  In addition, because of the existence of “private equity” scams targeting crypto-currency investors, TrustNote hereby declare that participation in crypto-currency investment through unauthorized trading channels should always take precautionary measures against such risks.  Neither TrustNote Institute of Technology nor the TrustNote Development Team take responsibility for any consequences of investments via unauthorized trading channels.  Finally, we declare that, TrustNote White paper can be only accessed from:</P>
+<p>TrustNote Institute of Technology and Research & Development section hereby declare that, this package is under MIT open source software license and this software distributed without any warranty. TrustNote Institute of Technology declares that we are NOT responsible for direct, indirect, incidental, or consequential damages resulting from any defect, error, or failure to perform. This package is experimental and a work-in-progress, use at your own risk. The contents of this report are in implementation phase, thus TrustNote can update (add/remove packages) any time without informing the users. Finally, we declare that, TrustNote White paper and all other technical reports related to TrustNote only can be accessed from: </P>
 <ul>
 <li><p><a href="https://github.com/trustnote/document" target="_blank" rel="external">https://github.com/trustnote/document</a></p></li>
 <li><p><a href="https://trustnote.org/" target="_blank" rel="external">https://trustnote.org/</a></p></li>
@@ -46,51 +43,68 @@
 
 ------
 
-<div align="justify">
-
+<div id="toc_container" align="left">
 <font face="cambria" size="3">
-  
-<h1><b>Abstract</b></h1>
-<p>Today’s blockchain technologies face many challenges such as network congestion, high transaction fees, and long transaction confirmation delay.  TrustNote seeks to address these problems by building the world-leading public Directed Acyclic Graph (DAG) ledger which is minable, capable of handling high concurrent transactions yet still maintain quick transaction confirmation.  TrustNote is focused on creating an easy-to-use, decentralized, low-level digital token blockchain that leverages declarative Smart Contracts with enhanced expression capability, while empowering users to create and publish digital tokens without having to write complex Smart Contracts.  TrustNote has an extensible wallet that provides security and rich API interfaces for digital tokens, blockchain games and social networks, which allowing new innovative ideas to run smoothly on the blockchain network and making user friendly blockchain applications accessible to everyone.  TrustNote has an innovative two-tier consensus mechanism and the TrustME consensus algorithms.  These algorithms are working by selecting a number of Super Nodes periodically to act as attestation authorities which they receive mining rewards according to amount of their validated attestations.</p>
 
+<p><a href="#"></a></p>
+
+<h1><b>Contents</b></h1>
+<ul class="toc_list">
+  <p><a href="#Glossary">Glossary</a></p>
+  <p><a href="#Introduction">1. Introduction</a></p>
+	<ul><p><a href="#Node-Taxonomy-and-Topology">1.1. Node Taxonomy and Topology</a></p>
+	    <p><a href="#TrustME-PoW-Scheme-Overview">1.2. TrustME-PoW Scheme Overview</a></p>
+	    <p><a href="#Report-Organization">1.3. Report Organization</a></p></ul>
+  <p><a href="#Super-Node">2. Super Node</a></p>
+	<ul><p><a href="#Motivation">2.1. Motivation</a></p>
+	    <p><a href="#Methodology">2.2. Methodology</a></p>
+	    <p><a href="#Deposit-Mechanism">2.3. Deposit Mechanism</a></p></ul>
+  <p><a href="#Main-Chain">3. Main Chain</a></p>	
+	<ul><p><a href="#Basic Concept">3.1. Basic Concept</a></p>
+	    <p><a href="#Best-Parent-and-Main-Chain-Determination">3.2. Best Parent and Main Chain Determination</a></p>
+	    <p><a href="#Main-Chain-Index">3.3. Main Chain Index</a></p>
+	    <p><a href="#Main-Chain-Stabilization-Algorithm">3.4. Main Chain Stabilization Algorithm</a></p></ul>
+  <p><a href="#TrustME-PoW-Consensus">4. TrustME-PoW Consensus</a></p>
+	<ul><p><a href="#Motivation">4.1. Motivation</a></p>
+	    <p><a href="#How-to-Select-Attestors">4.2. How to Select Attestors?</a></p>
+	    <p><a href="#PoW-Unit">4.3. PoW Unit</a></p>
+	    <p><a href="#Consensus-Round-Switching">4.4. Consensus Round Switching</a></p>
+	    <p><a href="#Equihash-Difficulty-Calculation">4.5. Equihash Difficulty Calculation</a></p>
+	    <p><a href="#TrustME-unit">4.6. TrustME unit</a></p>
+	    <p><a href="#Attestation-Reward">4.7. Attestation Reward</a></p></ul>
+  <p><a href="#Switching-from-Witnesses-to-TrustME-PoW">5. Switching from Witnesses to TrustME-PoW</a></p>
+	<ul><p><a href="#Overview">5.1. Overview</a></p>
+	    <p><a href="#Procedure">5.2. Procedure</a></p></ul>
+
+</ul>
 </font>
 </div>
 
 ------
 
-<div id="toc_container" align="left">
+<div align="justify">
 <font face="cambria" size="3">
+<ul>
+<p><b>Node</b>: Refers to any active user, installed TrustNote client (any devices such as phone, pc, IoT, etc.) and having a valid wallet address.</p>
+<p><b>Unit</b>: Refers to a data structure which can contains many messages generated by the nodes including: Transactions messages, text messages and etc.</p>
+<p><b>Full Node</b>: Refers to Cloud Host Server/Workstation, and PC, which maintaining synchronization and verification of ledger data.</p>
+<p><b>Super Node</b>: Refers to Mining Systems, Cloud Host Server/Workstation, and PC, which generates a deposit contract and paying the deposit, and running the TrustME-PoW mining program.</p>
+<p><b>Parent Unit</b>: Refers to units generated at an earlier time and Child Units can reference them.</p>
+<p><b>Child Unit</b>: Refers to units generated at a later time and referencing one or more parent unit.</p>
+<p><b>MC</b>: A single chain along Child-Parent links within the DAG which is determined by applying the Parent Selection Algorithm recursively.</p>
+<p><b>MCI</b>: Main Chain Index.</p>
+<p><b>Attestor</b>: Refers to a Super node, which participates in a round of consensus and successfully obtains Attestation power.</p>
+<p><b>PoW Unit</b>: Refers to unit containing Equihash solution.</p>
+<p><b>TrustME unit</b>: Refers to unit, used to determine the MC and its first message is a TrustME Coinbase message.</p>
+<p><b>Micro-Node</b>: Refers to client running on Microcontrollers and Smart Cards.</p>
+<p><b>Light Node</b>: Refers to client running on Smartphone and Tablet PC.</p>
+<p><b>Fine-grained PoW consensus</b>: Each Super Node independently starts PoW, and there is no direct bound between nodes.</p>
+<p><b>Coarse-grained PoW consensus</b>: The Super Node periodically starts PoW. Each round selects a certain number of Super Nodes as Attestors. These Attestors only belong to that specific round. Once that round finished, the Attestors automatically lose their Attestation power.</p>
+<p><b>Silent-locking time</b>: Refers to the period of time when, a super node doesn't send any attestation unit.</p>
+	</ul>
 
-<h1><b>Contents</b></h1>
-<ul class="toc_list">
-  <p><a href="#BACKGROUND">1. BACKGROUND</a></p>
-  <p><a href="#WHAT-IS-TRUSTNOTE?">2. WHAT IS TRUSTNOTE?</a></p>
-    <ul><p><a href="#KEY-FEATURES">2.1. KEY FEATURES</a></p>
-    <p><a href="#DIRECTED-ACYCLIC-GRAPH">2.2. DIRECTED ACYCLIC GRAPH</a></p>
-    <p><a href="#COMPARISON">2.3. COMPARISON</a></p></ul>
-  <p><a href="#DATA-STRUCTURES">3. DATA STRUCTURES</a></p>
-    <ul><p><a href="#UNIT">3.1. UNIT</a></p>
-    <p><a href="#MESSAGE-TYPES">3.2. MESSAGE TYPES</a></p></ul>
-  <p><a href="#CONSENSUS">4. CONSENSUS</a></p>
-    <ul><p><a href="#NODES">4.1. NODES</a></p>
-    <p><a href="#UNIT-INTER-REFERENCE">4.2. UNIT INTER-REFERENCE</a></p>
-    <p><a href="#MAIN-CHAIN">4.3. MAIN CHAIN</a></p>
-    <p><a href="#TRANSACTION-CONFIRMATION">4.4. TRANSACTION CONFIRMATION</a></p>
-    <p><a href="#TRANSACTION-FEES-AND-MINING-REWARD">4.5. TRANSACTION FEES AND MINING REWARD</a></p>
-    <p><a href="#TRUSTME-POW">4.6. TRUSTME-POW</a></p>
-    <p><a href="#TRUSTME-BA">4.7. TRUSTME-BA</a></p>
-      <ul><p><a href="#Design-Goals">4.7.1. Design Goals</a></p>
-      <p><a href="#Final-Consensus-and-Tentative-Consensus">4.7.2. Final Consensus and Tentative Consensus</a></p>
-      <p><a href="#Lottery-Algorithm">4.7.3. Lottery Algorithm</a></li>
-       <p><a href="#Byzantine-Agreement">4.7.4. Byzantine Agreement</a></p></ul></ul>
-  <p><a href="#SMART-CONTRACT">5. SMART CONTRACT</a></li>
-  <p><a href="#TRUSTNOTE-PLATFORM-AND-APPLICATIONS">6. TRUSTNOTE PLATFORM AND APPLICATIONS</a></p>
-  <p><a href="#ISSUANCE-AND-DISTRIBUTION">7. ISSUANCE AND DISTRIBUTION</a></p>
-  <p><a href="#REFERENCES">8. REFERENCES</a></p>
-</ul>
 </font>
 </div>
-
 ------
 
 <div align="justify">
