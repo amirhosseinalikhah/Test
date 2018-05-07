@@ -2,7 +2,7 @@
 <div align="center">
 <font face="cambria">
   
-<h1><p><b>TrustNote Technical White Paper</b></p></h1>
+<h1><p><b>Technical White Paper</b></p></h1>
 
 <p><a target="_blank" href="Docs/LOGO.png"><img align="center" src="Docs/LOGO.png"></a></p>
 
