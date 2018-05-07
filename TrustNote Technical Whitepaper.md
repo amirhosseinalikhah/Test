@@ -159,7 +159,7 @@
 <div align="center"> 
   
 |  |	<b>IOTA</b> |	<b>Byteball</b>	| <b>TrustNote</b> |
-| --- | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | <b>Token</b>	| IOTA	| Byte |	TTT |
 | <b>Consensus Mechanism</b> |	PoW Cumulative Weight |	12 Witnesses |	Decentralized TrustME Consensus Mechanism |
 | <b>Smart Contract</b>	| No |	Declarative Contract |	Advanced Declarative Contract |
@@ -221,13 +221,13 @@
 <div align="center">
 
 | Field Name | Definition | Remarks |
-| :---: | :---: | :---: |
-| app | Message type |	e.g. “payment” or “text”, for more information please see 2.2 |
-| payload_location |	Location of the message body |	“inline” indicates the message body is stored in the current message; “uri” indicates | the message body is retrievable from a URL address; “none” indicates there is no message body
-| payload_hash |	Hash value of the message body	|   |
-| Payload	| Message body	| Various message types are used to kept different data format, e.g. a transaction message includes various number of input and output |
-| payload_input	| Message input array	| Includes the hash value of the Unit who generated the message, message index, output index etc. |
-| payload_output |	Message output array | Includes addresses of recipients, amount of transaction and etc.|
+| --- | :---: | :---: |
+| <b>app</b> | Message type |	e.g. “payment” or “text”, for more information please see 2.2 |
+| <b>payload_location</B> | Location of the message body |	“inline” indicates the message body is stored in the current message; “uri” indicates | the message body is retrievable from a URL address; “none” indicates there is no message body
+| <b>payload_hash</b> |	Hash value of the message body	|   |
+| <b>Payload</b> | Message body	| Various message types are used to kept different data format, e.g. a transaction message includes various number of input and output |
+| <b>payload_input</b> | Message input array	| Includes the hash value of the Unit who generated the message, message index, output index etc. |
+| <b>payload_output</b> |	Message output array | Includes addresses of recipients, amount of transaction and etc.|
 
 </div>
 
