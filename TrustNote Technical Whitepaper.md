@@ -4,7 +4,7 @@
   
 <p><a target="_blank" href="Docs/LOGO.png"><img align="center" src="Docs/LOGO.png"></a></p>
 
-<<p><b><font size="15">Technical White Paper</font></b></p>
+<p><b><font size="30">Technical White Paper</font></b></p>
 
 <p><b>FAST ∙ SCALABLE ∙ DEVELOPER FRIENDLY</b></p>
 
