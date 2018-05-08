@@ -88,57 +88,45 @@
 
 <TABLE>
    <TR>
-      <TH COLSPAN="7"><BR><H3>Cryptographic hash functions</H3>
+      <TH COLSPAN="3"><H3>Cryptographic hash functions</H3>
       </TH>
    </TR>
-   <TR>
-      <TH>Column A</TH>
-      <TH>Column B</TH>
-      <TH>Column A</TH>
-      <TH>Column B</TH>
-      <TH>Column B</TH>
-      <TH>Column A</TH>
-      <TH>Column B</TH>     
-   </TR>
    <TR ALIGN="CENTER">
-      <TD>Data 1</TD>
-      <TD>Data 2</TD>
-      <TD>Data 1</TD>
-      <TD>Data 2</TD>   
-      <TD>Data 2</TD>
-      <TD>Data 1</TD>
-      <TD>Data 2</TD>
+      <TD>HAVAL</TD>
+      <TD>MD5</TD>
+      <TD>JH</TD>
+   </TR> 
+   <TR ALIGN="CENTER">
+      <TD>SHA-1</TD>
+      <TD>Skein</TD>
+      <TD>MD2</TD>
    </TR>
-    <TR ALIGN="CENTER">
-      <TD>Data 1</TD>
-      <TD>Data 2</TD>
-      <TD>Data 1</TD>
-      <TD>Data 2</TD>   
-      <TD>Data 2</TD>
-      <TD>Data 1</TD>
+   <TR ALIGN="CENTER">  
+      <TD>SHA-2</TH>     
+      <TD>LM hash</TD>
+      <TD>Keccak</TD>
+   </TR>
+   <TR ALIGN="CENTER">   
+      <TD>SHA-3</TD>
+      <TD>CubeHash</TD>   
+      <TD>MD4</TD>
+   </TR>
+   <TR ALIGN="CENTER">      
+      <TD>BLAKE2</TD>
+      <TD>ECOH</TD>
+      <TD>MD6</TD>
+   </TR>
+   <TR ALIGN="CENTER">      
+      <TD>BLAKE</TD>
+      <TD>ECOH</TD>
+      <TD>MDC-2</TD>  
+   </TR>
+   <TR ALIGN="CENTER">      
+      <TD>Grøstl</TD>
+      <TD>FSB</TD>
       <TD>Data 2</TD>    
    </TR>    
-  <TR ALIGN="CENTER">
-      <TD>Data 1</TD>
-      <TD>Data 2</TD>
-      <TD>Data 1</TD>
-      <TD>Data 2</TD>   
-      <TD>Data 2</TD>
-      <TD>Data 1</TD>
-      <TD>Data 2</TD>    
-   </TR>  
 </TABLE>
-
-|| Cryptographic hash functions  ||
-| :---: | :---: | :---: |
-| HAVAL |	MD5 |	JH |
-| Kupyna | SHA-1 | Skein |
-| LM hash |	SHA-2 |	Keccak |
-| MD2	| SHA-3	| CubeHash |
-| MD4	| BLAKE2 | ECOH |
-| MD6	| BLAKE	| ECOH |
-| MDC-2	| Grøstl | FSB |
-
 
 </div>
 
