@@ -86,19 +86,47 @@
 <div align="center">
 <font face="cambria" size="3">
 
-<TABLE BORDER="5"    WIDTH="50%"   CELLPADDING="4" CELLSPACING="3">
+<TABLE>
    <TR>
-      <TH COLSPAN="2"><BR><H3>TABLE TITLE</H3>
+      <TH COLSPAN="7"><BR><H3>Cryptographic hash functions</H3>
       </TH>
    </TR>
    <TR>
       <TH>Column A</TH>
       <TH>Column B</TH>
+      <TH>Column A</TH>
+      <TH>Column B</TH>
+      <TH>Column B</TH>
+      <TH>Column A</TH>
+      <TH>Column B</TH>     
    </TR>
    <TR ALIGN="CENTER">
       <TD>Data 1</TD>
       <TD>Data 2</TD>
+      <TD>Data 1</TD>
+      <TD>Data 2</TD>   
+      <TD>Data 2</TD>
+      <TD>Data 1</TD>
+      <TD>Data 2</TD>
    </TR>
+    <TR ALIGN="CENTER">
+      <TD>Data 1</TD>
+      <TD>Data 2</TD>
+      <TD>Data 1</TD>
+      <TD>Data 2</TD>   
+      <TD>Data 2</TD>
+      <TD>Data 1</TD>
+      <TD>Data 2</TD>    
+   </TR>    
+  <TR ALIGN="CENTER">
+      <TD>Data 1</TD>
+      <TD>Data 2</TD>
+      <TD>Data 1</TD>
+      <TD>Data 2</TD>   
+      <TD>Data 2</TD>
+      <TD>Data 1</TD>
+      <TD>Data 2</TD>    
+   </TR>  
 </TABLE>
 
 || Cryptographic hash functions  ||
