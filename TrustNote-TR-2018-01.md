@@ -158,7 +158,7 @@
 <p>BLAKE2 is a cryptographic hash function faster than MD5, SHA-1, SHA-2, and SHA-3, yet is at least as secure as the latest standard SHA-3. BLAKE2 has been adopted by many projects due to its high speed, security, and simplicity. BLAKE2 comes in two types (Aumasson , Neves , Wilcox-O'Hearn, & Winnerlein , 2017)</p>
 
 <ul>
-    <li><b>BLAKE2b<b/> (or just BLAKE2) is optimized for 64-bit platforms including NEON-enabled ARMs and produces digests of any size between 1 and 64 bytes.</li>
+    <li><b>BLAKE2b</b> (or just BLAKE2) is optimized for 64-bit platforms including NEON-enabled ARMs and produces digests of any size between 1 and 64 bytes.</li>
     <li><b>BLAKE2s</b> is optimized for 8- to 32-bit platforms and produces digests of any size between 1 and 32 bytes.</li>
 </ul>
 
