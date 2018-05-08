@@ -90,7 +90,7 @@
 </div>
 
 <div>
-<font face="cambria" size="3">
+<font face="cambria">
 
  | N (bits) |	K |	Seed |	Time (ms) |	Difficulty |	Solution Size (KB)	| Number of solutions found |
  | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
