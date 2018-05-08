@@ -1,7 +1,6 @@
 # Test
 create this just for test
-
-'''javascript
+```javascript
 'use strict';
 var startTime = new Date().getTime();
 var count = 0;
@@ -22,4 +21,4 @@ while ((endTime  - startTime) < 5000){
     count++;}
 console.log('Number of hashes generated during 5 seconds:');
 console.log(count)
-'''
+```
