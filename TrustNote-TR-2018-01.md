@@ -87,16 +87,8 @@
 <font face="cambria" size="3">
 
 
-|             |          Grouping           ||
-First Header  | Second Header | Third Header |
- ------------ | :-----------: | -----------: |
-Content       |          *Long Cell*        ||
-Content       |   **Cell**    |         Cell |
-
-New section   |     More      |         Data |
-And more      | With an escaped '\|'         ||  
-[Prototype table]
-
+|| Cryptographic hash functions  ||
+| :---: | :---: | :---: |
 | HAVAL |	MD5 |	JH |
 | Kupyna | SHA-1 | Skein |
 | LM hash |	SHA-2 |	Keccak |
