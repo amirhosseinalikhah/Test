@@ -61,8 +61,46 @@
 
 ------
 
+<div align="justify">
+<font face="cambria" size="3">
+
 <h1><a id="How-do-we-select-the-best-among-nominees"></a>1. How do we select the best among nominees?</h1>
+
+<p>Selecting an efficient algorithm which also would be robust and secure while it can be performed very fast for many times per second on variety of devices is a very important and difficult process. Any failure or security hole will result in an irreparable damage. TrustNote Institute of Technology - R&D section criteria for selecting its project's cryptographic algorithms are:</p>
+
+<ul>
+  <li> High security level and Robustness </li>
+  <li> Better performance</li>
+  <li> Most compatible one with variety of devices</li>
+</ul>
+
+<p>So, any algorithm fits the best into these three criteria will be selected by R&D section. But it's not the end, after selecting the best available algorithm, experts in TrustNote will perform several challenging tests to verify it’s trustworthy.</p>
+
 <h2><a id="Why-Blake2"></a>1.1. Why Blake2?</h2>
+
+<p>Selecting an efficient, secure and fast hash function is crucial during the design process of any cryptocurrency infrastructure. A proper hash function algorithm has enough robustness so in case of encountering Collision attack, Preimage attack and etc. It should be undefeatable. A list of available hash functions presented in the table below:</p>
+
+</font>
+</div>
+
+<div align="center">
+<font face="cambria" size="3">
+
+| Cryptographic hash functions |
+| :---: | :---: | :---: |
+| HAVAL |	MD5 |	JH |
+| Kupyna | SHA-1 | Skein |
+| LM hash |	SHA-2 |	Keccak |
+| MD2	| SHA-3	| CubeHash |
+| MD4	| BLAKE2 | ECOH |
+| MD6	| BLAKE	| ECOH |
+| MDC-2	| Grøstl | FSB |
+
+
+</div>
+
+
+
 <h2><a id="Why-Ed25519"></a>1.2. Why Ed25519?</h2>
 <h2><a id="Why-Equihash"></a>1.3. Why Equihash?</h2>
 
