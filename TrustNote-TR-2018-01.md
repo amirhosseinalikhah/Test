@@ -55,7 +55,9 @@
          <p><a href="#Blake2b-C-Node-js-Addon-test">C: Blake2b-C/C++ Node.js-Addon-test</a></p>
          <p><a href="#Blake2s-C-Node-js-Addon-test">D: Blake2s-C/C++ Node.js-Addon-test</a></p>
          <p><a href="#Ed25519-C-Node-js-Addon-test">E: Ed25519-C/C++ Node.js-Addon-test</a></p></ul>
-
+</ul>
+</font>
+</div>
 ------
 
 <h1><a id="How-do-we-select-the-best-among-nominees"></a>1. How do we select the best among nominees?</h1>
@@ -72,9 +74,13 @@
 
 <h1><a id="How-to-get-started-with-it"></a>3. How to get started with it?</h1>
 <h2><a id="Lets-get-started-with-Blake2-Node-js-Addon"></a>3.1. Let's get started with Blake2-Node.js-Addon</h2>
-<h2><a id="Blake2-Pure-JavaScript-Node-Addon"></a>3.1.1. Blake2 Pure JavaScript-Node-Addon</h2>
+<h3><a id="Blake2-Pure-JavaScript-Node-Addon"></a>3.1.1. Blake2 Pure JavaScript-Node-Addon</h3>
 <h3><a id="Blake2-C-Node-Addon"></a>3.1.2. Blake2 C/C++ Node-Addon</h3>
 <h2><a id="Lets-get-started-with-Ed25519-Node-Addon"></a>3.2. Let's get started with Ed25519-Node-Addon</h2>
+
+<div align="justify">
+<font face="cambria" size="3">
+
 <h2><a id="Lets-get-started-with-Equihash"></a>3.3. Let's get started with Equihash</h2>
 
 
