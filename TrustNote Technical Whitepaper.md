@@ -1,7 +1,7 @@
 <html>
 <div align="center">
 
-<p><a target="_blank" href="images/CVR01.png"><img align="center" src="images/CVR01.png"></a></p>
+<p><a target="_blank" href="images/TrustNote-Whitepaper-Cover.png"><img align="center" src="images/TrustNote-Whitepaper-Cover.png"></a></p>
 
 </div>
 
@@ -104,7 +104,7 @@
 </div>
 
 <div align="center">
-<p><a target="_blank" href="images/DAGM.png"><img align="center" src="images/DAGM.png"></a></p>
+<p><a target="_blank" href="images/TrustNote-Whitepaper-DAG Graph.png"><img align="center" src="images/TrustNote-Whitepaper-DAG Graph.png"></a></p>
   <p><b>Figure 2-1 DAG Graph</b></p>
 </div>
 
@@ -117,7 +117,7 @@
 </div>
 
 <div align="center">
-<p><a target="_blank" href="images/MCSM.png"><img align="center" src="images/MCSM.png"></a></p>
+<p><a target="_blank" href="images/TrustNote-Whitepaper-Main Chain.png"><img align="center" src="images/TrustNote-Whitepaper-Main Chain.png"></a></p>
   <p><b>Figure 2-2 Main Chain (MC)</b></p>
 </div>
 
@@ -724,7 +724,7 @@ For example, the following definition requires two signatures:</P>
 <div align="center">
 <font face="cambria">
   
-<p><a target="_blank" href="images/RM.png"><img align="center" src="images/RM.png"></a></p>
+<p><a target="_blank" href="images/TrustNote-Whitepaper-Road Map.png"><img align="center" src="images/TrustNote-Whitepaper-Road Map.png"></a></p>
 
 <p><b>Figure 6-1 Roadmap </b></p>
 </font>
@@ -763,7 +763,7 @@ For example, the following definition requires two signatures:</P>
 <div align="center">
 <font face="cambria">
   
-<p><a target="_blank" href="images/ATP.png"><img align="center" src="images/ATP.png"></a></p>
+<p><a target="_blank" href="images/TrustNote-Whitepaper-Architecture of Crypto-Token Platform.png"><img align="center" src="images/TrustNote-Whitepaper-Architecture of Crypto-Token Platform.png"></a></p>
 
 <p><b>Figure 6-2 Architecture of Crypto-Token Platform</b></p>
 </font>
@@ -797,7 +797,7 @@ For example, the following definition requires two signatures:</P>
 <div align="center">
 <font face="cambria">
   
-<p><a target="_blank" href="images/ACAR.png"><img align="center" src="images/ACAR.png"></a></p>
+<p><a target="_blank" href="images/TrustNote-Whitepaper-Attenuation Chart of Attestation Rewards .png"><img align="center" src="images/TrustNote-Whitepaper-Attenuation Chart of Attestation Rewards .png"></a></p>
 
 <p><b>Figure 7-1 Attenuation Chart of Attestation Rewards </b></p>
 </font>
