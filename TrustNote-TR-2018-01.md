@@ -86,9 +86,9 @@
 <div align="center">
 <font face="cambria" size="3">
 
-<TABLE>
+<TABLE BORDER="5"    WIDTH="50%"   CELLPADDING="4" CELLSPACING="3">
    <TR>
-      <TH ><H3> Cryptographic hash functions </H3>
+      <TH COLSPAN="2"><BR><H3>TABLE TITLE</H3>
       </TH>
    </TR>
    <TR>
