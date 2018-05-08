@@ -86,7 +86,7 @@
 <div align="center">
 <font face="cambria" size="3">
 
-| Cryptographic hash functions |
+<p><b>Cryptographic hash functions</b></p>
 | :---: | :---: | :---: |
 | HAVAL |	MD5 |	JH |
 | Kupyna | SHA-1 | Skein |
