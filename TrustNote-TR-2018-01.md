@@ -84,6 +84,22 @@
 
 <h2><a id="Lets-get-started-with-Equihash"></a>3.3. Let's get started with Equihash</h2>
 
+<p>This package is forked from other projects. This package will be performed in C/C++ platform. This package tested with different input and, the outcomes are presented in the table below:</p>
+
+| N (bits) |	K |	Seed |	Time (ms) |	Difficulty |	Solution Size (KB)	| Number of solutions found |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 100	| 4	| 5	| 5,155 |	1	| 81,920 | 16 |
+| 100	| 4	| 20 |	15,281 | 1 |	81,920 | 16 |
+| 108	| 5	| 5	| 2,843 |	1 |	25,600 | 32 |
+| 108	| 5	| 20 |	8,499 |	1 |	25,600 | 32 |
+| 110	| 4	| 20 |	21,967 | 1 | 327,680 | 16 |
+| 110	| 4	| 5	| 22,062 | 1 |	327,680 |	16 |
+| 126	| 5	| 5	| 49,077 | 1 | 204,800 |	32 |
+| 126	| 5	| 20 |	36,797 | 1 |	204,800 |	32 |
+
+
+</font>
+</div>
 
 <div align="justify">
 <font face="cambria" size="3">
@@ -95,14 +111,14 @@
 <h1><a id="References"></a>5. References</h1>
 
 <ul>
-<p>Aumasson , J.-P., Neves , S., Wilcox-O'Hearn, Z., & Winnerlein , C. (2017, 02 22). BLAKE2 — fast secure hashing. Retrieved from BLAKE2: https://Blake2.net/https://Blake2.net/</p>
-<p>Aumasson, J.-P., Neves, S., Wilcox-O’Hearn, Z., & Winnerlein, C. (2013). BLAKE2: simpler, smaller, fast as MD5.</p>
-<p>Bernstein, D., Duif, N., Lange, T., Schwabe, P., & Yang, B.-Y. (2011). Ed25519: high-speed high-security signatures.</p>
-<p>Biryukov, A., & Khovratovich, D. (2016). Equihash: asymmetric proof-of-work based on the Generalized Birthday problem. LEDGER.</p>
-<p>Chang, S.-j., Perlner, R., Burr, W., Turan, M., Kelsey, J., Paul, S., & Bassham, L. (2012). Third-Round Report of the SHA-3 Cryptographic Hash Algorithm Competition. National Institute for Standards and Technology.</p>
-<p>Josefsson, S., & Liusvaara, I. (2017). Edwards-Curve Digital Signature Algorithm (EdDSA). Internet Research Task Force.</p>
-<p>Langley, A., Google, Hamburg, M., Rambus Cryptography Research, & Turner, S. (2016). Edwards-Curve Digital Signature Algorithm.</p> 
-<p>Wagner, D. (2002). A Generalized Birthday Problem. Lecture Notes in Computer Science 2442, 288–303.</p>
+<p>1. Aumasson , J.-P., Neves , S., Wilcox-O'Hearn, Z., & Winnerlein , C. (2017, 02 22). BLAKE2 — fast secure hashing. Retrieved from BLAKE2: https://Blake2.net/https://Blake2.net/</p>
+<p>2. Aumasson, J.-P., Neves, S., Wilcox-O’Hearn, Z., & Winnerlein, C. (2013). BLAKE2: simpler, smaller, fast as MD5.</p>
+<p>3. Bernstein, D., Duif, N., Lange, T., Schwabe, P., & Yang, B.-Y. (2011). Ed25519: high-speed high-security signatures.</p>
+<p>4. Biryukov, A., & Khovratovich, D. (2016). Equihash: asymmetric proof-of-work based on the Generalized Birthday problem. LEDGER.</p>
+<p>5. Chang, S.-j., Perlner, R., Burr, W., Turan, M., Kelsey, J., Paul, S., & Bassham, L. (2012). Third-Round Report of the SHA-3 Cryptographic Hash Algorithm Competition. National Institute for Standards and Technology.</p>
+<p>6. Josefsson, S., & Liusvaara, I. (2017). Edwards-Curve Digital Signature Algorithm (EdDSA). Internet Research Task Force.</p>
+<p>7. Langley, A., Google, Hamburg, M., Rambus Cryptography Research, & Turner, S. (2016). Edwards-Curve Digital Signature Algorithm.</p> 
+<p>8. Wagner, D. (2002). A Generalized Birthday Problem. Lecture Notes in Computer Science 2442, 288–303.</p>
 </u>
 
 
