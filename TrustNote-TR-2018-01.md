@@ -58,9 +58,6 @@
 
 ------
 
-<div align="justify">
-<font face="cambria" size="3">
-
 <h1><a id="How-do-we-select-the-best-among-nominees"></a>1. How do we select the best among nominees?</h1>
 <h2><a id="Why-Blake2"></a>1.1. Why Blake2?</h2>
 <h2><a id="Why-Ed25519"></a>1.2. Why Ed25519?</h2>
@@ -80,9 +77,27 @@
 <h2><a id="Lets-get-started-with-Ed25519-Node-Addon"></a>3.2. Let's get started with Ed25519-Node-Addon</h2>
 <h2><a id="Lets-get-started-with-Equihash"></a>3.3. Let's get started with Equihash</h2>
 
+
+<div align="justify">
+<font face="cambria" size="3">
+
 <h1><a id="Discussion"></a>4. Discussion</h1>
 
+<p>This document aimed to introduce the most important subjects which directly effecting the security and performance of the final product. Eventually, TrustNote will be manipulating Blake2 as its hash function, Ed25519 as its public key generator for signing contracts and Equihash for verification. As mentioned before, this is a work-in-progress so if we find any newer and better algorithm which guarantees security of the users while offering a higher performance, we will replace it with our current packages.</p>
+
 <h1><a id="References"></a>5. References</h1>
+
+<ul>
+<p>Aumasson , J.-P., Neves , S., Wilcox-O'Hearn, Z., & Winnerlein , C. (2017, 02 22). BLAKE2 — fast secure hashing. Retrieved from BLAKE2: https://Blake2.net/https://Blake2.net/</p>
+<p>Aumasson, J.-P., Neves, S., Wilcox-O’Hearn, Z., & Winnerlein, C. (2013). BLAKE2: simpler, smaller, fast as MD5.</p>
+<p>Bernstein, D., Duif, N., Lange, T., Schwabe, P., & Yang, B.-Y. (2011). Ed25519: high-speed high-security signatures.</p>
+<p>Biryukov, A., & Khovratovich, D. (2016). Equihash: asymmetric proof-of-work based on the Generalized Birthday problem. LEDGER.</p>
+<p>Chang, S.-j., Perlner, R., Burr, W., Turan, M., Kelsey, J., Paul, S., & Bassham, L. (2012). Third-Round Report of the SHA-3 Cryptographic Hash Algorithm Competition. National Institute for Standards and Technology.</p>
+<p>Josefsson, S., & Liusvaara, I. (2017). Edwards-Curve Digital Signature Algorithm (EdDSA). Internet Research Task Force.</p>
+<p>Langley, A., Google, Hamburg, M., Rambus Cryptography Research, & Turner, S. (2016). Edwards-Curve Digital Signature Algorithm.</p> 
+<p>Wagner, D. (2002). A Generalized Birthday Problem. Lecture Notes in Computer Science 2442, 288–303.</p>
+</u>
+
 
 <h1><a id="Appendix"></a>Appendix</h1>
 
@@ -236,6 +251,8 @@ function xmod (buf) {
   return cp}
 ```
 
+</font>
+</div>
 </html>
 
 
