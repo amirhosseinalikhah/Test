@@ -49,3 +49,33 @@ while ((endTime  - startTime) < 5000) {
 console.log('Number of hashes generated during 5 seconds:');
 console.log(count)
 ```
+
+```javascript
+'use strict';
+var startTime = new Date().getTime();
+var count = 0;
+var TD = 0;
+var
+demand = require('must'),
+fs        = require('fs'),
+path      = require('path'),
+Blake2    = require('./index');
+var startTime = new Date().getTime();
+var count = 0;
+var TD = 0;
+var assert = require('assert');
+var buf = new Buffer('abc');
+var hash = Blake2.sumBuffer(buf, Blake2.ALGORITHMS.B);
+assert(hash instanceof Buffer);
+console.log('Blake2b:');
+console.log(hash.toString('hex'));
+var endTime = new Date().getTime();
+TD = endTime  - startTime;
+while ((endTime  - startTime) < 5000) {
+    var hash = Blake2.sumBuffer(buf, Blake2.ALGORITHMS.B);
+    assert(hash instanceof Buffer);
+    var endTime = new Date().getTime();
+    count++;}
+console.log('Number of hashes generated during 5 seconds:');
+console.log(count)
+```
