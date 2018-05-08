@@ -139,4 +139,3 @@ function xmod (buf) {
   cp[0] = ~cp[0]
   return cp}
 ```
-<html><math><mover><mi>k</mi><mo>~</mo></mover></math></html>
