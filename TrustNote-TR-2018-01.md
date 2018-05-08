@@ -85,8 +85,7 @@
 
 <div align="center">
 <font face="cambria" size="3">
-
-<TABLE>
+<TABLE align="center">
    <TR>
       <TH COLSPAN="3"><H3>Cryptographic hash functions</H3>
       </TH>
@@ -130,9 +129,132 @@
 
 </div>
 
+<div align="justify">
+<font face="cambria" size="3">
 
+<p>Please, note that: The orders in table above are totally by randomness and this table is not sorted by any kind of factors.</p>
+
+</font>
+</div>
+
+<div align="center">
+<p><a target="_blank" href="images/TrustNote-TR-01-Hash function Supercup.png"><img align="center" src="images/TrustNote-TR-01-Hash function Supercup.png"></a></p>
+</div>
+
+<div align="justify">
+<font face="cambria" size="3">
+
+<p>A full list of available Hash functions’ eBASH (ECRYPT Benchmarking of All Submitted Hashes) benchmarks available at:</p>
+
+<ul>
+ <li>eBASH benchmarks for <a href="http://bench.cr.yp.to/impl-hash/blake2b.html" target="_blank" rel="external">Blake2b</a>.</li>
+ <li>eBASH benchmarks for <a href="http://bench.cr.yp.to/impl-hash/blake2s.html" target="_blank" rel="external">Blake2s</a>.</li>
+ <li>eBASH benchmarks for <a href="http://bench.cr.yp.to/results-hash.html" target="_blank" rel="external">results of benchmarking of all hash functions</a>.</li>
+ <li>eBASH benchmarks for <a href="http://bench.cr.yp.to/primitives-hash.html" target="_blank" rel="external">full list of hash functions</a>.</li>
+</ul>
+
+<p>However, this is not the main reason for choosing Blake2. In the rest of this section, the primary reasons of selecting Blake2 among plenty of available hash functions will be explained.</p>
+
+<p>BLAKE2 is a cryptographic hash function faster than MD5, SHA-1, SHA-2, and SHA-3, yet is at least as secure as the latest standard SHA-3. BLAKE2 has been adopted by many projects due to its high speed, security, and simplicity. BLAKE2 comes in two types (Aumasson , Neves , Wilcox-O'Hearn, & Winnerlein , 2017)</p>
+
+<ul>
+    <li><b>BLAKE2b<b/> (or just BLAKE2) is optimized for 64-bit platforms including NEON-enabled ARMs and produces digests of any size between 1 and 64 bytes.</li>
+    <li><b>BLAKE2s</b> is optimized for 8- to 32-bit platforms and produces digests of any size between 1 and 32 bytes.</li>
+</ul>
+
+<p>BLAKE2 includes the 4-way parallel BLAKE2bp and 8-way parallel BLAKE2sp designed for increased performance on multicore or SIMD (Single Instruction, Multiple Data) CPUs. BLAKE2 offers these algorithms tuned to your specific requirements, such as keyed hashing (that is, MAC or PRF), hashing with a salt, updatable or incremental tree-hashing, or any combination thereof (Aumasson , Neves , Wilcox-O'Hearn, & Winnerlein , 2017).</p>
+
+<p>The SHA-3 Competition succeeded in selecting a hash function that complements SHA-2 and is much faster than SHA-2 in hardware (Chang, et al., 2012). There is nevertheless a demand for fast software hashing for applications such as integrity checking and deduplication in file systems and etc. (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013)</p>
+
+<p>The chart below is the speed comparison of various popular hash functions, taken from eBACS’s “sandy” measurements. SHA-3 and BLAKE2 have no known security issues. SHA-1, MD5, SHA-256, and SHA-512 are susceptible to length-extension. SHA-1 and MD5 are vulnerable to collisions. MD5 is vulnerable to chosen-prefix collisions (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013).</p>
+
+<p>BLAKE thus appears to be a good candidate for fast software hashing. BLAKE2 aims to provide the highest security level, be it in terms of classical notions as (second) preimage or collision resistance, or of theoretical notions as pseudo randomness or undifferentiability (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013).</p>
+
+<p>Blake2 offers the following properties and capabilities (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013):</p>
+
+<ul>
+  <li>Faster than MD5 on 64-bit Intel platforms.</li>
+  <li>32% less RAM required than BLAKE.</li>
+  <li>Minimal padding, which is faster and simpler to implement.</li>
+  <li>Direct support, with no overhead, of:</li>
+    <ul><li>Parallelism for many-times faster hashing on multicore or SIMD (Single Instruction, Multiple Data) CPUs.</li>
+        <li>Tree hashing for incremental update or verification of large files.</li>
+        <li>Prefix-MAC for authentication that is simpler and faster than HMAC.</li>
+        <li>Personalization for defining a unique hash function for each application.</li></ul>
+</ul>
+
+<p>Consequently, it is evident that Blake2 is the best available hash function until now. We may change the hash if we find some flaw in Blake2 or if we find another hash function algorithm which offers higher assurance and performance. For more in-depth information about Blake2 capabilities, please visit the <a href="https://blake2.net/" target="_blank" rel="external">Blake2</a> official website.</p>
+
+</font>
+</div>
+
+
+<div align="justify">
+<font face="cambria" size="3">
 
 <h2><a id="Why-Ed25519"></a>1.2. Why Ed25519?</h2>
+
+<p>In previous section the importance and challenges of selecting a cryptographic hash function discussed carefully. In this a Public-key cryptography algorithm will be selected. There are plenty of theories that these algorithms are developed and created based on them such as: Discrete logarithm, Elliptic-curve cryptography, Non-commutative cryptography, RSA (Rivest–Shamir–Adleman) problem and Trapdoor function. Furthermore, for each mathematical algorithm which are already mentioned, there are numerous number of Public-key cryptography algorithms which are presented in the table below:</p>
+
+</font>
+</div>
+
+<div align="center">
+<font face="cambria" size="3">
+<TABLE align="center">
+   <TR>
+      <TH COLSPAN="3"><H3>Public-key cryptography</H3>
+      </TH>
+   </TR>
+   <TR ALIGN="CENTER">
+      <TD>Cramer–Shoup</TD>
+      <TD>ECDSA</TD>
+      <TD>EdDSA</TD>
+   </TR> 
+   <TR ALIGN="CENTER">
+      <TD>DH</TD>
+      <TD>EKE</TD>
+      <TD>Schnorr</TD>
+   </TR>
+   <TR ALIGN="CENTER">  
+      <TD>DSA</TH>     
+      <TD>ElGamal (signature scheme)</TD>
+      <TD>SPEKE</TD>
+   </TR>
+   <TR ALIGN="CENTER">   
+      <TD>ECDH</TD>
+      <TD>MQV</TD>   
+      <TD>SRP</TD>
+   </TR>
+</TABLE>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div align="justify">
+<font face="cambria" size="3">
+
+</font>
+</div>
+
+
+
+
 <h2><a id="Why-Equihash"></a>1.3. Why Equihash?</h2>
 
 <h1><a id="Introduction-&-Mathematical-foundation"></a>2. Introduction & Mathematical foundation</h1>
