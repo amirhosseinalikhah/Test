@@ -131,12 +131,53 @@
 </font>
 </div>
 
+<div align="justify">
+<font face="cambria" size="3">
+
 <h3><a id="Blake2-C-Node-Addon"></a>3.1.2. Blake2 C/C++ Node-Addon</h3>
 
+<p>This package is forked from other projects and developed to create a C/C++ Node.js Addon. The difference is JavaScript packages are slower as JavaScript is a high level programming language. The main platform in TrustNote is Node.js; therefor to have the best performance while using the basis platform, it will be required to create a C/C++ Addon. Consequently, a JavaScript code will be used as the interface and the calculation will be done in C/C++ core which this favors the performance. The performance of the same functions with the same input in this package will be presented.</p>
 
+<b>Same as previous section the test is to create hash using Blake2b and Blake2s with the digest length of 512 and 256 respectively. A JavaScript code is created to test the performance of the package which is available at Appendix C: Blake2b-C/C++ Node.js-Addon-test.</b>
 
+<p>The result of hashing “<b>abc</b>” as the input string presented below:</p>
 
+<p>ba80a53f981c4d0d6a2797b69f12f6e94c212f14685ac4b74b12bb6fdbffa2d17d87c5392aab792dc252d5de4533cc9518d38aa8dbf1925ab92386edd4009923</p>
 
+<p>The picture below is the test result of “<b>abc</b>” published in <a href="https://tools.ietf.org/html/rfc7693" target="_blank" rel="external">RCF 7693</a>:</p>
+
+</font>
+</div>
+
+<div align="center">
+<p><a target="_blank" href="images/TrustNote-TR-01-Blake2b-512.png"><img align="center" src="images/TrustNote-TR-01-Blake2b-512.png"></a></p>
+</div>
+
+<div align="justify">
+<font face="cambria" size="3">
+
+<p>The result of calculating the number of hashes Blake2b - Pure JavaScript can generate: <b>6,605,304</b> Blake2b with the digest length of 512 bits in 5 second.</p>
+
+<p>Performing the same test for the Blake2s, with the input vector of “abc” and by developing a JavaScript code available at Appendix D: Blake2s-C/C++ Node.js-Addon-test. </p>
+
+<p>508c5e8c327c14e2e1a72ba34eeb452f37458b209ed63a294d999b4c86675982</p>
+
+</font>
+</div>
+
+<div align="center">
+<p><a target="_blank" href="images/TrustNote-TR-01-Blake2s-256.png"><img align="center" src="images/TrustNote-TR-01-Blake2s-256.png"></a></p>
+</div>
+
+<div align="justify">
+<font face="cambria" size="3">
+
+<p>The result of calculating the number of hashes Blake2s - Pure JavaScript can generate: <b>7,128,410</b> Blake2s with the digest length of 256 bits in 5 second.</p>
+
+<p>Therefore, it is crystal clear that C/C++ Addon generates <b>6,605,304</b> hashes for Blake2b and <b>7,128,410</b> hashes for Blake2s with maximum digest length while Pure JavaScript generates only <b>219,743</b> hashes for Blake2b and <b>450,680</b> hashes for Blake2s.</p>
+
+</font>
+</div>
 
 <div align="justify">
 <font face="cambria" size="3">
