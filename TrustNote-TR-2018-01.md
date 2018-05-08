@@ -89,9 +89,7 @@
 <table>
     <thead>
         <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
+            <th>Cryptographic hash functions</th>
         </tr>
     </thead>
     <tbody>
@@ -113,8 +111,6 @@
     </tbody>
 </table>
 
-<p><b>Cryptographic hash functions</b></p>
-| :---: | :---: | :---: |
 | HAVAL |	MD5 |	JH |
 | Kupyna | SHA-1 | Skein |
 | LM hash |	SHA-2 |	Keccak |
