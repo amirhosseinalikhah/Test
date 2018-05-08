@@ -251,7 +251,7 @@
 </div>
 
 <div align="right">
-<p><a target="_blank" href="images/Sign and Verify on Raspbery Pi.png"><img align="center" src="images/Sign and Verify on Raspbery Pi.png"></a></p>
+<p><a target="_blank" href="images/Sign and Verify times.png"><img align="center" src="images/Sign and Verify times.png"></a></p>
 </div>
 
 
