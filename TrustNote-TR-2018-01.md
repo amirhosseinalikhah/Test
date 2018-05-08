@@ -73,11 +73,80 @@
 <h2><a id="Ed25519"></a>2.2. Ed25519</h2>
 <h2><a id="Equihash"></a>2.3. Equihash</h2>
 
+<div align="justify">
+<font face="cambria" size="3">
+
 <h1><a id="How-to-get-started-with-it"></a>3. How to get started with it?</h1>
+
+<p>In this section the packages related to each algorithm, parameters required to use them and the test results will be presented. Each subsection introducing the test vectors or testing parameters.</p>
+
 <h2><a id="Lets-get-started-with-Blake2-Node-js-Addon"></a>3.1. Let's get started with Blake2-Node.js-Addon</h2>
+
+<p>In this section the performance of two sets of packages created for Blake2 will be compared. These packages which are forked from other projects; one is the Pure JavaScript implementation of Blake2 and the other one is Node.js C/C++ Addon created for Blake2. The difference is crystal clear in the name, but the main differences are going to be shown in the subsections below. This package is in accordance with Blake2 RCF 7693 Standard, the final results also compared as well; more test vectors can be accessed there as well.</p>
+
+</font>
+</div>
+
+<div align="justify">
+<font face="cambria" size="3">
+
 <h3><a id="Blake2-Pure-JavaScript-Node-Addon"></a>3.1.1. Blake2 Pure JavaScript-Node-Addon</h3>
+
+<p>This packages which is forked and created from other projects, is tested for generating hash using Blake2b and Blake2s. A JavaScript code is created to test the performance of the package which is available at Appendix A: Blake2b-PureJava-test. The result of hashing “abc” as the input string presented below:</p>
+
+<p>ba80a53f981c4d0d6a2797b69f12f6e94c212f14685ac4b74b12bb6fdbffa2d17d87c5392aab792dc252d5de4533cc9518d38aa8dbf1925ab92386edd4009923</p>
+
+<p>The picture below is the test result of “<b>abc</b>” published in <a href="https://tools.ietf.org/html/rfc7693" target="_blank" rel="external">RCF 7693</a>:</p>
+
+</font>
+</div>
+
+<div align="center">
+<p><a target="_blank" href="images/TrustNote-TR-01-Blake2b-512.png"><img align="center" src="images/TrustNote-TR-01-Blake2b-512.png"></a></p>
+</div>
+
+<div align="justify">
+<font face="cambria" size="3">
+
+<p>The result of calculating the number of hashes Blake2b - Pure JavaScript can generate: <b>219,743</b> Blake2b with the digest length of 512 bits in 5 second.</p>
+
+<p>Performing the same test for the Blake2s, with the input vector of “<b>abc</b>” and by developing a JavaScript code available at Appendix B: Blake2s-PureJava-test.</p>
+
+<p>508c5e8c327c14e2e1a72ba34eeb452f37458b209ed63a294d999b4c86675982</p>
+
+<p>The picture below is the test result of “<b>abc</b>” published in <a href="https://tools.ietf.org/html/rfc7693" target="_blank" rel="external">RCF 7693</a>:</p>
+
+</font>
+</div>
+
+<div align="center">
+<p><a target="_blank" href="images/TrustNote-TR-01-Blake2s-256.png"><img align="center" src="images/TrustNote-TR-01-Blake2s-256.png"></a></p>
+</div>
+
+<div align="justify">
+<font face="cambria" size="3">
+
+<p>The result of calculating the number of hashes Blake2s - Pure JavaScript can generate: <b>450,680</b> Blake2s with the digest length of 256 bits in 5 second.</p>
+
+</font>
+</div>
+
 <h3><a id="Blake2-C-Node-Addon"></a>3.1.2. Blake2 C/C++ Node-Addon</h3>
+
+
+
+
+
+
+<div align="justify">
+<font face="cambria" size="3">
+
 <h2><a id="Lets-get-started-with-Ed25519-Node-Addon"></a>3.2. Let's get started with Ed25519-Node-Addon</h2>
+
+<p>The previous chapter showed that it's a waste of time to use Pure JavaScript packages for the project. Therefore, only the C/C++ Addon performance tested and presented for this package. The JavaScript code developed to test this package which is forked from other projects, is available at Appendix E: Ed25519-C/C++ Node.js-Addon-test. During 5 seconds, this package generates, signs and verifies 4,198 keys. This package presents an amazing performance.</p>
+
+</font>
+</div>
 
 <div align="justify">
 <font face="cambria" size="3">
@@ -90,7 +159,7 @@
 </div>
 
 <div>
-<font face="cambria">
+<font face="cambria" size="3">
 
  | N (bits) |	K |	Seed |	Time (ms) |	Difficulty |	Solution Size (KB)	| Number of solutions found |
  | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
