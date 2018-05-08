@@ -230,8 +230,29 @@
   
 </div>
 
+<div align="justify">
+<font face="cambria" size="3">
 
+<p>A full list of available Public-key cryptographies’ eBATS (ECRYPT Benchmarking of Asymmetric Systems) benchmarks available at:</p>
 
+<ul>
+  <li>eBATS benchmarks for <a href="http://bench.cr.yp.to/impl-sign/ed25519.html" target="_blank" rel="external">Ed25519</a>.</li>
+  <li>eBATS benchmarks for <a href="http://bench.cr.yp.to/results-sign.html" target="_blank" rel="external">results of benchmarking of all Public-key signatures</a>.</li>
+  <li>eBATS benchmarks for <a href="http://bench.cr.yp.to/primitives-sign.html" target="_blank" rel="external">full list of Public-key signatures</a>.</li>
+</ul>
+
+<p>However, this is not the main reason for choosing Ed25519. The graphs below are the speed comparison of popular public-key cryptography, adopted from wolfssl measurements.</p>
+
+</font>
+</div>
+
+<div align="left">
+<p><a target="_blank" href="images/Sign and Verify on Raspbery Pi.png"><img align="center" src="images/Sign and Verify on Raspbery Pi.png"></a></p>
+</div>
+
+<div align="right">
+<p><a target="_blank" href="images/Sign and Verify on Raspbery Pi.png"><img align="center" src="images/Sign and Verify on Raspbery Pi.png"></a></p>
+</div>
 
 
 
