@@ -89,8 +89,10 @@
 </font>
 </div>
 
-<div align="center">
+<div>
 <font face="cambria" size="3">
+
+<center>
 
 | N (bits) |	K |	Seed |	Time (ms) |	Difficulty |	Solution Size (KB)	| Number of solutions found |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
@@ -102,6 +104,8 @@
 | 110	| 4	| 5	| 22,062 | 1 |	327,680 |	16 |
 | 126	| 5	| 5	| 49,077 | 1 | 204,800 |	32 |
 | 126	| 5	| 20 |	36,797 | 1 |	204,800 |	32 |
+
+</center>
 
 </font>
 </div>
