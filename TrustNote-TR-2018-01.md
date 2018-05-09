@@ -496,14 +496,14 @@
 <h2><a id="Blake2"></a>2.1. Blake2</h2>
 
 <p>In this section, the parameters and mathematical foundation of Blake2 (Blake2b and Blake2s) will be explained; adopted from reference (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013).</p>
-
-<p><b>Parameter Blocks of Blake2b and Blake2s</b></p>
-
 </font>
 </div>
 
 <div align="center">
 <font face="cambria" >
+<p><b>Parameter Blocks of Blake2b and Blake2s</b></p>
+
+
 
 <TABLE ALIGN="CENTER">
    <TR>
@@ -656,8 +656,8 @@
 
 
 
-<p>G<sub>0</sub>(v<sub>0</sub>,v<sub>4</sub>,v<sub>8</sub>,v<sub>12</sub>)&emsp;G<sub>1</sub>(v<sub>1</sub>,v<sub>5</sub>,v<sub>9</sub>,v<sub>13</sub>)&emsp;G<sub>2</sub>(v<sub>2</sub>,v<sub>6</sub>,v<sub>10</sub>,v<sub>14</sub>)&emsp;G<sub>3</sub>(v<sub>3</sub>,v<sub>7</sub>,v<sub>11</sub>,v<sub>15</sub>)</p>
-<p>G<sub>4</sub>(v<sub>0</sub>,v<sub>5</sub>,v<sub>10</sub>,v<sub>15</sub>)&emsp;G<sub>5</sub>(v<sub>1</sub>,v<sub>6</sub>,v<sub>11</sub>,v<sub>12</sub>)&emsp;G<sub>6</sub>(v<sub>2</sub>,v<sub>7</sub>,v<sub>8</sub>,v<sub>13</sub>)&emsp;G<sub>7</sub>(v<sub>3</sub>,v<sub>4</sub>,v<sub>9</sub>,v<sub>14</sub>)</p>
+<p align="center">G<sub>0</sub>(v<sub>0</sub>,v<sub>4</sub>,v<sub>8</sub>,v<sub>12</sub>)&emsp;G<sub>1</sub>(v<sub>1</sub>,v<sub>5</sub>,v<sub>9</sub>,v<sub>13</sub>)&emsp;G<sub>2</sub>(v<sub>2</sub>,v<sub>6</sub>,v<sub>10</sub>,v<sub>14</sub>)&emsp;G<sub>3</sub>(v<sub>3</sub>,v<sub>7</sub>,v<sub>11</sub>,v<sub>15</sub>)</p>
+<p align="center">G<sub>4</sub>(v<sub>0</sub>,v<sub>5</sub>,v<sub>10</sub>,v<sub>15</sub>)&emsp;G<sub>5</sub>(v<sub>1</sub>,v<sub>6</sub>,v<sub>11</sub>,v<sub>12</sub>)&emsp;G<sub>6</sub>(v<sub>2</sub>,v<sub>7</sub>,v<sub>8</sub>,v<sub>13</sub>)&emsp;G<sub>7</sub>(v<sub>3</sub>,v<sub>4</sub>,v<sub>9</sub>,v<sub>14</sub>)</p>
 
 
 
@@ -671,14 +671,14 @@
 
 
 
-<p>h<sup>'</sup><sub>0</sub>=h<sub>0</sub>&oplus;v<sub>0</sub>&oplus;v<sub>8</sub></p>
-<p>h<sup>'</sup><sub>1</sub>=h<sub>1</sub>&oplus;v<sub>1</sub>&oplus;v<sub>9</sub></p>
-<p>h<sup>'</sup><sub>2</sub>=h<sub>2</sub>&oplus;v<sub>2</sub>&oplus;v<sub>10</sub></p>
-<p>h<sup>'</sup><sub>3</sub>=h<sub>3</sub>&oplus;v<sub>3</sub>&oplus;v<sub>11</sub></p>
-<p>h<sup>'</sup><sub>4</sub>=h<sub>4</sub>&oplus;v<sub>4</sub>&oplus;v<sub>12</sub></p>
-<p>h<sup>'</sup><sub>5</sub>=h<sub>5</sub>&oplus;v<sub>5</sub>&oplus;v<sub>13</sub></p>
-<p>h<sup>'</sup><sub>6</sub>=h<sub>6</sub>&oplus;v<sub>6</sub>&oplus;v<sub>14</sub></p>
-<p>h<sup>'</sup><sub>7</sub>=h<sub>7</sub>&oplus;v<sub>7</sub>&oplus;v<sub>15</sub></p>
+<p align="center">h<sup>'</sup><sub>0</sub>=h<sub>0</sub>&oplus;v<sub>0</sub>&oplus;v<sub>8</sub></p>
+<p align="center">h<sup>'</sup><sub>1</sub>=h<sub>1</sub>&oplus;v<sub>1</sub>&oplus;v<sub>9</sub></p>
+<p align="center">h<sup>'</sup><sub>2</sub>=h<sub>2</sub>&oplus;v<sub>2</sub>&oplus;v<sub>10</sub></p>
+<p align="center">h<sup>'</sup><sub>3</sub>=h<sub>3</sub>&oplus;v<sub>3</sub>&oplus;v<sub>11</sub></p>
+<p align="center">h<sup>'</sup><sub>4</sub>=h<sub>4</sub>&oplus;v<sub>4</sub>&oplus;v<sub>12</sub></p>
+<p align="center">h<sup>'</sup><sub>5</sub>=h<sub>5</sub>&oplus;v<sub>5</sub>&oplus;v<sub>13</sub></p>
+<p align="center">h<sup>'</sup><sub>6</sub>=h<sub>6</sub>&oplus;v<sub>6</sub>&oplus;v<sub>14</sub></p>
+<p align="center">h<sup>'</sup><sub>7</sub>=h<sub>7</sub>&oplus;v<sub>7</sub>&oplus;v<sub>15</sub></p>
 
 
 
@@ -690,10 +690,10 @@
 
 
 
-<p>IV<sub>0</sub> = 6a09e667&emsp;&emsp;IV<sub>1</sub> = bb67ae85</p>
-<p>IV<sub>2</sub> = 3c6ef372&emsp;&emsp;IV<sub>3</sub> = a54ff53a</p>
-<p>IV<sub>4</sub> = 510e527f&emsp;&emsp;IV<sub>5</sub> = 9b05688c</p>
-<p>IV<sub>6</sub> = 1f83d9ab&emsp;&emsp;IV<sub>7</sub> = 5be0cd19</p>
+<p align="center">IV<sub>0</sub> = 6a09e667&emsp;&emsp;IV<sub>1</sub> = bb67ae85</p>
+<p align="center">IV<sub>2</sub> = 3c6ef372&emsp;&emsp;IV<sub>3</sub> = a54ff53a</p>
+<p align="center">IV<sub>4</sub> = 510e527f&emsp;&emsp;IV<sub>5</sub> = 9b05688c</p>
+<p align="center">IV<sub>6</sub> = 1f83d9ab&emsp;&emsp;IV<sub>7</sub> = 5be0cd19</p>
 
 
 
