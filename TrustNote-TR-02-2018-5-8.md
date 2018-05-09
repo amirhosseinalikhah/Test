@@ -89,7 +89,7 @@
 <div align="justify">
 <font face="cambria" size="3">
 
-<h1><a id="#Glossary"></a>Glossary</h1>
+<h1><a id="Glossary"></a>Glossary</h1>
 
 <ul>
 	<li><b>Node:</b> Refers to any active user, installed TrustNote client (any devices such as phone, pc, IoT, etc.) and having a valid wallet address.</li>
@@ -110,13 +110,13 @@
 	<li><b>Silent-locking time:</b> Refers to the period of time when, a super node doesn't send any attestation unit.</li>
 </ul>
 
-<h1><a id="#Introduction"></a>1. Introduction</h1>
+<h1><a id="Introduction"></a>1. Introduction</h1>
 
 <p>TrustNote is a minable public DAG-ledger with an innovative, two-tier consensus mechanism designed to be "lightweight, efficient and trustworthy". Such two-tier consensus mechanisms can improve transaction throughput and reduce transaction confirmation delay, which effectively solving the problem of "Excessive Bifurcation" and "Double Spending". TrustME-PoW enables support for high concurrency transactions, fast transaction confirmation, and decentralized transaction unit strict sequencing mechanism. Even more, it also provides an important capability for TrustNote to support advanced declarative smart contracts and Micro-Nodes. </p>
 
 <p>This report explains fundamental protocols governing the TrustNote platform, such as, super nodes management protocol, Main chain selection and best parent selection, Main chain stabilization protocol, and etc. After introducing all the prerequisites, TrustME-PoW consensus mechanism will be fully explained in detail. </p>
 
-<h2><a id="#Node-Taxonomy-and-Topology"></a>1.1. Node Taxonomy and Topology</h2>
+<h2><a id="Node-Taxonomy-and-Topology"></a>1.1. Node Taxonomy and Topology</h2>
 
 <p>The TrustNote network supports four types of nodes: Super-nodes, Full-nodes, Light-nodes, and Micro-nodes. A comparison between these four types of nodes presented in the table below. </p>
 
@@ -143,36 +143,37 @@
 	<td>light ledger</td>
 	<td>N/A</td>
 	</tr>
+	  <tr align="center">
     <td><b>transaction</b></td>
     <td>√</td>
 	<td>√</td>
 	<td>√</td>
 	<td>commissioned</td>
-	</tr>
+</tr><tr align="center">
 	<td><b>DAG consensus</b></td>
     <td>√</td>
 	<td>√</td>
 	<td>indirect</td>
 	<td>×</td>
-	</tr>
+</tr><tr align="center">
 	<td><b>TrustME-PoW</b></td>
     <td>√</td>
 	<td>×</td>
 	<td>×</td>
 	<td>×</td>
-	</tr>
+</tr><tr align="center">
 	<td><b>TrustME-BA</b></td>
     <td>√</td>
 	<td>×</td>
 	<td>×</td>
 	<td>×</td>
-	</tr>
+</tr><tr align="center">
 	<td><b>Hosting Micro Node</b></td>
     <td>√</td>
 	<td>×</td>
 	<td>×</td>
 	<td>×</td>
-	</tr>
+</tr><tr align="center">
 	<td><b>deployment</b></td>
     <td>Mining systems, Cloud Host Server/Workstation, PC</td>
 	<td>Cloud Host Server/Workstation, PC</td>
@@ -190,7 +191,7 @@
 <div align="justify">
 <font face="cambria" size="3">
 
-<h2><a id="#TrustME-PoW-Scheme-Overview"></a>1.2. TrustME-PoW Scheme Overview</h2>
+<h2><a id="TrustME-PoW-Scheme-Overview"></a>1.2. TrustME-PoW Scheme Overview</h2>
 
 <ul>
 	<li>Decentralized Attestor selection among super nodes. </li>
@@ -225,12 +226,12 @@
 <div align="justify">
 <font face="cambria" size="3">
 
-<h2><a id="#Report-Organization"></a>1.3. Report Organization</h2>
+<h2><a id="Report-Organization"></a>1.3. Report Organization</h2>
 
 <p>The remainder of this technical report is organized as follows. In chapter 2, the node taxonomy, network topology and importance of Super nodes will be explained. Also, more detail about how a user can become a super node and the procedure the user should be through explained. Then, we will explain why the user should pay the deposit to become a Super Node and the procedure the user would be through to get it back. Chapter 3 is dedicated to Main Chain selection and stabilization algorithm, and the best parent protocol and its importance in MC stabilization and determination will be explained. In chapter 4 the innovative TrustME-PoW consensus with all detail will be explained. Even more, the reason why we have Attestors, what Attestors are doing, how Attestors benefit from helping the maintenance of the DAG-ledger, the switching procedure between rounds and so on are carefully explained. The procedure of calculation of the rewards and the procedure of sending rewards to Attestors also explained in this chapter. Finally, in chapter 5 the required steps that TrustNote should be taken to upgrade the network from Witnesses mode to TrustME-PoW mode fully explained.</p>
 
-<h1><a id="#Super-Node"></a>2. Super Node</h1>
-<h2><a id="#Motivation"></a>2.1. Motivation</h2>
+<h1><a id="Super-Node"></a>2. Super Node</h1>
+<h2><a id="Motivation"></a>2.1. Motivation</h2>
 
 <p>Why do we need super node? </p>
 
@@ -242,7 +243,7 @@
 	<li>Super nodes and adoption of a Coarse-grained network algorithm make the whole network, partition tolerant.  </li>	
 </ul>
 
-<h2><a id="#Methodology"></a>2.2. Methodology</h2>
+<h2><a id="Methodology"></a>2.2. Methodology</h2>
 
 <p>Super nodes playing a key role in verification of the transactions, selection of parent units, transaction units sequencing, and micro-node protocols. In order to encourage nodes with high computing storage and network resources to become Super nodes, TrustNote has a total bonus of <b>500,000,000 MN</b>. The total amount of bonuses is equal to the total circulation in the previous period. These bonuses prized during 30 years to those Super Nodes who will help in maintenance of the TrustNote DAG-ledger. The Attestation Reward Policy allocates 6.79% of Total Attestation Rewards for the first year, after which the yearly allocated Attestation Rewards decays year by year according to Figure 2-1, of these, 90% of Attestation Rewards are allocated to the Super Nodes who provide valid Attestation Units, 10% of Attestation Rewards are allocated to TrustNote Foundation to support community operations, project incubation, and rewards to contributors etc.</p>
 
@@ -269,7 +270,7 @@
 	<li>Database operations consume hard disk IO, CPU, and RAM resources.</li>
 </ul>
 
-<h2><a id="#Deposit-Mechanism"></a>2.3. Deposit Mechanism</h2>
+<h2><a id="Deposit-Mechanism"></a>2.3. Deposit Mechanism</h2>
 
 <p>The Super node can generate normal units and TrustME units. The address of the generated TrustME unit must be the same as the one used to generate the deposit contract. There is only one Super node address for each deposit contract. If a Super node wants to have more than one competing Attestors’ address (such as a mining pool), it needs to generate multiple deposit contracts and pay them. By considering the safety issues of the Super Node itself and security of the network, the deposit required for the Super Node assigned as <b>50,000 MN</b>.</p>
 
@@ -292,7 +293,7 @@ messages: [{
 }]
 ```
 
-<h1><a id="#Main-Chain"></a>3. Main Chain</h1>
+<h1><a id="Main-Chain"></a>3. Main Chain</h1>
 
 <p>In this section it is explained that:</p>
 
@@ -321,7 +322,7 @@ messages: [{
 
 <p>Assume an attacker wants to modify a unit. The attacker will be successful if it would have conspiracy with all other nodes to gossip the new ledger which containing the modified unit; which with the existence of honest nodes it’s impossible. Even more, assuming that the digital signature is unforgeable, the greater the number of nodes on the entire network, the more difficult it is for an attacker to tamper a unit. Consequently, it’s about to impossible for an attacker to do so</p>
 
-<h2><a id="#Basic-Concept"></a>3.1. Basic Concept</h2>
+<h2><a id="Basic-Concept"></a>3.1. Basic Concept</h2>
 
 <ul>
 	<li><b>Unit Inclusion:</b> If "A" verifies "B", the unit "A" header contains the hash of the unit "B", so we say the unit "A" includes the unit "B". This inclusion relationship between the nodes is represented by a directed arrow between edges "A" and "B" on the DAG. If unit "A" includes unit "B" and the minimum path between the two units is "1", then it is said that unit "A" includes unit "B" directly; if unit "A" includes unit "B" and the minimum path between the two units is greater than "1", then unit "A" includes the unit "B" indirectly. Examples of unit inclusions are presented in figure 3-2 (a) and (b) below. </li>
@@ -350,7 +351,7 @@ messages: [{
 	<li><b>Attestation Level:</b> To determine the Attestation Level for any unit labelled as starting unit, follow the path along best parent chain, until finding more than half of all Attestors’ Attestation unit along the path. Then calculating the unit level of the stop unit, this value is the Attestation Level of the starting unit. The genesis unit is created by all initial Attestors, so it’s the best parent naturally. </li>
 </ul>
 
-<h2><a id="#Best-Parent-and-Main-Chain-Determination"></a>3.2. Best Parent and Main Chain Determination</h2>
+<h2><a id="Best-Parent-and-Main-Chain-Determination"></a>3.2. Best Parent and Main Chain Determination</h2>
 
 <p>Each unit (except Genesis unit) in DAG ledger has one or more parent units. According to a consistent algorithm, we can select the best parent units among the available parent units. The best parent unit selection algorithm is showed as below:</p>
 
@@ -378,7 +379,7 @@ messages: [{
 
 <p>In this way, you can get a path starting from any Childless Unit, connecting the selected best parent units and finally reaching the Genesis Unit. This path is called the "Main Chain". As many childless units exist, there might be many "Main Chains", but the one which starts from the Childless Unit with the highest Attestation Level finally will be selected as Current <b>Main Chain</b>.</p>
 
-<h2><a id="#Main-Chain-Index"></a>3.3. Main Chain Index</h2>
+<h2><a id="Main-Chain-Index"></a>3.3. Main Chain Index</h2>
 
 <p>According to the Best Parent Unit Selection algorithm, all main chains started from childless units will merge at a point. The part from the merging point to the Genesis Unit are completely same. If any new childless units added to DAG ledger cannot change the merging point, the part of main chain from the merging point to the Genesis Unit can be called stable. All units included by the stable main chain unit directly or indirectly will be stable too. The last stable main chain unit is called the Last Stable Unit. All stable main chain units have an index, called Main Chain Index (MCI).</p>
 
@@ -389,7 +390,7 @@ messages: [{
 
 <p>According to MCI, we can obtain the total order of all stable units and can use this definitive total order to prevent double spending. This process is called "unit final confirmation". With the addition of new units, the stable main chain on DAG ledger will continue to grow and all related units will be confirmed.</p>
 	
-<h2><a id="#Main-Chain-Stabilization-Algorithm"></a>3.4. Main Chain Stabilization Algorithm</h2>	
+<h2><a id="Main-Chain-Stabilization-Algorithm"></a>3.4. Main Chain Stabilization Algorithm</h2>	
 	
 <p>The main chain stabilization algorithm uses the Current Main Chain as a reference to determine whether the last stable unit can be transferred to the next unit of the Current Main Chain or not. According to the child unit number of the last stable unit, this algorithm can be divided into two cases:</p>	
 
@@ -423,11 +424,11 @@ messages: [{
 <div align="justify">
 <font face="cambria" size="3">
 
-<h1><a id="#TrustME-PoW-Consensus"></a>4. TrustME-PoW Consensus</h1>
+<h1><a id="TrustME-PoW-Consensus"></a>4. TrustME-PoW Consensus</h1>
 
 <p>TrustNote adopts a two-tier consensus mechanism comprising "base consensus" and "TrustME consensus". The base consensus, also known as "DAG consensus", requires new units sent by nodes to verify previous units and reference them. The TrustME consensus is used to select a main chain on DAG ledger and give out the total order of all stable units based on the main chain. Such two-tier consensus mechanisms can improve transaction throughput and reduce transaction confirmation delay, thus effectively solving the problem of Excessive Bifurcation and double-spending.</p>
 
-<h2><a id="#Motivation"></a>4.1. Motivation</h2>
+<h2><a id="Motivation"></a>4.1. Motivation</h2>
 
 <p>TrustME-PoW designed in two different types during the conceptual design phase:</p>
 
@@ -440,7 +441,7 @@ messages: [{
 
 <p>In addition, when the network is divided, networks with more than (n/2)  Attestors will continue to expand, and the main chain will continue to grow and stabilize over time. If in the partitioned network, the Attestors number is less than or equal to (n/2), all the units in the network will not become stable and a new round of TrustME-PoW consensus cannot be completed until the network get more than (n/2)  Attestors.</p>
 
-<h2><a id="#How-to-Select-Attestors"></a>4.2. How to Select Attestors</h2>
+<h2><a id="How-to-Select-Attestors"></a>4.2. How to Select Attestors</h2>
 
 <p>TrustME-PoW conducted in separate rounds. Each round lasts <b>until the next round Attestors list</b> will be completed. <b>Eighteen</b> Attestors will be selected in <b>each</b> round and <b>two</b> other Attestors maintained by <b>TrustNote</b> will be added to the consensus round, which results in <b>twenty</b> Attestors in each consensus round. </p>
 
@@ -459,7 +460,7 @@ messages: [{
 
 <p>Once unit "<b>l</b>" becomes stable, at <b>T14</b> last PoW unit, unit "i" for one of the Attestors interested in taking part in next consensus round becomes stable and next consensus round starts immediately. The partial MCI order of each PoW unit becomes stable determines the priority of the Attestors in next consensus round.</p>
 
-<h2><a id="#PoW-Unit"></a>4.3. PoW Unit</h2>
+<h2><a id="PoW-Unit"></a>4.3. PoW Unit</h2>
 
 <p>For i<sup>th</sup> consensus round, the super node thread calculates pubSeed<sub>(i-1)</sub>,Coinbase<sub>(i-2)</sub> and pubSeed<sub>i</sub> = blake2<sub>256</sub>(pubSeed<sub>(i-1)</sub> || hash(Coinbase<sub>(i-2)</sub>) || hash(FirstStableMCUnit<sub>(i-1)</sub>)). Finally, it uses the public seed to calculate the Equihash calculation input for one super node n as Seed<sub>(i,n)</sub> = blake2<sub>256</sub>(pubKey<sub>n</sub>||pubSeed<sub>i</sub>), and then calculates Equihash difficulty factor "d". The difficulty factor "d" is designed and adjusted for each consensus round based on desired time of about five minutes to find the solution of Equihash. It means this parameter is a threshold and the result of solving Equihash must have a certain number of leading zeroes to be accepted. This parameter will be adjusted with respect to desired time of generating a PoW unit and it will be applied to the system smoothly.</p>
 
@@ -513,7 +514,7 @@ messages: [{
 }
 ```
 
-<h2><a id="#Consensus-Round-Switching"></a>4.4. Consensus Round Switching</h2>
+<h2><a id="Consensus-Round-Switching"></a>4.4. Consensus Round Switching</h2>
 
 <p>The fact that consensus round switching happens is deterministic, but there are still some questions might be tickling your mind such as when the right time is to switch to next consensus rounds, or How to determine the validity of an Attestation unit and so on. The slides below (continued from section 3.4 and section 4.2) presenting additional details to answer all these questions.</p>
 
@@ -532,7 +533,7 @@ messages: [{
 <div align="justify">
 <font face="cambria" size="3">
 
-<h2><a id="#Equihash-Difficulty-Calculation"></a>4.5. Equihash Difficulty Calculation</h2>
+<h2><a id="Equihash-Difficulty-Calculation"></a>4.5. Equihash Difficulty Calculation</h2>
 
 </font>
 </div>
@@ -547,7 +548,7 @@ messages: [{
 <div align="justify">
 <font face="cambria" size="3">
 
-<h2><a id="#TrustME unit"></a>4.6. TrustME unit</h2>
+<h2><a id="TrustME unit"></a>4.6. TrustME unit</h2>
 
 <p>An Attestor can send multiple TrustME units within its consensus round. The TrustME units will be selected as the MC unit with a large probability. Each Attestor in the consensus round sending TrustME units according to the priority order. To reduce the delay in confirmation of the transactions, if any of the Attestors don’t send the TrustME message during a certain time the next two Attestors can send the TrustME unit. (e.g. if Attestor "5" doesn’t send the Attestation unit during a certain time, the Attestor "6" and "7" will start sending units.) </p>
 <p>The first TrustME unit which sent in each round should be sent by foundation Attestor and should contains the full Coinbase list of (i-2)<sup>th</sup> round’s Attestors. The only difference between this unit and unit sent by other Attestors is, to reduce the unit fee for other Attestors they only contain hash of Coinbase message in their first TrustME message which is the consensus on Coinbase message. If any of the Attestors don’t agree upon this message they can calculate the Coinbase list and generate their own Coinbase message and send it. </p>
@@ -633,7 +634,7 @@ messages: [{
 <p>If TrustNote Attestors or any of other eighteen Attestors in the consensus round wouldn’t be available for any reason the next priority Attestor in current consensus round will immediately start sending TrustME units. (e.g. if Attestor “5” is not available, the Attestor “6” start sending units.)</p>
 
 
-<h2><a id="#Attestation Reward"></a>4.7. Attestation Reward</h2>
+<h2><a id="Attestation Reward"></a>4.7. Attestation Reward</h2>
 
 <p>If the TrustME unit sent by the Attestor of a consensus round is a stable unit on MC, the Attestor will receive Attestation reward and the larger the proportion of the TrustME units it sent, the more Attestation reward it would receive. In the absence of stability in the main chain, it is impossible to determine which TrustME units are on the main chain and it is not fair to calculate the Attestation bonus. Therefore, this consensus mechanism does not provide Coinbase directly (like Bitcoin) in the unit. Only after all the TrustME units belonging to the same round on the main chain are stable, TrustNote Attestors calculate how many Attestation bonuses can be obtained for each Attestor in that specific round; the reason for this is to eliminate the cost of generation of this unit for Attestors. After all the TrustME units of a consensus round are stable, the number of TrustME units at each address in the statistical chain shall be calculated according to the proportion of the Attestation bonuses. Even more, if any Attestors has doubt in calculated share of Attestation reward, they can generate the Attestation share list of that specific round by themselves and reference the TrustNote unit to make sure. </p>
 
@@ -649,8 +650,8 @@ messages: [{
 <div align="justify">
 <font face="cambria" size="3">
 
-<h1><a id="#Switching from Witnesses to TrustME-PoW"></a>5. Switching from Witnesses to TrustME-PoW</h1>
-<h2><a id="#Overview"></a>5.1. Overview</h2>
+<h1><a id="Switching from Witnesses to TrustME-PoW"></a>5. Switching from Witnesses to TrustME-PoW</h1>
+<h2><a id="Overview"></a>5.1. Overview</h2>
 
 <p>At a certain time, the i<sup>th</sup> round’s Attestors are on duty.</p>
 
@@ -691,7 +692,7 @@ messages: [{
 
 <p>At the junction, there might be cases where the i<sup>th</sup> TrustME unit is sent after starting the (i-1)<sup>th</sup> round of TrustME. At this time, the TrustME unit of the i<sup>th</sup> round will be deemed as illegal.</p>
 
-<h2><a id="#Procedure"></a>5.2. Procedure</h2>
+<h2><a id="Procedure"></a>5.2. Procedure</h2>
 
 <p>This section gives out the list of steps about how to convert to the TrustME-PoW consensus mechanism.</p>
 
@@ -771,7 +772,7 @@ messages: [{
 <div align="justify">
 <font face="cambria" size="3">
 
-<p>Eventually, all the consensus rounds after R_3 following the same procedure as〖 R〗_3.</p>
+<p>Eventually, all the consensus rounds after R<sub>3</sub> following the same procedure as R<sub>3</sub>.</p>
 
 </font>
 </div>
