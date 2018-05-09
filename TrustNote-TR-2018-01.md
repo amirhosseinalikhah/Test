@@ -325,7 +325,7 @@
 
 <h4>A. Root keys</h4>
 
-<p>Let &Atilde; be 256-bit master secret. Then derive k = H512(&Atilde;) and denote its left 32-byte by k<sub>L</sub> and right one by k<sub>R</sub>. If the third highest bit of the last byte of k<sub>L</sub> is not zero, discard &Atilde; Otherwise additionally set the bits in k<sub>L</sub> as follows: the lowest 3 bits of the first byte of k<sub>L</sub> of are cleared, the highest bit of the last byte is cleared, the second highest bit of the last byte is set. The resulting pair (k<sub>L</sub>,k<sub>R</sub>) is the extended root private key, and A &le; [k<sub>L</sub>]B is the root public key after encoding. Derive c ← H256(0x01||&Atilde;, where H<sub>256</sub> is SHA-256, and call it the root chain code.</p>
+<p>Let &Atilde; be 256-bit master secret. Then derive k = H512(&Atilde;) and denote its left 32-byte by k<sub>L</sub> and right one by k<sub>R</sub>. If the third highest bit of the last byte of k<sub>L</sub> is not zero, discard &Atilde; Otherwise additionally set the bits in k<sub>L</sub> as follows: the lowest 3 bits of the first byte of k<sub>L</sub> of are cleared, the highest bit of the last byte is cleared, the second highest bit of the last byte is set. The resulting pair (k<sub>L</sub>,k<sub>R</sub>) is the extended root private key, and A &le; [k<sub>L</sub>]B is the root public key after encoding. Derive c ← H256(0x01||&Atilde);, where H<sub>256</sub> is SHA-256, and call it the root chain code.</p>
 
 <h4>B. Child keys</h4>
 
@@ -387,7 +387,7 @@
 
 <h4>E. Key tree</h4>
 
-<p>Child with i < 2<sup>31</sup> can be a parent for his children with his own chain code c<sub>i</sub>. Proceeding with this, we can create a tree of keys where each non-leaf node is a parent for its children and is a child for its parent. A path m %rarr; i<sub>1</sub> &rarr; ⋯ &rarr; i<sub>l</sub>  from the original parent m to a child at level l thus uniquely identifies the node.</p>
+<p>Child with i < 2<sup>31</sup> can be a parent for his children with his own chain code c<sub>i</sub>. Proceeding with this, we can create a tree of keys where each non-leaf node is a parent for its children and is a child for its parent. A path m &rarr; i<sub>1</sub> &rarr; ⋯ &rarr; i<sub>l</sub>  from the original parent m to a child at level l thus uniquely identifies the node.</p>
 
 <p>Eventually, it is evident that Ed25519 is one of the best available Public-key signatures until now which is going to be used for digital signatures. We may change the Public-key signature if we find some flaw in Ed25519 or if we find another Public-key signature algorithm which offers higher assurance and performance. We picked Ed25519 algorithm because of the advantages this algorithm offering. For more in-depth information about Ed25519 features please visit <a href="https://ed25519.cr.yp.to/" target="_blank" rel="external">Ed25519</a> official website.</p>
 
@@ -1305,7 +1305,7 @@
 <p>6. Josefsson, S., & Liusvaara, I. (2017). Edwards-Curve Digital Signature Algorithm (EdDSA). Internet Research Task Force.</p>
 <p>7. Langley, A., Google, Hamburg, M., Rambus Cryptography Research, & Turner, S. (2016). Edwards-Curve Digital Signature Algorithm.</p> 
 <p>8. Wagner, D. (2002). A Generalized Birthday Problem. Lecture Notes in Computer Science 2442, 288–303.</p>
-</u>
+</ul>
 
 
 <h1><a id="Appendix"></a>Appendix</h1>
@@ -1463,12 +1463,3 @@ function xmod (buf) {
 </font>
 </div>
 </html>
-
-
-
-
-
-
-
-
-
