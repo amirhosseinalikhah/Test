@@ -1,17 +1,5 @@
 <html>
   
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-
-
-<HTML XMLNS:m="http://www.w3.org/1998/Math/MathML">
-<HEAD>
-   <OBJECT
-      ID=MathPlayer
-      CLASSID="clsid:32F66A20-7614-11D4-BD11-00104BD3F987"
-   >
-   </OBJECT>
-   <?IMPORT NAMESPACE="m" IMPLEMENTATION="#MathPlayer" ?>
- 
 <div align="center">
 <font face="cambria">
 <p><a target="_blank" href="images/TrustNote-Logo.png"><img align="center" width="300px" height="300px" src="images/TrustNote-Logo.png"></a></p>
