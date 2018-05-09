@@ -432,8 +432,8 @@ messages: [{
 <p>TrustME-PoW designed in two different types during the conceptual design phase:</p>
 
 <ul>
-	<p>Fine-grained</p>
-	<p>Coarse-grained</p>
+	<li>Fine-grained</li>
+	<li>Coarse-grained</li>
 </ul>
 
 <p>Both methods studied carefully, but in fine-grained PoW schemes, there is not any bound between Super Nodes necessarily. In case of network-partitioning, as long as there are Super nodes in each partition, MC growth and stability will still be promoted, which will lead to successful confirmation of a double spent unit. To resolve this issue some attributes suggested for strengthening the bounds between the Super nodes. Eventually, it observed that nodes’ bounding that achieves a fine-grained consensus is equivalent to transforming the fine-grained consensus into a coarse-grained consensus. Therefore, in final design Coarse-grained PoW selected.</p>
@@ -475,7 +475,7 @@ messages: [{
             messages: [{
                 app: 'payment',
                 payload_location: 'inline',
-                payload_hash: 'Hash of Payload of this Transaction Message,
+                payload_hash: 'Hash of Payload of this Transaction Message',
                 payload: {
                     outputs: [{
                         { address: 'Destination Wallet Address', amount: 9989459 },
@@ -589,7 +589,7 @@ messages: [{
             messages: [{
                 app: 'payment',
                 payload_location: 'inline',
-                payload_hash: 'Hash of Payload of this Transaction Message,
+                payload_hash: 'Hash of Payload of this Transaction Message',
                 payload: {
                     outputs: [{
                         {address: 'Destination Wallet Address', amount: 9989459},
