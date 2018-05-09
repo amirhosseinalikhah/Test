@@ -94,16 +94,7 @@
 
 <div align="center">
 <font face="cambria" >
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: center;    
-}
-</style>
+ 
  <table>
    <TR>
       <TH COLSPAN="3">Cryptographic hash functions</TH>
@@ -424,16 +415,7 @@ th, td {
 
 <div align="center">
 <font face="cambria" >
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: center;    
-}
-</style>
+ 
  <table>
    <TR>
       <TH COLSPAN="5">List of cryptocurrencies with Proof-of-Work consensus mechanism</TH>
@@ -928,16 +910,7 @@ th, td {
 <p>Wagner demonstrated an algorithm for k > 1 and the lists are large enough to contain numerous solutions. It has time and space complexity of O(2<sup>n/(k+1)</sup>) for lists of the same size. Wagner’s algorithm generalizes easily to some operations other than XOR (e.g., to the modular addition). Also note that for k log_2⁡n a XOR solution can be found by the much faster Gaussian elimination with complexity of O(2<sup>k</sup>) string operations. The table below adopted from (Wagner, 2002) with some modifications explains the basic Wagner algorithm for the generalized birthday problem.</p>
 
 <center>
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: center;    
-}
-</style>
+ 
  <table>
    <TR>
       <TH><b>Basic Wagner’s algorithm for the generalized birthday problem</b></TH>
@@ -995,16 +968,7 @@ th, td {
 <p><b>Proposition 2.</b> Optimized Wagner’s algorithm below which adopted from (Biryukov & Khovratovich, 2016) with some changes:</p>
 
 <center>
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: center;    
-}
-</style>
+ 
  <table>
    <TR>
       <TH><b>Optimized Wagner’s algorithm for the generalized birthday problem</b></TH>
@@ -1229,16 +1193,7 @@ th, td {
 
 <div>
 <font face="cambria" >
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: center;    
-}
-</style>
+ 
  <table  >
    <TR>
       <TH><b>N (bits)</b></TH>
