@@ -96,7 +96,7 @@
 <font face="cambria" >
  
  <table>
-   <TR>
+   <TR ALIGN="CENTER">
       <TH COLSPAN="3">Cryptographic hash functions</TH>
    </TR>
    <TR ALIGN="CENTER">
@@ -208,9 +208,9 @@
 </font>
 </div>
 
-<div align="center">
+<div ALIGN="CENTER">
 <font face="cambria" >
-<TABLE align="center">
+<TABLE ALIGN="CENTER"">
    <TR>
       <TH COLSPAN="3"><H3>Public-key cryptography</H3>
       </TH>
@@ -499,7 +499,13 @@
 
 <p><b>Parameter Blocks of Blake2b and Blake2s</b></p>
 
-<TABLE align="center">
+</font>
+</div>
+
+<div align="center">
+<font face="cambria" >
+
+<TABLE ALIGN="CENTER">
    <TR>
       <TH>Offset</TH>
       <TH>0</TH>
@@ -581,6 +587,11 @@
       <TH COLSPAN="4">Personalization</TH>
    </TR>
    </TABLE>
+
+</font>
+</div>
+<div align="justify">
+<font face="cambria" >
 <p><b>BLAKE2s parameter block structure (offsets in bytes)</b></p>
 
 <p>General parameters (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013):</p>
