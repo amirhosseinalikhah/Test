@@ -1,5 +1,7 @@
 <html>
   
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
 <div align="center">
 <font face="cambria">
 <p><a target="_blank" href="images/TrustNote-Logo.png"><img align="center" width="300px" height="300px" src="images/TrustNote-Logo.png"></a></p>
@@ -1349,7 +1351,7 @@ th, td {
 
 <h2><a id="Blake2b-PureJava-test"></a>A: Blake2b-PureJava-test</h2>
 
-<pre class="prettyprint"><code class="language-javascript">
+```javascript
 'use strict';
 var startTime = new Date().getTime();
 var count = 0;
@@ -1370,11 +1372,11 @@ while ((endTime  - startTime) < 5000){
     count++;}
 console.log('Number of hashes generated during 5 seconds:');
 console.log(count)
-</code></pre>
+```
 
 <h2><a id="Blake2s-PureJava-test"></a>B: Blake2s-PureJava-test</h2>
 
-<pre class="prettyprint"><code class="language-javascript">
+```javascript
 'use strict';
 var startTime = new Date().getTime();
 var count = 0;
@@ -1399,11 +1401,11 @@ while ((endTime  - startTime) < 5000) {
     count++;}
 console.log('Number of hashes generated during 5 seconds:');
 console.log(count)
-</code></pre>
+```
 
 <h2><a id="Blake2b-C-Node-js-Addon-test"></a>C: Blake2b-C/C++ Node.js-Addon-test</h2>
 
-<pre class="prettyprint"><code class="language-javascript">
+```javascript
 'use strict';
 var startTime = new Date().getTime();
 var count = 0;
@@ -1431,11 +1433,11 @@ while ((endTime  - startTime) < 5000) {
     count++;}
 console.log('Number of hashes generated during 5 seconds:');
 console.log(count)
-</code></pre>
+```
 
 <h2><a id="Blake2s-C-Node-js-Addon-test"></a>D: Blake2s-C/C++ Node.js-Addon-test</h2>
 
-<pre class="prettyprint"><code class="language-javascript">
+```javascript
 'use strict';
 var startTime = new Date().getTime();
 var count = 0;
@@ -1455,11 +1457,11 @@ while ((endTime  - startTime) < 5000) {
     count++;}
 console.log('Number of hashes generated during 5 seconds:');
 console.log(count)
-</code></pre>
+```
 
 <h2><a id="Ed25519-C-Node-js-Addon-test"></a>E: Ed25519-C/C++ Node.js-Addon-test</h2>
 
-<pre class="prettyprint"><code class="language-javascript">
+```javascript
 'use strict';
 var test = require('tape')
 var ed = require('./')
@@ -1495,7 +1497,7 @@ function xmod (buf) {
   var cp = Buffer(buf)
   cp[0] = ~cp[0]
   return cp}
-</code></pre>
+```
 
 </font>
 </div>
