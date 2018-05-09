@@ -1,7 +1,5 @@
 <html>
 
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-  
 <div align="center">
 <font face="cambria">
 <p><a target="_blank" href="images/TrustNote-Logo.png"><img align="center" width="300px" height="300px" src="images/TrustNote-Logo.png"></a></p>
@@ -126,16 +124,7 @@
 </div>
 
 <div align="center">
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: center;    
-}
-</style>
+
 
 <p><b>Table 1-1 Comparison of four types of node</b></p>
 
@@ -290,7 +279,7 @@ th, td {
 
 <h3>Deposit Contract Message</h3>
 
-<pre class="prettyprint"><code class="language-javascript">
+```javascript
 messages: [{
     app: 'Deposit',
     payload_location: 'inline',
@@ -301,7 +290,7 @@ messages: [{
         reward_receiver_address: 'Wallet Address of Node'
     }
 }]
-</code></pre>
+```
 
 <h1><a id="#Main-Chain"></a>3. Main Chain</h1>
 
@@ -478,7 +467,7 @@ messages: [{
 
 <h3>PoW Unit</h3>
 
-<pre class="prettyprint"><code class="language-javascript">
+```javascript
 {
     unit: {
             version: 'Protocol Version',
@@ -522,7 +511,7 @@ messages: [{
              unit: 'Hash of this PoW unit'
     }
 }
-</code></pre>
+```
 
 <h2><a id="#Consensus-Round-Switching"></a>4.4. Consensus Round Switching</h2>
 
@@ -592,7 +581,7 @@ messages: [{
 
 <h3>TrustME Unit</h3>
 
-<pre class="prettyprint"><code class="language-javascript">
+```javascript
 {
     unit: {
             version: 'Protocol Version',
@@ -639,7 +628,7 @@ messages: [{
             unit: 'Hash of this PoW unit'
     }
 }
-</code></pre>
+```
 
 <p>If TrustNote Attestors or any of other eighteen Attestors in the consensus round wouldn’t be available for any reason the next priority Attestor in current consensus round will immediately start sending TrustME units. (e.g. if Attestor “5” is not available, the Attestor “6” start sending units.)</p>
 
