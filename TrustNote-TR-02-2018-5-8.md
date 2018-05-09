@@ -129,14 +129,14 @@
 <p><b>Table 1-1 Comparison of four types of node</b></p>
 
 <table align="center">
-  <tr>
+  <tr align="center">
     <th></th>
     <th>Super Node</th>
 	<th>Full Node</th>
 	<th>Light Node</th>
 	<th>Micro Node</th>
 	</tr>
-  <tr>
+  <tr align="center">
     <td><b>ledger</b></td>
     <td>full ledger</td>
 	<td>full ledger</td>
@@ -607,7 +607,7 @@ messages: [{
                 payload_hash: 'Hash of Payload',
                 payload: {
                     round: 'Round Number',
-                    PoW_solution: 'The PoW Unit Hash,
+                    PoW_solution: 'The PoW Unit Hash',
                     priority: 'Priority of Attestor',
                     coinbase of (i - 2)th round：[
                         {address: ‘...’, amount: 21 MN},
