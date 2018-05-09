@@ -128,7 +128,7 @@
 
 <p><b>Table 1-1 Comparison of four types of node</b></p>
 
-<table>
+<table align="center">
   <tr>
     <th></th>
     <th>Super Node</th>
