@@ -347,16 +347,16 @@
 <p>2)</p>
 
 
-<p>k<sub>L</sub>  &larr; < 8[Z<sub>L</sub>] + [k<sup>P</sup><sub>L</sub>] >,</p>
-<p>k<sub>R</sub>  &larr; <[Z<sub>R</sub>] + [k<sup>P</sup><sub>R</sub>]  mod 2<sup>256</sup>.</p>
+<p align="center">k<sub>L</sub>  &larr; < 8[Z<sub>L</sub>] + [k<sup>P</sup><sub>L</sub>] >,</p>
+<p align="center">k<sub>R</sub>  &larr; <[Z<sub>R</sub>] + [k<sup>P</sup><sub>R</sub>]  mod 2<sup>256</sup>.</p>
 
 <p>Where Z<sub>L</sub> is the left 28-byte part of  Z, and Z<sub>R</sub> is the right 32-byte part of Z. If k<sub>L</sub> is divisible by the base order n, discard the child.</p>
 
 
 <p>3) The child chain code is defined as</p>
 
-<p>Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x03||A<sup>P</sup>||i), i < 2<sup>31</sup>;</p>
-<p>Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x01||K<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</p>
+<p align="center">Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x03||A<sup>P</sup>||i), i < 2<sup>31</sup>;</p>
+<p align="center">Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x01||K<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</p>
 
 <p>Where the output of F is truncated to the right 32 bytes. The child public key A<sub>i</sub> is derived as [A]<sub>i</sub> = [k<sub>L</sub>]B.</p>
 
@@ -366,21 +366,21 @@
 
 <p>1)</p>
 
-<p>Z &larr; F<sup>P</sup><sub>c</sub>(0x02||A<sup>P</sup>||i), i < 2<sup>31</sup>;</p>
-<p>Z &larr; F<sup>P</sup><sub>c</sub>(0x02||k<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</p>
+<p align="center">Z &larr; F<sup>P</sup><sub>c</sub>(0x02||A<sup>P</sup>||i), i < 2<sup>31</sup>;</p>
+<p align="center">Z &larr; F<sup>P</sup><sub>c</sub>(0x02||k<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</p>
 
 <p>Where A<sup>P</sup> is serialized as little-endian 32-byte string, and i is serialized as little-endian 4-byte string. Note that like in the original BIP32 the public key for i &ge; 2<sup>31</sup> can be computed only by the private key owner and those knowing the parent private key.</p>
 
 <p>2)</p>
 
-<p>A<sub>i</sub> &larr; A<sup>P</sup> + [8Z<sub>L</sub>]B</p>
+<p align="center">A<sub>i</sub> &larr; A<sup>P</sup> + [8Z<sub>L</sub>]B</p>
 
 <p>where Z<sub>L</sub> is the left 28-byte part of Z interpreted as 224-bit integer using the little-endian representation. If A<sub>i</sub> is the identity point (0,1), discard the child.</p>
 
 <p>3) The child chain code is defined as</p>
 
-<p>Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x03||A<sup>P</sup>||i), i < 2<sup>31</sup>;</p>
-<p>Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x01||K<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</p>
+<p align="center">Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x03||A<sup>P</sup>||i), i < 2<sup>31</sup>;</p>
+<p align="center">Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x01||K<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</p>
 
 <p>Where the output of the HMAC function truncated to the right 32 bytes.</p>
 
@@ -609,10 +609,10 @@
 
 
 
-<p>h<sup>0</sup> &larr; IV &oplus; P</p>
-<p>for i = 0 ,… ,N-1</p>
-<p>h<sup>(i+1)</sup> &larr; compress(h<sup>i</sup>,m<sup>i</sup>,l<sup>i</sup>)</p>
-<p>return h<sup>N</sup></p>
+<p align="center">h<sup>0</sup> &larr; IV &oplus; P</p>
+<p align="center">for i = 0 ,… ,N-1</p>
+<p align="center">h<sup>(i+1)</sup> &larr; compress(h<sup>i</sup>,m<sup>i</sup>,l<sup>i</sup>)</p>
+<p align="center">return h<sup>N</sup></p>
 
 
 
@@ -620,10 +620,10 @@
 
 
 
-<p>IV<sub>0</sub> = 6a09e667f3bcc908&emsp;&emsp;IV<sub>1</sub> = bb67ae8584caa73b</p>
-<p>IV<sub>2</sub> = 3c6ef372fe94f82b&emsp;&emsp;IV<sub>3</sub> = a54ff53a5f1d36fa</p>
-<p>IV<sub>4</sub> = 510e527fade682d1&emsp;&emsp;IV<sub>5</sub> = 9b05688c2b3e6c1f</p>
-<p>IV<sub>6</sub> = 1f83d9abfb41bd6b&emsp;&emsp;IV<sub>7</sub> = 5be0cd19137e2179</p>
+<p align="center">IV<sub>0</sub> = 6a09e667f3bcc908&emsp;&emsp;IV<sub>1</sub> = bb67ae8584caa73b</p>
+<p align="center">IV<sub>2</sub> = 3c6ef372fe94f82b&emsp;&emsp;IV<sub>3</sub> = a54ff53a5f1d36fa</p>
+<p align="center">IV<sub>4</sub> = 510e527fade682d1&emsp;&emsp;IV<sub>5</sub> = 9b05688c2b3e6c1f</p>
+<p align="center">IV<sub>6</sub> = 1f83d9abfb41bd6b&emsp;&emsp;IV<sub>7</sub> = 5be0cd19137e2179</p>
 
 
 
