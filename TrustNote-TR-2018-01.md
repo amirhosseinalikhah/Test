@@ -839,18 +839,18 @@
 
 
 
-<p>A = (Y<sub>1</sub> - X<sub>1</sub>)(Y<sub>2</sub> - X<sub>2</sub>)</p>
-<p>B = (Y<sub>1</sub> + X<sub>1</sub>)(Y<sub>2</sub> + <sub>2</sub>)</p>
-<p>C = T<sub>1</sub>2dT<sub>2</sub></p>
-<p>D = Z<sub>1</sub>2Z<sub>2</sub></p>
-<p>E = B - A</p>
-<p>F = D - C</p>
-<p>G = D + C</p>
-<p>H = B + A</p>
-<p>X<sub>3</sub> = E * F</p>
-<p>Y<sub>3</sub> = G * H</p>
-<p>T<sub>3</sub> = E * H</p>
-<p>Z<sub>3</sub> = F * G</p>
+<p align="center">A = (Y<sub>1</sub> - X<sub>1</sub>)(Y<sub>2</sub> - X<sub>2</sub>)</p>
+<p align="center">B = (Y<sub>1</sub> + X<sub>1</sub>)(Y<sub>2</sub> + <sub>2</sub>)</p>
+<p align="center">C = T<sub>1</sub>2dT<sub>2</sub></p>
+<p align="center">D = Z<sub>1</sub>2Z<sub>2</sub></p>
+<p align="center">E = B - A</p>
+<p align="center">F = D - C</p>
+<p align="center">G = D + C</p>
+<p align="center">H = B + A</p>
+<p align="center">X<sub>3</sub> = E * F</p>
+<p align="center">Y<sub>3</sub> = G * H</p>
+<p align="center">T<sub>3</sub> = E * H</p>
+<p align="center">Z<sub>3</sub> = F * G</p>
 
 
 
@@ -858,17 +858,17 @@
 
 
 
-<p>A = X<sup>2</sup><sub>1</sub></p>
-<p>B = Y<sup>2</sup><sub>1</sub></p>
-<p>C = 2Z<sup>2</sup><sub>1</sub></p>
-<p>H = A + B</p>
-<p>E = H -(X<sub>1</sub> + Y<sub>1</sub>)<sup>2</sup></p>
-<p>G = A - B</p>
-<p>F = C + G</p>
-<p>X<sub>3</sub> = E * F</p>
-<p>Y<sub>3</sub> = G * H</p>
-<p>T<sub>3</sub> = E * H</p>
-<p>Z<sub>3</sub> = F * G</p>
+<p align="center">A = X<sup>2</sup><sub>1</sub></p>
+<p align="center">B = Y<sup>2</sup><sub>1</sub></p>
+<p align="center">C = 2Z<sup>2</sup><sub>1</sub></p>
+<p align="center">H = A + B</p>
+<p align="center">E = H -(X<sub>1</sub> + Y<sub>1</sub>)<sup>2</sup></p>
+<p align="center">G = A - B</p>
+<p align="center">F = C + G</p>
+<p align="center">X<sub>3</sub> = E * F</p>
+<p align="center">Y<sub>3</sub> = G * H</p>
+<p align="center">T<sub>3</sub> = E * H</p>
+<p align="center">Z<sub>3</sub> = F * G</p>
 
 
 
@@ -909,7 +909,7 @@
 
 <p>Wagner exposes the generalized birthday problem and the algorithm for it (Wagner, 2002). The generalized birthday problem for one list is formulated as follows: given list L of n-bit strings {X<sub>i</sub>}, find distinct {X<sub>i<sub>j</sub></sub>} such that (Biryukov & Khovratovich, 2016):</p>
 
-<p>X<sub>i<sub>1</sub></sub> &oplus; X<sub>i<sub>2</sub></sub> &oplus; ... &oplus; X<sub>i<sub>3</sub></sub> = 0</p>
+<p align="center">X<sub>i<sub>1</sub></sub> &oplus; X<sub>i<sub>2</sub></sub> &oplus; ... &oplus; X<sub>i<sub>3</sub></sub> = 0</p>
 
 <p>Wagner considers the setting where {X<sub>i</sub>} are outputs of some (non-keyed) PRNG, e.g. a hash function H in the counter mode. Thus Wagner had to find {i<sub>j</sub>} such that (Biryukov & Khovratovich, 2016):</p>
 
@@ -929,19 +929,18 @@
     <TR>
       <TD>
 	  <p align="justify"><b>Input:</b> list L of N n-bit strings (N&Lt;2<sup>n</sup>).</p>
-	  
-	  <ul>
+  <ul>
 		
-		<p align="justify">(1) Enumerate the list as {X<sub>1</sub>,…,X<sub>N</sub>} and store pairs (X<sub>j</sub>,j) in a table.</p>
-		<p align="justify">(2) Sort the table by X<sub>j</sub>. Then find all unordered pairs (i,j) such that X<sub>i</sub> collides with X<sub>j</sub> on the first n/(k+1) bits. Store all tuples (X<sub>(i,j)</sub>=X<sub>i</sub> &oplus; X<sub>j</sub>,i,j) in the table.</p>
-		<p align="justify">(3) Repeat the previous step to find collisions in X<sub>(i,j)</sub> on the next n/(k+1) bits and store the resulting tuples (X<sub>(i,j,k,l)</sub>,i,j,k,l) in the table.</p>
-		<p align="justify">(4) […] Repeat the previous step for the next n/(k+1) bits, and so on until only 2n/(k+1) bits are non-zero.</p>
-		<p align="justify">(5) [k+1] At the last step, find a collision on the last 2n/(k+1) bits. This gives a solution to the original problem.</p>
+<p align="justify">(1) Enumerate the list as {X<sub>1</sub>,…,X<sub>N</sub>} and store pairs (X<sub>j</sub>,j) in a table.</p>
+<p align="justify">(2) Sort the table by X<sub>j</sub>. Then find all unordered pairs (i,j) such that X<sub>i</sub> collides with X<sub>j</sub> on the first n/(k+1) bits. Store all tuples (X<sub>(i,j)</sub>=X<sub>i</sub> &oplus; X<sub>j</sub>,i,j) in the table.</p>
+<p align="justify">(3) Repeat the previous step to find collisions in X<sub>(i,j)</sub> on the next n/(k+1) bits and store the resulting tuples (X<sub>(i,j,k,l)</sub>,i,j,k,l) in the table.</p>
+<p align="justify">(4) […] Repeat the previous step for the next n/(k+1) bits, and so on until only 2n/(k+1) bits are non-zero.</p>
+<p align="justify">(5) [k+1] At the last step, find a collision on the last 2n/(k+1) bits. This gives a solution to the original problem.</p>
 	
-	  </ul>  
+  </ul>  
 	  
-	  <p align="justify"><b>Output:</b> list {i<sub>j</sub>} conforming to H(i<sub>1</sub>) &oplus; H(i<sub>2</sub>) &oplus; ... &oplus; H(i<sub>3</sub>)=0.</p>
-	  </TD>
+  <p align="justify"><b>Output:</b> list {i<sub>j</sub>} conforming to H(i<sub>1</sub>) &oplus; H(i<sub>2</sub>) &oplus; ... &oplus; H(i<sub>3</sub>)=0.</p>
+  </TD>
    </TR>
  <table>
 
