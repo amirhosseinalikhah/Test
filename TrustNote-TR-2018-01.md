@@ -169,9 +169,9 @@
 <ul>
 <li><p><b>BLAKE2b</b> (or just BLAKE2) is optimized for 64-bit platforms including NEON-enabled ARMs and produces digests of any size between 1 and 64 bytes.</p></li>
 <li><p><b>BLAKE2s</b> is optimized for 8- to 32-bit platforms and produces digests of any size between 1 and 32 bytes.</p></li>
-
-<p>BLAKE2 includes the 4-way parallel BLAKE2bp and 8-way parallel BLAKE2sp designed for increased performance on multicore or SIMD (Single Instruction, Multiple Data) CPUs. BLAKE2 offers these algorithms tuned to your specific requirements, such as keyed hashing (that is, MAC or PRF), hashing with a salt, updatable or incremental tree-hashing, or any combination thereof (Aumasson , Neves , Wilcox-O'Hearn, & Winnerlein , 2017).</p>
 </ul>
+<p>BLAKE2 includes the 4-way parallel BLAKE2bp and 8-way parallel BLAKE2sp designed for increased performance on multicore or SIMD (Single Instruction, Multiple Data) CPUs. BLAKE2 offers these algorithms tuned to your specific requirements, such as keyed hashing (that is, MAC or PRF), hashing with a salt, updatable or incremental tree-hashing, or any combination thereof (Aumasson , Neves , Wilcox-O'Hearn, & Winnerlein , 2017).</p>
+
 	
 <p>The SHA-3 Competition succeeded in selecting a hash function that complements SHA-2 and is much faster than SHA-2 in hardware (Chang, et al., 2012). There is nevertheless a demand for fast software hashing for applications such as integrity checking and deduplication in file systems and etc. (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013)</p>
 
