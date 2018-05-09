@@ -339,24 +339,24 @@
 
 <p>1)</p>
 
-<p><center>Z &larr; F<sup>P</sup><sub>c</sub>(0x02||A<sup>P</sup>||i), i < 2<sup>31</sup>;</center></p>
-<p><center>Z &larr; F<sup>P</sup><sub>c</sub>(0x02||k<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</center></p>
+<p>Z &larr; F<sup>P</sup><sub>c</sub>(0x02||A<sup>P</sup>||i), i < 2<sup>31</sup>;</p>
+<p>Z &larr; F<sup>P</sup><sub>c</sub>(0x02||k<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</p>
 
 <p>where A<sup>P</sup> is serialized as little-endian 32-byte string, k<sup>P</sup> is viewed as (k<sup>P</sup><sub>L</sub>,k<sup>P</sup><sub>R</sub>)  and both values are serialized as little-endian, and i is serialized as little-endian 4-byte string.</p>
 
 <p>2)</p>
 
 
-<p><center>k<sub>L</sub>  &larr; < 8[Z<sub>L</sub>] + [k<sup>P</sup><sub>L</sub>] >,</center></p>
-<p><center>k<sub>R</sub>  &larr; <[Z<sub>R</sub>] + [k<sup>P</sup><sub>R</sub>]  mod 2<sup>256</sup>.</center></p>
+<p>k<sub>L</sub>  &larr; < 8[Z<sub>L</sub>] + [k<sup>P</sup><sub>L</sub>] >,</p>
+<p>k<sub>R</sub>  &larr; <[Z<sub>R</sub>] + [k<sup>P</sup><sub>R</sub>]  mod 2<sup>256</sup>.</p>
 
 <p>Where Z<sub>L</sub> is the left 28-byte part of  Z, and Z<sub>R</sub> is the right 32-byte part of Z. If k<sub>L</sub> is divisible by the base order n, discard the child.</p>
 
 
 <p>3) The child chain code is defined as</p>
 
-<p><center>Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x03||A<sup>P</sup>||i), i < 2<sup>31</sup>;</center></p>
-<p><center>Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x01||K<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</center></p>
+<p>Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x03||A<sup>P</sup>||i), i < 2<sup>31</sup>;</p>
+<p>Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x01||K<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</p>
 
 <p>Where the output of F is truncated to the right 32 bytes. The child public key A<sub>i</sub> is derived as [A]<sub>i</sub> = [k<sub>L</sub>]B.</p>
 
@@ -366,21 +366,21 @@
 
 <p>1)</p>
 
-<p><center>Z &larr; F<sup>P</sup><sub>c</sub>(0x02||A<sup>P</sup>||i), i < 2<sup>31</sup>;</center></p>
-<p><center>Z &larr; F<sup>P</sup><sub>c</sub>(0x02||k<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</center></p>
+<p>Z &larr; F<sup>P</sup><sub>c</sub>(0x02||A<sup>P</sup>||i), i < 2<sup>31</sup>;</p>
+<p>Z &larr; F<sup>P</sup><sub>c</sub>(0x02||k<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</p>
 
 <p>Where A<sup>P</sup> is serialized as little-endian 32-byte string, and i is serialized as little-endian 4-byte string. Note that like in the original BIP32 the public key for i &ge; 2<sup>31</sup> can be computed only by the private key owner and those knowing the parent private key.</p>
 
 <p>2)</p>
 
-<p><center>A<sub>i</sub> &larr; A<sup>P</sup> + [8Z<sub>L</sub>]B</center></p>
+<p>A<sub>i</sub> &larr; A<sup>P</sup> + [8Z<sub>L</sub>]B</p>
 
 <p>where Z<sub>L</sub> is the left 28-byte part of Z interpreted as 224-bit integer using the little-endian representation. If A<sub>i</sub> is the identity point (0,1), discard the child.</p>
 
 <p>3) The child chain code is defined as</p>
 
-<p><center>Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x03||A<sup>P</sup>||i), i < 2<sup>31</sup>;</center></p>
-<p><center>Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x01||K<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</center></p>
+<p>Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x03||A<sup>P</sup>||i), i < 2<sup>31</sup>;</p>
+<p>Z<sub>i</sub> &larr; F<sup>P</sup><sub>c</sub>(0x01||K<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</p>
 
 <p>Where the output of the HMAC function truncated to the right 32 bytes.</p>
 
@@ -497,7 +497,7 @@
 
 <p>In this section, the parameters and mathematical foundation of Blake2 (Blake2b and Blake2s) will be explained; adopted from reference (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013).</p>
 
-<p><center><b>Parameter Blocks of Blake2b and Blake2s</b></center></p>
+<p><b>Parameter Blocks of Blake2b and Blake2s</b></p>
 
 <TABLE align="center">
    <TR>
@@ -541,7 +541,7 @@
       <TH COLSPAN="4">Personalization</TH>
    </TR>
    </TABLE>
-<p><center><b>BLAKE2b parameter block structure (offsets in bytes)</b></center></p>
+<p><b>BLAKE2b parameter block structure (offsets in bytes)</b></p>
 
 <TABLE align="center">
    <TR>
@@ -581,7 +581,7 @@
       <TH COLSPAN="4">Personalization</TH>
    </TR>
    </TABLE>
-<p><center><b>BLAKE2s parameter block structure (offsets in bytes)</b></center></p>
+<p><b>BLAKE2s parameter block structure (offsets in bytes)</b></p>
 
 <p>General parameters (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013):</p>
 
@@ -607,25 +607,25 @@
 
 <p>BLAKE2b supports data of any byte length  0 &le; l &le; 2<sup>128</sup> . Data is first padded to form a sequence of N = [l/128] 16-word blocks m<sub>0</sub>,m<sub>1</sub>, ..., m<sub>(N-1)</sub> and then hashed by doing (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013):</p>
 
-<center>
+
 
 <p>h<sup>0</sup> &larr; IV &oplus; P</p>
 <p>for i = 0 ,… ,N-1</p>
 <p>h<sup>(i+1)</sup> &larr; compress(h<sup>i</sup>,m<sup>i</sup>,l<sup>i</sup>)</p>
 <p>return h<sup>N</sup></p>
 
-</center>
+
 
 <p>Where l<sup>i</sup> denotes the number of data bytes in m<sup>0</sup>,m<sup>1</sup>, ..., m<sup>(N-1)</sup> (that is, not counting any padding byte), P is the parameter block specified in Parameter Blocks, and IV is (as in BLAKE and SHA-512) the following 64-bit words (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013):</p>
 
-<center>
+
 
 <p>IV<sub>0</sub> = 6a09e667f3bcc908&emsp;&emsp;IV<sub>1</sub> = bb67ae8584caa73b</p>
 <p>IV<sub>2</sub> = 3c6ef372fe94f82b&emsp;&emsp;IV<sub>3</sub> = a54ff53a5f1d36fa</p>
 <p>IV<sub>4</sub> = 510e527fade682d1&emsp;&emsp;IV<sub>5</sub> = 9b05688c2b3e6c1f</p>
 <p>IV<sub>6</sub> = 1f83d9abfb41bd6b&emsp;&emsp;IV<sub>7</sub> = 5be0cd19137e2179</p>
 
-</center>
+
 
 <p>The compression function compress takes as input (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013):</p>
 
@@ -643,12 +643,12 @@
 
 <p>Where f<sub>0</sub> and f<sub>1</sub> are the finalization flags. The internal state v is then transformed through a sequence of 12 rounds, where a round does (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013):</p>
 
-<center>
+
 
 <p>G<sub>0</sub>(v<sub>0</sub>,v<sub>4</sub>,v<sub>8</sub>,v<sub>12</sub>)&emsp;G<sub>1</sub>(v<sub>1</sub>,v<sub>5</sub>,v<sub>9</sub>,v<sub>13</sub>)&emsp;G<sub>2</sub>(v<sub>2</sub>,v<sub>6</sub>,v<sub>10</sub>,v<sub>14</sub>)&emsp;G<sub>3</sub>(v<sub>3</sub>,v<sub>7</sub>,v<sub>11</sub>,v<sub>15</sub>)</p>
 <p>G<sub>4</sub>(v<sub>0</sub>,v<sub>5</sub>,v<sub>10</sub>,v<sub>15</sub>)&emsp;G<sub>5</sub>(v<sub>1</sub>,v<sub>6</sub>,v<sub>11</sub>,v<sub>12</sub>)&emsp;G<sub>6</sub>(v<sub>2</sub>,v<sub>7</sub>,v<sub>8</sub>,v<sub>13</sub>)&emsp;G<sub>7</sub>(v<sub>3</sub>,v<sub>4</sub>,v<sub>9</sub>,v<sub>14</sub>)</p>
 
-</center>
+
 
 <p>That is, a round applies a G function to each of the columns in parallel, and then to all of the diagonals in parallel. The G function of BLAKE2b uses the constants in the table below which is permutations of  f {0,...,15} used by the BLAKE2 functions (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013). </p>
 
@@ -658,7 +658,7 @@
 
 <p>After the 12 rounds, the new chain value h<sup>'</sup><sub>0</sub>,...,h<sup>'</sup><sub>7</sub> is defined as (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013):</p>
 
-<center>
+
 
 <p>h<sup>'</sup><sub>0</sub>=h<sub>0</sub>&oplus;v<sub>0</sub>&oplus;v<sub>8</sub></p>
 <p>h<sup>'</sup><sub>1</sub>=h<sub>1</sub>&oplus;v<sub>1</sub>&oplus;v<sub>9</sub></p>
@@ -669,7 +669,7 @@
 <p>h<sup>'</sup><sub>6</sub>=h<sub>6</sub>&oplus;v<sub>6</sub>&oplus;v<sub>14</sub></p>
 <p>h<sup>'</sup><sub>7</sub>=h<sub>7</sub>&oplus;v<sub>7</sub>&oplus;v<sub>15</sub></p>
 
-</center>
+
 
 <p>Note the absence of the salt, compared to BLAKE.</p>
 
@@ -677,14 +677,14 @@
 
 <p>BLAKE2s supports data of any byte length 0 &le; l &le; 2<sup>64</sup> . It works similarly to BLAKE2b, but on 32-bit words instead of 64-bit words (the byte length of a chaining value, a message block, a counter or finalization flag are thus divided by two). BLAKE2s uses the following IV:</p>
 
-<center>
+
 
 <p>IV<sub>0</sub> = 6a09e667&emsp;&emsp;IV<sub>1</sub> = bb67ae85</p>
 <p>IV<sub>2</sub> = 3c6ef372&emsp;&emsp;IV<sub>3</sub> = a54ff53a</p>
 <p>IV<sub>4</sub> = 510e527f&emsp;&emsp;IV<sub>5</sub> = 9b05688c</p>
 <p>IV<sub>6</sub> = 1f83d9ab&emsp;&emsp;IV<sub>7</sub> = 5be0cd19</p>
 
-</center>
+
 
 <p>BLAKE2s does 10 rounds, and uses the G function. For more in-depth mathematical information about Blake2b and Blake2s, please visit (Aumasson, Neves, Wilcox-O’Hearn, & Winnerlein, 2013).</p>
 
@@ -826,7 +826,7 @@
 
 <p>For point addition, the following method is recommended. A point (x,y) is represented in extended homogeneous coordinates (X,Y,Z,T), with x = X/Z, y = Y/Z, xy = T/Z. The neutral point is (0,1), or equivalently in extended homogeneous coordinates (0,Z,Z,0) for any non-zero Z. The following formulas for adding two points, (x<sub>3</sub>,y<sub>3</sub>)=(x<sub>1</sub>,y<sub>1</sub>)+(x<sub>2</sub>,y<sub>2</sub>), on twisted Edwards curves with a = -1, square a, and non-square d are described in Section 3.1 of <a href="http://eprint.iacr.org/2008/" target="_blank" rel="external">Edwards-revisited</a> and in <a href="http://www.hyperelliptic.org/EFD/g1p/auto-twisted-extended-1.html#addition-add-2008-hwcd-3)." target="_blank" rel="external">EFD-TWISTED-ADD</a>. They are complete, i.e., they work for any pair of valid input points. </p>
 
-<center>
+
 
 <p>A = (Y<sub>1</sub> - X<sub>1</sub>)(Y<sub>2</sub> - X<sub>2</sub>)</p>
 <p>B = (Y<sub>1</sub> + X<sub>1</sub>)(Y<sub>2</sub> + <sub>2</sub>)</p>
@@ -841,11 +841,11 @@
 <p>T<sub>3</sub> = E * H</p>
 <p>Z<sub>3</sub> = F * G</p>
 
-</center>
+
 
 <p>For point doubling, (𝑥<sub>3</sub>,𝑦<sub>3</sub>) = (𝑥<sub>1</sub>,𝑦<sub>1</sub>) + (𝑥<sub>1</sub>,𝑦<sub>1</sub>), one could just substitute equal points in the above (because of completeness, such substitution is valid) and observe that four multiplications turn into squares. However, using the formulas described in Section 3.2 of <a href="http://eprint.iacr.org/2008/" target="_blank" rel="external">Edwards-revisited</a> and in <a href="http://www.hyperelliptic.org/EFD/g1p/auto-twisted-extended-1.html#addition-add-2008-hwcd-3)." target="_blank" rel="external">EFD-TWISTED-ADD</a> saves a few smaller operations.</p>
 
-<center>
+
 
 <p>A = X<sup>2</sup><sub>1</sub></p>
 <p>B = Y<sup>2</sup><sub>1</sub></p>
@@ -860,7 +860,7 @@
 <p>Z<sub>3</sub> = F * G</p>
 
 
-</center>
+
 
 <h3>Key Generation</h3>
 
@@ -897,19 +897,19 @@
 <h2><a id="Equihash"></a>2.3. Equihash</h2>
 
 <p>Wagner exposes the generalized birthday problem and the algorithm for it (Wagner, 2002). The generalized birthday problem for one list is formulated as follows: given list L of n-bit strings {X<sub>i</sub>}, find distinct {X<sub>i<sub>j</sub></sub>} such that (Biryukov & Khovratovich, 2016):</p>
-<center>
+
 <p>X<sub>i<sub>1</sub></sub> &oplus; X<sub>i<sub>2</sub></sub> &oplus; ... &oplus; X<sub>i<sub>3</sub></sub> = 0</p>
-</center>
+
 <p>Wagner considers the setting where {X<sub>i</sub>} are outputs of some (non-keyed) PRNG, e.g. a hash function H in the counter mode. Thus Wagner had to find {i<sub>j</sub>} such that (Biryukov & Khovratovich, 2016):</p>
-<center>
+
 <p>H(i<sub>1</sub>) &oplus; H(i<sub>2</sub>) &oplus; ... &oplus; H(i<sub>3</sub>)=0</p>
-</center>
+
 
 <p>For k = 1 this problem is the collision search, and can be solved trivially by sorting in 2<sup>(n/2)</sup> time and space complexity if |L| > 2<sup>(n/2)</sup>. However, for k > 1 and smaller lists the problem is harder. For instance, from the information-theoretic point of view a solution for k = 2 in a list of size 2<sup>(n/4)</sup> is expected, but no algorithm faster than 2<sup>(n/3)</sup> operations is known (Biryukov & Khovratovich, 2016).</p>
 
 <p>Wagner demonstrated an algorithm for k > 1 and the lists are large enough to contain numerous solutions. It has time and space complexity of O(2<sup>n/(k+1)</sup>) for lists of the same size. Wagner’s algorithm generalizes easily to some operations other than XOR (e.g., to the modular addition). Also note that for k log_2⁡n a XOR solution can be found by the much faster Gaussian elimination with complexity of O(2<sup>k</sup>) string operations. The table below adopted from (Wagner, 2002) with some modifications explains the basic Wagner algorithm for the generalized birthday problem.</p>
 
-<center>
+
  
  <table>
    <TR>
@@ -933,7 +933,7 @@
 	  </TD>
    </TR>
  <table>
-</center>
+
 
 </font>
 </div>
@@ -953,11 +953,11 @@
 
 <p>Entries for the second table, then N - 3 entries for the third table, and so on. Before the last (k-th) collision search it is expected to N - 2<sup>(k-1)</sup> + 1 is approximatly N = 2<sup>(n/(k+1))</sup> + 1 entries, thus on average two solutions after the last step were obtained. The computational complexity is dominated by the complexity of list generation (N hash calls) and subsequent k sorting of N elements. Therefore, the total computational complexity is equivalent to (Biryukov & Khovratovich, 2016):</p>
 
-<center>
+
 
 <p>(k + 1)N = (k + 1)N = 2<sup>(n/(k+1))</sup> + 1</p>
 
-</center>
+
 
 <p>Hash function calls. This ends the proof. Biryukov et. al have not computed the variance of the number of solutions, but their experiments demonstrate that the actual number of solutions at each step is very close (within 10%) to the expected number. If larger lists are used, the table will grow in size over the steps. The list size is exactly taken so that the expected number of solutions is small and the table size does not change much (Biryukov & Khovratovich, 2016).</p>
 
@@ -967,7 +967,7 @@
 
 <p><b>Proposition 2.</b> Optimized Wagner’s algorithm below which adopted from (Biryukov & Khovratovich, 2016) with some changes:</p>
 
-<center>
+
  
  <table>
    <TR>
@@ -991,7 +991,7 @@
 	  </TD>
    </TR>
  <table>
-</center>
+
 </font>
 </div>
 
