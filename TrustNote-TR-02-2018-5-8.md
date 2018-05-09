@@ -182,7 +182,7 @@
 	</tr>	
 	</table> 
 	
-<p><a target="_blank" href="images/TrustNote-TR-02-network Connection diagram between nodes.png"><img align="center" src="images/TrustNote-TR-02-network Connection diagram between nodes.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-network connection diagram between nodes.png"><img align="center" src="images/TrustNote-TR-02-network connection diagram between nodes.png"></a></p>	
 	
 <p><b>Figure ‎1-1 P2P network Connection diagram between nodes</b></p>	
 	
