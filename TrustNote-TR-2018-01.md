@@ -339,8 +339,8 @@
 
 <p>1)</p>
 
-<p>Z &larr; F<sup>P</sup><sub>c</sub>(0x02||A<sup>P</sup>||i), i < 2<sup>31</sup>;</p>
-<p>Z &larr; F<sup>P</sup><sub>c</sub>(0x02||k<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</p>
+<p align="center">Z &larr; F<sup>P</sup><sub>c</sub>(0x02||A<sup>P</sup>||i), i < 2<sup>31</sup>;</p>
+<p align="center">Z &larr; F<sup>P</sup><sub>c</sub>(0x02||k<sup>P</sup>||i), i &ge; 2<sup>31</sup>;</p>
 
 <p>where A<sup>P</sup> is serialized as little-endian 32-byte string, k<sup>P</sup> is viewed as (k<sup>P</sup><sub>L</sub>,k<sup>P</sup><sub>R</sub>)  and both values are serialized as little-endian, and i is serialized as little-endian 4-byte string.</p>
 
