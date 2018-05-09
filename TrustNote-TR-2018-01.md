@@ -965,7 +965,7 @@
 
 
 
-<p>(k + 1)N = (k + 1)N = 2<sup>(n/(k+1))</sup> + 1</p>
+<p align="center">(k + 1)N = (k + 1)N = 2<sup>(n/(k+1))</sup> + 1</p>
 
 
 
@@ -986,18 +986,16 @@
     <TR>
       <TD>
 	  <p align="justify"><b>Input:</b> list L of N n-bit strings.</p>
-	  
-	  <ul>
-		
-		<p align="justify">(1) Enumerate the list as {X<sub>1</sub>,…,X<sub>N</sub>} and store pairs (j) in a table.</p>
-		<p align="justify">(2) Sort the table by X<sub>j</sub>, computing it on-the-fly. Then find all unordered pairs (i,j) such that X<sub>i</sub> collides with X<sub>j</sub> on the first n/(k+1) bits. Store all such pairs (i,j) in the table.</p>
-		<p align="justify">(3) Repeat the previous step to find collisions in X<sub>(i,j)</sub> (again recomputing on-the-fly) on the next n/(k+1) bits and store the resulting tuples (i,j,k,l) in the table.</p>
-		<p align="justify">(4) […] Repeat the previous step for the next n/(k+1) bits, and so on. When indices trimmed to 8 bits plus the length X<sub>(i,j,…)</sub> becomes smaller than the full index tuple, switch to trimming indices.</p>
-		<p align="justify">(5) [k+1] At the last step, find a collision on the last 2n/(k+1) bits. This gives a solution to the original problem.</p>
+ <ul>
+<p align="justify">(1) Enumerate the list as {X<sub>1</sub>,…,X<sub>N</sub>} and store pairs (j) in a table.</p>
+<p align="justify">(2) Sort the table by X<sub>j</sub>, computing it on-the-fly. Then find all unordered pairs (i,j) such that X<sub>i</sub> collides with X<sub>j</sub> on the first n/(k+1) bits. Store all such pairs (i,j) in the table.</p>
+<p align="justify">(3) Repeat the previous step to find collisions in X<sub>(i,j)</sub> (again recomputing on-the-fly) on the next n/(k+1) bits and store the resulting tuples (i,j,k,l) in the table.</p>
+<p align="justify">(4) […] Repeat the previous step for the next n/(k+1) bits, and so on. When indices trimmed to 8 bits plus the length X<sub>(i,j,…)</sub> becomes smaller than the full index tuple, switch to trimming indices.</p>
+<p align="justify">(5) [k+1] At the last step, find a collision on the last 2n/(k+1) bits. This gives a solution to the original problem.</p>
 	
-	  </ul>  
+  </ul>  
 	  
-	  <p align="justify"><b>Output:</b> list {i<sub>j</sub>} conforming to H(i<sub>1</sub>) &oplus; H(i<sub>2<sup>k</sup></sub>) &oplus; ... &oplus; H(i<sub>3</sub>)=0.</p>
+  <p align="justify"><b>Output:</b> list {i<sub>j</sub>} conforming to H(i<sub>1</sub>) &oplus; H(i<sub>2<sup>k</sup></sub>) &oplus; ... &oplus; H(i<sub>3</sub>)=0.</p>
 	  </TD>
    </TR>
  <table>
