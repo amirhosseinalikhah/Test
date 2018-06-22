@@ -65,6 +65,7 @@
   <p><a href="#TRUSTNOTE-PLATFORM-AND-APPLICATIONS">6. TRUSTNOTE PLATFORM AND APPLICATIONS</a></p>
   <p><a href="#ISSUANCE-AND-DISTRIBUTION">7. ISSUANCE AND DISTRIBUTION</a></p>
   <p><a href="#REFERENCES">8. REFERENCES</a></p>
+  <p><a href="#NOTICESANDDISCLAIMERS">9. NOTICES AND DISCLAIMERS</a></p>
 </ul>
 </font>
 </div>
@@ -735,7 +736,7 @@ For example, the following definition requires two signatures:</P>
 	
 <ul>
 <li>Main Chain and the Multi-Platform Wallet:  Build the Main Chain, develop basic version of wallet and release it to the public, and token issuance;</li>
-<li>Open Source:  TrustNote is an open-source project and will be hosted on Github.  The first Github release is scheduled on Q1 2018.  A development team will be set up including TrustNote employees and community developers.  Every developer can contribute to the project and the changes will be submitted by the development team upon code review;</li>
+<li>Open Source:  TrustNote is an open-source project and will be hosted on Github.  The first Github release was scheduled on Q1 2018.  A development team will be set up including TrustNote employees and community developers.  Every developer can contribute to the project and the changes will be submitted by the development team upon code review;</li>
 <li>Developer Community: Communicate with developers, receive questions and bug reports, publish software releases, technical articles and roadmaps, integrate the most advanced blockchain technologies by interacting with the world blockchain development community;</li>
 	</ul>
 	
@@ -838,6 +839,131 @@ For example, the following definition requires two signatures:</P>
 <p>15. S. King and S. Nadal. PPCoin: Peer-to-Peer Crypto-Currency with Proof-of-Stake, 2012.</p>
 <p>16. S. Micali, M. Rabin and S. Vadhan. Verifiable Random Functions. 40th Foundations of Computer Science (FOCS), New York, Oct 1999.</p>
 	</ul>
+</font>
+</div>
+
+<div align="justify">
+
+<font face="cambria" size="3">
+
+
+<h1><a id="NOTICESANDDISCLAIMERS"></a>9. NOTICES AND DISCLAIMERS</h1>
+
+<p>TTTs ("<b>Tokens</b>") are not intended to constitute securities in any jurisdiction. This White Paper does not constitute a prospectus or offer document of any sort and is not intended to constitute an offer of securities or a solicitation for investment in securities in any jurisdiction. </p>
+
+<p>No regulatory authority, including the Monetary Authority of Singapore ("<b>MAS</b>"), has reviewed or approved or disapproved of the Tokens or this White Paper. No such action has been or will be taken under the laws, regulatory requirements or rules of any jurisdiction. The publication, distribution or dissemination of this White Paper does not imply that the applicable laws, regulatory requirements or rules have been complied with. </p>
+
+<p>The information set out in this White Paper is for community discussion only and is not legally binding. No person is bound to enter into any contract or binding legal commitment in relation to the purchase or acquisition of the Tokens, and no virtual currency or other form of payment is to be accepted on the basis of this White Paper. The agreement for the sale and purchase of the Tokens and/or continued holding of the Tokens may be governed by a separate set of Terms and Conditions or Purchase Agreement (as the case may be) setting out the terms of such purchase and/or continued holding of the Tokens (the "<b>Terms and Conditions</b>"), which may be separately provided to you or made available at the website(s) of TrustNote Foundation. In the event of any inconsistencies between the Terms and Conditions and this White Paper, the Terms and Conditions shall prevail.</p>
+
+<p><b>NO REPRESENTATIONS AND WARRANTIES</b></p>
+
+<p>This White Paper does not constitute any offer by any distributor or vendor of the Tokens (including, without limitation, TTT Technology Pty Ltd and the TrustNote Foundation) (each, a "<b>Distributor</b>" and collectively, the "<b>Distributors</b>") or any of the project team members who have worked on the TrustNote platform or project to develop the TrustNote platform (the "<b>TrustNote team</b>") in any way whatsoever to sell any Tokens, nor shall it or any part of it nor the fact of its presentation form the basis of, or be relied upon in connection with, any contract or investment decision.</p>
+
+<p>Nothing contained in this White Paper is or may be relied upon as a promise, representation or undertaking as to the future performance of the TrustNote platform. The agreement between a Distributor and you, in relation to any sale and purchase of the Tokens is to be governed by only the separate terms and conditions of such agreement.</p>
+
+<p><b>REPRESENTATIONS AND WARRANTIES BY YOU</b></p>
+
+<p>By accessing this White Paper or any part thereof, you represent and warrant to the Distributors, their affiliates and the TrustNote team as follows:</p>
+
+<ul>
+
+<p>(a) you agree and acknowledge that the Tokens do not constitute securities in any form in any jurisdiction;</p>
+
+<p>(b) you agree and acknowledge that this White Paper does not constitute a prospectus or offer document of any sort and is not intended to constitute an offer of securities in any jurisdiction or a solicitation for investment in securities and you are not bound to enter into any contract or binding legal commitment and no cryptocurrency or other form of payment is to be accepted on the basis of this White Paper;</p>
+
+<p>(c) you agree and acknowledge that no regulatory authority has examined or approved of the information set out in this White Paper, no action has been or will be taken under the laws, regulatory requirements or rules of any jurisdiction and the publication, distribution or dissemination of this White Paper to you does not imply that the applicable laws, regulatory requirements or rules have been complied with;</p>
+
+<p>(d) the distribution or dissemination of this White Paper, any part thereof or any copy thereof, or acceptance of the same by you, is not prohibited or restricted by the applicable laws, regulations or rules in your jurisdiction, and where any restrictions in relation to such possession are applicable, you have observed and complied with all such restrictions at your own expense and without liability to the Distributors and/or the TrustNote team;</p>
+
+<p>(e) you agree and acknowledge that in the case where you wish to purchase or acquire any Tokens, the Tokens are not to be construed, interpreted, classified or treated as:</p>
+
+<ul>
+
+<p>(i) any kind of currency other than cryptocurrency;</p>
+
+<p>(ii)	debentures, stocks or shares issued by any person or entity;</p>
+
+<p>(iii) rights, options or derivatives in respect of such debentures, stocks or shares;</p>
+
+<p>(iv) rights under a contract for differences or under any other contract the purpose or pretended purpose of which is to secure a profit or avoid a loss;</p>
+
+<p>(v) units in a collective investment scheme;</p>
+
+<p>(vi)	units in a business trust;</p>
+
+<p>(vii) derivatives of units in a business trust; or</p>
+
+<p>(viii) any other security or class of securities;</p>
+
+</ul>
+
+<p>(f) you acknowledge, understand and agree that the Tokens may have no value, that there is no guarantee or representation of value or liquidity for the Tokens, and that the Tokens are not for speculative investment;</p>
+
+<p>(g) none of the Distributors, their affiliates, and/or the TrustNote team members shall be responsible for or liable for the value of the Tokens, the transferability and/or liquidity of the Tokens and/or the availability of any market for the Tokens through third parties or otherwise; </p>
+
+<p>(h) in any decision to purchase or acquire the Tokens, you have not relied on any statement set out in this White Paper; </p>
+
+<p>(i) you have a high degree of understanding of the operation, functionality, usage, storage, transmission mechanisms and other material characteristics of cryptocurrencies, blockchain-based software systems and applications, cryptocurrency wallets or other related token storage mechanisms, blockchain technology and smart contract technology; </p>
+
+<p>(j) you will and shall at your own expense ensure compliance with all laws, regulatory requirements and restrictions applicable to you; </p>
+
+<p>(k) you acknowledge, understand and agree that you are not eligible to purchase or acquire any Tokens if you are a citizen, national, resident (tax or otherwise), domiciliary and/or green card holder of a geographic area or country: (i) where it is likely that the sale of the Tokens would be construed as the sale of a security (howsoever named) or investment product; and/or (ii) in which access to or participation in the TrustNote platform or the purchase or acquisition of the Tokens is prohibited by applicable law, decree, regulation, treaty, or administrative act (including without limitation the United States of America); </p>
+
+<p>(l) you understand and agree that to the maximum extent permitted by law, the Distributors, the TrustNote team, their related entities and service providers shall not be liable for any direct, indirect, special, incidental, consequential or other losses of any kind, in tort, contract or otherwise (including, without limitation, any liability arising from default or negligence on the part of any of them, or any loss of revenue, income or profits, and loss of use or data) arising from the use, access, reliance on or acceptance of this White Paper or of any other materials published by any of them, or their contents (including without limitation any errors or omissions) or otherwise arising in connection therewith.</p>
+
+</ul>
+
+<p><b>DISCLAIMER OF LIABILITY </b></p>
+
+<p>The Distributors and the TrustNote team do not and do not purport to make, and hereby disclaim, all representations, warranties or undertakings to any entity or person. Without limiting the generality of the foregoing, the Distributors and the TrustNote team do not grant any warranties or make any representation, express or implied or otherwise, as to the accessibility, quality, suitability, accuracy, adequacy, or completeness of the Tokens, the TrustNote platform or any related services provided by the TrustNote platform. No warranty, including the warranties of non-infringement of third party rights, title, merchantability, satisfactory quality, or fitness for a particular purpose, is given in conjunction with the Tokens and any related services provided by the TrustNote platform.</p>
+
+<p><b>FORWARD-LOOKING STATEMENTS</b></p>
+
+<p>All statements contained in this White Paper, statements made in press releases or in any place accessible by the public and oral statements that may be made by the Distributors and/or the TrustNote team may constitute forward-looking statements (including statements regarding intent, belief or current expectations with respect to market conditions, business strategy and plans, financial condition, specific provisions and risk management practices). You are cautioned not to place undue reliance on these forward-looking statements given that these statements involve known and unknown risks, uncertainties and other factors that may cause the actual future results to be materially different from that described by such forward-looking statements. These forward-looking statements are applicable only as of the date of this White Paper, and the Distributors and the TrustNote team expressly disclaim any responsibility (whether express or implied) to release any revisions to these forward-looking statements to reflect events after such date.</p>
+
+<p><b>NO ADVICE</b></p>
+
+<p>None of the Distributors, their affiliates, directors, officers, employees, agents, representatives, advisers or the TrustNote team are making any representation or undertaking to any purchaser or holder of the Tokens regarding the legality of an investment or use of the Tokens by such person under any legal, investment or similar laws. In addition, prospective purchasers and holders of the Tokens should not construe the contents of this White Paper or any website(s) or other materials published by the Distributors and/or the TrustNote team as legal, business, financial or tax advice. Prospective purchasers and holders of the Tokens should be aware that they may be required to bear the financial risks of an investment or holding in the Tokens for an indefinite period of time. Prospective purchasers and holders of the Tokens should consult their own professional advisers as to the legal, business, financial or tax and related aspects of an investment in the Tokens or their usage.</p>
+
+<p>This White Paper is intended for general informational purposes only and does not constitute a prospectus, an offer document, an offer of securities, a solicitation for investment, or any offer to sell any product, item or asset (whether digital or otherwise). The information in this White Paper may not be exhaustive and does not imply any elements of a contractual relationship. There is no assurance as to the accuracy or completeness of such information and no representation, warranty or undertaking is or purported to be provided as to the accuracy or completeness of such information. Furthermore, you acknowledge that circumstances may change and that the information in this White Paper may become outdated as a result, and that neither the Distributors nor the TrustNote team are under any obligation to update or revise this White Paper in connection therewith. Where this White Paper includes information that has been obtained from third party sources, the Distributors and/or the TrustNote team have not independently verified the accuracy or completeness of such information.</p>
+
+<p>Upon receiving the Tokens, you will be deemed to have reviewed this White Paper in full and to have agreed to the terms of the offering and the usage of the TrustNote platform, including to the fact that such offering does not fall within the scope of any securities laws in Singapore and is not regulated by MAS. </p>
+
+<p><b>RISKS AND UNCERTAINTIES</b></p>
+
+<p>Prospective purchasers and holders of the Tokens should carefully consider and evaluate all risks and uncertainties (including financial and legal risks and uncertainties) associated with the Distributors, the Tokens, the purchase or acquisition of the Tokens, the TrustNote platform, the information set out in this White Paper and the Terms and Conditions, prior to any purchase or acquisition of the Tokens. If any of such risks and uncertainties develop into actual events, the business, financial condition, results of operations and prospects of the Distributors and/or the TrustNote platform could be materially and adversely affected. In such cases, you may lose all or part of the value of the Tokens. </p>
+
+<p>The risks set forth in this White Paper are not an exhaustive list of the risks facing the Distributors, the TrustNote platform and/or the Tokens or that may develop in the future. There may be additional risks not described herein or not presently known to the Distributors, or that the Distributors currently consider to be immaterial, that could turn out to be material in the future. Additional risks, whether known or unknown, may in the future have a material adverse effect on the TrustNote platform and/or the Tokens and impair the business operations of the TrustNote platform.</p>
+
+<p><u>Regulatory risks</u></p>
+
+<p>The regulation of digital tokens such as the Tokens is still at a nascent stage of development in Singapore. A high degree of uncertainty as to how digital tokens and token-related activities are to be treated, exists. The applicable legal and regulatory framework(s) may change subsequent to the date of publication of this White Paper. Such change (whether prospective or retroactive) may be very rapid or unforeseen, and it is not possible to anticipate with any degree of certainty the nature of such legal or regulatory change. In light of this, the Distributors and the TrustNote team do not in any way, represent that the legal or regulatory status of the Tokens will remain unaffected by any legal or regulatory changes.</p>
+
+<p>The Distributors (or their affiliates) or the TrustNote team may cease operations in a jurisdiction in the event that regulatory actions, or changes to law or regulation, make it illegal to operate in such jurisdiction or commercially undesirable to obtain the necessary regulatory approval(s) to operate in such jurisdiction. </p>
+
+<p>In Singapore, the MAS regulations do not generally extend to the safety and soundness of cryptocurrencies, cryptocurrency intermediaries or the proper processing of cryptocurrency transactions. Nonetheless, if a cryptocurrency intermediary is found to have used cryptocurrencies illegally, its operations could be shut down by law enforcement agencies. If any digital token exchange, issuer or intermediary breaches Singapore securities laws, MAS will take firm action. The public should be aware that there are no regulatory safeguards if they choose to trade on unregulated digital token exchanges or invest in digital tokens that fall outside the remit of MAS’ regulations. </p>
+
+<p><u>No regulatory supervision </u></p>
+
+<p>The Distributors and their affiliates are not registered with MAS in Singapore as any type of regulated financial institution or financial advisor pursuant to the Securities and Futures Act (Chapter 289 of Singapore) and the Financial Advisers Act (Chapter 110 of Singapore). Holders of the Tokens may not enjoy the same extent and degree of investor protections as would be the case should they invest with regulated entities instead.</p>
+
+<p><u>Tax risks </u></p>
+
+<p>The tax characterization of the Tokens is unclear. Accordingly, the tax treatment to which they will be subject is uncertain. All persons who wish to receive the Tokens should seek independent tax advice prior to deciding whether to receive any Tokens. The Distributors and the TrustNote team do not make any representation as to whether any tax consequences may arise from purchasing or holding the Tokens. </p>
+
+<p><u>Security risks </u></p>
+
+<p>The security, transferability, storage, and accessibility of the Tokens depend on factors outside of the Distributors’ control, such as (but not limited to) mining attacks, malware attacks and spoofing. The Distributors are unable to assure that they can prevent such external factors from having any direct or indirect adverse impact on any Tokens. Persons intending to receive the Tokens should note that adverse events caused by such external factors may results in the loss of some or all of the Tokens. Such loss may be irreversible. None of the Distributors or the TrustNote team members are responsible for taking steps to retrieve the Tokens lost in this manner. </p>
+
+<p><u>Other risks </u></p>
+
+<p>The potential risks briefly mentioned above are not exhaustive, and there are other risks associated with the purchase, holding and use of the Tokens, including those that the Distributors cannot anticipate. You should conduct full due diligence on the Distributors, their affiliates and the TrustNote team, as well as understand the overall framework, mission and vision of the TrustNote platform, prior to the purchase or acquisition of the Tokens. </p>
+
+<p><b>OTHER NOTICES</b></p>
+
+<p>This White Paper may be translated into a language other than English and in the event of conflict or ambiguity between the English language version and translated versions of this White Paper, the English language version shall prevail.</p>
+
+<p>No part of this White Paper is to be copied, reproduced, distributed or disseminated in any way without the prior written consent of the Distributors. The distribution or dissemination of this White Paper or any part thereof may be prohibited or restricted by the laws, regulatory requirements and rules of any jurisdiction. In the case where any prohibition or restriction applies, you are to inform yourself about, and to observe, any prohibition or restriction which are applicable to your possession of this White Paper or such part thereof (as the case may be) at your own expense and without liability to the Distributors and/or the TrustNote team.	</p>
 </font>
 </div>
 
