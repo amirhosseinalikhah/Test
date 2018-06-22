@@ -935,7 +935,7 @@ For example, the following definition requires two signatures:</P>
 
 <p>The risks set forth in this White Paper are not an exhaustive list of the risks facing the Distributors, the TrustNote platform and/or the Tokens or that may develop in the future. There may be additional risks not described herein or not presently known to the Distributors, or that the Distributors currently consider to be immaterial, that could turn out to be material in the future. Additional risks, whether known or unknown, may in the future have a material adverse effect on the TrustNote platform and/or the Tokens and impair the business operations of the TrustNote platform.</p>
 
-<p><u>Regulatory risks</u></p>
+<p><ins>Regulatory risks</ins></p>
 
 <p>The regulation of digital tokens such as the Tokens is still at a nascent stage of development in Singapore. A high degree of uncertainty as to how digital tokens and token-related activities are to be treated, exists. The applicable legal and regulatory framework(s) may change subsequent to the date of publication of this White Paper. Such change (whether prospective or retroactive) may be very rapid or unforeseen, and it is not possible to anticipate with any degree of certainty the nature of such legal or regulatory change. In light of this, the Distributors and the TrustNote team do not in any way, represent that the legal or regulatory status of the Tokens will remain unaffected by any legal or regulatory changes.</p>
 
@@ -943,19 +943,19 @@ For example, the following definition requires two signatures:</P>
 
 <p>In Singapore, the MAS regulations do not generally extend to the safety and soundness of cryptocurrencies, cryptocurrency intermediaries or the proper processing of cryptocurrency transactions. Nonetheless, if a cryptocurrency intermediary is found to have used cryptocurrencies illegally, its operations could be shut down by law enforcement agencies. If any digital token exchange, issuer or intermediary breaches Singapore securities laws, MAS will take firm action. The public should be aware that there are no regulatory safeguards if they choose to trade on unregulated digital token exchanges or invest in digital tokens that fall outside the remit of MAS’ regulations. </p>
 
-<p><u>No regulatory supervision </u></p>
+<p><ins>No regulatory supervision </ins></p>
 
 <p>The Distributors and their affiliates are not registered with MAS in Singapore as any type of regulated financial institution or financial advisor pursuant to the Securities and Futures Act (Chapter 289 of Singapore) and the Financial Advisers Act (Chapter 110 of Singapore). Holders of the Tokens may not enjoy the same extent and degree of investor protections as would be the case should they invest with regulated entities instead.</p>
 
-<p><u>Tax risks </u></p>
+<p><ins>Tax risks </ins></p>
 
 <p>The tax characterization of the Tokens is unclear. Accordingly, the tax treatment to which they will be subject is uncertain. All persons who wish to receive the Tokens should seek independent tax advice prior to deciding whether to receive any Tokens. The Distributors and the TrustNote team do not make any representation as to whether any tax consequences may arise from purchasing or holding the Tokens. </p>
 
-<p><u>Security risks </u></p>
+<p><ins>Security risks </ins></p>
 
 <p>The security, transferability, storage, and accessibility of the Tokens depend on factors outside of the Distributors’ control, such as (but not limited to) mining attacks, malware attacks and spoofing. The Distributors are unable to assure that they can prevent such external factors from having any direct or indirect adverse impact on any Tokens. Persons intending to receive the Tokens should note that adverse events caused by such external factors may results in the loss of some or all of the Tokens. Such loss may be irreversible. None of the Distributors or the TrustNote team members are responsible for taking steps to retrieve the Tokens lost in this manner. </p>
 
-<p><u>Other risks </u></p>
+<p><ins>Other risks </ins></p>
 
 <p>The potential risks briefly mentioned above are not exhaustive, and there are other risks associated with the purchase, holding and use of the Tokens, including those that the Distributors cannot anticipate. You should conduct full due diligence on the Distributors, their affiliates and the TrustNote team, as well as understand the overall framework, mission and vision of the TrustNote platform, prior to the purchase or acquisition of the Tokens. </p>
 
