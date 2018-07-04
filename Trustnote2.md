@@ -46,7 +46,6 @@
 <li>The unit transaction fee is divided into two parts: the unit reference fee and the unit Attestation fee.</li>
 <ul><li>The unit reference fee h is fixed (e.g. 200 Notes).</li>
 <li>The unit Attestation fee "b" is calculated based on the rate r<sub>i</sub> of the unit containing the message and the number of bytes n<sub>i</sub> occupied by the message.</li></ul>
-
 <div align="center">
 <math>b = &sum; r<sub>i</sub> × n<sub>i</sub></math>
 </div>
