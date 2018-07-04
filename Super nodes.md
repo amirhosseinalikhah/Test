@@ -9,18 +9,38 @@
 
 <div align="center"> 
   
-|  |	<b>IOTA</b> |	<b>Byteball</b>	| <b>TrustNote</b> |
-| :---: | :---: | :---: | :---: |
-| <b>Token</b>	| IOTA	| Byte |	TTT |
-| <b>Consensus Mechanism</b> |	PoW Cumulative Weight |	12 Witnesses |	Decentralized TrustME Consensus Mechanism |
-| <b>Smart Contract</b>	| No |	Declarative Contract |	Advanced Declarative Contract |
-| <b>Reward</b>	| No	| Transaction Reference and Attestation	| Transaction Reference and Mining |
-| <b>Nodes</b>	| Full Node, Light Node	| Full Node, Light Node |	Super Node, Full Node, Light Node, Micro Node |
-| <b>Transaction Fee</b> |	No |	Yes |	Yes |
-| <b>Double Spending</b> | 	PoW Weight Comparison |	Main Chain Sequencing |	Main Chain Indexing|
-| <b>Low-frequency Trading</b> |	Centralized Coordinator |	Weak Centralized Attestor	| TrustME Attestor|
-
+| <b>Amount of TTT holding</b> |	<b>Number of addresses</b>	| <b>Total currency (TTT)</b> |
+| :---: | :---: | :---: | 
+| 1,000,000	| 47 | 96,000,000 |	
+| 500,000	| 92 | 130,000,000 |	
+| 100,000 | 392 | 180,000,000 |	
    </div>
+
+<li>Circulation 170 million ~ 180 million TTT.</li>
+<li>The Foundation controls the circulation of 320 million to 330 million TTT.</li>
+<li>On July 26, the ban was lifted by 78 million TTT.</li>
+
+<h1><b>2 Lock position target: 120 million TTT</b></h1>
+
+<p>Lock target: Before the ban, the liquidity is less than 0.6 billion TTT.</p>
+
+<p>The lockout design capacity is 210 million TTT.</p>
+
+<h1><b>3 Lock strategy</b></h1>
+<p>1. Financial plan</p>
+<p>2. Super node plan</p>
+<p>3. Daily prizes</p>
+
+<h1><b>4 Super node plan</b></h1>
+
+<p>Super Node (SN) conditions:</p>
+<ul>
+<li>Supernode should holds more than 500,000 coins.</li>
+<li>Supernode silent locking time is 90 days.</li>
+<li>Supernodes must maintain full accounts and participate in mining.</li>
+</ul>
+
+
 
 </div>
 </html>
