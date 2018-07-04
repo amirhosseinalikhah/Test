@@ -95,7 +95,7 @@
 
 <p>3. If eight Attestors for i<sup>th</sup> round are selected, the Attestors of the i<sup>th</sup> round stop sending Attestation units, and the Attestors of the (i + 1)<sup>th</sup> round start sending the Attestion units.</p>
 
-<p>4. If the first Attestation unit of the (i + 1)<sup>th</sup> round becomes stable, all the Attestation units of the (i - 1)<sup>th</sup> round must have stabilized by then. Therefore, The total Attestation reward A is calculated and the Attestion reward of Attestors of (i - 1)<sup>th</sup> round (except the fixed Attestor) will be calculated as below:</p>
+<p>4. If the first Attestation unit of the (i + 1)<sup>th</sup> round becomes stable, all the Attestation units of the i<sup>th</sup> round must have stabilized by then. Therefore, The total Attestation reward A is calculated and the Attestion reward of Attestors of i<sup>th</sup> round (except the fixed Attestor) will be calculated as below:</p>
 
 <div align="center">
 <math>a<sub>1</sub> = 0.2 * A</math>
@@ -106,14 +106,24 @@
 <div align="center">
   <p><math>C = &sum; c<sub>n</sub>, n∈{2,3,4,5,6,7,8,9}</math></p>
   <p><math>r<sub>n</sub> =  c<sub>n</sub>/C, n∈{2,3,4,5,6,7,8,9}</math></p>
-  <p><math>a<sub>n</sub> =r<sub>n</sub> × (A * 8), n∈{2,3,4,5,6,7,8,9}</math></p>
+  <p><math>a<sub>n</sub> = r<sub>n</sub> × (A * 8), n∈{2,3,4,5,6,7,8,9}</math></p>
 </div>
 
 <h1><b>20 years of consensus</b></h1>
 
 <p>There will be no more mining reward, and the nine super nodes maintained by the Foundation will become Attestors.</p>
 
-<p>In the final round of mining, the Foundation substitues will be activated after the next hundred MCI is stabilized.</p>
+<p>In the final round of mining, the Foundation substitues will be activated once the next one hundred units from end of last round is stable on the main chain.</p>
+
+<h1><b>Problems and solutions</b></h1>
+
+<p>Question 1: Who and when sends the coinbase and how to prevent multiple coinbase?</p>
+
+<p>After the current consensus round (when the first Attestation unit of the next consensus round becomes stable), The public Attestor of the current consensus round sends the money to itself, as the power is sufficient, others can verify it.</p>
+
+<p>Question 2: How to avoid a public Attestor from issuing more Attestation units in order to get more coinsbase?</p>
+
+<p>When calculating the Coinbase reward, more than one third of the valid Attestation units on the Main Chain must be from other Attestors. The Attestation unit of the last Attestor in the next round is selected as double spent.</p>
 
 </div>
 </html>
