@@ -3,7 +3,7 @@
 
 <h1><b>1. Introduction</b></h1>
 
-<li>The system is setup to provide nine empty position for Attestors. These empty positions are distributed as eight of the Attestors will be selected from super nodes (aka Public Attestors) and one is for fixed attestor maintained by the TrutNote itself. The Attestors (except the fixed one) will be replaced every 150 seconds (2.5 min).</li>
+<li>The system is setup to provide nine empty position for Attestors. These empty positions are distributed as eight of the Attestors will be selected from supernodes (aka Public Attestors) and one is for fixed Attestor maintained by the TrutNote itself. The Attestors (except the fixed one) will be replaced every 150 seconds (2.5 min).</li>
 <li>The TrustNote Foundation maintains nine supernodes whose their addresses is written in Genesis unit. The first one is the fixed Attestor and the other eight ones are substitue Attestors.</li>
 <li>Each 210,240 consensus round is calles a consensus year and the total mining time is 20 consensus year.</li>
 <li>Total Attestation reward consists of two parts: the Coinbase reward of the consensus round and Attestation fee for the consensus round units.</li>
