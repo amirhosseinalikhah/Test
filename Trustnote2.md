@@ -15,9 +15,8 @@
 
 <div align="center"> 
   
-|  <b>IOTA</b> |	<b>Byteball</b>	| <b>TrustNote</b> |  <b>TrustNote</b> |
-| :---: | :---: | :---: | :---: |
 | year	| Total Coinbase Reward per consensus year (MN)	| The Coinbase reward for each consensus round (MN)  | Consensus Round Number (From-To) |
+| :---: | :---: | :---: | :---: |
 | 1 | 45745654.16 | 217.59 | 1 - 210240 |
 | 2 | 37157017.22 | 176.74 | 210241 - 420480 |
 | 3 | 32901330.89 | 156.49 | 420481 - 630720 |
