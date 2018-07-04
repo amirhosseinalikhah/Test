@@ -42,8 +42,8 @@
 <h2><b>1.2 Method of calculating the Attestion unit fee</b></h2>
 
 <li>The unit transaction fee is divided into two parts: the unit reference fee and the unit Attestation fee.</li>
-<ul><li>The unit reference fee h is fixed (e.g. 200 Notes).</li>
-<li>The unit Attestation fee "b" is calculated based on the rate r<sub>i</sub> of the unit containing the message and the number of bytes n<sub>i</sub> occupied by the message.</li></ul>
+<ul><ul><li>The unit reference fee h is fixed (e.g. 200 Notes).</li>
+<li>The unit Attestation fee "b" is calculated based on the rate r<sub>i</sub> of the unit containing the message and the number of bytes n<sub>i</sub> occupied by the message.</li></ul></ul>
 <div align="center">
 <math>b = &sum; r<sub>i</sub> × n<sub>i</sub></math>
 </div>
@@ -52,9 +52,9 @@
 
 <li>The unit Attestation fee is included in the Attestation reward of the consensus round of the unit.</li>
 
-<ul><li>Once a unit is stabilized, the Attestion unit which lies on the main chain with the smallest MCI - that makes the unit stable - can be determined. The consensus round in which the Attestation unit is located is the consensus round of the unit.</li>
+<ul><ul><li>Once a unit is stabilized, the Attestion unit which lies on the main chain with the smallest MCI - that makes the unit stable - can be determined. The consensus round in which the Attestation unit is located is the consensus round of the unit.</li>
 <li>The Attestation fee for this unit is included in the Attestation reward of the unit's consensus round.</li>
-</ul>
+</ul></ul>
 
 <h1><b>2. Attestation reward distribution of each round</b></h1>
 
