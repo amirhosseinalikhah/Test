@@ -45,6 +45,51 @@
 <p>1. Download and run the TrustNote Supernode client;</p>
 
 <p>2. Generating the deposit contract and specifying the deposit reimbursement address and the coinbase receiving address (it is recommended to use cold wallet or hardware wallet to manage these two addresses to ensure the security of funds);</p>
+<p>3. Pays sufficient amount of TTT to the contract to support the crowdfunding method to pay the Supernode deposit, but the coinbase allocation rules need to be developed by the crowdfunding sponsor;</p>
+
+<p>4. In accordance with TR-02 TrustME-PoW, the supernode participates in mining and obtains coinbase rewards, in addition to receive additional TFans rewards;</p>
+
+<p>5. If one doen't want to be supernode anymore, the supernode needs wait untill the end of silent locking time in which it is not allowed to participate in mining;</p>
+
+<p>6. Once the silent locking time finished the supernode can reimburse the deposit to the assigned address.</p>
+
+<h2><b>4.2 SuperNode Rights</b></h2>
+
+<li>Higher priority in investment rights for TTT eco-currency.</li>
+<li>According to the eco-currency issuance rules, TTT eco-coin is obtained, and TrustNote will recommend that a certain percentage of eco-coin will be given to supernodes.</li>
+<li>Support for digging eco-coins according to eco-currency issuance rules</li>
+<li>Randomly exploding eco-coins based on eco-currency rules (based on verifiable random functions)</li>
+<li>Special guest of TTT Annual Ecological Conference. Also they will receive the reimbursement for round-trip airfare and accommodation.</li>
+
+<h2><b>4.3 Minign reward rules</b></h2>
+
+<p>The total mining reward is 500,000,000,000 TTT, and the mining lasts 20 years. The calculation formula of the ratio of mining output to the total mining reward in the i<sup>th</sup> year:</p>
+
+```math
+rate_i = \frac{(i)^{-0.3}}{\sum_{i=0}^{20}{(i)^{-0.3}}}
+```
+
+<p>The distribution ratio of mining output is as follows:</p>
+
+<div align="center">
+  
+| <b>Portion</b> |	<b>Dedicated to</b>	| 
+| :---: | :---: |
+| 80% | miners | 	
+| 10%	| Supernode TFans Ranking Reward |
+| 10% | TrustNote Foundation |
+
+</div>
+
+<p>The average mining rate of return is as follows:</p>
+
+
+| <b>Portion</b> |	<b>Dedicated to</b>	| 
+| :---: | :---: |
+1	9.15%	45745654.16	146.39%	73.19%	36.60%	14.64%
+2	7.43%	37157017.22	118.90%	59.45%	29.73%	11.89%
+3	6.58%	32901330.89	105.28%	52.64%	26.32%	10.53%
+
 
 </div>
 </html>
