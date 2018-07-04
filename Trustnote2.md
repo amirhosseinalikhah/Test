@@ -61,6 +61,7 @@
 <h1><b>2. Attestation reward distribution of each round</b></h1>
 
 <h2><b>2.1 Attestation reward distribution plan</b></h2>
+
 <div align="center">
 |  <b>Proportion</b> |	<b>Dedicated to</b>	| <b>Purpose</b> |  
 | :---: | :---: | :---: | 
@@ -82,10 +83,12 @@
 <p>1. The full node and super node keeping the record of the Attestors addresses of each round. In the first round the list consists of the fixed Attestor and a substitute Attestor both from TrustNote. Once first round finished, in any round, the first Attestor is the fixed Attestor of the TrustNote and the rest of the Attestors will be determined by the mining results (PoW results) of the previous round. </p>
 
 <div align="center">
+  
 |  <b>Attestor Priority</b> | <b>Attestor type</b> | <b>Selection method</b> |  
 | :---: | :---: | :---: | 
 | 1 | Foundation fixed Attestor | Specified in Genesis unit | 
-| 2 - 9 | Public Attestors | PoW | 
+| 2 - 9 | Public Attestors | PoW |
+
 </div>
 
 <p>2. If the mining result (PoW) of the i<sup>th</sup> round is successful and among top results; the supernode becomes of one the eight Attestors of (i + 1)<sup>th</sup> round.</p>
