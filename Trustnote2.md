@@ -9,8 +9,6 @@
 <li>Total Attestation reward consists of two parts: the Coinbase reward of the consensus round and Attestation fee for the consensus round units.</li>
 <li>The total Coinbase reward is 500,000,000 MN.</li>
 
-
-
 <h2><b>1.1 Coinbase reward for each Consensus Round per Consensus Year</b></h2>
 
 <div align="center"> 
@@ -63,11 +61,13 @@
 <h2><b>2.1 Attestation reward distribution plan</b></h2>
 
 <div align="center">
+  
 |  <b>Proportion</b> |	<b>Dedicated to</b>	| <b>Purpose</b> |  
 | :---: | :---: | :---: | 
 | 10% | Foundation fixed Attestor | Supernode TFans ranking award | 
 | 10% | Foundation fixed Attestor | Maintenance and operational costs | 
 | 80% | Public Attestors | Public Attestation reward | 
+
 </div>
 
 <h2><b>2.2 Super Node TFans Ranking Reward Program</b></h2>
