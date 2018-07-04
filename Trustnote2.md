@@ -109,5 +109,11 @@
   <p><math>a<sub>n</sub> =r<sub>n</sub> × (A * 8), n∈{2,3,4,5,6,7,8,9}</math></p>
 </div>
 
+<h1><b>20 years of consensus</b></h1>
+
+<p>There will be no more mining reward, and the nine super nodes maintained by the Foundation will become Attestors.</p>
+
+<p>In the final round of mining, the Foundation substitues will be activated after the next hundred MCI is stabilized.</p>
+
 </div>
 </html>
