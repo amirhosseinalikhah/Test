@@ -65,9 +65,9 @@
 
 <p>The total mining reward is 500,000,000,000 TTT, and the mining lasts 20 years. The calculation formula of the ratio of mining output to the total mining reward in the i<sup>th</sup> year:</p>
 
-```math
-rate_i = \frac{(i)^{-0.3}}{\sum_{i=0}^{20}{(i)^{-0.3}}}
-```
+<div align="center">
+<math>b = &sum; r<sub>i</sub> × n<sub>i</sub></math>
+</div>
 
 <p>The distribution ratio of mining output is as follows:</p>
 
@@ -83,12 +83,16 @@ rate_i = \frac{(i)^{-0.3}}{\sum_{i=0}^{20}{(i)^{-0.3}}}
 
 <p>The average mining rate of return is as follows:</p>
 
+<div align="center">
+  
+| <b>Mining for 20 years</b> | <b>Annual rate of return</b> | <b>The amount can be mined in one year</b> |	<b>50 SN average rate of return</b>	| <b>100 SN average rate of return</b> |	<b>200 SN average rate of return</b>	|  <b>500 SN average rate of return</b> |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1	| 9.15%	| 45745654.16	| 146.39%	| 73.19%	| 36.60%	| 14.64% | 
+| 2	| 7.43%	| 37157017.22	| 118.90%	| 59.45%	| 29.73%	| 11.89% | 
+| 3	| 6.58%	| 32901330.89	| 105.28%	| 52.64%	| 26.32%	| 10.53% | 
 
-| <b>Portion</b> |	<b>Dedicated to</b>	| 
-| :---: | :---: |
-1	9.15%	45745654.16	146.39%	73.19%	36.60%	14.64%
-2	7.43%	37157017.22	118.90%	59.45%	29.73%	11.89%
-3	6.58%	32901330.89	105.28%	52.64%	26.32%	10.53%
+</div>
+
 
 
 </div>
