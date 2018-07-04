@@ -9,7 +9,7 @@
 
 <div align="center"> 
   
-| <b>Amount of TTT holding</b> |	<b>Number of addresses</b>	| <b>Total currency (TTT)</b> |
+| <b>Amount TTT held</b> |	<b>Number of addresses</b>	| <b>Total currency (TTT)</b> |
 | :---: | :---: | :---: | 
 | 1,000,000	| 47 | 96,000,000 |	
 | 500,000	| 92 | 130,000,000 |	
@@ -40,7 +40,11 @@
 <li>Supernodes must maintain full accounts and participate in mining.</li>
 </ul>
 
+<h2><b>How to become a supernode?</b></h2>
 
+<p>1. Download and run the TrustNote Supernode client;</p>
+
+<p>2. Generating the deposit contract and specifying the deposit reimbursement address and the coinbase receiving address (it is recommended to use cold wallet or hardware wallet to manage these two addresses to ensure the security of funds);</p>
 
 </div>
 </html>
