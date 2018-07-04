@@ -101,5 +101,13 @@
 <math>a<sub>1</sub> = 0.2 * A</math>
 </div>
 
+<p>5. The number of Attestion units c<sub>n</sub> sent by each valid public Attestor in the i<sup>th</sup> round which became stable on the main chain and the total amount of public Attestors units C can be calculated. Finally, the portion of Attestion reward for each attestor r<sub>n</sub> and the amount of the Attestion reward for them a<sub>n</sub> can be calculated as below:</p>
+
+<div align="center">
+  <math>C = &sum; c<sub>n</sub> n∈{2,3,4,5,6,7,8,9}</math>
+  <math>r<sub>n</sub> =  c<sub>n</sub>/C, n∈{2,3,4,5,6,7,8,9}</math>
+  <math>a<sub>n</sub> =r<sub>n</sub> × (A * 8), n∈{2,3,4,5,6,7,8,9}</math>
+</div>
+
 </div>
 </html>
