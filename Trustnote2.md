@@ -91,7 +91,7 @@
 
 </div>
 
-<p>2. If the mining result (PoW) of the i<sup>th</sup> round is successful and among top results; the supernode becomes of one the eight Attestors of (i + 1)<sup>th</sup> round.</p>
+<p>2. If the mining result (PoW) of the i<sup>th</sup> round is successful and among top results; the supernode becomes one of the eight Attestors of (i + 1)<sup>th</sup> round.</p>
 
 <p>3. If eight Attestors for i<sup>th</sup> round are selected, the Attestors of the i<sup>th</sup> round stop sending Attestation units, and the Attestors of the (i + 1)<sup>th</sup> round start sending the Attestion units.</p>
 
