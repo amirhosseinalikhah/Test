@@ -3,7 +3,7 @@
 <div align="justify">
 
 <p>超级节点是TrustNote的生态合伙人</p>
-<h1><b>0 The Super node: TrustNote Echological partner </b></h1>
+<h1><b>0 The Supernode: TrustNote Echological partner </b></h1>
 
 <p>持币地址情况</p>
 <h1><b>1 The Currency Status</b></h1>
