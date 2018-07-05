@@ -22,9 +22,9 @@
 <p>1.1 每共识年内每个共识轮的Coinbase奖金</p>
 <h2><b>1.1 Coinbase reward for each Consensus Round per Consensus Year</b></h2>
 
+<p>年次,	每共识年总挖矿奖金（MN）,	每共识轮挖矿奖金(MN),	共识轮次范围</p>  
 <div align="center"> 
 
-<p>年次,	每共识年总挖矿奖金（MN）,	每共识轮挖矿奖金(MN),	共识轮次范围</p>  
 | year	| Total Coinbase Reward per consensus year (MN)	| The Coinbase reward for each consensus round (MN)  | Consensus Round Number (From-To) |
 | :---: | :---: | :---: | :---: |
 | 1 | 45745654.16 | 217.59 | 1 - 210240 |
@@ -91,9 +91,9 @@
 <p>公证奖金分配比例</p>
 <h2><b>2.1 Attestation reward distribution plan</b></h2>
 
+<p>分配比例,	获得者,	用途</p> 
 <div align="center">
-
-<p>分配比例,	获得者,	用途</p>  
+ 
 |  <b>Proportion</b> |	<b>Dedicated to</b>	| <b>Purpose</b> |  
 | :---: | :---: | :---: | 
 | 10% | Foundation fixed Attestor | Supernode TFans ranking award | 
