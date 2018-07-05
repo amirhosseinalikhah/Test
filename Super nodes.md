@@ -52,7 +52,7 @@
 <p>3. Daily prizes</p>
 
 <p>超级节点计划</p>
-<h1><b>4 Super node plan</b></h1>
+<h1><b>4 Supernode plan</b></h1>
 
 <p>超级节点（Super Node，SN）条件：</p>
 <p>Super Node (SN) conditions:</p>
@@ -78,7 +78,7 @@
 <p>1. Download and run the TrustNote Supernode client;</p>
 
 <p>按照提示信息生成超级节点合约，需要指定押金取回地址和coinbase接收地址（建议用冷钱包或者硬件钱包管理这两个地址，以保证资金安全）</p>
-<p>2. Generating the deposit contract and specifying the deposit reimbursement address and the coinbase receiving address (it is recommended to use cold wallet or hardware wallet to manage these two addresses to ensure the security of funds);</p>
+<p>2. Generating the deposit contract and specifying the deposit reimbursement address and the address of receiving coinbase rewards (it is recommended to use cold wallet or hardware wallet to manage these two addresses to ensure the security of funds);</p>
 
 <p>钱包或者硬件钱包管理这两个地址，以保证资金安全）；向超级节点合约支付足够额度的TTT，支持众筹方式支付超级节点押金，但coinbase分配规则需要众筹发起者制定；</p>
 <p>3. Pays sufficient amount of TTT to the contract to support the crowdfunding method to pay the Supernode deposit, but the coinbase allocation rules need to be developed by the crowdfunding sponsor;</p>
