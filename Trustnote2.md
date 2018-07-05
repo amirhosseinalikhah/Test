@@ -5,19 +5,19 @@
 <h1><b>1. Introduction</b></h1>
 
 <p>系统设置了9个公证人席位，其中1个席位固定为基金会公证人，另外8个公证人席位对应的公证人平均每150秒（2.5分钟）更换1次。</p>
-<li>The system is setup to provide nine empty position for Attestors. These empty positions are distributed as eight of the Attestors will be selected from supernodes (aka Public Attestors) and one is for fixed Attestor maintained by the TrutNote itself. The Attestors (except the fixed one) will be replaced every 150 seconds (2.5 min).</li>
+<p><li>The system is setup to provide nine empty position for Attestors. These empty positions are distributed as eight of the Attestors will be selected from supernodes (aka Public Attestors) and one is for fixed Attestor maintained by the TrutNote itself. The Attestors (except the fixed one) will be replaced every 150 seconds (2.5 min).</li></p>
 
 <p>TrustNote基金会维护9个超级节点，这些超级节点的地址将会写在创世块中。其中第1个是固定公证人，另外8个是替补公证人。</p>
-<li>The TrustNote Foundation maintains nine supernodes whose their addresses is written in Genesis unit. The first one is the fixed Attestor and the other eight ones are substitue Attestors.</li>
+<p><li>The TrustNote Foundation maintains nine supernodes whose their addresses is written in Genesis unit. The first one is the fixed Attestor and the other eight ones are substitue Attestors.</li></p>
 
 <p>每210240个共识轮称为一个共识年，挖矿总时间为20个共识年。</p>
-<li>Each 210,240 consensus round is calles a consensus year and the total mining time is 20 consensus year.</li>
+<p><li>Each 210,240 consensus round is calles a consensus year and the total mining time is 20 consensus year.</li></p>
 
 <p>每共识轮的公证奖金是以下两部分相加：该轮的Coinbase奖金和该轮单元的公证费。</p>
-<li>Total Attestation reward consists of two parts: the Coinbase reward of the consensus round and Attestation fee for the consensus round units.</li>
+<p><li>Total Attestation reward consists of two parts: the Coinbase reward of the consensus round and Attestation fee for the consensus round units.</li></p>
 
 <p>Coinbase总矿藏5亿MN。</p>
-<li>The total Coinbase reward is 500,000,000 MN.</li>
+<p><li>The total Coinbase reward is 500,000,000 MN.</li></p>
 
 <p>1.1 每共识年内每个共识轮的Coinbase奖金</p>
 <h2><b>1.1 Coinbase reward for each Consensus Round per Consensus Year</b></h2>
@@ -55,33 +55,33 @@
 <h2><b>1.2 Method of calculating the Attestion unit fee</b></h2>
 
 <p>单元交易费分为两部分：单元引用费和单元公证费。</p>
-<li>The unit transaction fee is divided into two parts: the unit reference fee and the unit Attestation fee.</li>
+<p><li>The unit transaction fee is divided into two parts: the unit reference fee and the unit Attestation fee.</li></p>
 
 <ul><ul>
 
 <p>单元引用费h是固定的，如200 Note。</p>
-<li>The unit reference fee h is fixed (e.g. 200 Notes).</li>
+<p><li>The unit reference fee h is fixed (e.g. 200 Notes).</li></p>
 
 <p>单元公证费b是根据单元体含有消息的费率r_i和消息占用的字节数n_i计算得到的。</p>
-<li>The unit Attestation fee "b" is calculated based on the rate r<sub>i</sub> of the unit containing the message and the number of bytes n<sub>i</sub> occupied by the message.</li></ul></ul>
+<p><li>The unit Attestation fee "b" is calculated based on the rate r<sub>i</sub> of the unit containing the message and the number of bytes n<sub>i</sub> occupied by the message.</li></p></ul></ul>
 
 <div align="center">
 <math>b = &sum; r<sub>i</sub> × n<sub>i</sub></math>
 </div>
 
 <p>单元引用费分配给直接引用该单元的地址（与TrustNote1.0相同）</p>
-<li>The unit reference fee is assigned to the address that directly references the unit (same as TrustNote 1.0)</li>
+<p><li>The unit reference fee is assigned to the address that directly references the unit (same as TrustNote 1.0)</li></p>
 
 <p>单元公证费用计入单元所在共识轮的公证奖金。</p>
-<li>The unit Attestation fee is included in the Attestation reward of the consensus round of the unit.</li>
+<p><li>The unit Attestation fee is included in the Attestation reward of the consensus round of the unit.</li></p>
 
 <ul><ul>
 
 <p>一个单元稳定后，可以确定促使该单元稳定的拥有最小MCI的主链公证单元，该公证单元所在的共识轮就是该单元的共识轮。</p>
-<li>Once a unit is stabilized, the Attestion unit which lies on the main chain with the smallest MCI - that makes the unit stable - can be determined. The consensus round in which the Attestation unit is located is the consensus round of the unit.</li>
+<p><li>Once a unit is stabilized, the Attestion unit which lies on the main chain with the smallest MCI - that makes the unit stable - can be determined. The consensus round in which the Attestation unit is located is the consensus round of the unit.</li></p>
 
 <p>该单元的公证费计入该单元所在共识轮的公证奖金。</p>
-<li>The Attestation fee for this unit is included in the Attestation reward of the unit's consensus round.</li>
+<p><li>The Attestation fee for this unit is included in the Attestation reward of the unit's consensus round.</li></p>
 
 </ul></ul>
 
@@ -106,13 +106,13 @@
 <h2><b>2.2 Super Node TFans Ranking Reward Program</b></h2>
 
 <p>非链上功能，由运营人员处理。</p>
-<li>Non-chain functions are handled by the operator.</li>
+<p><li>Non-chain functions are handled by the operator.</li></p>
 
 <p>若发现某公证人发送双花、无效或错误单元，则该公证人会被剥夺公证权，并将其从公证人列表中删除。</p>
-<li>If it is turned out that an Attestor has a double spent, invalid or wrong unit, the Attestor will be deprived of the Attestion and it will be removed from the Attestors list.</li>
+<p><li>If it is turned out that an Attestor has a double spent, invalid or wrong unit, the Attestor will be deprived of the Attestion and it will be removed from the Attestors list.</li></p>
 
 <p>注意：不能简单的用替补公证人替换，不同节点发现替换的时机可能不同，容易造成不同节点推导出不同的稳定主链</p>
-<li>Important Note: It's not possible to substitute this Attestor as the other nodes will find out that the timing differs which results in different nodes having different last stable unit.</li>
+<p><li>Important Note: It's not possible to substitute this Attestor as the other nodes will find out that the timing differs which results in different nodes having different last stable unit.</li></p>
 
 <p> 公证奖金计算方法</p>
 <h2><b>2.3 Method of calculating Attestation reward </b></h2>
