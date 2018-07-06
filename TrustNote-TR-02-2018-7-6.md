@@ -184,7 +184,7 @@
 	
 <p><a target="_blank" href="images/TrustNote-TR-02-network connection diagram between nodes.png"><img align="center" src="images/TrustNote-TR-02-network connection diagram between nodes.png"></a></p>	
 	
-<p><b>Figure ‎1-1 P2P network Connection diagram between nodes</b></p>	
+<p><b>Figure 1-1 P2P network Connection diagram between nodes</b></p>	
 	
 </div>
 
@@ -278,7 +278,7 @@
 
 <p><a target="_blank" href="images/TrustNote-TR-02-Super node work flow.jpg"><img align="center" src="images/TrustNote-TR-02-Super node work flow.jpg"></a></p>	
 	
-<p><b>Figure ‎2-2 Super node workflow.</b></p>	
+<p><b>Figure 2-2 Super node workflow.</b></p>	
 	
 </div>
 
