@@ -1,6 +1,4 @@
 <html>
-
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
   
 <div align="center">
 <font face="cambria">
