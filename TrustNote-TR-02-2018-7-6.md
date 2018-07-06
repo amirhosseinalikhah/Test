@@ -1,5 +1,5 @@
 <html>
- 
+  
 <div align="center">
 <font face="cambria">
 <p><a target="_blank" href="images/TrustNote-Logo.png"><img align="center" width="300px" height="300px" src="images/TrustNote-Logo.png"></a></p>
@@ -302,7 +302,7 @@ th, td {
 <p>Super nodes are always online and vulnerable to attack. Therefore, a shorter consensus round duration should be set. If it is set to 5 minutes, the probability of the Attestor node being invalid or being hacked is reduced significantly. In order to improve the security of the Super node funds, the deposit contract sets the deposit payable address and the Attestation bonus receive address. Super node should set different addresses as the deposit payable address, payout address, and the Attestation bonus. Even more, Super nodes are required to use the cold wallet to set the Attestation bonus receive address to increase the security of the Super node deposit and Attestation bonus. </p>
 <h3>Deposit Contract Message</h3>
 
-```javascript
+<pre class="prettyprint"><code class="language-javascript">
 messages: [{
     app: 'Deposit',
     payload_location: 'inline',
@@ -313,7 +313,7 @@ messages: [{
         reward_receiver_address: 'Wallet Address of Node'
     }
 }]
-```
+</code></pre>
 
 <h1><a id="#Main-Chain"></a>3. Main Chain</h1>
 
@@ -493,7 +493,7 @@ messages: [{
 
 <h3>PoW Unit</h3>
 
-```javascript
+<pre class="prettyprint"><code class="language-javascript">
 {
     unit: {
             version: 'Protocol Version',
@@ -537,7 +537,7 @@ messages: [{
              unit: 'Hash of this PoW unit'
     }
 }
-```
+</code></pre>
 
 <h2><a id="#Consensus-Round-Switching"></a>4.4. Consensus Round Switching</h2>
 
@@ -609,7 +609,7 @@ messages: [{
 
 <h3>TrustME Unit</h3>
 
-```javascript
+<pre class="prettyprint"><code class="language-javascript">
 {
     unit: {
             version: 'Protocol Version',
@@ -657,7 +657,7 @@ messages: [{
     }
 }
 
-```
+</code></pre>
 
 <p>If the TrustME unit sent by the Attestor of a consensus round is a stable unit on MC, the Attestor will receive Attestation reward and the larger the proportion of the TrustME units it sent, the more Attestation reward it might receive. In the absence of stability in the main chain, it is impossible to determine which TrustME units are on the main chain and it is not fair to calculate the Attestation bonus. Therefore, this consensus mechanism does not provide Coinbase directly (like Bitcoin) in the unit. Once the first TrustME unit of the current consensus round becomes stable on the MC the Attestors of the previous round will calculate and send their share of Coinbase reward from that specific round to their own coin base address and it should be verified by other super nodes and full nodes. The annual Coinbase reward for each consensus round is calculated in the table below:</p>
 
@@ -826,7 +826,7 @@ messages: [{
 
 <h3>Coinbase Unit</h3>
 
-```javascript
+<pre class="prettyprint"><code class="language-javascript">
 {
     unit: {
             version: 'Protocol Version',
@@ -868,7 +868,7 @@ messages: [{
             unit: 'Hash of this unit'
     }
 }
-```
+</code></pre>
 
 
 
