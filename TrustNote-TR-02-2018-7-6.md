@@ -213,7 +213,7 @@
 
 <div align="center">
 
-<p><a target="_blank" href="images/TrustNote-TR-02-TrustME-PoW Protocol Sketch.png"><img align="center" width="1200px" height="1500px" src="images/TrustNote-TR-02-TrustME-PoW Protocol Sketch.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-TrustME-PoW Protocol Sketch.png"><img align="center" src="images/TrustNote-TR-02-TrustME-PoW Protocol Sketch.png"></a></p>	
 	
 <p><b>Figure 1-2 TrustME-PoW Protocol Sketch</b></p>	
 
