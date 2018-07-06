@@ -124,64 +124,56 @@
 </div>
 
 <div align="center">
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: center;    
-}
-</style>
+
 
 <p><b>Table 1-1 Comparison of four types of node</b></p>
 
-<table>
-  <tr>
+<table align="center">
+  <tr align="center">
     <th></th>
     <th>Super Node</th>
 	<th>Full Node</th>
 	<th>Light Node</th>
 	<th>Micro Node</th>
 	</tr>
-  <tr>
+  <tr align="center">
     <td><b>ledger</b></td>
     <td>full ledger</td>
 	<td>full ledger</td>
 	<td>light ledger</td>
 	<td>N/A</td>
 	</tr>
+	  <tr align="center">
     <td><b>transaction</b></td>
     <td>√</td>
 	<td>√</td>
 	<td>√</td>
 	<td>commissioned</td>
-	</tr>
+</tr><tr align="center">
 	<td><b>DAG consensus</b></td>
     <td>√</td>
 	<td>√</td>
 	<td>indirect</td>
 	<td>×</td>
-	</tr>
+</tr><tr align="center">
 	<td><b>TrustME-PoW</b></td>
     <td>√</td>
 	<td>×</td>
 	<td>×</td>
 	<td>×</td>
-	</tr>
+</tr><tr align="center">
 	<td><b>TrustME-BA</b></td>
     <td>√</td>
 	<td>×</td>
 	<td>×</td>
 	<td>×</td>
-	</tr>
+</tr><tr align="center">
 	<td><b>Hosting Micro Node</b></td>
     <td>√</td>
 	<td>×</td>
 	<td>×</td>
 	<td>×</td>
-	</tr>
+</tr><tr align="center">
 	<td><b>deployment</b></td>
     <td>Mining systems, Cloud Host Server/Workstation, PC</td>
 	<td>Cloud Host Server/Workstation, PC</td>
@@ -190,7 +182,7 @@ th, td {
 	</tr>	
 	</table> 
 	
-<p><a target="_blank" href="images/TrustNote-TR-02-network Connection diagram between nodes.png"><img align="center" src="images/TrustNote-TR-02-network Connection diagram between nodes.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-network connection diagram between nodes.png"><img align="center" src="images/TrustNote-TR-02-network connection diagram between nodes.png"></a></p>	
 	
 <p><b>Figure ‎1-1 P2P network Connection diagram between nodes</b></p>	
 	
