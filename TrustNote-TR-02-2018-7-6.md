@@ -140,7 +140,7 @@ th, td {
 <table>
   <tr>
     <th></th>
-    <th >Super node</th>
+    <th>Super node</th>
 	<th>Full Node</th>
 	<th>Light Node</th>
 	<th>Micro Node</th>
@@ -153,34 +153,34 @@ th, td {
 	<td><p align="center">N/A</p></td>
 	</tr>
     <td><p align="justify"><b>transaction</b></p></td>
-    <td>√</td>
-	<td>√</td>
-	<td>√</td>
-	<td>commissioned</td>
+    <td><p align="center">√</p></td>
+	<td><p align="center">√</p></td>
+	<td><p align="center">√</p></td>
+	<td><p align="center">commissioned</p></td>
 	</tr>
 	 <td><p align="justify"><b>DAG consensus</b></p></td>
-    <td>√</td>
-	<td>√</td>
-	<td>indirect</td>
-	<td>×</td>
+    <td><p align="center">√</p></td>
+	<td><p align="center">√</p></td>
+	<td><p align="center">indirect</p></td>
+	<td><p align="center">×</p></td>
 	</tr>
 	 <td><p align="justify"><b>TrustME-PoW</b></p></td>
-    <td>√</td>
-	<td>×</td>
-	<td>×</td>
-	<td>×</td>
+    <td><p align="center">√</p></td>
+	<td><p align="center">×</p></td>
+	<td><p align="center">×</p></td>
+	<td><p align="center">×</p></td>
 	</tr>
 	 <td><p align="justify"><b>TrustME-BA</b></p></td>
-    <td>√</td>
-	<td>×</td>
-	<td>×</td>
-	<td>×</td>
+    <td><p align="center">√</p></td>
+	<td><p align="center">×</p></td>
+	<td><p align="center">×</p></td>
+	<td><p align="center">×</p></td>
 	</tr>
 	 <td><p align="justify"><b>Hosting Micro Node</b></p></td>
-    <td>√</td>
-	<td>×</td>
-	<td>×</td>
-	<td>×</td>
+    <td><p align="center">√</p></td>
+	<td><p align="center">×</p></td>
+	<td><p align="center">×</p></td>
+	<td><p align="center">×</p></td>
 	</tr>
 	 <td><p align="justify"><b>deployment</b></td>
     <td>Mining systems, Cloud Host Server/Workstation, PC</td>
