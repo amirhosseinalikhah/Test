@@ -148,9 +148,9 @@ th, td {
   <tr>
     <td><p align="justify"><b>ledger</b></p></td>
     <td><p align="center">full ledger</p></td>
-	<td>full ledger</td>
-	<td>light ledger</td>
-	<td>N/A</td>
+	<td><p align="center">full ledger</p></td>
+	<td><p align="center">light ledger</p></td>
+	<td><p align="center">N/A</p></td>
 	</tr>
     <td><p align="justify"><b>transaction</b></p></td>
     <td>√</td>
