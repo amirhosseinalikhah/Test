@@ -221,7 +221,7 @@ th, td {
 
 <div align="center">
 
-<p><a target="_blank" href="images/TrustNote-TR-02-TrustME-PoW Protocol Sketch.png"><img align="center" width="1200px" height="1500px" src="images/TrustNote-TR-02-TrustME-PoW Protocol Sketch.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-TrustME-PoW Protocol Sketch.png"><img align="center" src="images/TrustNote-TR-02-TrustME-PoW Protocol Sketch.png"></a></p>	
 	
 <p><b>Figure 1-2 TrustME-PoW Protocol Sketch</b></p>	
 
@@ -422,9 +422,9 @@ messages: [{
 
 <div align="center">
 
-<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part1.png"><img align="center" width="850px" height="400px" src="images/TrustNote-TR-02-Main Chain Stabilization Part1.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part1.png"><img align="center" src="images/TrustNote-TR-02-Main Chain Stabilization Part1.png"></a></p>	
 
-<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part2.png"><img align="center" width="850px" height="400px" src="images/TrustNote-TR-02-Main Chain Stabilization Part2.png"></a></p>		
+<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part2.png"><img align="center" src="images/TrustNote-TR-02-Main Chain Stabilization Part2.png"></a></p>		
 </div>
 
 <div align="justify">
@@ -439,8 +439,8 @@ messages: [{
 
 <div align="center">
 
-<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part3.png"><img align="center" width="1000px" height="400px" src="images/TrustNote-TR-02-Main Chain Stabilization Part3.png"></a></p>	
-<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part4.png"><img align="center" width="1000px" height="400px" src="images/TrustNote-TR-02-Main Chain Stabilization Part4.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part3.png"><img align="center" src="images/TrustNote-TR-02-Main Chain Stabilization Part3.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part4.png"><img align="center" src="images/TrustNote-TR-02-Main Chain Stabilization Part4.png"></a></p>	
 	
 </div>
 
@@ -475,7 +475,7 @@ messages: [{
 
 <div align="center">
 
-<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part5.png"><img align="center" width="1000px" height="500px" src="images/TrustNote-TR-02-Main Chain Stabilization Part5.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part5.png"><img align="center"  src="images/TrustNote-TR-02-Main Chain Stabilization Part5.png"></a></p>	
 </div>
 
 <div align="justify">
@@ -548,11 +548,11 @@ messages: [{
 
 <div align="center">
 
-<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part6.png"><img align="center" width="1000px" height="500px" src="images/TrustNote-TR-02-Main Chain Stabilization Part6.png"></a></p>
-<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part7.png"><img align="center" width="1000px" height="500px" src="images/TrustNote-TR-02-Main Chain Stabilization Part7.png"></a></p>	
-<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part8.png"><img align="center" width="1000px" height="500px" src="images/TrustNote-TR-02-Main Chain Stabilization Part8.png"></a></p>	
-<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part9.png"><img align="center" width="1000px" height="500px" src="images/TrustNote-TR-02-Main Chain Stabilization Part9.png"></a></p>	
-<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part10.png"><img align="center" width="1000px" height="500px" src="images/TrustNote-TR-02-Main Chain Stabilization Part10.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part6.png"><img align="center"  src="images/TrustNote-TR-02-Main Chain Stabilization Part6.png"></a></p>
+<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part7.png"><img align="center"  src="images/TrustNote-TR-02-Main Chain Stabilization Part7.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part8.png"><img align="center"  src="images/TrustNote-TR-02-Main Chain Stabilization Part8.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part9.png"><img align="center"  src="images/TrustNote-TR-02-Main Chain Stabilization Part9.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-Main Chain Stabilization Part10.png"><img align="center"  src="images/TrustNote-TR-02-Main Chain Stabilization Part10.png"></a></p>	
 	
 </div>
 
