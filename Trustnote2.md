@@ -143,7 +143,7 @@
 </div>
 
 <p>根据TrustNote-TR-2018-02 The TrustME-PoW Consensus Scheme ，超级节点按轮次竞争公证权，每轮选出9位公证人，前1位公证人由基金会指定，后8位公证人以超级节点PoW方式选出。</p>
-<p>In accordance with [TrustNote-TR-2018-02 The TrustME-PoW Consensus Scheme](https://github.com/trustnote/document/blob/master/TrustNote-TR-2018-02.md) ,Super node receives the Attestion power by taking part in PoW rounds, in each round 9 Attestors will be selecetd, also one fixed attestors will be added to the list once the 8<sup>th</sup> is selcetd by the PoW competitation.</p>
+<p>In accordance with [TR-02 TrustME-PoW](https://github.com/trustnote/document/blob/master/TrustNote-TR-2018-02.md) ,Super node receives the Attestion power by taking part in PoW rounds, in each round 9 Attestors will be selecetd, also one fixed attestors will be added to the list once the 8<sup>th</sup> is selcetd by the PoW competitation.</p>
 
 <p>超级节点TFans排名奖励规则</p>
 <h2><b>4.4 Regulations on Super node TFans Ranking Reward</b></h2>
