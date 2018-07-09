@@ -302,7 +302,7 @@ th, td {
 <p>Super nodes are always online and vulnerable to attack. Therefore, a shorter consensus round duration should be set. If it is set to 5 minutes, the probability of the Attestor node being invalid or being hacked is reduced significantly. In order to improve the security of the Super node funds, the deposit contract sets the deposit payable address and the Attestation bonus receive address. Super node should set different addresses as the deposit payable address, payout address, and the Attestation bonus. Even more, Super nodes are required to use the cold wallet to set the Attestation bonus receive address to increase the security of the Super node deposit and Attestation bonus. </p>
 <h3>Deposit Contract Message</h3>
 
-```javascript
+```
 messages: [{
     app: 'Deposit',
     payload_location: 'inline',
@@ -493,7 +493,7 @@ messages: [{
 
 <h3>PoW Unit</h3>
 
-```javascript
+```
 {
     unit: {
             version: 'Protocol Version',
@@ -611,7 +611,7 @@ messages: [{
 
 <h3>TrustME Unit</h3>
 
-```javascript
+```
 {
     unit: {
             version: 'Protocol Version',
@@ -830,7 +830,7 @@ messages: [{
 
 <h3>Coinbase Unit</h3>
 
-```javascript
+```
 {
     unit: {
             version: 'Protocol Version',
@@ -974,5 +974,6 @@ messages: [{
 
 </font>
 </div>
+
 
 </html>
