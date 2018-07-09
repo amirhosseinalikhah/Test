@@ -473,7 +473,7 @@ messages: [{
 <div align="justify">
 <font face="cambria" size="3">
 
-<p>Once unit "<b>l</b>" becomes stable, at <b>T14</b> last PoW unit, unit "i" for one of the Attestors interested in taking part in next consensus round becomes stable and next consensus round starts immediately. The partial MCI order of each PoW unit becomes stable determines the priority of the Attestors in next consensus round.</p>
+<p>Once unit "<b>l</b>" becomes stable, at <b>T11</b> last PoW unit, unit "i" for one of the Attestors interested in taking part in next consensus round becomes stable and next consensus round starts immediately. The partial MCI order of each PoW unit becomes stable determines the priority of the Attestors in next consensus round.</p>
 
 <p>Please note that, if an Attestor sends any double spent, invalid or wrong units it will be deprived of the Attestation power on that round and it will be removed from the list of Attestors of that round as well.</p>
 
