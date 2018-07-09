@@ -183,10 +183,10 @@ th, td {
 	<td align="center">×</td>
 	</tr>
 	 <td align="justify"><b>deployment</b></td>
-    <td>Mining systems, Cloud Host Server/Workstation, PC</td>
-	<td>Cloud Host Server/Workstation, PC</td>
-	<td>Smartphone, Tablet PC</td>
-	<td>MCU, Smart Card</td>
+    <td align="justify">Mining systems, Cloud Host Server/Workstation, PC</td>
+	<td align="justify">Cloud Host Server/Workstation, PC</td>
+	<td align="justify">Smartphone, Tablet PC</td>
+	<td align="justify">MCU, Smart Card</td>
 	</tr>	
 	</table> 
 	
@@ -684,130 +684,130 @@ messages: [{
 	  <TH><b>Consensus Round (From-To)</b></TH>
    </TR>
     <TR>
-      <TD>1</TD>
-	  <TD>45745654.16</TD>
-	  <TD>217.59</TD>
-	  <TD>1 - 210240</TD>
+      <td align="center">1</TD>
+	  <td align="center">45745654.16</TD>
+	  <td align="center">217.59</TD>
+	  <td align="center">1 - 210240</TD>
    </TR>
     <TR>
-      <TD>2</TD>
-	  <TD>37157017.22</TD>
-	  <TD>176.74</TD>
-	  <TD>210241 - 420480</TD>
+      <td align="center">2</TD>
+	  <td align="center">37157017.22</TD>
+	  <td align="center">176.74</TD>
+	  <td align="center">210241 - 420480</TD>
    </TR>
     <TR>
-      <TD>3</TD>
-	  <TD>32901330.89 </TD>
-	  <TD>156.49</TD>
-	  <TD>420481 - 630720</TD>
+      <td align="center">3</TD>
+	  <td align="center">32901330.89 </TD>
+	  <td align="center">156.49</TD>
+	  <td align="center">420481 - 630720</TD>
    </TR> 
     <TR>
-      <TD>4</TD>
-	  <TD>30180876.28</TD>
-	  <TD>143.55</TD>
-	  <TD>630721 - 840960</TD>
+      <td align="center">4</TD>
+	  <td align="center">30180876.28</TD>
+	  <td align="center">143.55</TD>
+	  <td align="center">630721 - 840960</TD>
    </TR>
     <TR>
-      <TD>5</TD>
-	  <TD>28226617.69</TD>
-	  <TD>134.26</TD>
-	  <TD>840961 - 1051200</TD>
+      <td align="center">5</TD>
+	  <td align="center">28226617.69</TD>
+	  <td align="center">134.26</TD>
+	  <td align="center">840961 - 1051200</TD>
    </TR>
     <TR>
-      <TD>6</TD>
-	  <TD>26724184.86</TD>
-	  <TD>127.11</TD>
-	  <TD>1051201 - 1261440</TD>
+      <td align="center">6</TD>
+	  <td align="center">26724184.86</TD>
+	  <td align="center">127.11</TD>
+	  <td align="center">1051201 - 1261440</TD>
    </TR>
     <TR>
-      <TD>7</TD>
-	  <TD>25516460.44</TD>
-	  <TD>121.37</TD>
-	  <TD>1261440 - 1471680</TD>
+      <td align="center">7</TD>
+	  <td align="center">25516460.44</TD>
+	  <td align="center">121.37</TD>
+	  <td align="center">1261440 - 1471680</TD>
    </TR>
     <TR>
-      <TD>8</TD>
-	  <TD>24514489.08</TD>
-	  <TD>116.60</TD>
-	  <TD>1471681 - 1681920</TD>
+      <td align="center">8</TD>
+	  <td align="center">24514489.08</TD>
+	  <td align="center">116.60</TD>
+	  <td align="center">1471681 - 1681920</TD>
    </TR>
     <TR>
-      <TD>9</TD>
-	  <TD>23663396.98</TD>
-	  <TD>112.55</TD>
-	  <TD>1681921 - 1892160</TD>
+      <td align="center">9</TD>
+	  <td align="center">23663396.98</TD>
+	  <td align="center">112.55</TD>
+	  <td align="center">1681921 - 1892160</TD>
    </TR>
     <TR>
-      <TD>10</TD>
-	  <TD>22927137.86</TD>
-	  <TD>109.05</TD>
-	  <TD>1892161 - 2102400</TD>
+      <td align="center">10</TD>
+	  <td align="center">22927137.86</TD>
+	  <td align="center">109.05</TD>
+	  <td align="center">1892161 - 2102400</TD>
    </TR> 
     <TR>
-      <TD>11</TD>
-	  <TD>22280864.47</TD>
-	  <TD>105.98</TD>
-	  <TD>2102401 - 2312640</TD>
+      <td align="center">11</TD>
+	  <td align="center">22280864.47</TD>
+	  <td align="center">105.98</TD>
+	  <td align="center">2102401 - 2312640</TD>
    </TR>
     <TR>
-      <TD>12</TD>
-	  <TD>21706783.19</TD>
-	  <TD>103.25</TD>
-	  <TD>2312641 - 2522880</TD>
+      <td align="center">12</TD>
+	  <td align="center">21706783.19</TD>
+	  <td align="center">103.25</TD>
+	  <td align="center">2312641 - 2522880</TD>
    </TR>
     <TR>
-      <TD>13</TD>
-	  <TD>21191750.72</TD>
-	  <TD>100.80</TD>
-	  <TD>2522881 - 2733120</TD>
+      <td align="center">13</TD>
+	  <td align="center">21191750.72</TD>
+	  <td align="center">100.80</TD>
+	  <td align="center">2522881 - 2733120</TD>
    </TR> 
     <TR>
-      <TD>14</TD>
-	  <TD>20725806.14</TD>
-	  <TD>98.58</TD>
-	  <TD>2733121 - 2943360</TD>
+      <td align="center">14</TD>
+	  <td align="center">20725806.14</TD>
+	  <td align="center">98.58</TD>
+	  <td align="center">2733121 - 2943360</TD>
    </TR>
     <TR>
-      <TD>15</TD>
-	  <TD>20301235.29</TD>
-	  <TD>96.56</TD>
-	  <TD>2943361 - 3153600</TD>
+      <td align="center">15</TD>
+	  <td align="center">20301235.29</TD>
+	  <td align="center">96.56</TD>
+	  <td align="center">2943361 - 3153600</TD>
    </TR>
     <TR>
-      <TD>16</TD>
-	  <TD>19911952.5</TD>
-	  <TD>94.71</TD>
-	  <TD>3153601 - 3363840</TD>
+      <td align="center">16</TD>
+	  <td align="center">19911952.5</TD>
+	  <td align="center">94.71</TD>
+	  <td align="center">3153601 - 3363840</TD>
    </TR>
     <TR>
-      <TD>17</TD>
-	  <TD>19553079.5</TD>
-	  <TD>93.00</TD>
-	  <TD>3363841 - 3574080</TD>
+      <td align="center">17</TD>
+	  <td align="center">19553079.5</TD>
+	  <td align="center">93.00</TD>
+	  <td align="center">3363841 - 3574080</TD>
    </TR>
     <TR>
-      <TD>18</TD>
-	  <TD>19220650.9</TD>
-	  <TD>91.42</TD>
-	  <TD>3574081 - 3784320</TD>
+      <td align="center">18</TD>
+	  <td align="center">19220650.9</TD>
+	  <td align="center">91.42</TD>
+	  <td align="center">3574081 - 3784320</TD>
    </TR>
     <TR>
-      <TD>19</TD>
-	  <TD>18911403.55</TD>
-	  <TD>89.95</TD>
-	  <TD>3784321 - 3994560</TD>
+      <td align="center">19</TD>
+	  <td align="center">18911403.55</TD>
+	  <td align="center">89.95</TD>
+	  <td align="center">3784321 - 3994560</TD>
    </TR>
     <TR>
-      <TD>20</TD>
-	  <TD>18622622.67</TD>
-	  <TD>88.58</TD>
-	  <TD>3994561 - 4415040</TD>
+      <td align="center">20</TD>
+	  <td align="center">18622622.67</TD>
+	  <td align="center">88.58</TD>
+	  <td align="center">3994561 - 4415040</TD>
    </TR> 
     <TR>
-      <TD>21</TD>
-	  <TD>0.00</TD>
-	  <TD>0</TD>
-	  <TD>4415041 - XXXXXXX</TD>
+      <td align="center">21</TD>
+	  <td align="center">0.00</TD>
+	  <td align="center">0</TD>
+	  <td align="center">4415041 - XXXXXXX</TD>
    </TR>   
    <table>
 </div>
