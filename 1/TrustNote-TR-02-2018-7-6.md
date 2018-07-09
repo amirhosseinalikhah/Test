@@ -896,19 +896,19 @@ messages: [{
 	  <TH><b>TrustME unit</b></TH>
    </TR>
     <TR>
-      <TD>i-1</TD>
-	  <TD>invalid</TD>
-	  <TD>being stable</TD>
+      <td align="center">i-1</TD>
+	  <td align="center">invalid</TD>
+	  <td align="center">being stable</TD>
    </TR>
     <TR>
-      <TD>i</TD>
-	  <TD>sending TrustME units until all units in round    (i-1) becomes stable and there are enough Attestors for round (i+1)</TD>
-	  <TD>not stable</TD>
+      <td align="center">i</TD>
+	  <td align="justify">sending TrustME units until all units in round    (i-1) becomes stable and there are enough Attestors for round (i+1)</TD>
+	  <td align="center">not stable</TD>
    </TR>
     <TR>
-      <TD>i+1</TD>
-	  <TD>waiting until the first TrustME unit of round (i) to become stable, and making consensus with the seed of round (i), the Coinbase of round (i-2) and First Stable MC unit (i)</TD>
-	  <TD>N/A</TD>
+      <td align="center">i+1</TD>
+	  <td align="justify">waiting until the first TrustME unit of round (i) to become stable, and making consensus with the seed of round (i), the Coinbase of round (i-2) and First Stable MC unit (i)</TD>
+	  <td align="center">N/A</TD>
    </TR>   
    <table>
 </div>
@@ -932,35 +932,35 @@ messages: [{
 	  <TH><b>Attestor</b></TH>
    </TR>
     <TR>
-      <TD>1</TD>
+      <td align="center">1</TD>
       <td align="justify">At this point a Hard fork will happen and Genesis unit will be created by nine Attestors. One of the Attestors will be the fixed Attestor in all consensus rounds and the other eight Attestors are substitutes.</td>
    </TR>
     <TR>
-      <TD>2</TD>
+      <td align="center">2</TD>
       <td align="justify">The R<sub>1</sub> consensus round  starts by the nine attestors from TrustNote. They will send TrustME units.</td>   
 	</TR>
     <TR>
-      <TD>3</TD>
+      <td align="center">3</TD>
       <td align="justify">Once the first TrustME unit of this round (R<sub>1</sub>) becomes stable, the Super nodes proceeding to attend the R<sub>2</sub> consensus round, calculate the R<sub>2</sub>  public seed based on the public seed of the R<sub>1</sub> round and the FirstStableUnit<sub>1</sub>. The Super nodes using difficulty and node specific seed to calculate the Equihash solution and send their PoW unit.</td>
 	</TR> 
     <TR>
-      <TD>4</TD>
+      <td align="center">4</TD>
       <td align="justify">Once the first eight PoW units become stable, the R<sub>2</sub>  Attestors list will be filled as: the first Attestor is the fixed Attestor from TrustNote and from index 2 to index 9 of this table will be filled based on the hash value of the PoW units of the top eight Attestors.</td>
 	</TR>  	
     <TR>
-      <TD>5</TD>
+      <td align="center">5</TD>
       <td align="justify">The R<sub>2</sub> round starts and the Attestors start sending the TrustMe units. Once the first TrustME unit from R<sub>2</sub> becomes stable, all the full nodes and Super nodes must calculate the coinbase rewards for the R<sub>1</sub>. The Attestors of R<sub>1</sub> also calculate their share from the coinbase rewards and send it to their own reward_receiver_address.</td>
    </TR>
     <TR>
-      <TD>6</TD>
+      <td align="center">6</TD>
       <td align="justify">The Super nodes proceeding to attend the R<sub>3</sub>  consensus round, calculate the R<sub>3</sub>  public seed based on the public seed of the R<sub>i-1</sub> (R<sub>2</sub>) round and the FirstStableUnit<sub>i-1</sub> (FirstStableUnit<sub>2</sub>) and the coinbase of R<sub>i-2</sub>  (R<sub>1</sub>). The Super nodes using difficulty and node specific seed to calculate the Equihash solution and send their PoW unit.</td>   
 	</TR>
     <TR>
-      <TD>7</TD>
+      <td align="center">7</TD>
       <td align="justify">Once the first eight PoW units become stable, the R<sub>3</sub>  Attestors list will be filled as: the first Attestor is the fixed Attestor from TrustNote and from index 2 to index 9 of this table will be filled based on the MCI of the PoW units of the top eight Attestors.</td>
 	</TR> 
     <TR>
-      <TD>8</TD>
+      <td align="center">8</TD>
       <td align="justify">The R<sub>3</sub> round starts and the Attestors start sending the TrustMe units. Once the first TrustME unit of the R<sub>3</sub> round becomes stable, all the full nodes and Super nodes must calculate the coinbase rewards for the R<sub>2</sub>. The Attestors of R<sub>2</sub> also calculate their share from the coinbase rewards and send it to their own reward_receiver_address.</td>
 	</TR> 
 	<table>
