@@ -56,7 +56,7 @@
 			<p><a href="#Report-Organization">1.3. Report Organization</a></p>
 		</ul>
 	<p><a href="#Super-Node">2. Super node</a></p>
-		<ul><p><a href="#Motivation">2.1. Motivation</a></p>
+		<ul><p><a href="#Motivation2">2.1. Motivation</a></p>
 			<p><a href="#Methodology">2.2. Methodology</a></p>
 			<p><a href="#Deposit-Mechanism">2.3. Deposit Mechanism</a></p>
 		</ul>		
@@ -67,7 +67,7 @@
 			<p><a href="#Main-Chain-Stabilization-Algorithm">3.4. Main Chain Stabilization Algorithm</a></p>
 		</ul>		
 	<p><a href="#TrustME-PoW-Consensus">4. TrustME-PoW Consensus</a></p>
-		<ul><p><a href="#Motivation">4.1. Motivation</a></p>
+		<ul><p><a href="#Motivation4">4.1. Motivation</a></p>
 			<p><a href="#How-to-Select-Attestors">4.2. How to Select Attestors</a></p>
 			<p><a href="#PoW-Unit">4.3. PoW Unit</a></p>
 			<p><a href="#Consensus-Round-Switching">4.4. Consensus Round Switching</a></p>
@@ -239,7 +239,7 @@ th, td {
 <p>The remainder of this technical report is organized as follows. In chapter 2, the node taxonomy, network topology and importance of Super nodes will be explained. Also, more detail about how a user can become a Super node and the procedure the user should be through explained. Then, we will explain why the user should pay the deposit to become a Super node and the procedure the user would be through to get it back. Chapter 3 is dedicated to Main Chain selection and stabilization algorithm, and the best parent protocol and its importance in MC stabilization and determination will be explained. In chapter 4 the innovative TrustME-PoW consensus with all detail will be explained. Even more, the reason why we have Attestors, what Attestors are doing, how Attestors benefit from helping the maintenance of the DAG-ledger, the switching procedure between rounds and so on are carefully explained. The procedure of calculation of the rewards and the procedure of sending rewards to Attestors also explained in this chapter. Finally, in chapter 5 the required steps that TrustNote should be taken to upgrade the network from Witnesses mode to TrustME-PoW mode fully explained.</p>
 
 <h1><a id="Super-Node"></a>2. Super node</h1>
-<h2><a id="Motivation"></a>2.1. Motivation</h2>
+<h2><a id="Motivation2"></a>2.1. Motivation</h2>
 
 <p>Why do we need Super node? </p>
 
@@ -451,7 +451,7 @@ messages: [{
 
 <p>TrustNote adopts a two-tier consensus mechanism comprising “base consensus” and “TrustME consensus”. The base consensus, also known as “DAG consensus”, requires new units sent by nodes to verify previous units and reference them. The TrustME consensus is used to select a main chain on DAG ledger and determines the total order of all stable units based on the main chain. Such two-tier consensus mechanisms can improve transaction throughput and reduce transaction confirmation delay, thus effectively solving the problem of Excessive Bifurcation and double-spending.</p>
 
-<h2><a id="Motivation"></a>4.1. Motivation</h2>
+<h2><a id="Motivation4"></a>4.1. Motivation</h2>
 
 <p>TrustME-PoW designed in two different types during the conceptual design phase:</p>
 
@@ -974,10 +974,5 @@ messages: [{
 
 </font>
 </div>
-
-
-
-
-
 
 </html>
