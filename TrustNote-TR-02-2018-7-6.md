@@ -146,43 +146,43 @@ th, td {
 	<th>Micro Node</th>
 	</tr>
   <tr>
-    <td><p align="justify"><b>ledger</b></p></td>
+    <td align="justify"><b>ledger</b></td>
     <td align="center">full ledger</td>
-	<td><p align="center">full ledger</p></td>
-	<td><p align="center">light ledger</p></td>
-	<td><p align="center">N/A</p></td>
+	<td align="center">full ledger</td>
+	<td align="center">light ledger</td>
+	<td align="center">N/A</td>
 	</tr>
-    <td><p align="justify"><b>transaction</b></p></td>
-    <td><p align="center">√</p></td>
-	<td><p align="center">√</p></td>
-	<td><p align="center">√</p></td>
-	<td><p align="center">commissioned</p></td>
+    <td align="justify"><b>transaction</b></td>
+    <td align="center">√</td>
+	<td align="center">√</td>
+	<td align="center">√</td>
+	<td align="center">commissioned</td>
 	</tr>
-	 <td><p align="justify"><b>DAG consensus</b></p></td>
-    <td><p align="center">√</p></td>
-	<td><p align="center">√</p></td>
-	<td><p align="center">indirect</p></td>
-	<td><p align="center">×</p></td>
+	 <td align="justify"><b>DAG consensus</b></td>
+    <td align="center">√</td>
+	<td align="center">√</td>
+	<td align="center">indirect</td>
+	<td align="center">×</td>
 	</tr>
-	 <td><p align="justify"><b>TrustME-PoW</b></p></td>
-    <td><p align="center">√</p></td>
-	<td><p align="center">×</p></td>
-	<td><p align="center">×</p></td>
-	<td><p align="center">×</p></td>
+	 <td align="justify"><b>TrustME-PoW</b></td>
+    <td align="center">√</td>
+	<td align="center">×</td>
+	<td align="center">×</td>
+	<td align="center">×</td>
 	</tr>
-	 <td><p align="justify"><b>TrustME-BA</b></p></td>
-    <td><p align="center">√</p></td>
-	<td><p align="center">×</p></td>
-	<td><p align="center">×</p></td>
-	<td><p align="center">×</p></td>
+	 <td align="justify"><b>TrustME-BA</b></td>
+    <td align="center">√</td>
+	<td align="center">×</td>
+	<td align="center">×</td>
+	<td align="center">×</td>
 	</tr>
-	 <td><p align="justify"><b>Hosting Micro Node</b></p></td>
-    <td><p align="center">√</p></td>
-	<td><p align="center">×</p></td>
-	<td><p align="center">×</p></td>
-	<td><p align="center">×</p></td>
+	 <td align="justify"><b>Hosting Micro Node</b></td>
+    <td align="center">√</td>
+	<td align="center">×</td>
+	<td align="center">×</td>
+	<td align="center">×</td>
 	</tr>
-	 <td><p align="justify"><b>deployment</b></td>
+	 <td align="justify"><b>deployment</b></td>
     <td>Mining systems, Cloud Host Server/Workstation, PC</td>
 	<td>Cloud Host Server/Workstation, PC</td>
 	<td>Smartphone, Tablet PC</td>
@@ -933,35 +933,35 @@ messages: [{
    </TR>
     <TR>
       <TD>1</TD>
-      <TD><p align="justify">At this point a Hard fork will happen and Genesis unit will be created by nine Attestors. One of the Attestors will be the fixed Attestor in all consensus rounds and the other eight Attestors are substitutes.</p></TD>
+      <td align="justify">At this point a Hard fork will happen and Genesis unit will be created by nine Attestors. One of the Attestors will be the fixed Attestor in all consensus rounds and the other eight Attestors are substitutes.</td>
    </TR>
     <TR>
       <TD>2</TD>
-      <TD><p align="justify">The R<sub>1</sub> consensus round  starts by the nine attestors from TrustNote. They will send TrustME units.</p></TD>   
+      <td align="justify">The R<sub>1</sub> consensus round  starts by the nine attestors from TrustNote. They will send TrustME units.</td>   
 	</TR>
     <TR>
       <TD>3</TD>
-      <TD><p align="justify">Once the first TrustME unit of this round (R<sub>1</sub>) becomes stable, the Super nodes proceeding to attend the R<sub>2</sub> consensus round, calculate the R<sub>2</sub>  public seed based on the public seed of the R<sub>1</sub> round and the FirstStableUnit<sub>1</sub>. The Super nodes using difficulty and node specific seed to calculate the Equihash solution and send their PoW unit.</p></TD>
+      <td align="justify">Once the first TrustME unit of this round (R<sub>1</sub>) becomes stable, the Super nodes proceeding to attend the R<sub>2</sub> consensus round, calculate the R<sub>2</sub>  public seed based on the public seed of the R<sub>1</sub> round and the FirstStableUnit<sub>1</sub>. The Super nodes using difficulty and node specific seed to calculate the Equihash solution and send their PoW unit.</td>
 	</TR> 
     <TR>
       <TD>4</TD>
-      <TD><p align="justify">Once the first eight PoW units become stable, the R<sub>2</sub>  Attestors list will be filled as: the first Attestor is the fixed Attestor from TrustNote and from index 2 to index 9 of this table will be filled based on the hash value of the PoW units of the top eight Attestors.</p></TD>
+      <td align="justify">Once the first eight PoW units become stable, the R<sub>2</sub>  Attestors list will be filled as: the first Attestor is the fixed Attestor from TrustNote and from index 2 to index 9 of this table will be filled based on the hash value of the PoW units of the top eight Attestors.</td>
 	</TR>  	
     <TR>
       <TD>5</TD>
-      <TD><p align="justify">The R<sub>2</sub> round starts and the Attestors start sending the TrustMe units. Once the first TrustME unit from R<sub>2</sub> becomes stable, all the full nodes and Super nodes must calculate the coinbase rewards for the R<sub>1</sub>. The Attestors of R<sub>1</sub> also calculate their share from the coinbase rewards and send it to their own reward_receiver_address.</p></TD>
+      <td align="justify">The R<sub>2</sub> round starts and the Attestors start sending the TrustMe units. Once the first TrustME unit from R<sub>2</sub> becomes stable, all the full nodes and Super nodes must calculate the coinbase rewards for the R<sub>1</sub>. The Attestors of R<sub>1</sub> also calculate their share from the coinbase rewards and send it to their own reward_receiver_address.</td>
    </TR>
     <TR>
       <TD>6</TD>
-      <TD><p align="justify">The Super nodes proceeding to attend the R<sub>3</sub>  consensus round, calculate the R<sub>3</sub>  public seed based on the public seed of the R<sub>i-1</sub> (R<sub>2</sub>) round and the FirstStableUnit<sub>i-1</sub> (FirstStableUnit<sub>2</sub>) and the coinbase of R<sub>i-2</sub>  (R<sub>1</sub>). The Super nodes using difficulty and node specific seed to calculate the Equihash solution and send their PoW unit.</p></TD>   
+      <td align="justify">The Super nodes proceeding to attend the R<sub>3</sub>  consensus round, calculate the R<sub>3</sub>  public seed based on the public seed of the R<sub>i-1</sub> (R<sub>2</sub>) round and the FirstStableUnit<sub>i-1</sub> (FirstStableUnit<sub>2</sub>) and the coinbase of R<sub>i-2</sub>  (R<sub>1</sub>). The Super nodes using difficulty and node specific seed to calculate the Equihash solution and send their PoW unit.</td>   
 	</TR>
     <TR>
       <TD>7</TD>
-      <TD><p align="justify">Once the first eight PoW units become stable, the R<sub>3</sub>  Attestors list will be filled as: the first Attestor is the fixed Attestor from TrustNote and from index 2 to index 9 of this table will be filled based on the MCI of the PoW units of the top eight Attestors.</p></TD>
+      <td align="justify">Once the first eight PoW units become stable, the R<sub>3</sub>  Attestors list will be filled as: the first Attestor is the fixed Attestor from TrustNote and from index 2 to index 9 of this table will be filled based on the MCI of the PoW units of the top eight Attestors.</td>
 	</TR> 
     <TR>
       <TD>8</TD>
-      <TD><p align="justify">The R<sub>3</sub> round starts and the Attestors start sending the TrustMe units. Once the first TrustME unit of the R<sub>3</sub> round becomes stable, all the full nodes and Super nodes must calculate the coinbase rewards for the R<sub>2</sub>. The Attestors of R<sub>2</sub> also calculate their share from the coinbase rewards and send it to their own reward_receiver_address.</p></TD>
+      <td align="justify">The R<sub>3</sub> round starts and the Attestors start sending the TrustMe units. Once the first TrustME unit of the R<sub>3</sub> round becomes stable, all the full nodes and Super nodes must calculate the coinbase rewards for the R<sub>2</sub>. The Attestors of R<sub>2</sub> also calculate their share from the coinbase rewards and send it to their own reward_receiver_address.</td>
 	</TR> 
 	<table>
 </div>
