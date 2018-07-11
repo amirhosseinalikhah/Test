@@ -141,53 +141,53 @@ th, td {
 <table>
   <tr>
     <th></th>
-    <th >Supernode</th>
+    <th>Supernode</th>
 	<th>Full Node</th>
 	<th>Light Node</th>
 	<th>Micro Node</th>
 	</tr>
   <tr>
-    <td><p align="justify"><b>ledger</b></p></td>
-    <td>full ledger</td>
-	<td>full ledger</td>
-	<td>light ledger</td>
-	<td>N/A</td>
+    <td align="justify"><b>ledger</b></td>
+    <td align="center">full ledger</td>
+	<td align="center">full ledger</td>
+	<td align="center">light ledger</td>
+	<td align="center">N/A</td>
 	</tr>
-    <td><p align="justify"><b>transaction</b></p></td>
-    <td>√</td>
-	<td>√</td>
-	<td>√</td>
-	<td>commissioned</td>
+    <td align="justify"><b>transaction</b></td>
+    <td align="center">√</td>
+	<td align="center">√</td>
+	<td align="center">√</td>
+	<td align="center">commissioned</td>
 	</tr>
-	 <td><p align="justify"><b>DAG consensus</b></p></td>
-    <td>√</td>
-	<td>√</td>
-	<td>indirect</td>
-	<td>×</td>
+	 <td align="justify"><b>DAG consensus</b></td>
+    <td align="center">√</td>
+	<td align="center">√</td>
+	<td align="center">indirect</td>
+	<td align="center">×</td>
 	</tr>
-	 <td><p align="justify"><b>TrustME-PoW</b></p></td>
-    <td>√</td>
-	<td>×</td>
-	<td>×</td>
-	<td>×</td>
+	 <td align="justify"><b>TrustME-PoW</b></td>
+    <td align="center">√</td>
+	<td align="center">×</td>
+	<td align="center">×</td>
+	<td align="center">×</td>
 	</tr>
-	 <td><p align="justify"><b>TrustME-BA</b></p></td>
-    <td>√</td>
-	<td>×</td>
-	<td>×</td>
-	<td>×</td>
+	 <td align="justify"><b>TrustME-BA</b></td>
+    <td align="center">√</td>
+	<td align="center">×</td>
+	<td align="center">×</td>
+	<td align="center">×</td>
 	</tr>
-	 <td><p align="justify"><b>Hosting Micro Node</b></p></td>
-    <td>√</td>
-	<td>×</td>
-	<td>×</td>
-	<td>×</td>
+	 <td align="justify"><b>Hosting Micro Node</b></td>
+    <td align="center">√</td>
+	<td align="center">×</td>
+	<td align="center">×</td>
+	<td align="center">×</td>
 	</tr>
-	 <td><p align="justify"><b>deployment</b></td>
-    <td>Mining systems, Cloud Host Server/Workstation, PC</td>
-	<td>Cloud Host Server/Workstation, PC</td>
-	<td>Smartphone, Tablet PC</td>
-	<td>MCU, Smart Card</td>
+	 <td align="justify"><b>deployment</b></td>
+    <td align="center">Mining systems, Cloud Host Server/Workstation, PC</td>
+	<td align="center">Cloud Host Server/Workstation, PC</td>
+	<td align="center">Smartphone, Tablet PC</td>
+	<td align="center">MCU, Smart Card</td>
 	</tr>	
 	</table> 
 	
