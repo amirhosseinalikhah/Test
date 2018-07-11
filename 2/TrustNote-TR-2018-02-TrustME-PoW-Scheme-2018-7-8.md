@@ -191,7 +191,7 @@ th, td {
 	</tr>	
 	</table> 
 	
-<p><a><img align="center" src="images/TrustNote-TR-02-network Connection diagram between nodes.png"></a></p>	
+<p><img align="center" src="images/TrustNote-TR-02-network Connection diagram between nodes.png"></p>	
 	
 <p><b>Figure ‎1-1 P2P network Connection diagram between nodes</b></p>	
 	
