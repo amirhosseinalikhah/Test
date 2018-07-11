@@ -189,16 +189,16 @@ th, td {
 	<td align="center">Smartphone, Tablet PC</td>
 	<td align="center">MCU, Smart Card</td>
 	</tr>	
-	</table> 
-	
-<p><img align="center" src="images/TrustNote-TR-02-network Connection diagram between nodes.png"></p>	
-	
-<p><b>Figure ‎1-1 P2P network Connection diagram between nodes</b></p>	
+	</table> 	
 	
 </div>
 
 <div align="justify">
 <font face="cambria" size="3">
+
+<p><img align="center" src="images/TrustNote-TR-02-network Connection diagram between nodes.png"></p>	
+	
+<p><b>Figure ‎1-1 P2P network Connection diagram between nodes</b></p>
 
 <h2><a id="TrustME-PoW-Scheme-Overview"></a>1.2. TrustME-PoW Scheme Overview</h2>
 
