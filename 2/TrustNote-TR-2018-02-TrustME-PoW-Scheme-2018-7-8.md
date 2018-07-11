@@ -191,7 +191,7 @@ th, td {
 	</tr>	
 	</table> 
 	
-<p><a><img align="center" src="images/TrustNote-TR-02-network Connection diagram between nodes.png"></a></p>	
+<p><a><img align="center" src="images/TrustNote-TR-02-network connection diagram between nodes.png"></a></p>	
 	
 <p><b>Figure 1-1 P2P network Connection diagram between nodes</b></p>	
 	
@@ -293,7 +293,7 @@ th, td {
 
 <div align="center">
 
-<p><img align="center" src="images/TrustNote-TR-02-Supernode work flow.jpg"></a></p>	
+<p><img align="center" src="images/TrustNote-TR-02-Super node work flow.jpg"></a></p>	
 	
 <p><b>Figure 2-2 Supernode workflow.</b></p>	
 	
