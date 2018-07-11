@@ -269,7 +269,7 @@ th, td {
 
 <div align="center">
 
-<p><a target="_blank" href="images/TrustNote-TR-02-Attenuation Chart of Attestation Rewards .png"><img align="center" src="images/TrustNote-TR-02-Attenuation Chart of Attestation Rewards .png"></a></p>	
+<p><img align="center" src="images/TrustNote-TR-02-Attenuation Chart of Attestation Rewards .png"></a></p>	
 	
 <p><b>Figure 2-1 Attenuation Chart of Attestation Rewards</b></p>
 	
@@ -293,7 +293,7 @@ th, td {
 
 <div align="center">
 
-<p><a target="_blank" href="images/TrustNote-TR-02-Supernode work flow.jpg"><img align="center" src="images/TrustNote-TR-02-Supernode work flow.jpg"></a></p>	
+<p><img align="center" src="images/TrustNote-TR-02-Supernode work flow.jpg"></a></p>	
 	
 <p><b>Figure ‎2-2 Supernode workflow.</b></p>	
 	
@@ -687,130 +687,130 @@ messages: [{
 	  <TH><b>Consensus Round (From-To)</b></TH>
    </TR>
     <TR>
-      <TD>1</TD>
-	  <TD>45,745,654.16</TD>
-	  <TD>217.59</TD>
-	  <TD>1 - 210240</TD>
+      <TD align="center">1</TD>
+	  <TD align="center">45,745,654.16</TD>
+	  <TD align="center">217.59</TD>
+	  <TD align="center">1 - 210240</TD>
    </TR>
     <TR>
-      <TD>2</TD>
-	  <TD>37,157,017.22</TD>
-	  <TD>176.74</TD>
-	  <TD>210241 - 420480</TD>
+      <TD align="center">2</TD>
+	  <TD align="center">37,157,017.22</TD>
+	  <TD align="center">176.74</TD>
+	  <TD align="center">210241 - 420480</TD>
    </TR>
     <TR>
-      <TD>3</TD>
-	  <TD>32,901,330.89 </TD>
-	  <TD>156.49</TD>
-	  <TD>420481 - 630720</TD>
+      <TD align="center">3</TD>
+	  <TD align="center">32,901,330.89 </TD>
+	  <TD align="center">156.49</TD>
+	  <TD align="center">420481 - 630720</TD>
    </TR> 
     <TR>
-      <TD>4</TD>
-	  <TD>30,180,876.28</TD>
-	  <TD>143.55</TD>
-	  <TD>630721 - 840960</TD>
+      <TD align="center">4</TD>
+	  <TD align="center">30,180,876.28</TD>
+	  <TD align="center">143.55</TD>
+	  <TD align="center">630721 - 840960</TD>
    </TR>
     <TR>
-      <TD>5</TD>
-	  <TD>28,226,617.69</TD>
-	  <TD>134.26</TD>
-	  <TD>840961 - 1051200</TD>
+      <TD align="center">5</TD>
+	  <TD align="center">28,226,617.69</TD>
+	  <TD align="center">134.26</TD>
+	  <TD align="center">840961 - 1051200</TD>
    </TR>
     <TR>
-      <TD>6</TD>
-	  <TD>26,724,184.86</TD>
-	  <TD>127.11</TD>
-	  <TD>1051201 - 1261440</TD>
+      <TD align="center">6</TD>
+	  <TD align="center">26,724,184.86</TD>
+	  <TD align="center">127.11</TD>
+	  <TD align="center">1051201 - 1261440</TD>
    </TR>
     <TR>
-      <TD>7</TD>
-	  <TD>25,516,460.44</TD>
-	  <TD>121.37</TD>
-	  <TD>1261440 - 1471680</TD>
+      <TD align="center">7</TD>
+	  <TD align="center">25,516,460.44</TD>
+	  <TD align="center">121.37</TD>
+	  <TD align="center">1261440 - 1471680</TD>
    </TR>
     <TR>
-      <TD>8</TD>
-	  <TD>24,514,489.08</TD>
-	  <TD>116.60</TD>
-	  <TD>1471681 - 1681920</TD>
+      <TD align="center">8</TD>
+	  <TD align="center">24,514,489.08</TD>
+	  <TD align="center">116.60</TD>
+	  <TD align="center">1471681 - 1681920</TD>
    </TR>
     <TR>
-      <TD>9</TD>
-	  <TD>23,663,396.98</TD>
-	  <TD>112.55</TD>
-	  <TD>1681921 - 1892160</TD>
+      <TD align="center">9</TD>
+	  <TD align="center">23,663,396.98</TD>
+	  <TD align="center">112.55</TD>
+	  <TD align="center">1681921 - 1892160</TD>
    </TR>
     <TR>
-      <TD>10</TD>
-	  <TD>22,927,137.86</TD>
-	  <TD>109.05</TD>
-	  <TD>1892161 - 2102400</TD>
+      <TD align="center">10</TD>
+	  <TD align="center">22,927,137.86</TD>
+	  <TD align="center">109.05</TD>
+	  <TD align="center">1892161 - 2102400</TD>
    </TR> 
     <TR>
-      <TD>11</TD>
-	  <TD>22,280,864.47</TD>
-	  <TD>105.98</TD>
-	  <TD>2102401 - 2312640</TD>
+      <TD align="center">11</TD>
+	  <TD align="center">22,280,864.47</TD>
+	  <TD align="center">105.98</TD>
+	  <TD align="center">2102401 - 2312640</TD>
    </TR>
     <TR>
-      <TD>12</TD>
-	  <TD>21,706,783.19</TD>
-	  <TD>103.25</TD>
-	  <TD>2312641 - 2522880</TD>
+      <TD align="center">12</TD>
+	  <TD align="center">21,706,783.19</TD>
+	  <TD align="center">103.25</TD>
+	  <TD align="center">2312641 - 2522880</TD>
    </TR>
     <TR>
-      <TD>13</TD>
-	  <TD>21,191,750.72</TD>
-	  <TD>100.80</TD>
-	  <TD>2522881 - 2733120</TD>
+      <TD align="center">13</TD>
+	  <TD align="center">21,191,750.72</TD>
+	  <TD align="center">100.80</TD>
+	  <TD align="center">2522881 - 2733120</TD>
    </TR> 
     <TR>
-      <TD>14</TD>
-	  <TD>20,725,806.14</TD>
-	  <TD>98.58</TD>
-	  <TD>2733121 - 2943360</TD>
+      <TD align="center">14</TD>
+	  <TD align="center">20,725,806.14</TD>
+	  <TD align="center">98.58</TD>
+	  <TD align="center">2733121 - 2943360</TD>
    </TR>
     <TR>
-      <TD>15</TD>
-	  <TD>20,301,235.29</TD>
-	  <TD>96.56</TD>
-	  <TD>2943361 - 3153600</TD>
+      <TD align="center">15</TD>
+	  <TD align="center">20,301,235.29</TD>
+	  <TD align="center">96.56</TD>
+	  <TD align="center">2943361 - 3153600</TD>
    </TR>
     <TR>
-      <TD>16</TD>
-	  <TD>19,911,952.5</TD>
-	  <TD>94.71</TD>
-	  <TD>3153601 - 3363840</TD>
+      <TD align="center">16</TD>
+	  <TD align="center">19,911,952.5</TD>
+	  <TD align="center">94.71</TD>
+	  <TD align="center">3153601 - 3363840</TD>
    </TR>
     <TR>
-      <TD>17</TD>
-	  <TD>19,553,079.5</TD>
-	  <TD>93.00</TD>
-	  <TD>3363841 - 3574080</TD>
+      <TD align="center">17</TD>
+	  <TD align="center">19,553,079.5</TD>
+	  <TD align="center">93.00</TD>
+	  <TD align="center">3363841 - 3574080</TD>
    </TR>
     <TR>
-      <TD>18</TD>
-	  <TD>19,220,650.9</TD>
-	  <TD>91.42</TD>
-	  <TD>3574081 - 3784320</TD>
+      <TD align="center">18</TD>
+	  <TD align="center">19,220,650.9</TD>
+	  <TD align="center">91.42</TD>
+	  <TD align="center">3574081 - 3784320</TD>
    </TR>
     <TR>
-      <TD>19</TD>
-	  <TD>18,911,403.55</TD>
-	  <TD>89.95</TD>
-	  <TD>3784321 - 3994560</TD>
+      <TD align="center">19</TD>
+	  <TD align="center">18,911,403.55</TD>
+	  <TD align="center">89.95</TD>
+	  <TD align="center">3784321 - 3994560</TD>
    </TR>
     <TR>
-      <TD>20</TD>
-	  <TD>18,622,622.67</TD>
-	  <TD>88.58</TD>
-	  <TD>3994561 - 4415040</TD>
+      <TD align="center">20</TD>
+	  <TD align="center">18,622,622.67</TD>
+	  <TD align="center">88.58</TD>
+	  <TD align="center">3994561 - 4415040</TD>
    </TR> 
     <TR>
-      <TD>21</TD>
-	  <TD>0.00</TD>
-	  <TD>0</TD>
-	  <TD>4415041 - XXXXXXX</TD>
+      <TD align="center">21</TD>
+	  <TD align="center">0.00</TD>
+	  <TD align="center">0</TD>
+	  <TD align="center">4415041 - XXXXXXX</TD>
    </TR>   
    <table>
 </div>
@@ -900,19 +900,19 @@ messages: [{
 	  <TH><b>TrustME unit</b></TH>
    </TR>
     <TR>
-      <TD>i-1</TD>
-	  <TD>invalid</TD>
-	  <TD>being stable</TD>
+      <TD align="center">i-1</TD>
+	  <TD align="center">invalid</TD>
+	  <TD align="center">being stable</TD>
    </TR>
     <TR>
-      <TD>i</TD>
-	  <TD>sending TrustME units until all units in the round    (i-1) becomes stable and there are enough Attestors for the round (i+1)</TD>
-	  <TD>not stable</TD>
+      <TD align="center">i</TD>
+	  <TD align="justify">sending TrustME units until all units in the round    (i-1) becomes stable and there are enough Attestors for the round (i+1)</TD>
+	  <TD align="center">not stable</TD>
    </TR>
     <TR>
-      <TD>i+1</TD>
-	  <TD>waiting until the first TrustME unit of round (i) to become stable, and making consensus with the seed of round (i), the Coinbase of round (i-2) and First Stable MC unit (i)</TD>
-	  <TD>N/A</TD>
+      <TD align="center">i+1</TD>
+	  <TD align="justify">waiting until the first TrustME unit of round (i) to become stable, and making consensus with the seed of round (i), the Coinbase of round (i-2) and First Stable MC unit (i)</TD>
+	  <TD align="center">N/A</TD>
    </TR>   
    <table>
 </div>
