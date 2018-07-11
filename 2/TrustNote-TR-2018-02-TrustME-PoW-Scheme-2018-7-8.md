@@ -125,16 +125,6 @@
 </div>
 
 <div align="center">
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: center;    
-}
-</style>
 
 <p><b>Table 1-1 Comparison of four types of node</b></p>
 
