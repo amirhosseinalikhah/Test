@@ -3,7 +3,7 @@
 
 <div align="center">
 <font face="cambria">
-<p><a><img align="center" width="300px" height="300px" src="images/TrustNote-Logo.png"></a></p>
+<p><a target="_blank" href="images/TrustNote-Logo.png"><img align="center" width="300px" height="300px" src="images/TrustNote-Logo.png"></a></p>
 
 <p><b><font size="5">FAST ∙ SCALABLE ∙ DEVELOPER FRIENDLY</font></b></p>
 
@@ -189,16 +189,16 @@ th, td {
 	<td align="center">Smartphone, Tablet PC</td>
 	<td align="center">MCU, Smart Card</td>
 	</tr>	
-	</table> 	
+	</table> 
+	
+<p><a target="_blank" href="images/TrustNote-TR-02-network Connection diagram between nodes.png"><img align="center" src="images/TrustNote-TR-02-network Connection diagram between nodes.png"></a></p>	
+	
+<p><b>Figure ‎1-1 P2P network Connection diagram between nodes</b></p>	
 	
 </div>
 
 <div align="justify">
 <font face="cambria" size="3">
-
-<p><img align="center" src="images/TrustNote-TR-02-network Connection diagram between nodes.png"></p>	
-	
-<p><b>Figure ‎1-1 P2P network Connection diagram between nodes</b></p>
 
 <h2><a id="TrustME-PoW-Scheme-Overview"></a>1.2. TrustME-PoW Scheme Overview</h2>
 
@@ -230,11 +230,11 @@ th, td {
 
 <div align="center">
 
-<p><a><img align="center"  src="images/TrustNote-TR-02-TrustME-PoW Protocol Sketch.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-TrustME-PoW Protocol Sketch.png"><img align="center"  src="images/TrustNote-TR-02-TrustME-PoW Protocol Sketch.png"></a></p>	
 	
 <p><b>Figure 1-2 TrustME-PoW Protocol Sketch</b></p>	
 
-<p><a><img align="center" src="images/TrustNote-TR-02-Illustration of the underlying mechanism of TrustME-PoW.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-Illustration of the underlying mechanism of TrustME-PoW.png"><img align="center" src="images/TrustNote-TR-02-Illustration of the underlying mechanism of TrustME-PoW.png"></a></p>	
 	
 <p><b>Figure 1-3 Illustration of the underlying mechanism of TrustME-PoW</b></p>
 	
@@ -269,7 +269,7 @@ th, td {
 
 <div align="center">
 
-<p><img align="center" src="images/TrustNote-TR-02-Attenuation Chart of Attestation Rewards .png"></p>	
+<p><img align="center" src="images/TrustNote-TR-02-Attenuation Chart of Attestation Rewards .png"></a></p>	
 	
 <p><b>Figure 2-1 Attenuation Chart of Attestation Rewards</b></p>
 	
