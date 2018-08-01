@@ -96,7 +96,7 @@
 <div align="center">
 <p><a target="_blank" href="images/TrustNote-TR-02-TrustNote simplified DAG-ledger.png"><img align="center" width="50%" height="auto" src="images/TrustNote-TR-02-TrustNote simplified DAG-ledger.png"></a></p>	
 	
-<p><b><font face="cambria" size="4">Figure ‎2-1 TrustNote simplified DAG-ledger</font></b></p>
+<p><b><font face="cambria" size="3">Figure 2-1 TrustNote simplified DAG-ledger</font></b></p>
 </div>
 
 <p><b>Node</b></p>
