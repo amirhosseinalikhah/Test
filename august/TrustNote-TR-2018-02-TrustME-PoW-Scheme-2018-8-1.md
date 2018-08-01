@@ -381,7 +381,7 @@ unit: {
 	</tr>	
 	</table> 
 	
-<p><a target="_blank" href="images/TrustNote-TR-02-network Connection diagram between nodes.png"><img align="center" width="80%" height="auto" src="images/TrustNote-TR-02-network Connection diagram between nodes.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-network Connection diagram between nodes.png"><img align="center" width="auto" height="auto" src="images/TrustNote-TR-02-network Connection diagram between nodes.png"></a></p>	
 	
 <p><b><font face="cambria" size="4">Figure ‎1-1 P2P network Connection diagram between nodes</font></b></p>	
 	
@@ -413,10 +413,10 @@ unit: {
 
 <div align="center">
 <p><a target="_blank" href="images/TrustNote-TR-02-Legend.png"><img align="center" src="images/TrustNote-TR-02-Legend.png"></a></p>
-<p><a target="_blank" href="images/TrustNote-TR-02-slide one.png"><img align="center" width="80%" height="auto" src="images/TrustNote-TR-02-slide one.png"></a></p>	
-<p><a target="_blank" href="images/TrustNote-TR-02-slide two.png"><img align="center" width="80%" height="auto" src="images/TrustNote-TR-02-slide two.png"></a></p>	
-<p><a target="_blank" href="images/TrustNote-TR-02-slide three.png"><img align="center" width="80%" height="auto" src="images/TrustNote-TR-02-slide three.png"></a></p>	
-<p><a target="_blank" href="images/TrustNote-TR-02-slide four.png"><img align="center" width="80%" height="auto" src="images/TrustNote-TR-02-slide four.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-slide one.png"><img align="center" width="auto" height="auto" src="images/TrustNote-TR-02-slide one.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-slide two.png"><img align="center" width="auto" height="auto" src="images/TrustNote-TR-02-slide two.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-slide three.png"><img align="center" width="auto" height="auto" src="images/TrustNote-TR-02-slide three.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-slide four.png"><img align="center" width="auto" height="auto" src="images/TrustNote-TR-02-slide four.png"></a></p>	
 </div>
 
 <h2><a id="Main-Chain-Stabilization-Algorithm"></a>4.2. Main Chain Stabilization Algorithm</h2>
@@ -481,10 +481,10 @@ unit: {
 <p>The fact that consensus round switching happens is deterministic, but there are still some questions might be tickling your mind such as when the right time is to switch to next consensus rounds, or how to determine the validity of a TrustME unit and etc. The slides below (continued from previous slides) presenting additional details to answer all these questions.</p>
 
 <div align="center">
-<p><a target="_blank" href="images/TrustNote-TR-02-slide eleven.png"><img align="center" width="80%" height="auto" src="images/TrustNote-TR-02-slide eleven.png"></a></p>	
-<p><a target="_blank" href="images/TrustNote-TR-02-slide twelve.png"><img align="center" width="80%" height="auto" src="images/TrustNote-TR-02-slide twelve.png"></a></p>	
-<p><a target="_blank" href="images/TrustNote-TR-02-slide fourteen.png"><img align="center" width="80%" height="auto" src="images/TrustNote-TR-02-slide fourteen.png"></a></p>
-<p><a target="_blank" href="images/TrustNote-TR-02-slide fifteen.png"><img align="center" width="80%" height="auto" src="images/TrustNote-TR-02-slide fifteen.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-slide eleven.png"><img align="center" width="auto" height="auto" src="images/TrustNote-TR-02-slide eleven.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-slide twelve.png"><img align="center" width="auto" height="auto" src="images/TrustNote-TR-02-slide twelve.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-slide fourteen.png"><img align="center" width="auto" height="auto" src="images/TrustNote-TR-02-slide fourteen.png"></a></p>
+<p><a target="_blank" href="images/TrustNote-TR-02-slide fifteen.png"><img align="center" width="auto" height="auto" src="images/TrustNote-TR-02-slide fifteen.png"></a></p>	
 </div>
 
 <h2><a id="Landmark-Operation"></a>5.3. Landmark Operation</h2>
@@ -511,7 +511,7 @@ unit: {
 <p>The units' fees for the units referenced by TrustME units at each round will go to the Attestation rewards pool of that round. The sample slide below from simplified DAG explains this for better understanding: </p>
 
 <div align="center">
-<p><a target="_blank" href="images/TrustNote-TR-02-slide sixteen.png"><img align="center" width="80%" height="auto" src="images/TrustNote-TR-02-slide sixteen.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-slide sixteen.png"><img align="center" width="auto" height="auto" src="images/TrustNote-TR-02-slide sixteen.png"></a></p>	
 <p><a target="_blank" href="images/TrustNote-TR-02-slide seventeen.png"><img align="center" src="images/TrustNote-TR-02-slide seventeen.png"></a></p>	
 </div>
 
