@@ -664,7 +664,7 @@ unit: {
 <p>The number of TrustME units c<sub>n</sub> sent by each valid public Attestor in the i<sup>th</sup> round that became stable on the MC and the total amount of units for public Attestors C calculated. Finally, the portion of Attestation reward for each Attestor r<sub>n</sub> and the amount of the Attestation reward for each of them a<sub>n</sub> calculated as below:</p>
 
 <div align="center">
-<p><a target="_blank" href="images/TrustNote-TR-02-Attestation Rewards.png"><img align="center"  width="70%" height="auto" src="images/TrustNote-TR-02-Attestation Rewards.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-Attestation Rewards.png"><img align="center"  width="auto" height="auto" src="images/TrustNote-TR-02-Attestation Rewards.png"></a></p>	
 </div>
 
 <p>Please note that the fixed Attestor of the TrustNote will collect twenty percent of the Attestation rewards in each round and it is going to be used for operational costs, maintenance, R&D and so on. </p>
