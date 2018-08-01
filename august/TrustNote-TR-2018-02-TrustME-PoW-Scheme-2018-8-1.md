@@ -75,8 +75,8 @@
 <p>During the conceptual design phase, TrustME-PoW designed with two different approaches:</p>
 
 <ul>
-<p><b>Fine-grained</b>: Each Super node independently starts PoW, and there is no direct bound between nodes.</p>
-<p><b>Coarse-grained</b>: The Super node periodically starts PoW. Each round selects a certain number of Super nodes as Attestors. These Attestors only belong to that specific round. Once that round finishes, the Attestors lose their Attestation power.</p>
+<li><b>Fine-grained</b>: Each Super node independently starts PoW, and there is no direct bound between nodes.</li>
+<li><b>Coarse-grained</b>: The Super node periodically starts PoW. Each round selects a certain number of Super nodes as Attestors. These Attestors only belong to that specific round. Once that round finishes, the Attestors lose their Attestation power.</li>
 </ul>
 
 <p>Both methods studied carefully, but in fine-grained design, there is not any bound between Super nodes necessarily. Therefore, in the case of network partitioning there would be enough Attestors to develop another Main Chain (MC) and push the last stable unit forward concurrently. Consequently, many optimizations applied on the preliminary fine-grained design of the network. It turned out the optimized version is equivalent to a coarse-grained network, so coarse-grained design selected at the end. In addition, when the network divides into two parts, network with more than n/2 Attestors will continue to expand, and the MC will continue to grow and stabilize over time. If in the partitioned network, number of the Attestors is less than or equal to n/2, all the units in the network will not become stable and a new round of TrustME-PoW consensus cannot be completed until the network gets more than n/2 Attestors.</p>
