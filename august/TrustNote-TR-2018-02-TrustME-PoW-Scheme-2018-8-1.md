@@ -41,7 +41,7 @@
 <h1><b>Contents</b></h1>
 <ul class="toc_list">
 	<p><a href="#Introduction">1. Introduction</a></p>
-	<p><a href="#Basics>2. Basics</a></p>
+	<p><a href="#Basics">2. Basics</a></p>
 	<p><a href="#Network-topology-and-Node-Taxonomy">3. Network topology and Node Taxonomy</a></p>
 		<ul><p><a href="#Super-node">3.1. Super node</a></p>
 			<p><a href="#Full-node">3.2. Full node</a></p>
