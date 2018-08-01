@@ -677,7 +677,7 @@ unit: {
 
 <p>In the slide above, the TrustME units specified based on the Attestor sent them. The first four units are all valid Attestation-Coinbase units, but as it continues after A<sub>1</sub> one of the Attestors A<sub>4</sub> proceeded to send TrustME unit earlier to obtain more Attestation rewards. The unit indicated with MCI 6 is a valid and stable TrustME unit that lies on the MC, but it will not be counted as a valid Coinbase unit.</p>
 
-<h1><a id="Switching from Witnesses to TrustME-PoW"></a>7. Switching from Witnesses to TrustME-PoW</h1>
+<h1><a id="Switching-from-Witnesses-to-TrustME-PoW"></a>7. Switching from Witnesses to TrustME-PoW</h1>
 <h2><a id="Overview"></a>7.1. Overview</h2>
 
 <p>At a certain time, the i<sup>th</sup> round's Attestors are on duty.</p>
