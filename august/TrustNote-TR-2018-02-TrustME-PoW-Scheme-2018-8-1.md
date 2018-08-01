@@ -712,7 +712,7 @@ unit: {
 
 <h2><a id="Procedure"></a>7.2. Procedure</h2>
 
-<p>This section gives out the list of steps about how to convert to the TrustME-PoW consensus mechanism.</p>
+<p>This section lists the required steps to convert to the TrustME-PoW consensus mechanism from witnesses.</p>
 
 <table >
    <TR>
