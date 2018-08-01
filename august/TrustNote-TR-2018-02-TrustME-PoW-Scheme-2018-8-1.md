@@ -448,8 +448,8 @@ unit: {
 <p>According to the algorithm for selection of the best parent units, all Main Chains start from childless units will merge at a point. The part from the merging point to the Genesis unit is completely the same. If any new childless units added to DAG ledger, it cannot change the merging point, and the units of the MC from the merging point to the Genesis unit considered as stable. All units that included by the stable MC unit directly or indirectly become stable too. The last stable unit on MC called the Last Stable Unit. All stable MC units have an index, called Main Chain Index (MCI).</p>
 
 <ul>
-<p>The MCI of the Genesis unit is zero, which increases sequentially along the stable MC.</p>
-<p>The MCI of a normal unit is equal to the minimum MCI of the stable MC units that include that unit.</p>
+<li>The MCI of the Genesis unit is zero, which increases sequentially along the stable MC.</li>
+<li>The MCI of a normal unit is equal to the minimum MCI of the stable MC units that include that unit.</li>
 </ul>
 
 <p>According to MCI, we can obtain the total order of all stable units on the MC and semi-order of other stable units and can use this definitive total order to prevent double spending. This process called “unit final confirmation.” With the addition of new units, the stable MC on DAG ledger will continue to grow and all related units confirmed too.</p>
