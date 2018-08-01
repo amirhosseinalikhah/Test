@@ -1,6 +1,4 @@
-<html style='margin-top:0;margin-left:15%;margin-right:15%;'>
-
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+<html>
   
 <div align="center">
 
