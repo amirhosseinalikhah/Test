@@ -310,7 +310,7 @@ unit: {
 <p>The “Unit Level” defined as the longest path length from that unit to the Genesis unit. For instance, the UL of unit “A” in figure 2-2 (b) is 3. </p>
 
 <div align="center">
-<p><a target="_blank" href="images/TrustNote-TR-02-Unit Inclusion.png"><img align="center" width="50%" height="auto" src="images/TrustNote-TR-02-Unit Inclusion.png"></a></p>	
+<p><a target="_blank" href="images/TrustNote-TR-02-Unit Inclusion.png"><img align="center" width="auto" height="auto" src="images/TrustNote-TR-02-Unit Inclusion.png"></a></p>	
 	
 <p align = "justify"><b><font face="cambria" size="4">Figure ‎2-2 Examples of inclusion relationship between units: a) Unit "A" verifies and contains unit "B" directly unit "B" is the parent of unit “A.” b) Unit “A” contains unit “B” indirectly and unit “A” is a childless unit.</font></b></p>
 </div>
